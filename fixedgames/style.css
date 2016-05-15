@@ -1,0 +1,483 @@
+/* 12.01.11*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+
+a {
+	color: #1a7ca1;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+:focus {
+  -moz-outline-style:none;
+}
+
+a:active {
+  outline:none;
+}
+
+img {
+	border: none;
+}
+input, label {
+	vertical-align: middle;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #afb8d7;
+	background-image: url(images/bg-body.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #efefef;
+	cursor: default;
+}
+
+#page {
+	width: 1020px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	position: relative;
+	height: 170px;
+}
+
+
+#logo { position: absolute; top: 64px; left: 11px; }
+
+
+
+
+
+
+
+/* Mainmenu
+-----------------------------------------------------------------------------*/
+#mainmenu { position: absolute; top: 83px; left: 283px; z-index: 11;}
+#mainmenu li {
+	float: left;
+	list-style-type: none;
+}
+#mainmenu li a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #01678d;
+	height: 39px;
+	line-height: 39px;
+	font-style: italic;
+}
+
+#mainmenu li a div {float: left; background: none;}
+#mainmenu li a .left { width: 26px; height: 39px;}
+#mainmenu li a .center{ height: 39px;}
+#mainmenu li a .right { width: 26px; height: 39px;}
+
+#mainmenu li a:hover {color: #fff; cursor: pointer;}
+
+#mainmenu .active a {color: #fff; text-decoration: none;}
+#mainmenu .active a .left{
+	background-image: url(images/bg-menu-active-side.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#mainmenu .active a .center{
+	background-image: url(images/bg-menu-active.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#mainmenu .active a .right{
+	background-image: url(images/bg-menu-active-side.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+
+
+
+
+
+
+/* Login
+-----------------------------------------------------------------------------*/
+#login {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 139px;
+	width: 172px;
+}
+
+#login .tab {
+	position: relative;
+	/*outline: 1px solid #f00;*/
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #d5f3ff;
+	text-decoration: none;
+	display: block;
+	line-height: 29px;
+	height: 29px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: right;
+	background-image: url(images/bg-tab-reg.png);
+	background-repeat: repeat;
+}
+
+#login form .tab {position: absolute; top: 0; right: 0; background: none; color: #fff; cursor: default;}
+
+#login .active { background: none;}
+#login #reg { z-index: 13;}
+
+
+#login form {
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index:12;
+	top: 0;
+	right: 0;
+	background-image: url(images/bg-login.png);
+	height: 112px;
+	width: 141px;
+	padding-left: 31px;
+	padding-top: 32px;
+	background-repeat: no-repeat;	
+}
+
+#login form input {
+	display: block;
+	border: 1px solid #4fbae3;
+	background-color: #FFF;
+	height: 17px;
+	width: 72px;
+	padding-left: 4px;
+	padding-right: 3px;
+	margin-top: 6px;
+	float: left;
+}
+
+#login form input[name="username"] {width: 112px;}
+
+#login form .ok {float: left; display: block; margin-top: 6px; margin-left: 10px; margin-bottom: 5px;}
+
+#login form input[type="checkbox"] {
+	background: none;
+	display: inline;
+	border: none;
+	height: auto;
+	width: auto;
+	padding: 0;
+	margin: 0;
+	float: none;
+	margin-left: 17px;
+} 
+
+#login form p { line-height: 14px; margin-bottom: 5px;}
+
+#login form a { color: #FFF;}
+
+
+
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0 0 246px; 
+}
+
+.stats {display:none;}
+/*.matches {display:none;}*/
+
+#maintable table.stats tr td {
+	/*padding-right: 2px;
+	padding-left: 2px;*/
+}
+
+#maintable {
+	position: relative;
+	height: 249px;
+	width: 1019px;
+	overflow: hidden;
+	background-color: #01709a;
+}
+#maintable a{ color: #9fd5f5}
+
+#maintable .matches, #maintable .stats {
+	position:absolute;
+	top: 2px;	
+	width: 890px;
+}
+
+
+
+
+
+#maintable table { width:1019px;}
+#maintable .table-body table {margin-top:50px; padding-bottom:16px;}
+
+
+#maintable .table-head {position:absolute; top:0px; left:0px;}
+#maintable .table-body {padding:0px; margin:0px; width:1050px; height:249px; overflow-y:scroll;}
+
+#maintable .table-head td {  }
+
+#maintable .table-head td {
+	background-color: #012e3f;
+	border: none;
+	height: 50px;
+	line-height: 23px;
+	padding: 0;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #01709a; 
+}
+
+
+#maintable td {
+	background:#017ba9; border-bottom:13px solid #01709a;
+	text-align: center;
+	line-height:17px;
+	vertical-align: top;
+	padding: 0;
+	padding-left: 1px;
+}
+
+#maintable  td.t_left { padding-left:64px; }
+#maintable  td.t_right { padding-right:64px; }
+
+
+
+
+#maintable .table-left {
+	background-image: url(images/table-left-piece.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height: 249px;
+	width: 62px;
+}
+
+#maintable .table-right {
+	background-image: url(images/table-right-piece.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position:absolute;
+	top:0px;
+	right:0px;
+	height: 249px;
+	width: 62px;
+}
+
+.scroll-up {
+	height: 26px;
+	cursor: pointer;
+	background-image: url(images/cursor-up.png);
+	background-repeat: no-repeat;
+	background-position: 160px center;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+	z-index: 0;
+	background-color: #01709a;
+	width:100%;  
+}
+
+.scroll-down {
+	height: 27px;
+	width: 100%;
+	cursor: pointer;
+	background-image: url(images/cursor-down.png);
+	background-repeat: no-repeat;
+	background-position: 160px center;
+	position: absolute;
+	z-index: 0;
+	background-color: #01709a;
+	
+	bottom:0px;
+	left:0;
+}
+/*.disabled {
+	visibility:hidden;		
+}*/
+
+
+
+
+#main3blocks {height: 487px; width: 100%;}
+
+.mainblock {
+	overflow: hidden;
+	float: left;
+	background-image: url(images/bg-main_block.png);
+	background-repeat: no-repeat;
+	height: 417px;
+	width: 260px;
+	margin-top: 70px;
+	margin-right: 18px;
+	padding-right: 19px;
+	padding-left: 33px;
+}
+
+.mainblock p { line-height: 14px;}
+.mainblock h2 {
+	margin-top: 13px;
+	margin-bottom: 26px;
+}
+
+
+
+
+
+
+
+/* Registration
+-----------------------------------------------------------------------------*/
+
+#registration {
+	overflow: hidden;
+	display: none;
+	z-index: 20;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#registration-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(images/bg-registration.png);
+	background-repeat: repeat;
+}
+
+#registration form{
+	background-image: url(images/bg-registration.png);
+	background-repeat: repeat;
+	z-index: 30;
+	position: fixed;
+	width: 610px;
+	top: 50%;
+	left: 50%;
+	margin-top: -190px;
+	margin-left: -305px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+
+#registration form span { color: #017ba9; margin-left: 7px; font-size: 11px;}
+
+#registration form input {
+	background-color: #FFF;
+	border: none;
+	height: 17px;
+	width: 250px;
+	padding-right: 3px;
+	padding-left: 4px;
+	color: #333;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#registration form label {
+	font-size: 12px;
+	margin-top: 7px;
+	margin-bottom: 3px;
+	display: block;
+}
+
+
+#registration form button {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	background: none;
+	background-image: url(images/bg-button.png);
+	color: #fff;
+	height: 21px;
+}
+
+
+
+
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	position:relative;
+	width: 1020px;
+	margin: -180px auto 0;
+	height: 180px;;
+}
+
+#footer p {
+	color: #dbdbdb;
+	text-align: center;
+	font-size: 10px;
+}
+
+#footer .line {
+	background-color: #dddddd;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	bottom: 117px;
+}
+
+#footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Headers
+-----------------------------------------------------------------------------*/
+h2 {
+	font-size: 30px;
+	font-style: italic;
+	color: #FFF;
+	font-family: "Times New Roman", Times, serif;
+}

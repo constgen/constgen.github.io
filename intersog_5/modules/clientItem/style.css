@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+
+#clientItem .clientsNav {
+    padding: 25px 0 15px;
+}
+
+#clientItem .clientsNav a.prev {
+    background: url("./images/arrow_left.png") no-repeat scroll left top transparent;
+    color: #000000;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    text-align: left;
+    width: 90px;
+    float: left;
+}
+
+
+#clientItem .clientsNav a.next {
+    background: url("./images/arrow_right.png") no-repeat scroll right top transparent;
+    color: #000000;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 50px;
+    text-align: right;
+    width: 90px;
+    float: right;
+}
+#clientItem .clientsNav a.prev:hover {
+    background: url("./images/arrow_left_hover.png") no-repeat scroll left top transparent;
+    color: #003f77;
+}
+
+#clientItem .clientsNav a.next:hover {
+    background: url("./images/arrow_right_hover.png") no-repeat scroll right top transparent;
+    color: #003f77;
+}
+
+#clientItem .clientDescription {
+    padding: 10px 0 40px;
+}
+#clientItem .clientDescription h1 {
+    margin: 0;
+}
+
+
+/*#clientItem .clientDescription h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    max-width: 500px;
+}*/
+#clientItem .clientDescription h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+#clientItem .clientDescription p {
+    margin-bottom: 20px;
+}
+
+#clientItem .clientDescription ul.list li {
+    list-style: none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+    background: url("../images/bg_li.png") left 6px no-repeat;
+}
+
+
+#clientItem .content {
+    max-width: 660px;
+    position: relative;
+    text-align: left;
+}
+
+
+#clientItem .content .logo {
+    border: 1px solid #E3E3E3;
+    display: inline-block;
+    height: 195px;
+    line-height: 195px;
+    padding: 20px;
+    position: absolute;
+    right: -265px;
+    text-align: center;
+    top: 75px;
+    width: 195px;
+}
+
+#clientItem .content .logo img {
+    max-width: 175px;
+    font-size: 0;
+    height: auto;
+    line-height: 210px;
+    vertical-align: middle;
+    width: auto;
+}
+
+
+#clientItem .content .logo span {
+    color: silver;
+    line-height: 26px;
+    margin-top: 28px;
+    position: absolute;
+    right: 145px;
+    top: 215px;
+}
+
+.clientContent {
+	padding: 10px 0 25px;
+}

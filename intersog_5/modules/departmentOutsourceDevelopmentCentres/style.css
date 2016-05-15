@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+
+
+.departmentOutsourceDevelopmentCentres {}
+.departmentOutsourceDevelopmentCentres h2 {
+	margin: 0 0 20px;
+	color: 121820;
+}
+.departmentOutsourceDevelopmentCentres p {
+	margin: 0 0 20px 0;
+}
+
+.departmentOutsourceDevelopmentCentres table {
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+}
+.departmentOutsourceDevelopmentCentres address {
+	font-style: normal;
+	margin-bottom: 20px;
+} 
+.departmentOutsourceDevelopmentCentres table td {
+    padding-right: 20px;
+    vertical-align: top;
+}
+.departmentOutsourceDevelopmentCentres table tbody tr td table tbody tr td ul:first-child {
+	padding-right: 15px;
+}
+.departmentOutsourceDevelopmentCentres article,
+.departmentOutsourceDevelopmentCentres .article {
+	margin: 20px 0;
+	padding: 0;
+}
+
+.departmentOutsourceDevelopmentCentres article img {
+	margin: 0;
+}
+
+.departmentOutsourceDevelopmentCentres h2 {
+    color: #121820;
+    font-size: 24px;
+}
+
+
+.departmentOutsourceDevelopmentCentres ul li {
+    background: url(images/bg_li.png) no-repeat scroll left 6px transparent;
+    list-style: none outside none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+}
+
+.departmentOutsourceDevelopmentCentres ol {
+    margin: 0;
+    padding: 0;
+    width: 465px;
+}
+.departmentOutsourceDevelopmentCentres ol li {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+.departmentOutsourceDevelopmentCentres ol li:before {
+	width: 0;
+	height: 0;
+	content: ''
+}
+.departmentOutsourceDevelopmentCentres ol li:first-child {
+	margin-right: 10px;
+    border: 1px solid #DFDFDF;
+}
+.departmentOutsourceDevelopmentCentres ul.twoColumns  li {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+
+.departmentOutsourceDevelopmentCentres .table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}

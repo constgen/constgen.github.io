@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#appPromo {}
+
+#appPromo .wrapper {width:1000px; margin:0 auto;}
+
+	#appPromo .horisontalLine {height: 5px; /*background: #A60027*/} /*default color*/
+		#appPromo .horisontalLine .wrapper {height: 5px; /*background: #FF003C*/}
+
+	#appPromo .promo {
+		height: 595px;
+		width: 100%;
+	}
+		#appPromo .promo .promoBg {
+			height: 595px;
+			width: 1000px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+		}
+
+		#appPromo .promo .nav {
+			position: absolute;
+			top:0px; left:0px; right:0px;
+			height: 60px;
+			background: rgba(0,0,0,0.13);
+		}
+			#appPromo .promo .nav .prev,
+			#appPromo .promo .nav .next {
+				display: block;
+				position:absolute; top:0;
+				height: 20px; width: auto;
+				padding: 20px 30px;
+
+				text-align:center;
+				text-transform: uppercase;
+				font:14px/20px 'PT Sans', sans-serif;
+				color: #ffffff;
+				text-shadow: 0 0 1px black;
+			}
+			#appPromo .promo .nav .prev 
+				{left:0; border-right:1px solid rgba(0,0,0,0.2);}
+			#appPromo .promo .nav .next 
+				{right:0; border-left: 1px solid rgba(0,0,0,0.2);}
+
+		#appPromo .videoButton,
+		#appPromo .galleryButton {
+			width:50px; height: 30px;
+			position: absolute;
+			bottom: 0; left:50%;
+
+			-webkit-transition: height 0.25s;
+			-moz-transition: height 0.25s;
+			-ms-transition: height 0.25s;
+			-o-transition: height 0.25s;
+			transition: height 0.25s;
+		}
+			#appPromo .videoButton .mask,
+			#appPromo .galleryButton .mask {
+				width:70px;
+				height:44px;
+				position: absolute;
+				top: -14px; right: -10px; bottom: 0px; right: -10px;
+				background: url(images/mask.png) 0 0 no-repeat;
+                background-image: url("data:image/png;base64,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");
+                *background-image: url("images/mask.png");
+				cursor:pointer;
+
+				-webkit-transition: height 0.25s;
+				-moz-transition: height 0.25s;
+				-ms-transition: height 0.25s;
+				-o-transition: height 0.25s;
+				transition: height 0.25s;
+			}
+
+			#appPromo .videoButton {margin-left:-70px;}
+			#appPromo .videoButton .mask {background-position: 0 0;}
+			#appPromo .videoButton .mask a{display: block; width:70px; height:44px;}
+
+			#appPromo .galleryButton {margin-left: 20px;}
+			#appPromo .galleryButton .mask {background-position: -70px 0;}
+            #appPromo .galleryButton .mask a{display: block; width:70px; height:44px; position: absolute;}
+
+			#appPromo .videoButton:hover,
+			#appPromo .galleryButton:hover {height: 36px;} 
+
+			#appPromo .videoButton:hover .mask,
+			#appPromo .galleryButton:hover .mask {height:60px;}
+
+			#appPromo .videoButton:active,
+			#appPromo .galleryButton:active {bottom:-2px;}
+
+
+			#appPromo .videoButton.disabled {display: none;}
+			#appPromo .galleryButton.disabled {display: none;}
+
+			#appPromo .videoButton.alone, #appPromo .galleryButton.alone {margin-left:-25px !important;}

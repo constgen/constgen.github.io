@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.videos {
+    padding: 25px 10px 10px 10px;
+    background: #fcfcfc;
+    background-color: rgba(255,255,255,0.45);
+    *background: #fcfcfc;
+}
+.videos h2{
+    margin: 0 0 15px 18px;
+}
+.videos .video_block {
+    display: inline-block;
+    *display: inline;
+	zoom: 1;
+    margin: 0 20px 23px 20px;
+    width: 259px;
+}
+.videos h4 {
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+}
+.videos .play_video {
+    position: relative;
+    display: block;
+    width: 237px;
+    height: 130px;
+    padding: 31px 10px 9px 10px;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+    text-align: center;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 3px #CFCFCF;
+    -moz-box-shadow: 0 0 3px #CFCFCF;
+    box-shadow: 0 0 3px #CFCFCF;
+}
+.videos .play_video .title{
+    position: absolute;
+    top: 106px;
+    left: 0;
+    color: #0079cd;
+    font-size: 15px;
+    font-family: 'Myriad Pro';
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    overflow: hidden;
+}

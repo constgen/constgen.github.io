@@ -1,0 +1,50 @@
+﻿{
+	"version": "0.0.1",
+    "src": ".",
+    "out": "./build",
+	"baseUrl": ".",
+	"minifyCss": false,
+	"optimizeCss": true,
+	"minifyJs": true,
+	"optimizeJs": true,
+	"copy": [
+	    {
+            "name": "core",
+            "minify": false,
+            "optimize": false
+        },
+        {
+            "name": "plugins",
+            "minify": false,
+            "optimize": false
+        },
+        {
+            "name": "libs",
+            "minify": false,
+            "optimize": false
+        },
+        {
+            "name": "images",
+            "minify": false,
+            "optimize": false
+        },
+        {
+            "name": "gallery",
+            "minify": false,
+            "optimize": false
+        }
+	],
+    "join": [
+        {
+            "name": "filename",
+            "newname": "newfilename",
+            "minify": false,
+            "optimize": false
+        },
+        {
+            "name": "foldername",
+            "minify": true,
+            "optimize": false
+        }
+    ]
+}

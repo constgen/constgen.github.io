@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+.tileGallery .tile .hover
+{
+	visibility: hidden;
+}
+
+.tileGallery .tile:hover .hover
+{
+	visibility: visible;
+}

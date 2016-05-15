@@ -1,0 +1,98 @@
+
+#header {
+	height: 240px;
+	background: url(../images/bg_header.png) center bottom no-repeat;
+}
+
+#header span {
+	display: none;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+#content{
+	margin-left:-25px;
+	width: 760px;
+}
+
+.navigateBlocks{
+	float:left;
+	width:360px;
+}
+
+.navigateBlocks h1{
+	text-align:center;
+}
+
+div.navigateBlocks h1 a{
+	text-align:center;
+	font-family:"MyriadPro", Tahoma, Geneva, sans-serif;
+	font-weight:normal;
+	font-size:30px;
+	color:#000;
+	text-shadow:1px 1px 1px #929292;
+}
+
+.navigateBlocks h1 a:hover{
+	color:#007ad0;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #2fa9ff;
+}
+
+.iconLink{
+	text-align:center;
+	margin-top:15px;
+}
+
+.iconLink a{
+	display:block;
+	width:145px;
+	height:130px;
+	margin:0 auto;
+}
+
+.mobileIconLink{
+	background:url(../images/mobile.png) no-repeat;
+}
+
+.outsourceIconLink{
+	background:url(../images/outsource.png) no-repeat;
+}
+
+.navigateBlocks p{
+	width:325px;
+	padding-bottom:25px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#595959;
+}
+
+#outsourceArrow, #mobileArrow{
+	display:block;
+	width:48px;
+	height:32px;
+}
+
+#outsourceArrow{
+	background:url(../images/left_arrow.png) 50% 50% no-repeat;
+	float:left;
+	margin-left:10px;
+	margin-top: 40px;
+}
+
+#outsourceArrow:hover{
+	margin-left:8px;
+}
+
+#mobileArrow{
+	background:url(../images/right_arrow.png) 50% 50% no-repeat;
+	float:right;
+	margin-right:-18px;
+	margin-top: 40px;
+}
+
+#mobileArrow:hover{
+	margin-right:-20px;
+}

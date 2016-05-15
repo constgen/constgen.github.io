@@ -1,0 +1,132 @@
+@charset "utf-8";
+.slider {
+    background: #d7d5d6 url("images/slider_bg.jpg") no-repeat top center;
+}
+
+.sliderContent {
+    margin: 50px 0;
+}
+
+.tabSlider {
+    color: #121820;
+    font-size: 19px;
+    overflow: hidden;
+    position: relative;
+}
+.tabSlider .top_slide{
+    /*font:19*/
+	height: 455px; /*297*/
+    /*margin-bottom: 7.105em; /*135*/*/
+    overflow: hidden;
+    position: relative;
+/*	background: #0F0F0F url("images/bkg_content.png") repeat;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAEBAMAAACKOIc9AAAAElBMVEUSEhIUFBQVFRUWFhYYGBgaGhox063BAAAAl0lEQVQImSWNQY7DMAwDZam5i4p1lwzk3vgFtV9Q+/+PaRYLAhxiLqSpHTNG9LjpU6Z+YuLWGc215hVXuHo4e/N0PXDhInBYkRRIY3Ce7UzJqtX4WzaWTZs5y7cM27p0PI4y49ZGHb3k3867dHrHgFUcxXHAn3Zy1OdQ0kGSpqwGI8bLpEg7uTahc/DW3d7YD1cu+8/m9QMU8RaqeBYeqwAAAABJRU5ErkJggg==");
+    *background-image: url("../images/bkg_content.png");*/	
+}
+.tabSlider .container {
+	width: 2000em;
+	position: relative;
+	overflow: hidden;
+    left:0;
+    top:0;
+    
+    -webkit-transition: left 0.7s;
+	-moz-transition: left 0.7s;
+	-o-transition: left 0.7s;
+	transition: left 0.7s;
+}
+
+
+.tabSlider .slide {
+    float: left;
+    min-height: 300px;
+    position: relative;
+    width: 510px;
+}
+
+.tabSlider .button, .tabSlider .link {margin: 0 0 1em;}
+
+.tabSlider .slide .image {
+    /*font:19*/
+	height: 384px; /*297*/
+	display: inline-block;
+    *display: inline; zoom: 1;
+    width: 510px;
+    /*margin-left: 40px;*/
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+.tabSlider .slide .image div{
+    bottom: -1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.tabSlider .description {
+    display: inline-block;
+    *display: inline; zoom: 1;
+    vertical-align: top;
+	width: 570px;
+    max-height: 15.631em; /*297*/
+    overflow: hidden;
+}
+
+.tabSlider .navigation {
+    height: 30px;
+    position: absolute;
+    right: 180px;
+    top: 410px;
+    width: auto;
+}
+.tabSlider .navigation a {
+    /*font:19*/
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 30px;
+    background: rgba(255,255,255, 0.5);
+    border-radius: 20px;
+}
+.tabSlider .navigation a:hover,
+.tabSlider .navigation a.active {
+    color: #fff;
+    background: #003f77;
+}
+.tabSlider .navigation a img{
+    font-size: 0;
+    line-height: 123px;
+}
+.tabSlider blockquote {
+    background: url(images/qvoteOpen.png) no-repeat left 5px;
+    /*background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANBAMAAAC9V5gpAAAAKlBMVEV3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3cbq7AmAAAADXRSTlMAETNVZneImaq7zN3uh0lv1gAAAFlJREFUCJklzMEJgDAQRNFPLuLNuwhpJD3YgGADlmEfaSBgCRYRTzq9mN0cHgw7zALh7GB7OwbVycCh6AiqDkZdDhbtDpK+aNpeysbTbaxVTn6bpdW0f+Vx/FwuLvGsl9LtAAAAAElFTkSuQmCC");*/
+    *background-image: url("images/qvoteOpen.png");
+    width: 500px;
+    padding: 0;
+    margin: 23px 0;
+    text-align: left;
+
+}
+
+
+.tabSlider .navigation .indicator {
+    background: none repeat scroll 0 0 #003F77;
+    border-radius: 15px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	
+	-webkit-transition: left 0.7s;
+	-moz-transition: left 0.7s;
+	-o-transition: left 0.7s;
+	transition: left 0.7s;
+}

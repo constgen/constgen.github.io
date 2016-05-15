@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* PAGINATION
+-----------------------------------------------------------------------------*/
+.paginationBlock {
+    position: absolute;
+    bottom: 51px;
+    left: 0px;
+    text-align: center;
+    width: 660px;
+    font-size: 13px;
+}
+.paginationBlock .prev{
+    position: absolute;
+    left: 0;
+    text-align: left;
+	height: 39px;
+    background: url("images/pag_page_arrow.png") no-repeat left top;
+    padding-left: 48px;
+    overflow: hidden;
+	color: #121820;
+	line-height: 39px;
+}
+.paginationBlock .next{
+    position: absolute;
+    right: 0;
+    text-align: right;
+	height: 39px;
+    background: url("images/pag_page_arrow.png") no-repeat right bottom;
+    padding-right: 48px;
+    overflow: hidden;
+	color: #121820;
+	line-height: 39px;
+}
+.paginationBlock .last, .paginationBlock .first, .paginationBlock .page {
+    display: none;
+}

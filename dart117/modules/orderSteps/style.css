@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+
+.orderSteps {
+	/*margin-left: -243px;  Compenstion padding-right@#header */
+    margin-bottom: 50px;
+}
+.orderSteps .wrapper {
+    display: table;
+}
+.orderSteps .wrapper li {
+    display: table-cell;
+}
+.orderSteps h3 {
+	padding: 15px 40px;
+	margin: 0;
+	text-transform: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: #313131;
+}
+.orderSteps ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 0;
+    width: 940px;
+	background:url(images/submenu_div.png) repeat-x 0px 61px;
+    overflow: hidden;
+}
+.orderSteps ul li {
+    /*display: inline-block;*/
+	*display:block;
+    *float: left;
+}
+.orderSteps .stage {
+    display: inline-block;
+    *display: block;
+    *float: left;
+    width: 31px;
+    height: 31px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAABgCAYAAADl2qktAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEZCNkJCMUY4NzI5MTFFMjlDQTM4NjI5NUYwMkVCQjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEZCNkJCMjA4NzI5MTFFMjlDQTM4NjI5NUYwMkVCQjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowRkI2QkIxRDg3MjkxMUUyOUNBMzg2Mjk1RjAyRUJCOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowRkI2QkIxRTg3MjkxMUUyOUNBMzg2Mjk1RjAyRUJCOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkE4cLMAAATfSURBVHja7JpbSBRRGMe/HeZFrexCL5JIkKDVVtJL2g0Ju5BlCFlEUER0oSJIii4P0UNP0kNUdCHCorILSJRSJLUIZb1pbaFkVIvRS1iZmS/B9n3nnNnGdVbPmcuZHvzgY3fZmfmfM3Mu/985E0k+BdlYilmKWYJZhJmPmYvZh9mD2YXZjvkCypOtMheMjCKeg7kesxqzko6XuGYSswmzEfMuFmTAjXgF5nbMGnAfdzAvYwFaVMR3YtZiFoL36MY8hQW4mP6H4XAwidb5JAziOnUQi9SOJk41Po45HvyN8ey6scjOTOIVotZ+C9sLUIsFqEgXzxGNqxCCjUKmE4vk2MXXu2nVj14CzNkfhbfdSqfVCL2UeLWbajS357m9A0zPFCNXpcqZfd8ALj3JgtauKW7FK/HWLzXFkBmRPYtusw9BeqWmGKul49i6eOr7yXueClJiiklCOjaUg03cU+2LDDE7hRH5hpgWw4hcQ8zHYUSfIYxAGNFjCAcSRnQZwvqEEe0G81zc+ugM0ntB4q3Cc+mMJjKZ1sTSqFm80e7haH694tEsqpjKbeRqrZoPMJfJzV6Q0S3c7EC6jWphLhOgPyDhfuFiWzIZSLK3JwIoQD+7bpp9Nh0OpNr/0uHb/0tiCZ3VNFBqUvfIOnKDcw50m9I150P2yFGeHKXmnCy8PXM+gCmKc6byp7XzAUxSnNOkv/2cD2BDxE0H4VqfMblQ8P44UYgMfM5rHByfc/53EOfPOHg+5yOnTZy3an18zkfO1DNX4nPi8pttBdCRmMB+zyv4CbuWJaBsrjSfP8SsV+bz2zGAQw1R+PQ1G/Yuj7OkQuy6EoW2V6p8zkcuaT6/+XwG+zxa1QkrFwjuyY4zYm1oy8Paf5Hmc0OFz2lR4OPXLPZ9he0Wz57GPxUWC9T5/OdvnNqKevnZWZ4bnxqf52MNz+weflufvxNzriiYNj6nR3H9WTH7vrrki8qp3vg8OQiwr74Afvw2WXezGmDgfE7CW87zvj4x+w+c2ZrQw+d2YarxjT2dkDtZnc9N4UDmqJxlF766O+G25avzOY1w1q0+WZPw0uXU+dwa4TYv6mRdzwufcycTi9zHH2tkutXiEyMv/L0+HZcRf4BOZq0Sn3/uBb+i8Z9v5/N5SHzOkUYfnws7bdjcpB4+t9loI83OBsvnafbZcDDzVLqDPj6CbnG9U/KgGBqxhM5qoVOqVj6PRUJcmRguHvCaTGZxDatRzuJj++f+8nnG/XNdfD5s/1w3n4v9c9/4fFNZQhYaUnxuqvL5pWaAs4+jzL0Sm1PQ745EFPoG40P2Wkfh83pae6WRKyaLyUuOFDM8urAtnlqJIDtNfE534NoBKXKh/l2uxOf0egIJU5Q58Ln1GALh85ko0rA3szWePnUwOD4nOpnl0B/efOafmxa+18vnPSh87nExa3ySjS3F56ZbPre/O0Et30XkUmtHCIJJqmdSC6d41pWXWgii9ykUav+dxF+pIrJTQRS7GsM6X/bPXXQ1dT6nfk7P2qd3ZdT43N7N7EudVlermi+9GiX2z7nZk94/t8bzw7eK2bOuu5uVellnY6k0Q7P9c9PGy2tkztqxmq+10gqFJUo1XjW313EAGuPzIXw+bP9cF5+P7Z9D5r1UOvBDWMQSOqtpplTN8VeAAQDbBUj7tkmWggAAAABJRU5ErkJggg==)
+}
+
+.orderSteps .stage.stage2 {
+    background-position: 0px -32px;
+}
+.orderSteps .stage.stage3 {
+    background-position: 0px -64px;
+}
+
+.orderSteps .stage-descr {
+    display: inline-block;
+    width: auto;
+    height: 31px;
+    line-height: 31px;
+    vertical-align: top;
+}
+
+.orderSteps a, .orderSteps .order-stage {
+    width: 80%;
+	color: #313131;
+    display: block;
+    float: left;
+    font-size: 20px;
+    *font-size: 16px;
+    margin-right: 0;
+    padding: 15px 10%;
+    text-decoration: none;
+	font-family: 'Helvetica Neue Condensed', Arial;
+	font-weight: 600;
+	border-bottom:4px solid #dedede;
+}
+
+.orderSteps a sup{
+	font-size:16px;
+}
+
+.orderSteps a:active, 
+.orderSteps a:hover,
+.orderSteps li.active a, 
+.orderSteps li a.active, 
+.orderSteps li.active .order-stage,
+.orderSteps li .order-stage.active {
+    color: #000;
+	border-bottom:4px solid #f6a100;
+}

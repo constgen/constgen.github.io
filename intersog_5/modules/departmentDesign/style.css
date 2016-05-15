@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.departmentDesign {
+    padding-bottom: 25px;
+}
+.departmentDesign p {
+    margin-bottom: 18px;
+}
+.departmentDesign h2 {
+    margin-bottom: 10px;
+    color: #121820;
+}
+.departmentDesign h3 {
+    color: #444F51;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.departmentDesign .intro {
+    background: none repeat scroll 0 0 #F4F4F4;
+    margin: 35px 0 30px;
+    overflow: hidden;
+    padding: 30px 25px;
+}
+.departmentDesign .intro p {
+    font-size: 16px;
+}
+.departmentDesign img.introImage {
+    display: inline;
+    float: right;
+    height: 211px;
+    text-align: right;
+    vertical-align: top;
+    width: 400px;
+}
+.departmentDesign .column {
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.departmentDesign ul.videoPreview {
+    padding: 0;
+    *clear: both;
+    *height: 280px;
+}
+.departmentDesign ul.videoPreview li {
+    display: inline-block;
+    height: 140px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    vertical-align: top;
+    width: 210px;
+    *float: left;
+}
+
+.departmentDesign ul.videoPreview li .icon {
+    background: url("images/play.png") no-repeat scroll center center transparent;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.departmentDesign ul.videoPreview li .icon:hover {
+    background: url(images/play.png) no-repeat center center rgba(0,0,0, 0.5);
+    cursor: pointer;
+}
+.departmentDesign .grayBox-shadow {
+    margin: 40px 0 30px;
+    padding: 25px 0 40px;
+}

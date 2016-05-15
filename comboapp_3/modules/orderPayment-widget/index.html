@@ -1,0 +1,78 @@
+
+<div id="orderPayment">
+	<form action="#" class="payment">
+
+		<div class="row">
+			<input type="text" class="required" name="firstName" value="" required data-save>
+			<label for="firstName" class="required">First Name</label>
+		</div>
+
+		<div class="row">
+			<input type="text" class="required" name="lastName" value="33335" required data-save>
+			<label for="lastName" class="required">Last Name</label>
+		</div>
+
+		<div class="row">
+			<input type="email" class="required" name="email" required data-save>
+			<label for="email" class="required">Email</label>
+		</div>
+
+		<div class="row">
+			<input type="text" class="required" name="cardNumber" required>
+			<label for="cardNumber" class="required">Credit Card Number</label>
+		</div>
+
+		<div class="row">
+			<select name="expireMonth" id="expireMonth" class="required" required>
+				<option value="01">January</option>
+				<option value="02">February</option>
+				<option value="03">March</option>
+				<option value="04">April</option>
+				<option value="05">May</option>
+				<option value="06">June</option>
+				<option value="07">July</option>
+				<option value="08">August</option>
+				<option value="09">September</option>
+				<option value="10">October</option>
+				<option value="11">November</option>
+				<option value="12">December</option>
+			</select>
+			<label for="expireMonth" class="required">Expire month</label>
+		</div>
+
+		<div class="row">
+			<select name="expireYear" idexpireYear class="required" required>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+			</select>
+			<label for="expireYear" class="required">Expire year</label>
+		</div>
+
+		<div class="row">
+			<input type="text" class="required" name="cvv" required>
+			<label for="cvv" class="required">CVV / CVS</label>
+		</div>
+
+        <div class="row">
+            <label class="required">Comments</label><br/>
+            <textarea required></textarea>
+        </div>
+        
+		<div class="row">
+			<span class="cards"></span>
+			<label for="" class="accept">We accept</label>
+		</div>
+
+		<div class="row">
+			<button class="button" type="submit" name="submit">Checkout</button>
+		</div>
+        
+	</form>
+</div>

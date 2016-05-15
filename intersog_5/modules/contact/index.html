@@ -1,0 +1,52 @@
+﻿ <!-- Clients grid  -->
+<section id="contact">
+
+        <div class="wrapper">
+            <div class="content">
+                <h1>Contact Us</h1>
+                <p>Please fill in the contact form below and we will give you the answer within 1-2 business days. We look forward to our future cooperation!</p>
+                <div class="formContent">
+                    <div class="formWrapper">
+                            <form id="contact-form" method="post" action="/content/contact">
+                                <div class="row">
+                            <label for="firstName" class="required">First name: <span class="required">*</span></label>
+                            <input type="text" name="firstName" required>
+                        </div>
+                        <div class="row">
+                            <label for="lastName" class="required">Last name: <span class="required">*</span></label>
+                            <input type="text" name="lastName" required>
+                        </div>
+                        <div class="row">
+                            <label for="company" class="required">Company: <span class="required">*</span></label>
+                            <input type="text" name="company" required>
+                        </div>
+                        <div class="row">
+                            <label for="email" class="required">Email: <span class="required">*</span></label>
+                            <input type="email" name="email" required>
+                        </div>
+                        <div class="row">
+                            <label for="service" class="required">Service: <span class="required">*</span></label>
+                            <select id="OrderService_service" name="service">
+                                <option value="0">Outsourcing / Software Programming</option>
+                                <option value="1">Outsourcing</option>
+                                <option value="2">Software Programming</option>
+                            </select>
+                        </div>
+
+                    <div class="bottom">
+                            <label for="details" class="required">Service Details (the more the better): <span class="required">*</span></label>
+                            <textarea name="details" required></textarea>
+                        <div class="successMessage" style="display: none;">Your message was sent successfully!</div>
+                        <input type="submit" class="button" value="order sevice">
+                    </div>
+                            </form>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+</section>

@@ -1,0 +1,153 @@
+﻿@charset "utf-8";
+
+#requestButton {
+    background: url("images/requestButton.png") no-repeat;
+    position: absolute;
+    display: block;
+    width: 217px;
+    height: 78px;
+    right: 0px;
+    top: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+
+#requestProposal {
+	border-bottom: 1px solid #303030;
+	background: url("../../images/bkg_content.png") 0 0 repeat;
+}
+
+	#requestProposal .wrapper {
+		width:1000px;
+		margin:0 auto;
+		position: relative;
+		border-left: 1px solid #303030;
+		border-right: 1px solid #303030;
+	}
+
+	#requestProposal .formWrap {
+		overflow: hidden;
+		height: 0;
+		position: relative;
+		-webkit-transition: height 0.5s;
+		-moz-transition: height 0.5s;
+		-ms-transition: height 0.5s;
+		-o-transition: height 0.5s;
+		transition: height 0.5s;
+	}
+	
+	#requestProposal form {
+		position: relative;
+		text-align: center;
+		
+	}
+	
+		#requestProposal .left {
+			display: inline-block;
+			*display: inline;
+			zoom:1;
+			vertical-align: top;
+			width:400px;
+			padding: 60px 0 0;
+			margin: 0 20px 70px;
+			text-align: left;
+		}
+			
+		#requestProposal .right {
+			display: inline-block;
+			*display: inline;
+			zoom:1;
+			vertical-align: top;
+			width:470px;
+			padding: 60px 0 0;
+			margin: 0 20px 70px;
+			text-align: left;
+		}
+			
+		#requestProposal .bottom {
+			position: absolute; 
+			bottom: 0; left: 0; right:0;
+			height:56px;
+			border-top: 1px solid #303030;
+			overflow:hidden;
+			text-align: left
+		}
+			#requestProposal .bottom .submit {
+
+				display: block;
+			    height: 56px;
+			    width: 8em; /*~112*/
+				min-width: 150px;
+			    float: right;
+			    position: relative;
+			    margin: 0;
+			    padding: 0 0 0 56px;
+			    border-left: 1px solid #303030;
+			    border-radius: 0;
+			    background: transparent;
+
+			    font-family: "PT Sans",sans-serif;
+				font-size: 14px;
+				font-style: normal;
+			    line-height: 56px;
+			    text-align: left;
+			    text-decoration: none;
+			   
+			    text-transform: uppercase;
+			    color: #FFFFFF;
+			    cursor: pointer;
+
+				-webkit-transition: color 0.25s;
+				-moz-transition: color 0.25s;
+				-ms-transition: color 0.25s;
+				-o-transition: color 0.25s;
+				transition: color 0.25s;
+			}
+
+				#requestProposal .bottom .submit .text
+				{
+					position: absolute;
+					top: 50%;
+					left: 25px;
+					margin-top: -2em; /*28*/
+					height: 100%;
+										
+				}
+			
+				#requestProposal .bottom .submit .before,
+				#requestProposal .bottom .submit .after {
+					/*font: 14*/
+					position: absolute;
+					top:0; right:0;
+					height:100%; width: 56px;
+					background: url(images/submit.png) 0 0 no-repeat;
+                    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAABwCAMAAAB8U0MtAAAAYFBMVEVwcHCrq6tSUlLFxcV/PEzW1tadLkjg4OCyJUbn5+fCHUTr6+vNF0LXE0Hw8PDfD0Dz8/PlDD/29vbrCT/4+PjvBz76+vrzBj78/Pz3BD39/f36Az3+/v79ATz/ADz///8O46pgAAAAHnRSTlMaKTM5QUhOV1xmaXZ3hYWSlKCjrbO7wsnR1uDk8PEFJvL3AAAA80lEQVRYhe3S2w6CMAyA4TFBzpuCclBo3/8tJQPC6aYlMcak/wVhF1+WZlVKkiTpTwv3EV2F+yoaPDhEKnwFq2PQ0SF2y1hhx7gxbjCdDik2MR2GXoXG/d/w4YUMqFSBhZq+PKgMNpfG3cuEw3TYuUm5UAXV+CpsOMeAZrOphrEA51bOHJyhQUmSpO+lTyZQoECBv4bJPiKsYV9NgwcHQIXvaHWMejqEfhkr6Rk3Zi3k0yGHNqPDxK/Buv87PP2EAbUuodTTlwe1hfbaunuZcJgOejcpF+qoHl+FDecY0G421TIW4NzK2YOzNEhLoECBAk/0AZHBPGYJZoQdAAAAAElFTkSuQmCC");
+                    *background-image: url("images/submit.png");
+					opacity: 1;
+					filter: alpha(opacity=100);
+
+					-webkit-transition: opacity 0.25s;
+					-moz-transition: opacity 0.25s;
+					-ms-transition: opacity 0.25s;
+					-o-transition: opacity 0.25s;
+					transition: opacity 0.25s;
+				}
+					#requestProposal .bottom .submit .after{
+						background-position: 0 -56px;
+						opacity: 0; filter: alpha(opacity=0);
+					}
+
+				#requestProposal .bottom .submit:hover {color: #ff003c;}
+					#requestProposal .bottom .submit:hover .before {
+						opacity: 0; filter: alpha(opacity=0);  }
+					#requestProposal .bottom .submit:hover .after {
+						opacity: 1; filter: alpha(opacity=100);  }
+
+
+
+#requestProposal .errorMessage {display: none !important;}
+#requestProposal .ajaxStatus {
+	padding: 20px 230px 20px 40px;
+}

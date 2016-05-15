@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pie, .visit, .gradient, 
+.contact/*, #sitedescription, #services .service .description */
+{behavior: url(/css/pie.php);behavior: url(css/pie.php);/* behavior: url(css/pie.htc);*/}
+
+
+#logo img, #logo div{_display:none;}
+#logo{_background: url(../images/logo.png) no-repeat 0 0;}
+
+#sitedescription{
+	position: absolute;
+	right: 0;
+	top: 12px;
+	width: 446px; /*477-31*/
+	height: 123px; /*123*//*84*/
+	line-height: 114px;
+	padding: 0 0 0 31px;
+	background: url(../images/bg_sitedescription.png) left top no-repeat;
+	white-space: nowrap;
+	overflow: visible;
+	box-shadow: none;
+}
+
+#services .service{
+	_margin: 0 24px 20px;
+}
+
+#services .service .description{
+	text-align: left;
+	font-style: italic;
+	color: #000;
+	height: 180px;
+	padding: 8px 29px;
+	width: 337px;/*363-13-13*/
+	margin-left: -16px;
+	background: url(../images/bg_service.png) left top no-repeat;
+	box-shadow: none;
+	border:none;
+	/*border-radius: 0;*/
+	
+}
+
+.gradient  {display:none;}
+
+
+/* Heders
+---------------------------------------------*/
+
+
+#contacts h3, #contacts .h3{
+	/*filter:progid:DXImageTransform.Microsoft.MotionBlur(strength=3, direction=135);
+	background-color: #ffffff;
+	zoom:1;*/
+}

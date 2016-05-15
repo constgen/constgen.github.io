@@ -1,0 +1,52 @@
+input, textarea, select, .form-select, .conference-navi, .conference-more {
+    display: inline;
+    zoom : 1;
+}
+
+.conference-navi, .conference-more {
+    display: block;
+    float: left;
+}
+
+input[type="submit"] {
+    line-height: 30px;
+}
+
+input[type="text"] {
+    line-height: 23px;
+}
+
+.form-select {
+    height: 25px;
+    zoom: 1;
+}
+
+select p {
+    height: 25px;
+    zoom: 1;
+}
+
+ol {
+    list-style: decimal;
+    padding: 0 0 0 25px;
+}
+
+ol li {
+    margin: 5px 0;
+    line-height: 20px;
+}
+
+ol li:before {
+    padding-right: 10px;
+    content: none;
+}
+
+.read-more.active {
+    width: 70px;
+    display: inline;
+}
+
+.read-more.unactive {
+    width: 50px;
+    display: inline;
+}

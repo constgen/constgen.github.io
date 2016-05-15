@@ -1,0 +1,203 @@
+
+#serviceDesc {
+	position: relative;
+}
+	#platforms{
+		position:absolute;
+		right:37px; top: 30px;
+		max-width:138px;
+		font-size:0;
+		text-align: right;
+	}
+		#platforms a {
+			display: none;
+			width:42px; 
+			height: 25px;
+			margin: 0 2px;
+			background: url(images/platforms.png);
+			cursor: default;
+		}
+		#platforms.iPad.Android.Mac.Amazon,
+		#platforms.iPhone.Android.Mac.Amazon {
+			max-width: 92px;		/* For 2*2 view */
+		}
+			#platforms .iOS_img {background-position: left top;}
+			#platforms .Android_img {background-position: right top;}
+			#platforms .iMac_img {background-position: left bottom;}
+			#platforms .Amazon_img {background-position: right bottom;}
+
+			#platforms.iPhone  .iOS_img     {display: inline-block;}
+			#platforms.iPad    .iOS_img     {display: inline-block;}
+			#platforms.Android .Android_img {display: inline-block;}
+			#platforms.Mac     .iMac_img    {display: inline-block;}
+			#platforms.Amazon  .Amazon_img  {display: inline-block;}
+
+#serviceDesc h2 {
+    margin-right: 56px;
+    position:relative;
+    padding-left:80px;
+    min-height:68px;
+}
+    #platforms.iPhone.Android ~ h2,
+    #platforms.iPhone.Mac ~ h2,
+    #platforms.iPhone.Amazon ~ h2,
+    #platforms.iPad.Android ~ h2,
+    #platforms.iPad.Mac ~ h2,
+    #platforms.iPad.Amazon ~ h2,
+    #platforms.Android.Mac ~ h2,
+    #platforms.Android.Amazon ~ h2,
+    #platforms.Mac.Amazon ~ h2 {
+        margin-right: 92px;
+    }
+    #platforms.iPhone.Android.Mac ~ h2,
+    #platforms.iPhone.Android.Amazon ~ h2,
+    #platforms.iPhone.Mac.Amazon ~ h2,
+    #platforms.iPad.Android.Mac ~ h2,
+    #platforms.iPad.Android.Amazon ~ h2,
+    #platforms.iPad.Mac.Amazon ~ h2,
+    #platforms.Android.Mac.Amazon ~ h2 {
+        margin-right: 138px;
+    }
+
+    #platforms.iPad.Android.Mac.Amazon ~ h2,
+    #platforms.iPhone.Android.Mac.Amazon ~ h2 {
+        margin-right: 92px;
+    }
+
+		#serviceDesc h2 img {
+            position: absolute;
+            top:-10px; left:5px;
+            border: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background: none;
+            height: 58px;
+            width: 58px;
+            padding: 0;
+        }
+        #serviceDesc h2 span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+	#serviceDesc .rating {
+		margin: -10px 0 15px 80px;
+		height: 23px;
+	}
+
+
+	#serviceDesc .price {
+		padding-bottom: 30px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+		#serviceDesc .price span {
+			padding:0;
+			margin-left: 2em;
+			font-size:17px;
+			vertical-align: top;
+		}
+	
+	#serviceDesc .options {
+		width: auto;
+		margin-right:15px;
+		margin-bottom: 1em;
+	}
+		.options td {
+			padding: 10px;
+			padding-bottom: 10px !important;
+		}
+		.options label {
+			width:auto;
+			max-width: 140px;
+			margin-left: 5px;
+		}
+		.options input {
+			width:60px; 
+			margin: 0;
+			padding-right: 13px;
+		}
+
+		.options select {
+			width:88px; 
+			margin: 0;
+		}
+
+
+	article.description table.options label {
+	    font-size: 13px;
+	}
+
+	article.description table.options select {
+	    width: 74px;
+	}
+
+	article.description table.options input {
+	    width: 46px;
+	}
+
+	#serviceDesc .socials {
+		margin-top: 30px;
+	}
+	#serviceDesc .socials > div{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) { 
+	#serviceDesc .platforms a {
+		background: url(images/platforms@2x.png);
+		background-size: 84px 50px
+	}
+}
+
+
+
+
+
+
+/* RATING */
+div.vote-wrap{
+    overflow: hidden;
+}
+
+div.vote-block{
+	position: relative;	
+}
+
+div.vote-hover{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+}
+
+
+div.vote-stars{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+div.vote-active{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+div.vote-result{
+    display: inline-block;
+    vertical-align: top;
+    color: #616161;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+div.vote-success{
+	display: none;
+    clear: both;
+    color: #ccc;
+    font-size: 14px;
+    margin: 10px 0 0 10px;
+}

@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+#header {
+	background-image:url(images/bg_header-ie6.png);
+}
+
+#logo {
+	background-image: url(images/logo-ie6.png);
+}
+
+#logo img {display:none;}
+
+#description {
+	background-image: url(images/description-ie6.png);
+}
+
+/* Login -----------------------------------*/
+
+
+#login input { display: inline; }
+
+#login button {
+	background: url(images/ie6_button_login.png) no-repeat left top;
+	height: 29px;
+	width: 111px;
+	color: #FFF;
+}
+
+
+/* Sidebar -----------------------------------*/
+
+#submit .devices input {
+	background: none;
+	background: auto;
+	height: 13px;
+	width: 13px;
+}
+
+#submit input {margin-bottom: 5px;}
+
+#submit button {
+	padding: 0;
+	background-image: url(images/ie6_button_submit.png);
+	background-position: left top;
+}
+
+#usermenu a {
+	background-image: url(images/ie6_button_profile.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#usermenu a.active {
+	background-image: url(images/ie6_button_profile.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+
+
+/* Menu -----------------------------------*/ 
+
+#menu a {
+	width: 147px;
+	float: left;
+}
+
+#menu a.first_active {background-position: left -568px; border-left: none; } 
+#menu a.last_active {background-position: right -568px; border-right: none;}
+
+
+
+/* Profile page -----------------------------------*/ 
+
+#content .profileform label {color: #444;}
+
+#item_have_iphone,
+#item_have_ipad,
+#item_have_mac,
+#item_have_android { 
+	background: none;
+	height: auto;
+	width: auto;
+	border: none;
+	padding: none;
+}
+	
+
+/* Contactform -----------------------------------*/
+
+#contactform input {
+	background: none;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	line-height: 16px;
+	height: 17px;/*27-5-5*/
+	padding: 4px 9px;
+}
+
+#contactform .button {
+	background: url(images/bg.png) no-repeat right -410px;
+	height: 27px;
+	width: 109px;
+	color: #FFF;
+	padding: 0;
+	text-decoration: none;
+	border: none;
+}
+
+
+/* Forms -----------------------------------*/
+
+
+
+input{
+	background:none;
+	border: none;
+	background-color: #fff;
+	border: 1px solid #777;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+	height: 15px;/*27-5-5-2*/
+	width: 210px; /*230-9-9-2*/
+	padding: 5px 9px;
+	position: relative;
+	behavior: url(/js/pie.htc);
+	behavior: url(js/pie.htc);
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+button, .submit, .button {
+	border: 0; 
+	background: none; 
+	overflow:visible; 
+	cursor: pointer; 
+	text-shadow: 0 1px 0 #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	line-height: normal;
+	height: 27px;
+	width: 109px;
+}
+
+.button {
+	background: url(images/bg.png) no-repeat right -410px;
+	height: 27px;
+	width: 109px;
+	color: #FFF;
+	padding: 0 0 2px;
+	text-decoration: none;
+	behavior: url(/js/pie.htc);
+	behavior: url(js/pie.htc);
+	border-radius: 8px;
+}

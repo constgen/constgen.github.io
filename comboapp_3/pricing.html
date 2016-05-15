@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<!--Noscript redirect-->
+	<noscript><meta http-equiv="refresh" content="0; url=noscript.html"></noscript>
+
+	<title>Pricing</title>
+
+	<link rel="stylesheet" href="css/comboapp.css" type="text/css" />
+
+	<script type="text/javascript" src="core/Core.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+	<script type="text/javascript" src="core/core.extensions.js"></script>
+
+	<!--Meta-->
+	<script>Core.include('modules/meta')</script>
+	
+</head>
+
+<body>
+
+	<div id="bg-header"></div>
+	<div id="bg">
+
+	<!--Navigation bar-->
+	<script>Core.include('modules/navbar')</script>
+
+	<div id="wrapper">
+
+		<!--HEADER-->
+		<script>Core.include('modules/header')</script>
+
+		<!--MIDDLE-->
+		<section id="middle">
+			<!--Main menu-->
+			<script>Core.include('modules/mainmenu')</script>
+			<!--TOOLBAR aka CART-->
+			<script>Core.include('modules/toolbar')</script>
+			<div id="container">
+				<div id="content" class="sidebarLeft">
+					
+					<!--Pagination-->
+					<script>Core.include('modules/paginationBlock')</script>
+
+					<!--Services-->
+					<script>Core.include('modules/services')</script>
+					<!--Pagination-->
+					<script>Core.include('modules/pagination')</script>
+
+				</div><!-- #content-->
+			</div><!-- #container-->
+
+			<aside id="sideLeft">
+				<!--Filters-->
+				<script>Core.include('modules/serviceFilter')</script>
+
+				<!--Need help?-->
+				<script>Core.include('modules/needHelp-widget')</script>
+			</aside>
+
+		</section><!-- #middle-->
+	</div><!-- #wrapper -->
+	</div><!-- #bg -->
+
+	<script>Core.include('modules/footer')</script>
+
+	<script>Core.startAll()</script>
+</body>
+</html>

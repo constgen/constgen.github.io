@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#logo {
+	width: 176px;
+	height: 85px;
+	background-image: url(../images/ie6/logo.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#logo img {display: none;}
+
+#mainmenu li li.first {
+	background-image: url(../images/ie6/bg_menu-item.png);
+} 
+
+#mainmenu li li.last {
+	background-image: url(../images/ie6/bg_menu-item.png);
+} 
+
+#header .social a {
+	background-image: url(../images/ie6/icon_social.png);
+}
+
+#speedlinks a {
+	background-image: url(../images/ie6/icon_speedlinks-text.png);
+}
+
+footer .copyright {
+	background-image: url(../images/ie6/bg_copyright.png);
+}

@@ -1,0 +1,134 @@
+.specials .special-text {
+	padding: 20px 25px;
+	background: rgba(255,255,255,0.45);
+	margin-bottom: 20px;
+}
+.specials .special-list {
+	display: table;
+	position: relative;
+	width: 100%;
+}
+.specials .special-offer {
+	display: table-cell;
+	width: 291px;
+	border: 1px solid #dadada;
+	vertical-align: top;
+	*display: block;
+	*float: left;
+	background: rgba(255,255,255,0.45);
+}
+.specials .indent {
+	display: table-cell;
+	width: 25px;
+	*display: block;
+	*float: left;
+}
+.specials .special-offer:last {
+	margin-right: 0px;
+}
+.specials .wrap {
+	overflow: hidden;
+	padding: 15px 15px 55px;
+	*padding-bottom: 25px;
+}
+.specials header {
+	position: relative;
+}
+.specials .special-offer h5 {
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 132px;
+}
+.specials .special-offer .service{
+	margin-top: 11px;
+}
+.specials .special-offer .service td{
+	background: #ffffff;
+	border-top: 1px solid #e6e6e6;
+	padding: 9px 4px 8px 8px;
+	vertical-align: middle;
+	height: 70px;
+}
+.specials .special-offer .service img{
+	width: 33px;
+	height: auto;
+}
+.specials .special-offer .service h6{
+	width: 117px;
+	max-height: 110px;
+	overflow: hidden;
+	color: #434343;
+	font-size: 13px;
+	font-style: normal;
+	text-transform: none;
+	line-height: 18px;
+}
+.specials .special-offer .service .old-price{
+	text-decoration: line-through;
+	color: #ababab;
+	font-size: 13px;
+	width: 65px;
+}
+
+.specials #platforms{
+		position:absolute;
+		right:0px;
+		top: -5px;
+		max-width:138px;
+		font-size:0;
+		text-align: right;
+	}
+		#platforms a {
+			display: none;
+			width:42px; 
+			height: 25px;
+			margin: 0 0 3px;
+			background: url(images/platforms.png);
+			cursor: default;
+		}
+		#platforms.iPad.Android.Mac.Amazon,
+		#platforms.iPhone.Android.Mac.Amazon {
+			max-width: 92px;		/* For 2*2 view */
+		}
+			#platforms .iOS_img {background-position: left top;}
+			#platforms .Android_img {background-position: right top;}
+			#platforms .iMac_img {background-position: left bottom;}
+			#platforms .Amazon_img {background-position: right bottom;}
+
+			#platforms.iPhone  .iOS_img     {display: inline-block;}
+			#platforms.iPad    .iOS_img     {display: inline-block;}
+			#platforms.Android .Android_img {display: inline-block;}
+			#platforms.Mac     .iMac_img    {display: inline-block;}
+			#platforms.Amazon  .Amazon_img  {display: inline-block;}
+			
+.specials .special-offer .btn_buy {
+	position: absolute;
+	bottom:22px;
+	*position: static;
+}
+.specials .special-offer .price {
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		vertical-align: top;
+		position: relative;
+		color: black;
+		font-size: 21px;
+		margin-left: 10px;
+	}
+	.specials .special-offer .price .discount {
+		position: absolute;
+		top: -4px; left: 5px;
+		font-size: 13px;
+		white-space: nowrap;
+	}
+	.specials .special-offer .price .new-price {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.specials .special-offer .price .discount + .new-price {
+		position: absolute;
+		top:10px; left:5px;
+		white-space: nowrap;
+	}

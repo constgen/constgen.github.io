@@ -1,0 +1,105 @@
+﻿@charset "utf-8";
+
+
+.formPaymentMethod
+{
+    float: left;
+    width: 450px;
+    background: #272727;
+	margin: 0 0 130px 0;
+}
+
+.formPaymentMethod .formHeader
+{
+	padding: 22px 20px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 30px;
+}
+
+.formPaymentMethod .formFooter
+{
+	padding: 22px 20px;
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+
+.formPaymentMethod .formFooter input[type="submit"]
+{
+	font-size: 16px;
+    text-transform: none;
+}
+
+.formPaymentMethod .formHeader h2
+{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.formPaymentMethod .row
+{
+    padding: 0 20px;
+}
+
+.formPaymentMethod .row label
+{
+    width: 150px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.70em;
+}
+
+.formPaymentMethod .row input
+{
+    width: 230px;
+}
+
+.formPaymentMethod .row select
+{
+    padding-bottom: 0px;
+    width: 250px;
+}
+.formPaymentMethod .row.error select
+{
+    background: #ffc9c9;
+    border: 1px solid #ffc9c9;
+}
+
+.formPaymentMethod .row input.small
+{
+    width: 110px;
+}
+
+.formPaymentMethod .weAccept
+{
+    display: inline-block;
+    margin-bottom: 1.625em;
+    width: 230px;
+    height: 30px;
+    
+}
+
+.formPaymentMethod .weAcceptItem
+{
+    float: left;
+    margin-right: 5px;
+    width: 45px;
+    height: 30px;
+    background: url(images/payment-methods.png) no-repeat;
+}
+
+.formPaymentMethod .weAcceptItem.mastercard
+{
+    background-position: -50px 0px;
+}
+
+.formPaymentMethod .weAcceptItem.cards
+{
+    background-position: -100px 0px;
+}
+
+.formPaymentMethod .weAcceptItem.discover
+{
+    background-position: -150px 0px;
+}

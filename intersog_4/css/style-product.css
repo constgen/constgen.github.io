@@ -1,0 +1,455 @@
+@charset "utf-8";
+
+a {color: #0085B8;}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+#header {
+	height: 160px;
+}
+
+.sitedescription {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: italic;
+	font-size: 38px;
+	color: #343639;
+	position: absolute;
+	left: 320px;
+	top: 56px;
+	text-transform: uppercase;
+}
+
+#header .breadcrumbs {
+	position: absolute;
+	left: 303px;
+	top: 45px;
+	z-index: 100;
+}
+
+#header .breadcrumbs a {
+	font-family: "Futura Std Condensed", Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	padding-left: 16px;
+	margin-right: 22px;
+	background: url(../images/bg_home.png) 0 12px no-repeat;
+	color: #585556;
+	float: left;
+}
+
+#header .tointersogmobile {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+#header .back {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	padding-bottom: 372px;
+}
+
+
+#slides {padding-bottom: 70px;}
+
+#slides .navigation  {
+	position: absolute;
+	left: 8px;
+	bottom: 0;
+	margin-left: 0;
+}
+
+
+
+
+
+/* Products
+-----------------------------------------------------------------------------*/
+#products {
+	padding-top: 77px;
+	margin: 70px auto -100px;
+	background: url(../images/bg_products.png) center top no-repeat;
+}
+
+.product {
+	position: relative;
+	padding: 0 0 0 320px;
+	margin: 0 0 110px;
+	font-size: 24px;
+	background: 0 0 no-repeat;
+	font-family: "Futura Std", Arial, Helvetica, sans-serif
+}
+
+.product.learning {background-image: url(../images/image_leadingandeducation.png);}
+
+.product.utilities {background-image: url(../images/image_utilitiesandproductivity.png);}
+
+.product.kids {background-image: url(../images/image_kids.png);}
+
+.product.games {background-image: url(../images/image_gamesandentertaiment.png);}
+
+/*.product h2 {
+	color: #4a4143;
+}*/
+
+.forward {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	width: 76px;
+	height: 49px;
+	background: url(../images/bg_next.png) right top no-repeat;
+	margin-left: 23px;
+}
+
+.screenshot {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	width: 166px;
+	height: 133px;
+	background: url(../images/bg_screenshot.png) 0 0 no-repeat;
+	margin: 11px 17px 5px 0;
+}
+
+.screenshot .screen {
+	width: 132px;
+	height: 99px;
+	margin: 17px auto 0;
+	overflow: hidden;
+}
+
+.screenshot .screen img {
+	width: 132px;
+	height: auto;
+}
+
+.product .view {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	padding-right: 26px;
+	height: 20px;
+	background: url(../images/bg_list.png) right 1px no-repeat;
+}
+
+
+
+
+
+
+/* Group
+-----------------------------------------------------------------------------*/
+#group {
+	position: relative;
+	margin-top: -50px;
+	padding: 0 267px 0 110px;
+	min-height: 465px;
+}
+
+#group .bg {
+	position: absolute;
+	right: 0;
+	top: -150px;
+	width: 747px;
+	height: 474px;
+	background: url(../images/bg_group.png) 0 bottom no-repeat;
+}
+
+#group h2 {
+	position: absolute;
+	left: 319px;
+	right: 0;
+	bottom: 100%;
+	z-index: 11;
+}
+
+#group .groups {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+}
+
+#group .groups a {
+	display: block;
+	color: #4a4143;
+	font-size: 18px;
+	font-family: "Futura Std Condensed", Tahoma, Geneva, sans-serif;
+	line-height: 1;
+	padding-left: 2px;
+	margin-bottom: 14px;
+}
+
+#group .groups a.active, #group .groups a.active:hover {
+	-khtm-opacity: 0.5;
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	text-decoration: none;
+	cursor: default;
+}
+
+#group .groups a img {
+	display: block;
+	width: 65px;
+	height: auto;
+	margin-bottom: 7px;
+}
+
+#group .list {
+	background: url(../images/bg_grouplist.png) 0 center no-repeat;
+	padding: 0 0 0 50px;
+	position: relative;
+}
+
+.scrolling {
+	height: 400px;
+	overflow: auto;
+	padding-right: 35px;
+}
+
+#group .list ul {
+	margin: -0.8em 0 0.35em;
+	padding: 0;
+}
+
+#group .list li {
+	background: none;
+	background: url(../images/bg_list-products.png) 9px center no-repeat;
+	padding: 15px 0 12px 40px;
+	margin: 0;
+	border-top: 1px solid #aeadad;
+}
+
+#group .list li:first-child {border-top-color: #868485;}
+
+#group .list a {
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+#group #rightSidebar {
+	top: 150px;
+}
+
+#group .back {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+
+
+/* Product
+-----------------------------------------------------------------------------*/
+#product {
+	margin-top: -30px;
+	position: relative;
+	padding-bottom: 37px;
+	min-height: 500px;
+}
+
+#product h2 {
+	position: absolute;
+	left: 319px;
+	right: 0;
+	top: -80px;
+	line-height: 1;
+	z-index: 11;
+}
+
+#product .appicon {
+	float: left;
+	margin: 0 18px 10px 0;
+	border: 0;
+}
+
+#product .gallery {
+	float: right;
+	margin: 0 0 15px 45px;
+	width: 512px;
+	height: 403px;
+	white-space: nowrap;
+	overflow: hidden;
+	overflow-x: scroll;
+	word-spacing: -4px;
+	position: relative;
+	z-index: 10;
+	background: #000;
+}
+
+#product .gallery img {
+	width: auto;
+	height: 383px;
+	vertical-align: middle;
+}
+
+#product .info {
+	padding: 10px 0 30px 0;
+	float: left;
+	display: block;
+	width: 285px;
+	font-family: "Futura Std Condensed", Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	line-height: 1;
+}
+
+#product .info span {
+	overflow: hidden;
+	display: block;
+}
+
+#product .info .column {
+	float: left;
+	margin-right: 10px;
+	max-width: 120px;
+}
+
+#product .info .grouppheader {color: #0085b8;}
+
+#product .info a {
+	display: block;
+	line-height: normal;
+	font-size: 10px;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#product .info img {
+	border: 0;
+	margin: 10px 5px 0 0;
+}
+
+#product article {
+	width: 600px;
+	*width: auto;
+	*padding-right: 340px;
+}
+
+#product .js-details {
+	height: 17px;
+	display: block;
+}
+
+#product summary {
+	display: block;
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+#product .feedback {
+	position: absolute;
+	right: 90px;
+	bottom: 52px;
+	text-transform: uppercase;
+}
+
+.feedback .triangle {
+	position: absolute;
+	display: block;
+	top: 100%;
+	left: 20px;
+	width: 0;
+	height: 0;
+	border-top: 17px solid #0085b8;
+	border-right: 17px solid transparent;
+}
+
+.feedback:hover .triangle {border-top-color: #fff;}
+
+
+
+
+
+
+
+/* Order section
+-----------------------------------------------------------------------------*/
+#order {
+	position: relative;
+	padding-top: 45px;
+	background: url(../images/bg_products.png) center 0 no-repeat;
+}
+
+#order .store {
+	
+}
+
+#order .order {
+	position: absolute;
+	top: 45px;
+	right: 0;
+	text-align: right;
+}
+
+#order .order button {
+	text-transform: capitalize;
+	width: 150px;
+}
+
+.appstore, .androidmarket {
+	display: inline-block;
+	*zoom: 1;
+	margin-right: 10px;
+	width: 187px;
+	height: 58px;
+	background: url(../images/button_appstore.png) 0 0 no-repeat;
+}
+
+.appstore:hover, .androidmarket:hover {
+	background-position: 0 bottom;
+}
+
+.androidmarket {background-image: url(../images/button_androidmarket.png);}
+
+
+
+
+
+
+/* Button
+-----------------------------------------------------------------------------*/
+.back {
+	background-image: url(../images/bg_back.png);
+	background-position: 10px top;
+	background-repeat: no-repeat;
+	padding-left: 38px;
+	padding-top: 9px;
+	padding-bottom: 15px;
+	padding-right: 10px;
+	color: #ced6e0;
+	font-size: 20px;
+	height: 22px;
+}
+
+.back:hover {
+	background-image: url(../images/bg_back.png);
+	background-repeat: no-repeat;
+	background-position: 10px bottom;
+}
+
+
+
+
+

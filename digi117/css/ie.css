@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pie,/*, #solutionbar a h5*/
+#ourteam .photo, #ourteam .arc .dot1, #ourteam .arc .dot2, #ourteam .arc .line, #ourteam article {  behavior: url(PIE.php);  border-collapse: separate;}
+
+#mainmenu a, #mainmenu span, #home, #work,
+#solutions .typical, #solutions .list a, 
+.textscroller, .area, .wrapper {background: url(../images/0.gif) repeat; /*для захвата событий в ИЕ*/}
+
+body {
+	*z-index:0;
+}
+
+#wrapper {
+	*z-index:1;
+}
+
+#overlay {
+	position: absolute; 
+	width: 100%;
+	height: 100%;
+}
+
+.noscript {
+	position: absolute; 
+	font-size: 16px; 
+	text-align: center; 
+	font-weight: normal;
+	width: 700px;  
+	z-index: 1000; 
+	top: 50%; 
+	left: 50%;
+	bottom: auto; 
+	margin-left:-360px; 
+	margin-top:-30px; 
+	padding: 20px; 
+	background-color: #333; 
+	color: #f30;
+}
+
+.preloader {background: url(../images/preloader.gif) no-repeat left top;}
+
+
+/* Images
+-----------------------------------------------------------------------------*/
+
+#bg .wrapper, #bg img {
+	*height: expression(document.body.clientHeight+'px');
+}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#mainmenu .active, #mainmenu .current {
+	*background-image: url(../images/bg_menu-active.png);
+}
+
+
+.logo {background: url(../images/logo.png) no-repeat left top;}
+
+
+
+/* Solutions
+-----------------------------------------------------------------------------*/
+
+#solutions .back{_position: relative; _visibility: hidden;}
+
+#solutions .bg{	_width: 100%;}
+
+#solutions .back img{*height: expression(document.body.clientHeight+'px');}
+
+#solutions .bg img{	*height: expression(document.body.clientHeight-64-125+'px');}
+
+
+
+/* Contacts
+-----------------------------------------------------------------------------*/
+
+#contact {
+	*height: expression(document.body.clientHeight-64-157+'px');
+}
+
+#contact .contact img {
+	*height: expression(document.body.clientHeight-64-157+100+'px');
+}
+
+#contact .contact img.hover {
+	/*height: expression( document.body.clientHeight-64-157+100+'px');*/
+	/*_filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);*/
+}
+
+
+
+
+
+
+/* About
+-----------------------------------------------------------------------------*/
+
+#about .wrapper{
+	_width: 930px;
+	/*height: 65%;*/
+	_height: 300px;
+	/*overflow: hidden;*/
+	_overflow: visible;
+}
+
+
+#scrollbar {_visibility: hidden;}
+
+.arrow-up, .arrow-down{background-image: url(../images/scroll_arrows.png);}
+
+
+
+
+/* Our Team
+-----------------------------------------------------------------------------*/
+#ourteam{/*border-collapse: separate;*//*baclground: #ccc;*/}
+
+#ourteam article, #ourteam .blur article{
+	margin-top: 0.5em;
+	border:0;
+	box-shadow: 0 0 0 0.5em #babec0;
+	/*-pie-background:linear-gradient(top, #1d2c35, #0d1318);*/
+}
+
+#ourteam article img, #ourteam .roman article img{
+	width: 100%;
+	height: 100%;
+	top:0; 
+	left:0;
+	*width: expression(this.parentNode.clientWidth+'px');
+	*height: expression(this.parentNode.clientHeight+'px');
+}
+
+
+#ourteam .arc .line, #ourteam .blur .arc .line{box-shadow:none;border-color: #babec0;}
+
+#ourteam .arc .dot1, #ourteam .blur .arc .dot1{border-color: #babec0;box-shadow:none;}
+#ourteam .arc .dot2{z-index:21;}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	*z-index:1;
+}
+
+
+#scroller .items img {
+	_height: 135px;
+}
+
+
+.scroll-prev, .scroll-next {
+	*z-index:10;
+	*background-image: url(../images/bg_scroll-button.png);
+}
+
+
+
+
+
+#solutionbar {
+	*z-index:0;
+}
+
+#solutionbar .listofsolutions{
+	background-image: url(../images/icon_listofsolutions.png);
+	*z-index: 1;
+}
+
+
+#solutionbar a img{
+	*margin-top: 4px;
+	_margin-left: 4px;
+
+}
+#solutionbar a:hover img, #solutionbar .active img, #solutionbar .hover img{
+	*margin-top: 0;
+	_margin-left: 0;
+}
+
+#solutionbar a{*z-index:2;}
+
+#solutionbar a h5{
+	*z-index: expression(runtimeStyle.zIndex = 12, this.innerHTML += '<span class="after"></span>') /* хак для ие6 и 7 */}
+
+#solutionbar a h5 .after {
+	background: url(../images/bg_tooltip.png) no-repeat center top;
+	*top:32px;
+}
+
+
+
+/* Jobs
+-----------------------------------------------------------------------------*/
+
+#wrapper.fixie {
+	*z-index: 2;
+}
+
+.jobs .wrapper .textscroller{
+	*margin-left: -7px;
+}
+
+label.required {
+	*z-index: expression(runtimeStyle.zIndex = 12, this.innerHTML += '<span class="after"> *</span>') /* хак для ие6 и 7 */}
+
+form .promt {*margin-bottom: 3.75em;/*0.55*/}
+
+.button {*vertical-align: middle;}
+
+.file  {
+	height: 32px !important;
+	margin-bottom: 0.8em;
+}
+
+.file button {
+	position: static !important;
+	margin-bottom: 0;
+}
+
+.file div {
+	*height: 32px !important;
+	*position: absolute !important;
+	*visibility: hidden;
+}
+
+.file span {*left: 110px; *top: 5px; *position: relative;*visibility: hidden;}
+
+.linkedin_button {
+	*margin-bottom: 1.1em;
+	*position: absolute;
+	*margin-top: -4.5em;
+}
+
+fieldset {
+	*margin-left: 0;
+}
+
+.validationmessage{*margin-top: -1px}
+
+
+
+

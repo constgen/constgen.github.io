@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+
+.loginForm
+{
+	background: #fcfcfc;
+	background-color: rgba(255,255,255,0.45);
+	*background: #fcfcfc;
+}
+
+.loginForm h3
+{
+	/*font: 22*/
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	border-top: 1px solid #e6e6e6;
+	line-height: 3.09em; /*68*/
+	height: 3.09em; /*68*/
+}
+
+.loginForm form
+{
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	background: #fff;
+	padding: 28px 0;
+	text-align: center;
+}
+
+.loginForm form div
+{
+	overflow: hidden;
+}
+
+.loginForm form .button,
+.loginForm form button
+{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-right: 7px;
+}
+
+/*validation message*/
+.loginForm .message.error
+{
+	padding: 25px 0;
+	background: none;
+	text-align: center;
+	color: #ec2028;
+}
+
+.loginForm .rememberMe {
+	width: 550px;
+	margin: 0 auto;
+	text-align: left;
+	margin-bottom: 18px;
+}
+.loginForm .rememberMe input {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.loginForm .rememberMe label {
+	vertical-align: middle;
+}
+.loginForm .btn {
+	width: 550px;
+	margin: 0 auto;
+	text-align: left;
+}

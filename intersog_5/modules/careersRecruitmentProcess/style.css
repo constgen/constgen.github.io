@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+
+
+.careersRecruitmentProcess {
+}
+
+
+.careersRecruitmentProcess h1 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.careersRecruitmentProcess h2 {
+    color: #121820;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.6);
+}
+.careersRecruitmentProcess img {
+    border: medium none;
+    float: left;
+    margin: 7px 20px 10px 0;
+}
+.careersRecruitmentProcess p {
+    padding-bottom: 0;
+}
+.careersRecruitmentProcess .leftSide,
+.careersRecruitmentProcess .rightSide {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.careersRecruitmentProcess .leftSide {
+    margin-right: 20px;
+    width: 655px;
+}
+
+.careersRecruitmentProcess .rightSide {
+    width: 235px;
+}
+.careersRecruitmentProcess ul li {
+    font-size: 15px;
+}
+.careersRecruitmentProcess ol li {
+    padding-bottom: 25px;
+    position: relative;
+    font-size: 15px;
+}
+.careersRecruitmentProcess ol {
+    margin-bottom: 0;
+}

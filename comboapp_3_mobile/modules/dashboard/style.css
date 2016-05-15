@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+
+
+/* Layout changes
+-----------------------------------------------------------------------------*/
+#middle
+{
+	padding-bottom: 219px;
+}
+
+
+
+/* Module styles
+-----------------------------------------------------------------------------*/
+
+#dashboard {
+    background: url(images/bg_dashboard.png) repeat;
+    bottom: 0;
+    height: 219px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+#dashboard:after {
+    content: '';
+    position: absolute;
+    top:0; left:0; right: 0;
+    display: block;
+    height: 5px;
+    background: url(images/bg.png) 0 0 repeat-x;
+}
+#dashboard ul {
+    list-style: none outside none;
+    padding: 16px 0 0 15px;
+    overflow: hidden;
+}
+#dashboard ul li {
+    float: left;
+    padding: 0 15px 11px 0;
+}
+#dashboard ul li a {
+   background-image: url(images/dashboard.png);
+   width: 86px;
+   height: 87px;
+   display: inline-block;
+   position: relative;
+   color: #494f55;
+ 
+}
+#dashboard ul li a p{
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   width: 78px;
+   text-align: center;
+   overflow: hidden;
+   white-space: nowrap;
+   margin-left: 3px;
+}
+#dashboard ul li a.developers {
+   background-position: 0 -88px;
+}
+#dashboard ul li a.agencies {
+   background-position: -87px -88px;
+}
+#dashboard ul li a.brands {
+   background-position: -174px -88px;
+}
+#dashboard ul li a.resellers {
+   background-position: -261px -88px;
+}
+#dashboard ul li a.loyalty {
+   background-position: -348px -88px;
+}
+#dashboard ul li a.contact {
+   background-position: -435px -88px;
+}
+/*#dashboard ul li a:active,*/
+#dashboard ul li a.pushed {
+   color: #fff;
+   text-shadow: 0.5px 0.5px #3c3c3c, -0.5px -0.5px #a8abad;
+}
+/*#dashboard ul li a.developers:active,*/
+#dashboard ul li a.developers.pushed {
+   background-position: 0 0;
+}
+/*#dashboard ul li a.agencies:active,*/
+#dashboard ul li a.agencies.pushed {
+   background-position: -87px 0;
+}
+/*#dashboard ul li a.brands:active,*/
+#dashboard ul li a.brands.pushed {
+   background-position: -174px 0;
+}
+/*#dashboard ul li a.resellers:active,*/
+#dashboard ul li a.resellers.pushed {
+   background-position: -261px 0;
+}
+/*#dashboard ul li a.loyalty:active,*/
+#dashboard ul li a.loyalty.pushed {
+   background-position: -348px 0;
+}
+/*#dashboard ul li a.contact:active,*/
+#dashboard ul li a.contact.pushed {
+   background-position: -435px 0;
+}

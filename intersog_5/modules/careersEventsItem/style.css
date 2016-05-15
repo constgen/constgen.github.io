@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+
+
+.careersEventsItem {
+}
+
+.careersEventsItem h1 {
+    margin-top: 0;
+}
+.careersEventsItem h3 {
+    color: #697476;
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+.careersEventsItem img {
+    border: medium none;
+    float: left;
+    margin: 7px 20px 10px 0;
+}
+.careersEventsItem p {    
+}
+

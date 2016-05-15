@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<!--Redirect for mobile device-->
+	<script type="text/javascript" src="js/detectmobilebrowser.js"></script>
+
+	<meta charset="utf-8" />
+	<title>Digi117 - Social Mobile Solutions</title>
+	<meta name="keywords" content="mobile, marketing" />
+	<meta name="description" content="" />
+	
+	<!--<meta http-equiv="Content-Type" content="text/html"> -->
+
+	<!--for IE pinned site-->
+	<!--[if IE]>
+	<meta name="application-name" content="Digi 117" />
+	<meta name="msapplication-tooltip" content="Converting mobile users to brand customers " />
+	<meta name="msapplication-starturl" content="http://digi117.com" />
+	<meta name="msapplication-window" content="width=1100;height=800" />
+	<meta name="msapplication-navbutton-color" content="#000000" />
+	
+	<meta name="msapplication-task" content="name=Home;action-uri=#home;icon-uri=http://digi117.com/images/favicon.ico"/>
+	<meta name="msapplication-task" content="name=Work;action-uri=#work;icon-uri=http://digi117.com/images/favicon.ico"/>
+	<meta name="msapplication-task" content="name=Solutions;action-uri=#solutions;icon-uri=http://digi117.com/images/favicon.ico"/>
+	<meta name="msapplication-task" content="name=Contact;action-uri=#contact;icon-uri=http://digi117.com/images/favicon.ico"/>
+	<link rel="icon" type="image/ico" href="images/pinned-site-icon24.png">
+	<![endif]-->
+	<!--end pinned site-->
+	
+	<!--for Opera speeddial-->
+	<link rel="icon" href="images/speeddial.png" />
+	
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+	<!--[if lte IE 8]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<link rel="stylesheet" href="css/ie.css" type="text/css" />
+	<![endif]-->
+	
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+    <script src="js/slides.min.jquery.js" type="text/javascript"></script>
+	<script type="text/javascript">
+        $(function(){
+            $('div#slides').slides({
+                preload: true,
+                generateNextPrev: false
+            });
+			$('div#slides_home').slides({
+                preload: true,
+                generateNextPrev: false
+            });
+        });
+		//My Shit
+		jQuery(document).ready(function(){
+		  $('.appslist').delegate('img:not(.current)', 'click', function() {
+			$(this).addClass('current').siblings().removeClass('current')
+			  .parents('div#apps-tabs').find('div.comboapp-tab').hide().eq($(this).index()).fadeIn(250);
+		  })
+		})
+    </script>
+
+	<!--<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>-->
+	<!--[if lte IE 9]><script type="text/javascript" src="js/jquery.color.js"></script><![endif]-->
+	<script type="text/javascript" src="js/plugins/ValidForm.js"></script>
+	<script type="text/javascript" src="js/plugins/StyleForm.js"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<!--<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+    	api_key: k0ahuctzvvl5
+		onLoad: LinkedInLoad
+  		authorize: true
+	</script>-->
+    
+
+
+</head>
+
+<body class="select-text">
+<!--[if lte IE 8]><noscript>
+	<style>#wrapper, #scroller, #bg, p, .scroll-next, .scroll-prev {display: none}</style>
+<![endif]-->
+<noscript>
+	<div class="noscript">Enable JavaScript in your browser</div>
+</noscript>
+
+<div id="overlay"><div id="preloader"><div class="logo"></div><div class="preloader"></div></div></div>
+<noscript><style>#overlay{display:none;}</style></noscript>
+
+<div id="bg" class="select-no"><div class="wrapper">
+	<img class="home" src="images/bg_index.jpg" width="1400" height="900" alt="">
+	<span class="work" id="work-gallery">
+		<img src="gallery/work/img_morton.jpg" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+	</span>
+	<span class="solutions" id="solutions-gallery">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+		<img src="images/0.gif" width="1400" height="900" alt="">
+	</span>
+	<img class="about partners aboutisog aboutcomboapp services zeniz ourteam marketingmanager salesmanager" src="images/bg_main.jpg" width="1400" height="900" alt="">
+	<img class="aboutdigi" src="images/bg_zeniz.jpg" width="1400" height="900" alt="">
+</div></div>
+
+<!--WRAPPPER-->
+<div id="wrapper">
+	
+	<!--HEADER-->
+	<header id="header" class="select-no">
+		
+		<a id="logo" title="Digi117" href="#home"><img src="images/logo.png" alt="Digi117" width="76" height="39"></a>
+	
+		<menu id="mainmenu">
+			<a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <!--<a href="#solutions">Solutions</a>-->
+            <a href="#services">Services</a>
+			<a href="#work">Portfolio</a>
+            <a href="#partners">Partners</a>
+            <a href="#zeniz">Zeniz</a>
+            <a href="#ourteam">Our Team</a>
+            <!--<a href="#jobs">Jobs</a>-->
+			<a href="#contact">Contact</a>
+			<!--<span><span>Jobs</span>
+				<div class="submenu hidden">
+					<a href="#marketingmanager">Sr. Marketing Manager: Social, Mobile and Online Gaming</a>
+					<a href="#salesmanager">Digital Media Sales Manager (Vancouver)</a>
+				</div>
+			</span>-->
+		</menu>
+	</header><!--END HEADER-->
+	
+	<!--CONTENT-->
+	<div id="content">
+	
+		<div id="home">
+        	<div class="section-tabs">
+            	<a href="#services"><img src="images/tab_mobile.png" alt="Mobile" width="140" height="105"><span>Mobile</span></a>
+                <a href="#services"><img src="images/tab_social.png" alt="Social" width="140" height="105"><span>Social</span></a>
+                <a href="#services"><img src="images/tab_gaming.png" alt="Gaming" width="140" height="105"><span>Gaming</span></a>
+            </div>
+            <div class="zeniz-slider">
+            	<img src="images/bg_iphone_slider.png" width="492" height="254">
+            	<div id="slides_home">
+                	<div class="slides_container">
+            			<div><a href="#zeniz" target="_blank"><img src="images/screen1.png" width="324" height="203"></a></div>
+                        <div><a href="#zeniz" target="_blank"><img src="images/screen2.png" width="324" height="203"></a></div>
+                        <div><a href="#zeniz" target="_blank"><img src="images/screen3.png" width="324" height="203"></a></div>
+                        <div><a href="#zeniz" target="_blank"><img src="images/screen4.png" width="324" height="203"></a></div>
+                    </div>
+                </div>
+				<div class="zeniz-logo">
+					<img src="images/digi_zenis.png" alt="Zeniz - Mobile social gaming" width="332" height="226">	
+				</div>
+            </div>
+            
+        </div>
+		<div id="work">
+		
+			<!--CASE STUDIES IN WORK. OH, MY GOD -->
+			
+			<div id="morton-content">
+				<!--<div class="tab-content">
+					
+					<div class="video">
+						<video class="sublime" controls preload="none" poster="images/0.gif" width="640" height="360">
+						  <source src="gallery/case_studies/oceans-clip.mp4" type='video/mp4'>
+						  <source src="gallery/case_studies/oceans-clip.webm" type='video/webm'>
+						</video>
+					</div>
+
+					<span class="close js-tabs-close" data-tab-close="morton"></span>
+				</div>
+				<div class="tab-content">
+					
+					<div class="imagegallery">
+						<div class="carousel-controls">
+							<a href="#" class="carousel-next scroll-next"></a>
+							<a href="#" class="carousel-prev scroll-prev"></a>
+						</div>
+						<div class="carousel-images">
+							<img src="gallery/work/img_hippie.jpg" alt="">
+							<img src="gallery/work/img_intersog.jpg" alt="">
+							<img src="gallery/work/img_forest.jpg" alt="">
+							<img src="gallery/work/img_michigan.jpg" alt="">
+						</div>
+					</div>
+
+					<span class="close js-tabs-close" data-tab-close="morton"></span>
+				</div>-->
+				<div class="tab-content">
+					
+					<article class="js-scroll">
+						<h2>Morton Salt Pro</h2><br>
+						<p><strong>About  the company</strong></p>
+						<p>Morton Salt, Inc., a Chicago-based company  continuing a Morton Salt business dating back to 1848, is North America's  authority on salt and a leading producer of salt for grocery, water softening,  ice control, agricultural, and industrial uses. Morton introduced the nation to  the Morton Umbrella Girl and the now-famous slogan, &quot;When It Rains It  Pours&quot; in 1914. Since that time, Morton Salt products have graced the  shelves of more homes throughout the country than any other brand of salt.</p>
+						<p><strong>Challenge</strong></p>
+						<p>Morton Salt, Inc. approached digi117 to  create a mobile application to help snow professionals manage selection and  usage of Morton&rsquo;s complete line of professional ice melting products.  The primary goal of the application was to  utilize scientific research to identify the optimal Morton ice melter and  application rate for specific environmental conditions and surface area.  The app would essentially help snow  professionals save time by (by recommending products that work faster in given  conditions) and save money (by reducing melter over-application).</p>
+						<p><strong>Result</strong></p>
+						<p>Based on our client&rsquo;s requests, digi117&rsquo;s  team of professional developers created the Morton Salt Pro application that  takes input on external temperature conditions and surface area to identify the  most suitable ice melting product and application rate for the snow  professionals&rsquo; job. The application allows users to store and track site  information and also provides application guidance for &ldquo;non-optimal&rdquo; melters in  the event the snow professional does not have the app recommended melter  available.  The application makes it  easier for snow professionals to plan for snow events, and helps ensure  consumer safety by highlighting application rates and products that most  effectively keep sidewalks, driveways and steps clear of ice and snow.  </p>
+						<p><strong>App  Features: </strong></p>
+						<p>- Customizable work site catalog <br>
+							- Site detail histories including location  and area<br>
+							- Calculator to identify ice melter &amp;  quantity required<br>
+							- Air/ surface temperature logging <br>
+							- Work site surface area logging <br>
+							- Product recommendation capability <br>
+							- Morton Salt ice melting product library</p>
+						<p>Morton Salt Pro is compatible with iPhone,  iPad, iPod Touch and Android devices. It&rsquo;s a free application available for  download on the Apple App Store and Android Market. There is also a desktop  calculator tool available at <a href="http://www.mortonmelters.com">www.mortonmelters.com</a> for stationary use.</p>
+					</article>
+					
+					<span class="close js-tabs-close" data-tab-close="morton"></span>
+				</div>
+			</div>
+			
+			<div id="forest-content">
+				<!--<div class="tab-content">
+					
+					<div class="video">
+						<video class="sublime" controls preload="none" poster="images/0.gif" width="640" height="360">
+						  <source src="gallery/case_studies/midnight_sun_sv1_720p.mp4" data-quality="hd" type='video/mp4'>
+						  <source src="gallery/case_studies/midnight_sun_sv1_360p.mp4" type='video/mp4'>
+						  <source src="gallery/case_studies/midnight_sun_sv1_720p.webm" data-quality="hd" type='video/webm'>
+						  <source src="gallery/case_studies/midnight_sun_sv1_360p.webm" type='video/webm'>
+						</video>
+					</div>
+			
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>
+				<div class="tab-content">
+					<div class="imagegallery">
+						<div class="carousel-controls">
+							<a href="#" class="carousel-next scroll-next"></a>
+							<a href="#" class="carousel-prev scroll-prev"></a>
+						</div>
+						<div class="carousel-images">
+							<img src="gallery/case_studies/morton/morton3.png" alt="">
+							<img src="gallery/case_studies/morton/morton4.png" alt="">
+							<img src="gallery/case_studies/morton/recom_products2.jpg" alt="">
+							<img src="gallery/case_studies/morton/recom_products2-2.jpg" alt="">
+							<img src="gallery/case_studies/morton/U_01.png" alt="">
+							<img src="gallery/case_studies/morton/U_02.png" alt="">
+							<img src="gallery/case_studies/morton/U_03.png" alt="">
+							<img src="gallery/case_studies/morton/U_04.png" alt="">
+							<img src="gallery/case_studies/morton/U_05.png" alt="">
+						</div>
+					</div>
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>-->
+				<div class="tab-content">
+					
+					<article class="js-scroll">
+						<h2>Forest Preserve  District of Cook County</h2><br>
+						<p><strong>About  the company</strong></p>
+						<p>The Forest Preserve  District of Cook County is the United States&rsquo; largest and oldest forest  preserve system. Established in 1914, the District&rsquo;s attractions, programming  and services are very diverse and engaging. With Brookfield Zoo, Chicago  Botanic Garden, 10 golf courses, four driving ranges, three aquatic centers, 10  sledding hills, five snowmobiling areas, 263 picnic groves, forty lakes and  ponds, and 300 miles of paved and unpaved trails for visitors to enjoy, the  District is the premier provider of safe, enjoyable, and affordable family fun  in northeastern Illinois.</p>
+						<p><strong>Challenge</strong></p>
+						<p>Digi117 was approached  on behalf of the client in order to utilize our industry leading mobile  development team and unique creative strategies to build a versatile mobile  application for the Forest Preserve District of Cook County. This application would  be used to provide users with real-time access to a wide range of location-based  services while enjoying The Forest Preserve District of Cook County&rsquo;s many  attractions and public areas.</p>
+						<p><strong>Result</strong></p>
+						<p>Digi117&rsquo;s team of professional  developers guided this project from its initial conceptual stage to its final  execution. The end result of this work was the creation of The Forest Preserve  District of Cook County&rsquo;s application, in both iOS and BlackBerry compatible  variations. The application&rsquo;s central functionalities include providing users  with information about Cook County Forest Preserve District&rsquo;s many facilities,  assets, and events. For user convenience, accessing the application&rsquo;s vast  array of contents is done by navigating and reviewing dynamic, location-based  maps, and categorized informational sections. </p>
+						<p>Though a general search function is  included, information can be found via several other inquiry methods as well.  These include conducting searches by region, activity, or event, or by  selecting any one of the many push-pin icons present on the application&rsquo;s  interactive maps. Data for each location is presented on a separate screen and  includes a short description, as well as contact information for the given  event or location, driving directions, and photos.  Activity and Region search functions allow users to locate specified areas of  interest, such as &ldquo;Hiking&rdquo;, &ldquo;Golfing&rdquo;, &ldquo;Fishing&rdquo;, &ldquo;Nature center&rdquo;, etc. </p>
+						<p>Forest Preserve  District of Cook County application is compatible with iPhone, iPad, iPod Touch  and Blackberry devices. It is available for download on the Apple App Store and  BlackBerry App World.</p>
+					</article>
+					
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>
+			</div>
+			
+			
+			<div id="worldacademy-content">
+				<!--<div class="tab-content">
+					
+					<div class="video">
+						<video class="sublime" controls preload="none" poster="images/0.gif" width="640" height="360">
+						  <source src="gallery/case_studies/midnight_sun_sv1_1_450p.mp4" type='video/mp4'>
+						  <source src="gallery/case_studies/midnight_sun_sv1_1_450p.webm" type='video/webm'>
+						</video>
+					</div>
+					
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>
+				<div class="tab-content">
+					Forest Images
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>-->
+				<div class="tab-content">
+					
+					<article class="js-scroll">
+						<h2>World Academy Online </h2><br>
+						<p><strong>About the company</strong></p>
+						<p>ComboApp  is a mobile content publishing and marketing group. From acquiring content to  publishing and successful marketing solutions, ComboApp is committed to providing app  solutions for emerging mobile technologies and enthusiastic about future  expansion within this burgeoning industry. The company has brought over 300  mobile apps to market for every major smart-phone platform including iPhone,  iPad, Android and BlackBerry. ComboApp also actively promotes applications for  the Mac App Store, Apple's innovative new laptop/desktop app marketplace.</p>
+						<p><strong>Challenge</strong></p>
+						<p>As a digital  publishing group, ComboApp aims to differentiate itself from conventional  publishing companies both in its operations as well as its approach to  publishing as a whole. Starting with authored content, we set goal for  ourselves: To create complete Learning Systems in the form of mobile  applications had the capability to succeed at delivering practical educational  solutions across every major mobile platform. These applications were created  to assist people in studying professional fields ranging from business to  finance. In order to carry out this ambitious and immensely challenging project  - &ldquo;World Academy Online&rdquo; - ComboApp employed digi117&rsquo;s professional team.  Digi117&rsquo;s task was to execute a wide range of full-cycle mobile strategies and  solutions to connect customers with their education in new and innovative ways.</p>
+						<p><strong>Result</strong></p>
+						<p>Digi117&rsquo;s dedicated  efforts helped develop the World Academy Online brand from two independent  educational systems created specifically for the mobile marketplace – ComboBook™  and Learning To-Go™.</p>
+						<p>ComboBook™ represents a revolutionary new system for  self-education. This system creates a user-directed, interactive educational  system from any content without requiring preexisting flashcards, tests or  other study aides. It functions by converting stagnant text into dynamic and  interactive education. The basic principle is as follows: students read a  section of the text and before proceeding to the next section, they are asked a  series of questions that could include various types of tests. These tests  include: putting words in the right order, filling in the blanks within a short  paragraph, finishing a statement with the proper variation or true/false  questions. This learning system utilizes innovative new methods to analyze any  authored content and use it as a base to generate spontaneous study tools,  ultimately transforming content into and engaging and interactive experience  that is suitable for self-educational purposes. </p>
+						<p><strong>ComboBook Applications  Feature:</strong></p>
+						<ul>
+							<li>Outline functionality.</li>
+							<li>In-app content search.</li>
+							<li>Page flip animation.</li>
+							<li>Adaptive test generation capability.</li>
+							<li>Comprehensive text analysis  capability.</li>
+							<li>Text formatting functionality.</li>
+						</ul>
+						<p>Learning To-Go™ is a single-source learning solution. This is  a mobile educational system designed to encourage and enable independent study  of original, authored material. Learning To-Go titles are both informative and  affordable, providing users with a well-integrated, flexible learning  experience which they can utilize on the go from anywhere and at any time.  There are three primary categories in these innovative learning systems:</p>
+						<ul>
+							<li>Text- In the form of articles with  graphs, tables, formulas, pictures etc.</li>
+							<li>Flash Cards - Available for every  chapter to help learn and test the material</li>
+							<li>Tests - For every chapter there is a  set of questions to test students' retention of material</li>
+						</ul>
+						<p>Combining text, flashcards, and self-tests, each Learning  To-Go title creates a completely user-controlled educational experience. The  system tracks students&rsquo; retention of material and reports back to them with a  visual progress chart. Upon completion users will also have a solid understanding  of the many important market influences and economic conditions that affect  modern business and finance environments. More importantly, they will have  gained real-world knowledge to identify and implement the strategies they have  learned in order to achieve success in their own careers.</p>
+						<p><strong>Learning To-Go Applications Feature:</strong></p>
+						<ul>
+							<li>Full course text divided by chapter.</li>
+							<li>Interactive flashcards for subject  review.</li>
+							<li>Comprehensive chapter level tests.</li>
+							<li>Explanation of right and wrong  answers.</li>
+							<li>Comprehensive chapter level tests.</li>
+							<li>A bookmark.</li>
+							<li>A glossary.</li>
+							<li>Offline access to material, no  internet connection required.</li>
+						</ul>
+						<p>The applications included  into these learning systems are compatible with iPhone, iPad and iPod Touch and  are available for download on the Apple App Store.</p>
+					</article>
+					
+					<span class="close js-tabs-close" data-tab-close="worldacademy"></span>
+				</div>
+			</div>
+				
+			
+			
+			<div id="trickyourride-content">
+				<!--<div class="tab-content">
+					Forest Video
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>
+				<div class="tab-content">
+					Forest Images
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>-->
+				<div class="tab-content">
+					
+					<article class="js-scroll">
+						<h2>Trick Your Ride </h2><br>
+						<p><strong>About the Company</strong></p>
+						<p>XL Mobile Applications is an  innovative new mobile applications development studio. The organization is  focused on creating a diverse array of products for modern consumers that are  as practical as they are creative and engaging. </p>
+						<p><strong>Challenge</strong></p>
+						<p>The customer contacted digi117 knowing  its reputation as a company that provides its clients with full-cycle solutions  and strategies aimed to develop high-quality mobile applications and more  generally break clients through into the mobile limelight. By employing  digi117’s services XL Mobile Applications hoped to achieve two goals. First, to  develop a mass-market application that would allow users to customize photos of  their cars turning them into real objects of art, and second, to establish  themselves as contenders within the mobile arena.</p>
+						<p><strong>Result</strong></p>
+						<p>Digi117’s team of professionals took on  the challenge and created an entertaining mobile application Trick Your Ride.  It is intended for car enthusiasts who wish to playfully overhaul or remodel  photos of their vehicles. With this application users are free and welcome to  edit car pictures by choosing from over 100 accessories such as wheels,  spoilers, exhaust pipes, decals, vents, and many others. The application also allows  users to add exotic backgrounds to throw behind their rides taken either  straight from the user’s own mobile photo library, or from one or 10 included exotic  in-app environments. </p>
+						<p>To make the creative process even more  pleasant Trick Your Ride even provides users with a Music option that includes  five custom music tracks they can set and enjoy while constructing their dream  machine. Also it is possible to use a song from customer’s own iTunes music  library. </p>
+						<p>Keeping a social angle, Trick Your  Ride also allows users to both save the results of their creativity to their image  gallery, or upload them directly to Facebook to share with friends.</p>
+						<p>In regards to this project, digi117  managed to execute the client’s exact wishes and develop an application that is  both funny and entertaining, all while establishing the client themselves  within the mobile market place. </p>
+						<p>Trick Your Ride is compatible with the  iPhone, iPad, and iPod Touch, and is available for download on the Apple App Store.</p>
+					</article>
+					
+					<span class="close js-tabs-close" data-tab-close="trickyourride"></span>
+				</div>
+			</div>
+			
+			<div id="enneagram-content">
+				<!--<div class="tab-content">
+					Forest Video
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>
+				<div class="tab-content">
+					Forest Images
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>-->
+				<div class="tab-content">
+					
+					<article class="js-scroll">
+						<h2>Enneagram  Personality Full Test </h2>
+						<p><strong>About the company</strong></p>
+						<p>INTERSOG  is an international company with an extensive expertise in mobile application  development targeted towards a wide range of existing platforms and markets.  The company entered the mobile development industry in early 2007 and quickly  asserted itself as a leading application developer in this highly competitive  environment. INTERSOG currently focuses a majority of its development efforts  on applications for iOS devices but also creates projects for Android platforms  and provides development services for Windows and Blackberry platforms as well.  INTERSOG specializes in complete product life cycles that utilize a partnership  approach to client engagements and focuses on emerging technologies for a full  range of cutting-edge IT development services and turnkey solutions.</p>
+						<p><strong>Challenge</strong></p>
+						<p>The  Enneagram Personality Full Test (known as the RHETI) has been independently  scientifically validated to accurately identify the unique psychological makeup  of an individual’s personality. Over 300,000 Enneagram Personality Full Tests  have already been sold around the world in Chinese, Dutch, English, French,  German, Korean, Polish, Russian, Spanish, and Swedish. INTERSOG aimed to  develop a mobile application that would allow persons interested to take that  immensely popular test by means of their mobile devices. In order to make this  project a reality INTERSOG turned to its subsidiary digi117, a company most  skilled in providing full-cycle strategic marketing and development solutions  for creating unique mobile applications and breaking brands, products, and  businesses through into the mobile limelight.</p>
+						<p><strong>Result</strong></p>
+						<p>Digi117  staff’s efforts culminated in development of the Enneagram Personality Full  Test. This application recognizes 9 distinct personality types, the mix of  which varies in each individual. In most cases, the Enneagram Personality Full  Test reveals the user’s dominant personality type. Furthermore it indicates the  relative strengths of the other eight personality types present in their  psychological makeup. Results include personality type  descriptions, structural patterns, as well as relationship and growth  suggestions for each type.</p>
+						<p>Easily  completed in about 40 minutes, the Enneagram Personality Full Test is a  convenient tool for individuals as well as businesses and professionals, helping  them to increase their insight into themselves or their clients. People around  the world have found it exceptionally insightful and useful. Moreover, it is an  especially valuable tool for HR professionals, since it allows the user to  identify personality traits in existing employees in order to work with them  more effectively.</p>
+						<p>The  Enneagram Personality Full Test is compatible with iPhone, iPad, iPod Touch and  Android devices. It is available for download on both the Apple App Store as  well as the Android Market.</p>
+					</article>
+					
+					<span class="close js-tabs-close" data-tab-close="enneagram"></span>
+				</div>
+			</div>
+			
+			
+			<div id="3dcoloring_book-content">
+				<!--<div class="tab-content">
+					Forest Video
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>
+				<div class="tab-content">
+					Forest Images
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>-->
+				<div class="tab-content">
+					
+					<article class="js-scroll">
+						<h2>3D Coloring Book for Kids </h2><br>
+						<p><strong>About  the company</strong></p>
+						<p>ComboApp  is a mobile content publishing and marketing group. From acquiring content to  publishing and successful marketing solutions, ComboApp is committed to providing app  solutions for emerging mobile technologies and enthusiastic about future  expansion within this burgeoning industry. The company has brought over 300  mobile apps to market for every major smart-phone platform including iPhone,  iPad, Android and BlackBerry. ComboApp also actively promotes applications for  the Mac App Store.</p>
+						<p><strong>Challenge</strong></p>
+						<p>ComboApp takes pride  in being a company that provides a diverse array of mobile applications for  different target groups, catering to both adult and child users alike. On this  note, one of ComboApp&rsquo;s continuously expanding mobile projects is the development  of a series of kids&rsquo; applications that provide both entertainment and hold  educational value. This collection of applications – the 3D Coloring Book for  Kids collection – would allow children to color an array of differently themed  images on their mobile devices, developing their artistic abilities in a  dynamic, fun and easily accessible way. Unlike regular coloring apps, ComboApp  was driven to create an artistic app that would allow its users the freedom to roam  through a 3D canvas and freely color in classic pre-designed figures. Unlike  traditional coloring apps that simply mimicked the experience of coloring in  pages in a book, ComboApp&rsquo;s &ldquo;3D&rdquo; series would open up a whole virtual world for  children to explore and give color to.</p>
+						<p>To turn this concept into  a reality, ComboApp turned to its subsidiary - digi117. This company had a  wealth of experience in successfully bringing complex mobile application  concepts to fruition. </p>
+						<p><strong>Result</strong></p>
+						<p>Digi117&rsquo;s team of professional  developers set about building the framework that would become the basis of  ComboApp&rsquo;s 3D Coloring Book for Kids series. Their efforts culminated in the  creation and subsequent successful release of the original 3D Coloring Book for  Kids application. As of today the series includes 9 applications, each of which  are compatible with the iPhone, iPad and iPod Touch. This application franchise  includes:</p>
+						<ul>
+							<li>3D  Coloring Book for Kids: Seasons</li>
+							<li>3D  Coloring Book for Kids: Pets</li>
+							<li>3D  Coloring Book for Kids: The Gift</li>
+							<li>3D  Coloring Book for Kids: Fantasy Girls</li>
+							<li>3D  Coloring Book for Kids: World</li>
+							<li>3D  Coloring Book for Kids: Winter</li>
+							<li>3D  Coloring Book for Kids: Christmas</li>
+							<li>Paint  Me 3D: Airplanes</li>
+							<li>Coloring  Mix 3D (includes Winter, Fantasy Girls, Pets and Airplanes themes)</li>
+						</ul>
+						<p>The 3D Coloring Book  series found success on the App Store because it offered users something that  they hadn&rsquo;t experienced before. Young artists were given the freedom to explore  art and personal expression more deeply than was available in other more typical  coloring apps. The series&rsquo; pre-drawn 3D outlines of everything from house,  girls, pets, and other themes ensure that even the most inexperienced of  children can effectively create fluid and beautiful illustrations. As little  artists color in various portions of Coloring Book&rsquo;s canvas, changing hues and  shading effects are automatically added to create a realistic three dimensional  appearance.</p>
+						<p>With a remarkably  diverse and useful set of features, the 3D Coloring Book series was able to  maximize the freedom with which users could color in the virtual objects of  their choice. Apps even give users the ability to insert a variety of  animations to their newly drawn illustrations. </p>
+						<p>All  above mentioned applications are compatible with the iPhone, iPad and iPod  Touch, and are available for download on the Apple App Store.</p>
+					</article>
+					
+					<span class="close js-tabs-close" data-tab-close="3dcoloring_book"></span>
+				</div>
+			</div>
+			
+			
+			
+			<div id="hippie-content">
+				<!--<div class="tab-content">
+					Forest Video
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>
+				<div class="tab-content">
+					Forest Images
+					<span class="close js-tabs-close" data-tab-close="forest"></span>
+				</div>-->
+				<div class="tab-content">
+					
+					<article class="js-scroll">
+						<h2>Hippie Hippo </h2><br>
+						<p><strong>About  the company</strong></p>
+						<p>INTERSOG is an international company  with an extensive expertise in mobile application development targeted towards  a wide range of existing platforms and markets. The company entered the mobile  development industry in early 2007 and quickly asserted itself as a leading  application developer in this highly competitive environment. INTERSOG  currently focuses a majority of its development efforts on applications for iOS  devices but also creates projects for Android platforms and provides  development services for Windows and Blackberry platforms as well. INTERSOG  specializes in complete product life cycles that utilize a partnership approach  to client engagements and focuses on emerging technologies for a full range of  cutting-edge IT development services and turnkey solutions.</p>
+						<p><strong>Challenge</strong></p>
+						<p>Paying tribute to those customers who  use their mobile devices not only for everyday communication and business  matters, but for an entertainment as well, INTERSOG decided to develop a funny  and engaging mobile game that would be interesting to people of all ages. With  such a goal in mind INTERSOG turned to its subsidiary digi117 – a company with  extensive experience in developing unique and attractive mobile applications from  scratch – to create a mobile game that was as visually breathtaking as it was  engaging and rewarding to play. </p>
+						<p><strong>Result</strong></p>
+						<p>Digi117&rsquo;s team of professional  developers took on the challenge of creating Hippie Hippo, guiding the project  from its initial conceptual stage to its final execution, producing a vividly  rendered arcade style action-strategy game for iOS that could compete at the  highest levels of the Apple App Store&rsquo;s gaming market. Hippie Hippo is an  addicting arcade adventure that blends together vibrantly rendered cartoon  imagery with fast paced action, and strategically minded gameplay into one  entertaining package. Players are thrown into the shoes –  or more accurately skates – of Hippie the Hippo as he charges through the  arctic pushing every foe off of the ice into the frigid ocean without  accidentally skating or being bumped into the water himself. For ease of play,  users are provided with descriptions of each level and quick &lsquo;level repeat&rsquo;  options as well. Frustrated gamers can even unlock levels they can&rsquo;t beat by  simply buying a level pass via in-app purchase. </p>
+						<p><strong>General  game features include:</strong></p>
+						<ul>
+							<li>60 unique and diverse levels</li>
+							<li>Short level descriptions</li>
+							<li>Dynamic graphics</li>
+							<li>Powerful realistic physics engine</li>
+							<li>Game Score statistics and histories</li>
+							<li>Opportunity to buy the 1-level  passes via in-app purchase.</li>
+							<li>Original game soundtrack<br>
+							</li>
+						</ul>
+						<p>Hippie Hippo is compatible with the iPhone,  iPad and iPod Touch, and is available for download on the  Apple App Store.</p>
+					</article>
+					
+					<span class="close js-tabs-close" data-tab-close="hippie"></span>
+				</div>
+			</div>
+			
+			
+		
+			
+			
+			
+			<div id="casestudies">
+				<div id="morton" class="js-tabs tabs current" data-tab-content="morton-content">
+					<!--<a class="video" href="#"></a>
+					<a class="images" href="#"></a>-->
+					<a class="description" href="#"></a>
+				</div>
+				
+				<div id="forest" class="js-tabs tabs" data-tab-content="forest-content">
+					<!--<a class="video" href="#"></a>
+					<a class="images" href="#"></a>-->
+					<a class="description" href="#"></a>
+				</div>
+				
+				<div id="worldacademy" class="js-tabs tabs" data-tab-content="worldacademy-content">
+					<!--<a class="video" href="#"></a>
+					<a class="images" href="#"></a>-->
+					<a class="description" href="#"></a>
+				</div>
+				
+				<div id="trickyourride" class="js-tabs tabs" data-tab-content="trickyourride-content">
+					<!--<a class="video" href="#"></a>
+					<a class="images" href="#"></a>-->
+					<a class="description" href="#"></a>
+				</div>
+				
+				<div id="enneagram" class="js-tabs tabs" data-tab-content="enneagram-content">
+					<!--<a class="video" href="#"></a>
+					<a class="images" href="#"></a>-->
+					<a class="description" href="#"></a>
+				</div>
+				
+				<div id="3dcoloring_book" class="js-tabs tabs" data-tab-content="3dcoloring_book-content">
+					<!--<a class="video" href="#"></a>
+					<a class="images" href="#"></a>-->
+					<a class="description" href="#"></a>
+				</div>
+				
+				<div id="hippie" class="js-tabs tabs" data-tab-content="hippie-content">
+					<!--<a class="video" href="#"></a>
+					<a class="images" href="#"></a>-->
+					<a class="description" href="#"></a>
+				</div>
+			</div>
+			<!--END CASE STUDIES-->
+			
+		</div>
+		
+        <!--SERVICES-->
+        <div id="services">
+			<div class="bg"><div><img src="images/bg_services.png" width="839" height="150" alt="Services"></div></div>
+			<div class="wrapper js-scroll">
+				<article>
+                	<h3>Strategy</h3>
+					<p>As a full service mobile agency, digi117 will ensure your overall digital strategy is consistent, achievable and aligned with your business goals.</p>
+					<h3>Promotional Campaigns</h3>
+                    <p>Successful mobile campaigns are the product of planning and execution. digi117 will assist you with the definition of your mobile campaign whether the goal is maximum downloads, geo-targeted coupon delivery, generating Facebook interaction or maximizing in-app purchases. </p>
+					<p>Promotional Campaigns include:</p>
+                    <ul>
+                        <li>Marketing Buzz: Integration/Promotion with Facebook, Twitter, LinkedIn, blogs cross promotions</li> 
+                        <li>Viral Marketing: 3D Video, QR Code, NFC</li>
+                    	<li>Analytics and Consulting</li>
+                        <li>Mobile Marketing: App Development, Social Gaming, Co-Branding, cross promotions</li>
+                    </ul>
+                    <h3>Custom Mobile Application Development</h3>
+                    <p>digi117 has delivered over 500 mobile applications spanning categories from games to productivity apps.</p>
+                    <h3>Mobile Application Promotion</h3>
+                    <p>With millions of mobile apps available in every conceivable category, breaking through the clutter and noise with your app can be a challenge. digi117 are experts in ensuring your app is easily discovered and makes it to the highest ranking possible in the app store to ensure maximum downloads. We deliver custom app promotion solutions that includes:</p>
+                    <ul>
+                    	<li>Analytics and Consulting</li>
+                        <li>Pre-Launch</li>
+                        <li>Sales/Downloads Generation</li>
+                        <li>Social Media</li> 
+						<li>Media Outreach</li>
+                        <li>Advertising Campaigns</li>
+                        <li>Promotion Design</li> 
+                    </ul>
+					<h3>Community Management</h3>
+					<p>The digi117 team understands the critical importance to manage and integrate all relevant social media channels as a basic requirement for any successful mobile campaign efforts, game launches, or promotional activities in general. </p>
+					<p>Our campaigns focus on maximizing interaction with your target audience through Social Media channels including Facebook, Google+, Twitter, and various blogs, among others.</p>
+					<h3>Branded Game Development</h3>
+					<p>digi117 provides senior consultants to help you define an approach to the gaming component of your using the following framework:</p>
+					<ul>
+						<li>Achievement – the game engages users through a variety of game mechanics that support keeping score, earning points, earning branded game attributes for themselves and for their social community</li>
+						<li>Level System –games allow teams and individuals to compete against one another and get ranked to compete within categories such as region, league, community </li>
+						<li>Social – digi117 always finds a way to include social interaction whether it is teams made up of friends added from Social Media sites such as Facebook, Google+, or other integration points to allow users to notify and interact with their social media contacts</li>
+					</ul>
+					<h3>Social Gaming Infrastructure</h3>
+					<p>Through the development of the Zeniz Gaming Network, your gaming solution can now utilize the infrastructure that allows for millions of players to access your game and play simultaneously, while connecting to their social media community. It also allows us to manage the user base and deliver targeted marketing, enhanced gaming functionality and detailed analytics. </p>
+				</article>
+			</div>
+		</div>
+        <!--END SERVICES-->
+        
+		<!--SOLUTIONS-
+		<div id="solutions" class="select-no">
+			<div class="back"><img src="images/bg_main.jpg" width="1400" height="900" alt=""></div>
+			<div class="bg"><img id="solutions-bg" src="images/bg_solutions.png" width="1024" height="520" alt="">
+				<a  href="#typical" class="typical"></a>
+				<div class="list">
+					<a href="#mobileapp" title="Mobile App Development"></a>
+					<a href="#appmarketing" title="App Marketing and Promotion"></a>
+					<a href="#mobileweb" title="Mobile Web"></a>
+					<a href="#videoads" title="Mobile Video Ads"></a>
+					<a href="#planing" title="Mobile Media Planning and Buying"></a>
+					<a href="#messaging" title="Direct Messaging"></a>
+					<a href="#consumer" title="Consumer Responses and Sampling"></a>
+					<a href="#coupons" title="Mobile Coupons"></a>
+					<a href="#location" title="Location Based Engagement"></a>
+					<a href="#googlemaps" title="Google Maps Positioning"></a>
+					<a href="#socialgaming" title="Integration in Social Gaming"></a>
+					<a href="#viralvideo" title="Viral Video Creation"></a>
+					<a href="#cobranding" title="Co-branding Popular Apps"></a>
+					<a href="#datacollection" title="Data Collection and Reporting"></a>
+					<a href="#tracking" title="Tracking and Analytics"></a>	
+				</div>	
+			</div>
+		</div>-END SOLUTIONS-->
+		
+		<!--CONTACT-->
+		<div id="contact">
+			<div class="contact left">
+				<img src="images/bg_contact_chicago.jpg" width="690" height="679" alt="">
+				<img class="hover" src="images/bg_contact_chicago.jpg" width="690" height="679" alt="">
+				<div class="vcard adress">
+					<h1>Chicago</h1>
+					<div class="adr">
+						<span class="street-address">125 Jefferson St. 2010</span><br>
+						<span class="locality">Chicago</span>, <span class="region">Illinois 60661</span>
+					</div>
+					<div class="tel">773.305.0885</div>
+					<a class="email" href="mailto:contact@digi117.com">contact@digi117.com</a>
+				</div>	
+			</div>	
+		
+			<div class="contact right">
+				<img src="images/bg_contact_vancouver.jpg" width="690" height="679" alt="">
+				<img class="hover" src="images/bg_contact_vancouver.jpg" width="690" height="679" alt="">
+				<div class="vcard adress">
+					<h1>Vancouver</h1>
+					<div class="adr">
+						<span class="street-address">200-375 Water Str.</span><br>
+						<span class="locality">Vancouver</span>, <span class="region">BC V6B 5C6</span>
+					</div>
+					<div class="tel">604.379.1514</div>
+					<a class="email" href="mailto:contact@digi117.com">contact@digi117.com</a>
+				</div>
+			</div>
+		</div><!--END CONTACT-->
+		
+		<!--ABOUT-->
+		<div id="about">
+			<div class="bg"><div><img src="images/bg_about.png" width="839" height="176" alt="Who, How, & Why"></div></div>
+			<div class="wrapper">
+				<article>
+					<p>digi117 represents a new breed of digital strategy agency. We are more nimble and technology savvy. We adapt and execute faster. We rely on our experience and leading edge insights to define our approach. We are dedicated to provide our clients with successful campaigns in this tumultuous and transformative era.</p>
+					<p>We focus on YOU, our customer, and measure our success by the outcomes we deliver, not just the output. The cornerstone of our value is the depth, versatility and commitment of each and every member of the digi117 team. You’ll not find more dedication. You’ll not find more passion.</p>
+					<p>But you might find you had a lot of fun. Come play with us.</p>
+				</article>
+			</div>
+		</div><!--END ABOUT-->
+        
+        <!--PARTNERS-->
+        <div id="partners">
+			<div class="wrapper">
+				<div class="partner-block">
+                <a href="#zeniz"></a>
+                	<img src="images/part_zeniz.png" alt="Zeniz">
+                    <p>Zeniz is a company dedicated to creating best-in-breed social mobile games. Casino by Zeniz is the company's first major game launch on iPad and iPhone and shortly Android devices. The company expects to expand its portfolio of games in the near future, capitalising on the premise that Zeniz games are always mobile, always social and always have a twist!
+The company has been created by Digi117 in a joint venture between The United States Playing Card Company a subsidiary of Jarden Corporation.
+</p>
+                </div>
+                
+                <div class="partner-block">
+                <a href="http://intersog.com"></a>
+                	<img src="images/part_intersog.png" alt="Intersog">
+                    <p>INTERSOG is a global provider of mobile app and custom web solutions with over 5 years in the mobile apps development space.  INTERSOG assists clients in defining their mobile app roadmap supporting the strategic analysis, competitive landscape research, current reusable assets, and primary business drivers.  From marketing and promotion to operational efficiencies, INTERSOG delivers mobility solutions that bring unprecedented value in connectivity, availability, platform coverage and user analytics.
+</p>
+                </div>
+                
+                <div class="partner-block">
+                <a href="#work"></a>
+                	<img src="images/part_digi.png" alt="Digi117">
+                    <p>DAS is a world class graphics art and gaming studio producing a wide array of graphics, art and video production. DAS takes our client's ideas and transforms them into compelling digital images. Whether animating a game, mobile advertising or designing promotional displays, DAS will always surprise and delight you with their creative brand images and logos. View a sampling of the portfolio of our graphic team <a href="#work">here</a>.
+</p>
+                </div>
+                
+                <div class="partner-block">
+                <a href="http://comboapp.com"></a>
+                	<img src="images/part_comboapp.png" alt="ComboApp">
+                    <p>ComboApp is a Marketing & PR Agency dedicated towards providing custom app promotion solutions for mobile and web-based application developers. Operating across every major mobile platform the agency provides scalable marketing services that increase products' visibility within the marketplace, throughout social networks, and across web-based media outlets. ComboApp brings together creative talents and market analysis experts to conceptualize and execute everything from mobile-centric press and consumer outreach campaigns to advertising services and app monetization solutions.
+</p>
+                </div>
+			</div>
+        </div><!--END PARTNERS-->
+        
+        <!--PARTNERS INTERSOG-->
+        <div id="aboutisog">
+        	<div class="bg"><div><img src="images/bg_intersog.png" width="839" height="130" alt="Intersog"></div></div>
+			<div class="wrapper">
+            	<h3>About Intersog</h3>
+                <div class="succapp-sticker"></div>
+            	<div id="slides">
+                	<div class="slides_container">
+                		<div>
+                        	<img src="images/intersog_slider_01.png" alt="Space Weather" width="276" height="209">
+                        	<div class="slide_descript">
+                                <h3>Space WX by Utah University Space Weather Center for iOS and Android</h3><br><br>
+                                <p>This valuable App allows you to visualize multiple domains of space weather in the palm of your hand in near real-time. This application has been developed as a collaborative 
+                                educational project.</p>
+                            </div>
+                        </div>
+                        <div>
+                        	<img src="images/intersog_slider_01.png" alt="Space Weather" width="276" height="209">
+                            <div class="slide_descript">
+                                <h3>Space WX by Utah University Space Weather Center for iOS and Android</h3><br><br>
+                                <p>This valuable App allows you to visualize multiple domains of space weather in the palm of your hand in near real-time. This application has been developed as a collaborative 
+                                educational project.</p>
+                            </div>
+                        </div>
+                        <div>
+                        	<img src="images/intersog_slider_01.png" alt="Space Weather" width="276" height="209">
+                            <div class="slide_descript">
+                                <h3>Space WX by Utah University Space Weather Center for iOS and Android</h3><br><br>
+                                <p>This valuable App allows you to visualize multiple domains of space weather in the palm of your hand in near real-time. This application has been developed as a collaborative 
+                                educational project.</p>
+                            </div>
+                        </div>
+                        <div>
+                        	<img src="images/intersog_slider_01.png" alt="Space Weather" width="276" height="209">
+                            <div class="slide_descript">
+                                <h3>Space WX by Utah University Space Weather Center for iOS and Android</h3><br><br>
+                                <p>This valuable App allows you to visualize multiple domains of space weather in the palm of your hand in near real-time. This application has been developed as a collaborative 
+                                educational project.</p>
+                            </div>
+                        </div>
+                        <div>
+                        	<img src="images/intersog_slider_01.png" alt="Space Weather" width="276" height="209">
+                            <div class="slide_descript">
+                                <h3>Space WX by Utah University Space Weather Center for iOS and Android</h3><br><br>
+                                <p>This valuable App allows you to visualize multiple domains of space weather in the palm of your hand in near real-time. This application has been developed as a collaborative 
+                                educational project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            	<div class="about-isog">
+                <p>INTERSOG is an international company with an extensive expertise in mobile application development targeted towards a wide range of existing platforms and markets. That said, we currently focus a majority of our development efforts on applications for iOS devices as this is the most innovative and profitable platform in the mobile arena today. We also create projects for Android platforms, which are based on a framework developed by Google and the Open Handset Alliance, and is now the most promising and rapidly growing mobile OS. Furthermore, we provide development services for Windows and Blackberry platforms as well since we aim to provide mobile application solutions suited for use within the business world, an environment where these two platforms already hold established positions.<br><br>
+                INTERSOG specialiizes in complete product life cycles that utilize a partnership approach to client engagements, We focus on emerging technologies for a full range of cutting-edge IT development services and turnkey solutions, including:</p><br>
+                <ul>
+                	<li>Business Analysis and IT Consulting</li>
+                    <li>iPhone, iPod Touch and iPad development</li>
+                    <li>MAC App development</li>
+                    <li>Android Applications</li>
+                    <li>Blackberry development</li>
+                    <li>Samsung Bada development</li>
+                    <li>Microsoft Phone 7 development</li>
+                    <li>Game development (Open Gl, etc)</li>
+                    <li>UI Design, 2D and 3D customers design solutions</li>
+                    <li>Implementation, Integration, Maintenance</li>
+                    <li>Testing and Quality Assurance</li>
+                </ul>
+                </div>
+			</div>
+        </div><!--END PARTNERS INTERSOG-->
+        
+        <!--PARTNERS DIGI-->
+        <div id="aboutdigi">
+        	<div class="bg"><div><img src="images/bg_digi.png" width="839" height="130" alt="Digi"></div></div>
+			<div class="wrapper">
+ 				<div class="digi-text">
+                	<p><img src="images/icon_digi.png" width="48" height="24" alt="Digi117">fusce hendrerit congue lacus, id adipiscing purus adipiscing sed. Nunc sit ame7t augue in enim consectetur hendrerit. Vestibulum ut dui quis neque sollicitudin pellentesque sed varius metus. 
+                    Nullam dapibus laoreet turpis viverra ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, <img src="images/icon_digi.png" width="48" height="24" alt="Digi117">per inceptos himenaeos. Cras laoreet congue dolor, at viverra ligula euismod nec. 
+                    Phasellus viverra ullamcorper accumsan. Nam nec metus odio, non egestas est. Proin dapibus sodales erat, vestibulum gravida mi ultrices id.</p>
+                </div>
+                
+                <div class="subscribe">
+                	<p>Click here to receive new product information:</p>
+                    <input type="text" placeholder="Your email...">
+                    <input type="button" value="Subscribe">
+                </div>
+                <div class="info-support">
+                    <p>For Player Support Contact:<br>
+                    <a href="mailto:info@zeniz.com">info@zeniz.com</a><br>
+                    For Business inquiries:<br> 
+                    <a href="mailto:sales@zeniz.com">sales@zeniz.com</a>
+                    </p>
+                </div>
+			</div>
+        </div><!--END PARTNERS DIGI-->
+        
+        <!--PARTNERS COMBOAPP-->
+        <div id="aboutcomboapp">
+        	<div class="bg"><div><img src="images/bg_comboapp.png" width="839" height="130" alt="Digi"></div></div>
+			<div class="wrapper">
+            	<div id="apps-tabs">
+                    <div class="comboapp-tab visible">
+                        <img src="images/comboapp_screen.png" width="362" height="226" alt="We promote your mobile apps!">
+                        <h3>WE PROMOTE YOUR MOBILE APPS</h3>
+                        <div>
+                            ComboApp Marketing & PR Agency created a first-of-its-kind service to provide strategic, customized mobile and web-based app marketing plans 
+                            designed specifically for mobile and web-based app developers.
+                            <a href="#">Browse Shop</a>
+                        </div>
+                    </div>
+                    
+                    <div class="comboapp-tab">
+                        <img src="images/comboapp_screen.png" width="362" height="226" alt="We promote your mobile apps!">
+                        <h3>WE PROMOTE YOUR MOBILE APPS</h3>
+                        <div>
+                            ComboApp, customized mobile and web-based app marketing plans 
+                            designed specifically for mobile and web-based app developers.
+                            <a href="#">Browse Shop</a>
+                        </div>
+                    </div>
+                    
+                    <div class="comboapp-tab">
+                        <img src="images/comboapp_screen.png" width="362" height="226" alt="We promote your mobile apps!">
+                        <h3>WE PROMOTE YOUR MOBILE APPS</h3>
+                        <div>
+                            ComboApp Marketing & PR Agency created a first-of-its-kind service to provide strategic, customized mobile and web-based app marketing plans 
+                            designed specifically for mobile and web-based app developers.
+                            <a href="#">Browse Shop</a>
+                        </div>
+                    </div>
+                    
+                    <div class="comboapp-tab">
+                        <img src="images/comboapp_screen.png" width="362" height="226" alt="We promote your mobile apps!">
+                        <h3>WE PROMOTE YOUR MOBILE APPS</h3>
+                        <div>
+                            ComboApp Marketing & PR Agency created a first-of-its-kind service to provide strategic, customized mobile and web-based app marketing plans 
+                            designed specifically for mobile and web-based app developers.
+                            <a href="#">Browse Shop</a>
+                        </div>
+                    </div>
+                    
+                    <div class="comboapp-tab">
+                        <img src="images/comboapp_screen.png" width="362" height="226" alt="We promote your mobile apps!">
+                        <h3>WE PROMOTE YOUR MOBILE APPS</h3>
+                        <div>
+                            ComboApp Marketing & PR Agency created a first-of-its-kind service to provide strategic, customized mobile and web-based app marketing plans 
+                            designed specifically for mobile and web-based app developers.
+                            <a href="#">Browse Shop</a>
+                        </div>
+                    </div>
+                    
+                    <div class="comboapp-tab">
+                        <img src="images/comboapp_screen.png" width="362" height="226" alt="We promote your mobile apps!">
+                        <h3>WE PROMOTE YOUR MOBILE APPS</h3>
+                        <div>
+                            ComboApp Marketing & PR Agency created a first-of-its-kind service to provide strategic, customized mobile and web-based app marketing plans 
+                            designed specifically for mobile and web-based app developers.
+                            <a href="#">Browse Shop</a>
+                        </div>
+                    </div>
+                    <div class="appslist">
+                        <img src="images/comboapp_preview_01.png" width="76" height="76" alt="01" class="current">
+                        <img src="images/comboapp_preview_02.png" width="76" height="76" alt="01">
+                        <img src="images/comboapp_preview_03.png" width="76" height="76" alt="01">
+                        <img src="images/comboapp_preview_04.png" width="76" height="76" alt="01">
+                        <img src="images/comboapp_preview_05.png" width="76" height="76" alt="01">
+                        <img src="images/comboapp_preview_05.png" width="76" height="76" alt="01">
+                    </div>
+                </div>  
+                
+                <div class="know-more">
+                	<h3>Woud You like to know more?</h3>
+                    <a href="#">ComboApp<br>Services&Pricing</a>
+                </div>
+                
+                <div class="subscribe">
+                	<p>Click here to receive new product information:</p>
+                    <input type="text" placeholder="Your email...">
+                    <input type="button" value="Subscribe">
+                </div>
+                <div class="info-support">
+                    <p>For Player Support Contact:<br>
+                    <a href="mailto:info@zeniz.com">info@zeniz.com</a><br>
+                    For Business inquiries:<br> 
+                    <a href="mailto:sales@zeniz.com">sales@zeniz.com</a>
+                    </p>
+                </div>
+			</div>
+        </div><!--END PARTNERS COMBOAPP-->
+        
+        <!--ZENIZ-->
+        <div id="zeniz">
+            <div class="bg"><div><img src="images/bg_zeniz.png" width="845" height="148" alt="Zeniz"></div></div>
+			<div class="wrapper">
+            	<div class="zeniz-video">
+					<iframe width="840" height="457" src="http://www.youtube.com/embed/7H7ZC7wdp9E" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="downloadpdf">
+                	<p>Download the presentation leaflet for more<br>information about advertising possibilities.</p>
+                    <a class="button" href="promo_sheets-final.pdf">Download PDF</a>
+                </div>
+               <!-- <div class="subscribe">
+                	<p>Click here to receive new product information:</p>
+                    <input type="text" placeholder="Your email...">
+                    <input type="button" value="Subscribe">
+                </div>-->
+                <div class="info-support">
+                    <p>For Player Support Contact:<br>
+                    <a href="mailto:info@zeniz.com">info@zeniz.com</a><br>
+                    For Business inquiries:<br> 
+                    <a href="mailto:sales@zeniz.com">sales@zeniz.com</a>
+                    </p>
+                </div>
+			</div>
+        </div><!--END ZENIZ-->
+		
+		<!--OUR TEAM-->
+		<div id="ourteam">
+		<div class="wrapper">
+			<!--Vadim Chernrga-->
+			<span class="teamleader vadim active">
+				<div class="photo"><img src="gallery/photo_VChernega.png" width="110" height="110" alt="V.Chernega"><img class="gray" src="gallery/photo_VChernega.png" width="110" height="110" alt="V.Chernega"></div>
+				
+				<article>
+					<h2><span>digi117</span> Partner & CEO</h2>
+					<h2>Vadim Chernega</h2>
+					<p>
+						Vadim is a  digital industry veteran with over <br>
+						20 years of  experience under his belt. Part of that<br>
+						experience was spent in maritime business, where he traveled<br>
+						around the world leading the construction of world-class software<br>
+						systems at an eclectic array of international locales including the<br>
+						Ports of Amsterdam, Dublin,  Brisbane, Adelaide, and Shanghai among<br>
+						many others. His vision has helped found several successful businesses<br>
+						over years. Among these was Chicago's  own INTERSOG, a mobile software <br>
+						development  company. Most recently his passion for digital marketing <br>
+						has led Vadim to  focus his energy on DIGI117, a new creation brought <br>
+						to life by his  creative team. Vadim holds a Masters in Computer <br>
+						Science and an  internationally recognized MBA from Berlin's <br>
+						Steinbeis University. He's also a self-professed tennis <br>
+						enthusiast and  ASA certified sailing lover.
+					</p>
+					<a href="mailto:vchernega@digi117.com">vchernega@digi117.com</a>
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+			
+			
+			<!--Margaret Dickman-->
+			<span class="teamleader margaret">
+				<div class="photo"><img src="gallery/photo_MDickman.png" width="110" height="110" alt="M.Dickman"><img class="gray" src="gallery/photo_MDickman.png" width="110" height="110" alt="M.Dickman"></div>
+
+				<article>
+					<h2><span>digi117</span> Sales Director</h2>
+					<h2>Margaret Dickman</h2>
+					<p>
+						Margaret has been coordinating and arranging <br>
+						sales since 1996. Over a decade of experience selling IT <br>
+						solution services and a natural penchant for levity and persuasive drive <br>
+						inform her creative perspectives on effective sales strategies. Margaret holds <br>
+						client loyalty as her top priority and firmly believes that sales aught to be less <br>
+						driven by smoke and mirrors than by providing genuine solutions for equally <br>
+						genuine marketing or business challenges. It's a belief that has served her <br>
+						well, and one she's brought on board as a hallmark of her tenure at digi117. <br>
+						With an unbounded passion for creativity, Margaret can be found <br>
+						creating art and writing music when she's not <br>
+						negotiating projects with our clients.
+					</p>
+					<a href="mailto:mdickman@digi117.com">mdickman@digi117.com</a>
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+			
+			
+			<!--Julia Guzunova-->
+			<span class="teamleader julia">
+				<div class="photo"><img src="gallery/photo_JGuzunova.png" width="110" height="110" alt="J.Guzunova"><img class="gray" src="gallery/photo_JGuzunova.png" width="110" height="110" alt="J.Guzunova"></div>
+
+				<article>
+					<h2><span>digi117</span> COO</h2>
+					<h2>Julia Guzunova</h2>
+					<p>
+						Julia has spent  over five years in<br>
+						the IT and Mobile technology industries. In  that time she's<br>
+						become an expert on mobile industry marketing techniques.<br>
+						Over the years Julia's perennial motivation propelled her to rise<br>
+						from executing marketing plans for individual clients to leading the<br>
+						daily operations of ComboApp, a busy mobile marketing agency. She <br>
+						adeptly  implements global marketing strategies, and has proven herself <br>
+						flexible enough  to succeed everywhere from the Gaming software<br>
+						Industry to commercial B2B markets. Always determined to share her <br>
+						wisdom, Julia's  role as ComboApp's Marketing Director has let her<br>
+						pass on the keys to successful mobile marketing to her team. <br>
+						Besides doing  battle on the marketing front she also found <br>
+						Time to become  fluent in English, Russian, Greek, and <br>
+						French. She's also  been a life long dancing enthusiast, <br>
+						and is a classically  trained dancer.
+					</p>
+					<a href="mailto:jguzunova@digi117.com">jguzunova@digi117.com</a>
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+			
+			
+			<!--Roman Kolos-->
+			<span class="teamleader roman">
+				<div class="photo"><img src="gallery/photo_RKolos.png" width="110" height="110" alt="R.Kolos"><img class="gray" src="gallery/photo_RKolos.png" width="110" height="110" alt="R.Kolos"></div>
+
+				<article>
+					<h2><span>digi117</span> Product Director</h2>
+					<h2>Roman Kolos</h2>
+					<p>
+						Roman has over  four years of <br>
+						experience in leading  creatively minded technical <br>
+						teams to develop  successful mobile applications. As the<br>
+						Creative Analyst at digi117 Roman is responsible for analyzing<br>
+						the organization's applications and more generally keeping<br>
+						track of their creative and functional consistency as finished<br>
+						products. Combining proven technical skills together with a<br>
+						deep understanding of the mobile marketplace as a whole,<br>
+						Roman has built a successful track record of overseeing and<br>
+						managing the release of applications onto every <br>
+						major mobile  platform.	
+					</p>
+					<a href="mailto:rkolos@digi117.com">rkolos@digi117.com</a>
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+
+			<!--Igor Fedulov-->
+			<span class="teamleader igor">
+				<div class="photo"><img src="gallery/photo_IFedulov.png" width="110" height="110" alt="I.Fedulov"><img class="gray" src="gallery/photo_IFedulov.png" width="110" height="110" alt="I.Fedulov"></div>
+
+				<article>
+					<h2><span>digi117</span> Partner</h2>
+					<h2>Igor Fedulov</h2>
+					<p>
+						Igor has built a  reputation as<br>
+						a tech industry innovator on the technical and business<br>
+						fronts alike. Throughout a career spanning over fifteen years,<br>
+						Igor has balanced his technical roots and executive acumen with<br>
+						top-level involvement in high-profile projects for Volkswagen AG,<br>
+						Orbitz, and American Airlines. Throughout this time he never lost the<br>
+						energetic mind-set of a tech entrepreneur, a passion that led Igor to<br>
+						head a number of successful technical ventures before his ultimate<br>
+						appointment as the CEO of INTERSOG - a software/mobile application<br>
+						development company based in Chicago.  Igor holds an undergraduate<br>
+						degree in computer science and an MBA from the esteemed<br>
+						Steinbeis-Hochschule   University in Berlin. A lover of  everything<br>
+						outdoors, when he's out of the office Igor can likely be<br>
+						found strapped to a snowboard in the Rockies.
+					</p>
+					<a href="mailto:ifedulov@digi117.com">ifedulov@digi117.com</a>
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+			
+			<!--Bill-->
+			<span class="teamleader bill">
+				<div class="photo"><img src="gallery/photo_Bill.png" width="110" height="110" alt="Bill McGraw"><img class="gray" src="gallery/photo_Bill.png" width="110" height="110" alt="Bill McGraw"></div>
+
+				<article>
+					<h2><span>digi117</span> VP of Sales</h2>
+					<h2>Bill McGraw</h2>
+					<p>
+						Bill comes to digi117 with 20 years<br>
+						experience in sales & marketing within<br>
+						the interactive and mobile arena. Besides<br>
+						launching the first Hyper-local Indoor Location<br>
+						based Mobile Marketing program Bill has also started<br>
+						several businesses and executed plans for sales, marketing,<br>
+						product and service offerings, client management and pricing<br>
+						models. He is a very hands-on individual with innovative<br>
+						thinking and a personality that wants to get things done.<br>
+						Bill has spent the last 8 years in sunny southern<br>
+						California and now joins our Vancouver team. He<br>
+						firmly eschews the “be green” philosophy and<br>
+						rarely will be seen driving.
+					</p>
+					<!--<a href="mailto:dpoluyanov@digi117.com">dpoluyanov@digi117.com</a>-->
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+			
+			
+			<!--Max Rabinovitch-->
+			<span class="teamleader max">
+				<div class="photo"><img src="gallery/photo_MRabinovitch.png" width="110" height="110" alt="M.Rabinovitch"><img class="gray" src="gallery/photo_MRabinovitch.png" width="110" height="110" alt="M.Rabinovitch"></div>
+
+				<article>
+					<h2><span>digi117</span> Chief Creative Writer</h2>
+					<h2>Max Rabinovitch</h2>
+					<p>
+						Max is a writer and creative strategist<br>
+						 with experience spanning across multiple areas of business. <br>
+						Initially establishing himself as a technical writer and researcher <br>
+						within the IT industry, his experience with creative writing and design <br>
+						served as a catalyst to start building up a copywriting portfolio centered<br>
+						 around creative marketing and advertising content.  Years of eclectic <br>
+						experience writing everything from stories to mobile app content <br>
+						taught Max that great content is never one-dimensional - that<br>
+						 great technical work never lacks elements of creativity, or <br>
+						visa versa. It's an axiom he brings with him to digi117. <br>
+					</p>
+					<a href="mailto:mrabinovitch@digi117.com">mrabinovitch@digi117.com</a>
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+			
+			<!--Monti Samuel-->
+			<span class="teamleader monti">
+				<div class="photo"><img src="gallery/photo_Monti.png" width="110" height="110" alt="Monti Samuel"><img class="gray" src="gallery/photo_Monti.png" width="110" height="110" alt="Monti Samuel"></div>
+
+				<article>
+					<h2><!--<span>digi117</span> -->Exec. Assistant to the CEO</h2>
+					<h2>Monti Samuel</h2>
+					<p>
+						Monti joins digi117 with a wealth of experience in differing<br>
+						disciplines. She earned her Marketing degree at Syracuse University,<br>
+						NY and began her Masters at Cornell University, NY only to leave and start<br>
+						her own business and subsequently join several start ups in Silicon Valley in the<br>
+						late 90s. She has been in the resort development and marketing field for the<br>
+						past 2 years in the Caribbean and has returned to her technology side by<br>
+						joining digi117 in Vancouver. In between she has criss crossed the world<br>
+						from North America to Asia and Africa and in her spare<br>
+						time you will find Monti parked at one of the<br>
+						numerous restaurants in Vancouver,<br>
+						she is our local gourmand.
+					</p>
+					<!--<a href="mailto:dpoluyanov@digi117.com">dpoluyanov@digi117.com</a>-->
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+			
+			<!--Denis Poluyanov-->
+			<span class="teamleader denis">
+				<div class="photo"><img src="gallery/photo_DPoluyanov.png" width="110" height="110" alt="D.Poluyanov"><img class="gray" src="gallery/photo_DPoluyanov.png" width="110" height="110" alt="D.Poluyanov"></div>
+
+				<article>
+					<h2><span>digi117</span> Art Director</h2>
+					<h2>Denis Poluyanov</h2>
+					<p>
+						Denis is a  specialist in dynamic and graphically <br>
+						original 3D  animation. He has more than a decade of <br>
+						experience  working in Advertising and over seven years worth <br>
+						of experience in  creative team management. Denis believes in <br>
+						employing a  production style that blends effective management <br>
+						with creativity  as the central modus operandi for the teams he leads, <br>
+						an approach that  has led him to a near flawless track record of <br>
+						providing par-setting  animations to clients. With his accumulated<br>
+						management savvy and artistic prowess Denis has been able to <br>
+						develop impressive  3D animations and videos that are as <br>
+						technically viable as they are stylistically  bold.
+					</p>
+					<a href="mailto:dpoluyanov@digi117.com">dpoluyanov@digi117.com</a>
+				</article>
+				
+				<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				
+				<div class="blur">
+					<article>
+						<img src="images/ourteam_disabled.png" width="464" height="369" alt="">
+					</article>
+					<div class="arc"><div><div class="line"></div></div><span class="dot1"></span><span class="dot2"></span></div>
+				</div>
+			</span>
+		</div>
+		</div><!--END OUR TEAM-->
+		
+		<!--JOBS-->
+		
+		
+		<!--END JOBS-->
+		
+	</div><!--END CONTENT-->
+
+</div><!--END WRAPPPER-->
+
+
+
+
+
+<!--FOOTER-->
+<footer id="footer" class="select-no">
+	<div id="scroller" class="scrollable js-tabs" data-tab-content="casestudies">
+		<div class="items">
+			<div>
+			<a href="#morton">
+				<img src="gallery/work/thumb_morton.png" width="174" height="135" alt="">
+				<img class="hover" src="gallery/work/thumb_morton.png" width="174" height="135" alt=""></a>
+			<a href="#forest">
+				<img src="gallery/work/thumb_forest.png" width="174" height="135" alt="">
+				<img class="hover" src="gallery/work/thumb_forest.png" width="174" height="135" alt=""></a>
+			<a href="#michigan">
+				<img src="gallery/work/thumb_michigan.png" width="174" height="135" alt="">
+				<img class="hover" src="gallery/work/thumb_michigan.png" width="174" height="135" alt=""></a>
+			<a href="#o_reilly">
+				<img src="gallery/work/thumb_o_reilly.png" width="174" height="135" alt="">
+				<img class="hover" src="gallery/work/thumb_o_reilly.png" width="174" height="135" alt=""></a>
+			<a href="#carfax">
+				<img src="gallery/work/thumb_carfax.png" width="174" height="135" alt="">
+				<img class="hover" src="gallery/work/thumb_carfax.png" width="174" height="135" alt=""></a>
+			</div>
+			
+			<div>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			</div>
+			<div>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			<a href="#">
+				<img src="images/0.gif" width="174" height="135" alt="">
+				<img class="hover" src="images/0.gif" width="174" height="135" alt=""></a>
+			</div>
+
+		</div>
+	</div>
+	<div class="scroll-prev"></div>
+	<div class="scroll-next"></div>
+	
+	<div id="solutionbar">
+		<a href="#typical"><img src="gallery/solutions/icon_typical.png" alt="Typical Workflow" width="68" height="68"><div><h5>Typical Workflow</h5></div></a>
+		<a href="#mobileapp"><img src="gallery/solutions/icon_mobileapp.png" alt="Mobile App Development" width="68" height="68"><div><h5>Mobile App Development</h5></div></a>
+		<a href="#appmarketing"><img src="gallery/solutions/icon_appmarketing.png" alt="App Marketing and Promotion" width="68" height="68"><div><h5>App Marketing and Promotion</h5></div></a>
+		<a href="#mobileweb"><img src="gallery/solutions/icon_mobileweb.png" alt="Mobile Web" width="68" height="68"><div><h5>Mobile Web</h5></div></a>
+		<a href="#videoads"><img src="gallery/solutions/icon_videoads.png" alt="Mobile Video Ads" width="68" height="68"><div><h5>Mobile Video Ads</h5></div></a>
+		<a href="#planing"><img src="gallery/solutions/icon_planing.png" alt="Mobile Media Planning and Buying" width="68" height="68"><div><h5>Mobile Media Planning and Buying</h5></div></a>
+		<a href="#messaging"><img src="gallery/solutions/icon_messaging.png" alt="Direct Messaging" width="68" height="68"><div><h5>Direct Messaging</h5></div></a>
+		<a href="#consumer"><img src="gallery/solutions/icon_consumer.png" alt="Consumer Responses and Sampling" width="68" height="68"><div><h5>Consumer Responses and Sampling</h5></div></a>
+		<a href="#coupons"><img src="gallery/solutions/icon_coupons.png" alt="Mobile Coupons" width="68" height="68"><div><h5>Mobile Coupons</h5></div></a>
+		<a href="#location"><img src="gallery/solutions/icon_location.png" alt="Location Based Engagement" width="68" height="68"><div><h5>Location Based Engagement</h5></div></a>
+		<a href="#googlemaps"><img src="gallery/solutions/icon_googlemaps.png" alt="Google Maps Positioning" width="68" height="68"><div><h5>Google Maps Positioning</h5></div></a>
+		<a href="#socialgaming"><img src="gallery/solutions/icon_socialgaming.png" alt="Integration in Social Gaming" width="68" height="68"><div><h5>Integration in Social Gaming</h5></div></a>
+		<a href="#viralvideo"><img src="gallery/solutions/icon_viralvideo.png" alt="Viral Video Creation" width="68" height="68"><div><h5>Viral Video Creation</h5></div></a>
+		<a href="#cobranding"><img src="gallery/solutions/icon_cobranding.png" alt="Co-branding Popular Apps" width="68" height="68"><div><h5>Co-branding Popular Apps</h5></div></a>
+		<a href="#datacollection"><img src="gallery/solutions/icon_datacollection.png" alt="Data Collection and Reporting" width="68" height="68"><div><h5>Data Collection and Reporting</h5></div></a>
+		<a href="#tracking"><img src="gallery/solutions/icon_tracking.png" alt="Tracking and Analytics" width="68" height="68"><div><h5>Tracking and Analytics</h5></div></a>	
+		<span class="listofsolutions"></span>
+	</div>
+	
+	<p>&copy; digi117 <script>document.write(new Date().getFullYear())</script>, all rights reserved</p>
+</footer><!--END FOOTER-->
+<!--Javascript initialization-->
+<!--<script type="text/javascript" src="http://cdn.sublimevideo.net/js/w5ks63wt.js"></script>-->
+<script type="text/javascript" src="js/plugins/mediaquery.js"></script>
+<script type="text/javascript" src="js/plugins/Tab.js"></script>
+<!--<script type="text/javascript" src="js/plugins/scrollArea.js"></script>-->
+<script>
+	if (jQuery.browser.msie && jQuery.browser.version.slice(0,1)<=7) {}
+	else {document.write('<script type="text/javascript" src="js/plugins/scrollArea.js"></'+'script>')}
+</script>
+
+<script type="text/javascript" src="js/casestudies/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="js/casestudies/imagegallery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<div style="display:none;">
+	<script type="IN/Login"></script>
+</div>	
+<!-- Google Analytics-->
+	<script type="text/javascript">GA('UA-829072-21')</script>
+<!-- Google Analytics-->
+
+
+</body>
+</html>

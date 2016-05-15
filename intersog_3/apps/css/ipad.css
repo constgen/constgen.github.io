@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*iPad styles*/
+
+/*intersog.css*/
+#header {
+	height: 110px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#mainmenu {
+	top: 30px;
+	bottom: auto;
+}
+
+section p {
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.sectionHeader h1, h2{
+	margin-bottom: 17px;
+}
+
+/*style.css*/
+section .introduction{
+	padding: 13px 30px 5px;
+}
+
+#subMenu{margin-bottom: 5px;}
+
+#subMenu a, aside #asideSubMenu a{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.sectionContent article .artBody{
+	height: 67px;
+	line-height: 16px !important;
+}

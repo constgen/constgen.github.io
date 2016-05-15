@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+#contact-form {
+	margin: 0 10px 10px;
+	padding: 10px;
+	background: white;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+	#contact-form .headerWrap {
+		margin: 0 -10px;
+		border-bottom: 1px solid #e7e7e7;
+	}
+	#contact-form h4 {
+		text-align: center;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #424242;
+		margin: 0 0 5px 0;
+	}
+
+		#contact-form form {
+			padding-top: 10px;
+		}
+
+		#contact-form form textarea {
+			vertical-align: top;
+		}
+
+	#contact-form .nda label {
+		width: auto;
+		margin-bottom: 1.5em;
+	}
+	#contact-form .nda .cb_emulator {
+		display: inline-block;
+		width: 58px; height: 29px;
+		vertical-align: middle;
+		margin-right: 10px;
+		cursor: pointer;
+
+		background: url(images/checkbox.png) 0 0 no-repeat;
+		background-size: 100% auto;
+	}
+		#contact-form .nda .cb_emulator.off {background-position: 0 -29px;}
+
+	#contact-form .nda input {
+		visibility: hidden;
+	}
+
+
+
+
+
+	#contact-form button, #contact-form .button {
+		display: block;
+		width: 100%;
+	}
+
+
+
+@media 	only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) { 
+	#contact-form .nda .cb_emulator 
+		{background: url(images/checkbox@1.5x.png) 0 0 no-repeat;	
+		background-size: 100% auto;}
+}
+
+
+@media 	only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) { 
+	#contact-form .nda .cb_emulator 
+		{background: url(images/checkbox@2x.png) 0 0 no-repeat;
+		background-size: 100% auto;}
+}

@@ -1,0 +1,103 @@
+﻿@charset "utf-8";
+
+
+.careersMajorLocations {}
+.careersMajorLocations h2 {
+	margin: 0 0 20px;
+	color: 121820;
+}
+.careersMajorLocations p {
+	margin: 0 0 20px 0;
+}
+
+.careersMajorLocations table {
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+}
+.careersMajorLocations address {
+	font-style: normal;
+	margin-bottom: 20px;
+}
+.careersMajorLocations address p {
+    margin-bottom: 0;
+}
+.careersMajorLocations table td:first-child {
+    padding-right: 20px;
+    vertical-align: top;
+}
+.careersMajorLocations table tbody tr td table tbody tr td ul:first-child {
+	padding-right: 15px;
+}
+.careersMajorLocations article,
+.careersMajorLocations .article {
+	margin: 20px 0;
+	padding: 0;
+}
+
+.careersMajorLocations article img {
+	margin: 0;
+}
+
+.careersMajorLocations h2 {
+    color: #121820;
+    font-size: 24px;
+}
+
+
+.careersMajorLocations ul li {
+    background: url(images/bg_li.png) no-repeat scroll left 6px transparent;
+    list-style: none outside none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+}
+.careersMajorLocations h1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.careersMajorLocations ol {
+    margin: 0;
+    padding: 0;
+    width: 465px;
+}
+.careersMajorLocations ol li {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+.careersMajorLocations ol li + li,
+.careersMajorLocations ol li + li + li {
+    width: 150px;
+    height: 125px;
+    overflow: hidden;
+}
+.careersMajorLocations ol li img {
+    width: 100%;
+}
+.careersMajorLocations ol li:before {
+	width: 0;
+	height: 0;
+	content: ''
+}
+.careersMajorLocations ol li:first-child {
+	margin-right: 10px;
+    border: 1px solid #DFDFDF;
+}
+.careersMajorLocations ul.twoColumns  li {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+
+.careersMajorLocations .table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}

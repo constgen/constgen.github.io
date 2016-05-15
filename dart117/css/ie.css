@@ -1,0 +1,192 @@
+.btn,
+[type="submit"],
+[type="button"] {
+	display:inline-block;
+	*display: inline;
+	zoom:1;
+	width:250px;
+	height: 40px;
+	padding:0;
+	margin: 5px !important;
+
+	background: url(../images/btn-sprite-fixed.png) 0 0 no-repeat;
+	background-color: transparent !important;
+	border:none !important;
+}
+.btn:hover,
+[type="submit"]:hover,
+[type="button"]:hover  {
+	background-position: 0 -40px;
+	background-color: transparent;
+	color: #171717;
+}
+.btn:active,
+[type="submit"]:active,
+[type="button"]:active  {
+	background-position: 0 -80px;
+	color: #171717;
+}
+
+.btn.large {
+	font-size: 16px;
+	padding: 0;
+	margin: 5px;
+	text-transform: uppercase;
+}
+
+
+
+
+.btn.orange {
+	height:47px;
+	background-position: 0 -140px;
+}
+.btn.orange:hover {
+	background-position: 0 -187px;
+}
+.btn.orange:active {
+	background-position: 0 -234px;
+}
+
+
+
+
+.btn.blue {
+	height:47px;
+	background-position: 0 -301px;
+	color: #fff;
+}
+.btn.blue:hover {
+	background-position: 0 -348px;
+}
+.btn.blue:active {
+	background-position: 0 -395px;
+	color: #171717;
+}
+
+
+
+/* Special buttons
+------------------------ */
+/* Arrows */
+
+.btn.arrow {
+	padding: 0 60px 0 20px;
+	width:auto;
+	height: 45px;
+	background: url(../images/sprite-arrows.png) 0 0 no-repeat;
+}
+
+.btn.arrow:after{
+	content: '';
+	display: none;
+}
+
+.btn.arrow.right		{background-position: right    0  ;}
+.btn.arrow.right:hover	{background-position: right  -45px;}
+.btn.arrow.right:active	{background-position: right  -90px;}
+
+.btn.arrow.left			{background-position: left  -155px;}
+.btn.arrow.left:hover	{background-position: left  -200px;}
+.btn.arrow.left:active	{background-position: left  -245px;}
+
+.btn.arrow.down			{background-position: right -310px;}
+.btn.arrow.down:hover	{background-position: right -355px;}
+.btn.arrow.down:active	{background-position: right -400px;}
+
+.btn.arrow.up			{background-position: right -465px;}
+.btn.arrow.up:hover		{background-position: right -510px;}
+.btn.arrow.up:active	{background-position: right -555px;}
+
+.btn.arrow.left {
+	padding-right:0; 
+	padding-left:60px;
+}
+
+
+
+/* Delete */
+.btn.delete {
+	width: 40px; 
+	height:40px;
+	background: url(../images/btn-sprite-fixed.png) 0 -997px no-repeat;
+	
+}
+.btn.delete:hover {
+	background: url(../images/btn-sprite-fixed.png) -40px -997px no-repeat;
+}
+.btn.delete:active {
+	background: url(../images/btn-sprite-fixed.png) -80px -997px no-repeat;
+}
+.btn.delete:after{
+	display: none;
+	content: "";
+}
+
+
+
+
+
+/* Request a proposal */
+.btn.request {
+	height: 68px;
+	width: 300px;
+	padding:0;
+	background-position: 0 -462px;
+	color: #1a1a1a;
+	font-size: 21px;
+}
+.btn.request:hover {
+	background-position: 0 -530px;
+}
+.btn.request:active {
+	background-position: 0 -598px;
+}
+
+
+
+
+
+
+/* Advices */
+.btn.advice {
+	width: 97px;
+	height:97px;
+	padding: 0;
+	background-position: 0 -686px;
+}
+.btn.advice.botLeft 		, .btn.advice.bot-left 			, .btn.advice.botleft 			{background-position:    0   -686px;}
+.btn.advice.botLeft:hover	, .btn.advice.bot-left:hover	, .btn.advice.botleft:hover 	{background-position:    0   -783px;}
+.btn.advice.botLeft:active	, .btn.advice.bot-left:active	, .btn.advice.botleft:active	{background-position:    0   -880px;}
+
+.btn.advice.botRight		, .btn.advice.bot-right			, .btn.advice.botright			{background-position:  -97px -686px;}
+.btn.advice.botRight:hover	, .btn.advice.bot-right:hover	, .btn.advice.botright:hover	{background-position:  -97px -783px;}
+.btn.advice.botRight:active	, .btn.advice.bot-right:active	, .btn.advice.botright:active	{background-position:  -97px -880px;}
+
+.btn.advice.topRight		, .btn.advice.top-right			, .btn.advice.topright			{background-position: -194px -686px;}
+.btn.advice.topRight:hover	, .btn.advice.top-right:hover	, .btn.advice.topright:hover	{background-position: -194px -783px;}
+.btn.advice.topRight:active	, .btn.advice.top-right:active	, .btn.advice.topright:active	{background-position: -194px -880px;}
+
+.btn.advice.topLeft 		, .btn.advice.top-left 			, .btn.advice.topleft 			{background-position: -291px -686px;}
+.btn.advice.topLeft:hover	, .btn.advice.top-left:hover	, .btn.advice.topleft:hover 	{background-position: -291px -783px;}
+.btn.advice.topLeft:active	, .btn.advice.top-left:active	, .btn.advice.topleft:active 	{background-position: -291px -880px;}
+
+
+
+
+
+
+/* Submit */
+.btn.submit,
+[type="submit"] {
+	height:47px;
+	background-position: 0 -1057px;
+}
+.btn.submit:hover,
+[type="submit"]:hover {	
+	background-position: 0 -1104px;
+}
+.btn.submit:active,
+[type="submit"]:active {
+	background-position: 0 -1151px;
+}

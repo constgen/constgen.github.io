@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+
+.careers
+{
+}
+.careers .leftSide,
+.careers .rightSide {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    *float: left;
+}
+.careers .leftSide {
+    margin-right: 17px;
+    width: 670px;
+}
+
+.careers .rightSide {
+    padding-top: 110px;
+    width: 225px;
+    *float: left;
+}
+
+.careers .rightSideLast {
+    display: inline-block;
+    padding-top: 0;
+    width: 225px;
+}
+.careers ul.location {
+    padding: 15px 0;
+}
+.careers ul.location li {
+    display: inline-block;
+    margin-left: 0;
+    padding-left: 0;
+    background: none;
+    font-size: 16px;
+}
+.careers ul.location li:before {
+    width: 0;
+    height: 0;
+    display: none;
+    background: none;
+}
+.careers h2 {
+    color: #000;
+}
+.careers p {
+    font-size: 16px;
+}
+.careers hr {
+    margin: 10em auto 0;
+}
+.careers hr.afterArticle {
+    margin: 0 auto 25px;
+}
+
+.careers .rightSide a,
+.careers .rightSideLast a {
+    background: none repeat scroll 0 0 #003F77;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    vertical-align: middle;
+    width: 225px;
+}
+.careers .rightSide a:hover,
+.careers .rightSideLast a:hover {
+    background: #07355E;
+}
+.careers .attachResumeBlock {
+    margin-bottom: 25px;
+    background: #F4F4F4;
+    padding: 15px 18px 0;
+}
+.careers .attachResumeBlock .leftSide {
+    width:634px;
+}

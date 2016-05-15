@@ -1,0 +1,21 @@
+#orderCheckout {
+	overflow: hidden;
+	background: rgba(255,255,255,0.45);
+}
+	#orderCheckout h2 {
+		padding: 25px;
+		margin: 0;
+	}
+
+	#orderCheckout .columnLeft{
+		float:left;
+		width: 460px;
+	}
+	#orderCheckout .columnRight{
+		float:right;
+		width: 435px;
+	}
+
+	#orderCheckout .accordion {
+		margin-top: 25px;
+	}

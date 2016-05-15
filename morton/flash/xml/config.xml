@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<preloadassets>
+		<asset weight="110" type="swf" page="">Fonts.swf</asset>
+		<asset weight="153" type="swf" page="">Container.swf</asset>
+		<asset weight="900" type="flv" page="consumer">LandingConsumer.flv</asset>
+		<asset weight="900" type="flv" page="commercial">LandingCommercial.flv</asset>
+		<asset weight="10" type="xml" page="">mortonnews.xml</asset>
+	</preloadassets>
+	<!-- **********************
+		   WINTER TIPS POPUPS
+		 ********************** -->
+	<popups>
+		<!-- FOR PET -->
+		<item id="safepets">
+			<title>KEEPING PETS SAFE THIS WINTER</title>
+			<body>Walking in a winter wonderland can be hazardous for our four-legged friends. "The winter months can be a very dangerous and uncomfortable period for pets," says Dr. Sharon Gwaltney-Brant, a veterinarian and board-certified toxicologist. With the help of Dr. Gwaltney-Brant, Morton Salt, Inc. provides a few tips for keeping your pets safe this snowy season:</body>
+			<bullets>
+				<item>Remember Their Tags – Dogs may love to frolic in the snow, but they can easily lose their scent and become lost in all that white. More dogs go missing in the winter than any other season, so keep them on a leash and ensure they are always wearing an ID tag.</item>
+				<item><![CDATA[Protect Those Paws – The salted sidewalks and streets are very hard on pets' paws – but there is a solution. Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup>, developed with veterinarians, is a salt free and chloride free ice melter which melts below 15 degrees Fahrenheit. Its urea-based, organic formula is non-toxic and non-irritating to pet's paws and stomachs. Some other ice melters on the market mislead consumers regarding how well the product melts and how safe the product is. For example, when testing was conducted by Michigan Technological University Keweenah Snow Research Center, the Safe Paw<sup>TM</sup> ice melt product did not melt snow and ice at sub-zero temperatures as claimed. Other brands claim to be pet-safe but actually contain chlorides which can be harmful to pets digestive systems if ingested and which can be painful or irritating to pets' paws. So make sure you look for a chloride free melter from a company you can trust to validate claims and put safety first. ]]></item>
+				<item>Avoid Toxic Temptations – The sweet taste of antifreeze solution is attractive to pets, but is highly toxic even in the smallest amounts. Be sure to keep all chemicals sealed on a high shelf, away from your furry friends, and clean up spills as soon as they happen. </item>
+				<item>Winter Weight, Be Gone – Just like humans, animals are less active in the winter and don't burn as many calories. Keep your pets healthy by reducing their diet to avoid winter weight gain. Speak with your veterinarian about proper diets during "hibernation" season.</item>
+				<item>Warm Home, Cold Floors – It is important to remember that although your home may be warm, there may still be drafty areas. Make sure your pets have something soft to sleep on (away from drafts) to protect them from the cold floor.</item>
+				<item>Holiday Treats for Humans Only – When throwing those much anticipated holiday parties, be sure to keep all chocolate, macadamia nuts, alcohol and even mistletoe and holly berries out of reach. Although seemingly harmless –these can be dangerous if ingested by pets. </item>
+				<item>Running Out, Be Back Soon – Do not leave your dog in a car during the winter months. This enclosed space freezes fast, so if you are running errands be sure to leave your pet at home in the warmth of your home or keep them by your side when out and about.</item>
+				<item>Wipe Down To Stop Whining – In addition to selecting a pet-friendly ice melter, be sure to towel off your pet after time outside to remove salt and other irritants from their paws and skin. At the same time, inspect the paw pads for any collection of snow or ice to ward off winter weather problems.</item>
+			</bullets>
+		</item>
+		<!-- FOR HOME -->
+		<item id="winterizehome">
+			<title>WINTERIZING YOUR HOME</title>
+			<body>As temperatures dip and snow flakes start to fall, your home will require extra maintenance to keep it in top notch shape throughout the winter. Here are a few tips from Morton Salt, Inc., the maker of Morton's line of specialty ice melter products, to help you prepare your home for cold weather.</body>
+			<bullets>
+				<item>Smart Stock Up: Be ready for that first storm. Stock your car and garage with appropriate winter supplies, such as shovels, ice scrapers, ice picks, blankets, and etc. Check any older snow blowers, shovels, and ice scrapers for damage, and replace or repair any that are damaged or worn before the first snowfall. Don't forget to keep walkways clear of ice and snow and safe for your family and neighbors by using ice melters! Look for a brand you can trust like Morton, who uses third party or laboratory testing to validate ice melter performance claims. Purchase melters specifically designed to melt in your area's climate and that meet your winter needs. From pet safe to extreme weather and fast-acting products, Morton's line of ice melters is designed to meet your everyday ice melting needs.</item>
+				<item>Careful Clean Up: The harsh winter weather can be rough on your plants and lawn. Snow, wind, sleet and ice can result in weak tree trunks and broken branches that can damage your house, car, or even worse, someone on your property. When the weather starts to cool, don't forget to trim your trees and get rid of dead branches. Also be sure to clean the gutters on your house to prevent water from building up and freezing. Your flowers need to be covered as well, so they are safe and ready for Spring!</item>
+				<item>Homey Heat Up: This may seem like a no-brainer, but always be cognizant of the temperature inside the home, keeping it at least 65 degrees Fahrenheit. If it is any colder, you risk the chance of pipes freezing, which can crack and spew gallons of water throughout your home. Don't forget to drain the outdoor hoses as well.</item>
+				<item><![CDATA[Cautious Check Up: Check all doors and windows for cracks or areas where cold air could seep in, using caulk and weatherstripping to fix and prevent this problem. Make sure all steps, handrails, sidewalks and driveways are in good shape. Broken stairs and cracked cement become even more dangerous when covered with snow and ice. All deicers can accelerate surface damage to concrete, since they increase the number of freeze-thaw cycles. In order to prevent additional cracks from forming in good quality concrete due to the use of deicing agents, use an ice melter such as Morton<sup>®</sup> Safe-T-Plus<sup>®</sup> ice melt, which is formulated to result in reduced surface damage to concrete compared to plain salt. This ice melter also contains a blend of active ingredients which can reduce corrosion by 14 percent compared to plain salt.]]></item>
+				<item><![CDATA[Prepared Pack Up: In the spirit of preparedness, creating a winter emergency kit for both the home and car is an excellent idea. For your home, be sure to have indoor candles, matches and batteries on hand in case of a power shortage. For your car, be sure to have extra blankets, road flares, and a flashlight available in case of a roadside emergency. Write down important phone numbers and tape them inside the kit. You never know how long the power might be out or the emergency might last, so having non-perishable food, water bottles and blankets are essential. A small first aid kit helps with any minor medical emergencies that may arise. Finally, keep a bag of Morton<sup>®</sup> Safe-T-Salt<sup>®</sup> in your trunk to weigh down your car in order to provide additional stability when driving on a slippery road – the extra weight may also help provide traction for getting out of snowdrifts.]]></item>
+				<item><![CDATA[Protect Neighborhood Paws : The salted sidewalks and streets in the winter can be very hard on pets' paws, so help keep your four-legged friends safe by using Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup>. Developed with veterinarians, Safe-T-Pet<sup>TM</sup> is a salt and chloride free ice melter that is non-toxic and non-irritating, making it safer for you and your neighbors' pets.]]></item>
+			</bullets>
+		</item>
+		<!-- WINTER SAFETY KITS -->
+		<item id="wintersafetykits">
+			<title>BE PREPARED WITH EMERGENCY KITS</title>
+			<body></body>
+			<bullets>
+				<item>Prepared Pack Up: In the spirit of preparedness, creating a winter emergency kit for both the home and car is an excellent idea. For your home, be sure to have indoor candles, matches and batteries on hand in case of a power shortage. For your car, be sure to have extra blankets, road flares, and a flashlight available in case of a roadside emergency. Write down important phone numbers and tape them inside the kit. You never know how long the power might be out or the emergency might last, so having non-perishable food, water bottles and blankets are essential. A small first aid kit helps with any minor medical emergencies that may arise. Finally, keep a bag of Morton® Safe-T-Salt® in your trunk to weigh down your car in order to provide additional stability when driving on a slippery road – the extra weight may also help provide traction for getting out of snowdrifts.</item>
+			</bullets>
+		</item>
+	</popups>
+	<!-- **********************
+		   CONSUMER PRODUCTS
+		 ********************** -->
+	<consumerproducts>
+		<!-- PET FRIENDLY -->
+		<product id="petfriendly"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="paw"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>SafeTPetConsumer.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup>]]></title>
+			<subtitle>Your pet will love you even more.</subtitle>
+			<body><![CDATA[Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup> Ice Melt was developed with veterinarians to be safer for your furry friends. It's completely salt and chloride free – so it won't irritate pets' paws or stomachs. Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup> Ice Melt is also non-toxic, and it won't irritate skin, so it's better for people and plants, as well as paved surfaces. <emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>15</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>PET AND PEOPLE FRIENDLY:</emphasis> veterinarian approved, chloride-free, non-toxic <a href="event:veterinarian"><u>learn more</u></a>]]></item>
+				<item><![CDATA[<emphasis>EASY TO SEE:</emphasis> colored pellets provide clear visibility]]></item>
+				<item><![CDATA[<emphasis>SAFER FOR ENVIRONMENT:</emphasis> better for plants and concrete than plain salt]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item>8 lb. easy pour jug with resealable lid</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintertippets"><u>Keeping Pets Safe This Winter</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether a salt or specialty blend) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>This brine often contains chlorides that can irritate pets' paws and stomachs if ingested. Pets (especially dogs) may also lick irritated areas, which can cause nausea and vomiting.</item>
+						<item><![CDATA[Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup> Ice Melt contains the chloride-free organic compound Urea, making it a non-toxic, non-irritating alternative to salt-based ice melters.]]></item>
+						<item><![CDATA[Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup> Ice Melt is also less corrosive to metals and concrete.]]></item>
+					</bullets>
+				</item>
+				<item>
+					<title>VETERINARIAN APPROVED</title>
+					<body><![CDATA["The winter months can be a very dangerous and uncomfortable period for pets. It's important to protect your pet from the elements and use safer winter deicing products such as Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup> to help keep your pet happy and healthy during the season."<br><br>—Sharon Gwaltney-Brant DVM, PhD, American Board of Veterinary Toxicology]]></body>
+				</item>
+			</popups>
+		</product>
+		<!-- ECOSAFE -->
+		<product id="ecosafe"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="leaf"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>SafeTPlusConsumer.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Safe-T-Plus<sup>®</sup> EcoSafe Ice Melt]]></title>
+			<subtitle>Tough on ice. Safer for your driveways and plants.</subtitle>
+			<body><![CDATA[Morton<sup>®</sup> Safe-T-Plus<sup>®</sup> is an eco safe ice melt that contains fertilizer ingredients making it safer for plants, lawns and shrubs than plain salt. Morton<sup>®</sup> Safe-T-Plus<sup>®</sup> EcoSafe also utilizes HEC, an ingredient which helps protect your concrete steps, driveways and sidewalks from winter damage.<emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>5</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>ECO-FRIENDLY:</emphasis> lower run off and reduced environmental impact than other safety blends]]></item>
+				<item><![CDATA[<emphasis>CONCRETE-FRIENDLY</emphasis> HEC helps prevent water and brine from seeping into porous concrete and causing damage]]></item>
+				<item><![CDATA[<emphasis>MELTING:</emphasis> as effective at melting ice and snow as rock salt]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item><![CDATA[12 lb. easy pour jug made of 25% PCR<br>(post-consumer resin/recycled material)]]></item>
+				<item>25 lb. easy open, durable bag with hard handle</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or a specialty blend) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller ice melt crystals stay at the surface to melt while larger crystals penetrate down to melt on the ground below.</item>
+						<item>As with all deicers, the brine will penetrate concrete. As temperatures drop, the brine may freeze and expand inside the concrete's chambers causing surface cracking or spalling.</item>
+						<item><![CDATA[Morton<sup>®</sup> Safe-T-Plus<sup>®</sup> contains HEC which helps create a protective seal on your concrete to keep brine from seeping in, and can reduce corrosion by 14% compared to plain salt.]]></item>
+						<item>The HEC turns to a powder once the brine is gone and returns to gel form as new ice and snow fall, helping to continue the protection process.</item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to shovel off later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles. This process occurs because concrete is porous, and the ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to such damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old. It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+			</popups>
+		</product>
+		<!-- TRADITIONAL --> 
+		<product id="traditional"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="dollar"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>SafeTSaltConsumer.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Safe-T-Salt<sup>®</sup>]]></title>
+			<subtitle>You can afford to conquer Mother Nature.</subtitle>
+			<body><![CDATA[Morton<sup>®</sup> Safe-T-Salt<sup>®</sup> Rock Salt helps you clear ice and snow from driveways, porches, steps and other walkways, without clearing out your wallet. It melts effectively at low temperatures for a lower cost than most blended products. <emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>5</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>AROUND THE HOUSE:</emphasis> use to clear sidewalks, driveways, steps and porches]]></item>
+				<item><![CDATA[<emphasis>ON THE ROAD:</emphasis> provides traction for getting out of snow drifts; extra bags placed in the trunk of a vehicle can provide added weight to improve driving stability]]></item>
+				<item><![CDATA[<emphasis>AT WORK: </emphasis> provides dependable, economical melting for commercial driveways, parking lots, porches, steps and other walkways]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item>10 lb. durable bag</item>
+				<item>25 lb. durable bag</item>
+				<item>50 lb. durable bag</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or a specialty blend) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller ice melt crystals stay at the surface to melt while larger crystals penetrate down to melt on the ground below.</item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to shovel off later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles. This happens because concrete is porous, the ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to such damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old. It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+			</popups>
+		</product>
+		<!-- COLDEST TEMP --> 
+		<product id="temp"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="temp"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>SafeTPowerConsumer.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Safe-T-Power<sup>®</sup> Calcium Chloride]]></title>
+			<subtitle>Extreme conditions require extreme melting power.</subtitle>
+			<body><![CDATA[When Mother Nature is at her worst, Morton<sup>®</sup> Safe-T-Power<sup>®</sup> is your best bet. Made with 100% calcium chloride, Morton<sup>®</sup> Safe-T-Power<sup>®</sup> generates heat the moment it comes in contact with ice and snow, proven to melt ice in temperatures as low as -25º F. Nothing else melts ice and snow in colder temperatures. <emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>-25</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>HIGHER PERFORMANCE:</emphasis> melts faster and longer than rock salt]]></item>
+				<item><![CDATA[<emphasis>EXTREME ICE CONTROL:</emphasis> nothing melts in colder temperatures]]></item>
+				<item><![CDATA[<emphasis>SODIUM FREE:</emphasis> 100% calcium chloride – contains no sodium chloride]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item><![CDATA[9 lb. easy pour jug made of 25% PCR<br>(post-consumer resin/recycled material)]]></item>
+				<item>20 lb. easy open, durable bag with hard handle</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or specialty melter) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller ice melt crystals stay at the surface to melt while larger crystals penetrate down to melt on the ground below.</item>
+						<item><![CDATA[Ice melt blends combine rock salt with chemicals that have lower melting temperatures than rock salt alone to help melt ice and snow in more extreme conditions.  Morton<sup>®</sup> Safe-T-Power<sup>TM</sup> is 100% Calcium Chloride which has the lowest possible melting temperature among blends effectively melting ice and snow in sub zero temperatures.]]></item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to shovel off later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles. This occurs because concrete is porous, the ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to such damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old. It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+				<item></item>
+			</popups>
+		</product>
+		<!-- FAST ACTING --> 
+		<product id="fastacting"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="clock"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>ActionMeltConsumer.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Action Melt<sup>®</sup> Blend]]></title>
+			<subtitle>The faster way to clear the way.</subtitle>
+			<body><![CDATA[Time – and the elements – aren't always on your side. To melt ice fast in sub-zero temperatures, use Morton<sup>®</sup> Action Melt<sup>®</sup> Blend. Combining sodium chloride and calcium chloride, Morton<sup>®</sup> Action Melt<sup>®</sup> produces an extra "spark" – melting quickly on contact with ice and snow. Use it when you need to clear a path, fast.<emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>-15</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>STRONGER:</emphasis> penetrates fast to break through ice and snow's bond with pavement]]></item>
+				<item><![CDATA[<emphasis>PERFORMANCE:</emphasis> proven to melt ice even in sub-zero temperatures]]></item>
+				<item><![CDATA[<emphasis>EFFICIENT:</emphasis> melts faster and longer than rock salt to reduce applications and costs]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item><![CDATA[12 lb. easy pour jug made of 25% PCR<br>(post-consumer resin/recycled material)]]></item>
+				<item>25 lb. easy open, durable bag with hard handle</item>
+				<item>40 lb. durable bag</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or a specialty blend) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller ice melt crystals stay at the surface to melt while larger crystals penetrate down to melt on the ground below.</item>
+						<item><![CDATA[Ice melt blends combine rock salt with chemicals that have lower melting temperatures than rock salt alone which help melt ice and snow in more extreme conditions. Morton<sup>®</sup> Action Melt<sup>®</sup> Blend contains calcium chloride, which melts to -25ºF, which enables the blend to melt ice and snow effectively in sub zero temperatures.]]></item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to shovel off later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles. This process occurs because concrete is porous, and ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to such damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old. It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+			</popups>
+		</product>	
+	</consumerproducts>
+	
+	<!-- **********************
+		   COMMERCIAL PRODUCTS
+		 ********************** -->
+	<commercialproducts>
+		<!-- ECOSAFE -->
+		<product id="ecosafe"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="leaf"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>SafeTPlusCommercial.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> EcoSafe Ice Melt]]></title>
+			<subtitle>Hard on ice. Safer on concrete.</subtitle>
+			<body><![CDATA[Morton<sup>®</sup> EcoSafe Blend is formulated with HEC to minimize damage to concrete surfaces. It also contains fertilizer to make it safer for plants, lawns, and shrubs. Protecting your surroundings is always good for business. <emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>5</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>CONCRETE-FRIENDLY:</emphasis> HEC helps prevent water from seeping into concrete and causing damage]]></item>
+				<item><![CDATA[<emphasis>ECO-FRIENDLY:</emphasis> lower run off and and environmental impact than other leading safety blends]]></item>
+				<item><![CDATA[<emphasis>EFFECTIVE MELTING:</emphasis> as effective at melting ice and snow as rock salt]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item>50 lb. durable bag</item>
+				<item>50 lb. bucket</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or specialty melter) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller crystals melt at the surface while larger crystals penetrate down to melt on the ground below.</item>
+						<item><![CDATA[Morton<sup>®</sup> EcoSafe Ice Melt contains HEC which helps create a protective seal on your concrete, which can reduce corrosion by 14% compared to plain salt]]>.</item>
+						<item>The HEC turns to a powder once the brine is gone and returns to gel form as new ice and snow falls, helping to continue the protection process.</item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to remove later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles.  This occurs because concrete is porous and the ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old.  It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+			</popups>
+		</product>
+		<!-- TRADITIONAL --> 
+		<product id="traditional"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="dollar"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>SafeTSaltCommercial.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Safe-T-Salt<sup>®</sup>]]></title>
+			<subtitle>Dependable melting at an economical price.</subtitle>
+			<body><![CDATA[Morton<sup>®</sup> Safe-T-Salt<sup>®</sup> Rock Salt effectively melts ice and snow at a lower unit cost than many blended ice melt products.  When you need dependable ice control within a budget, you can count on Morton<sup>®</sup> Safe-T-Salt<sup>®</sup>. <emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>5</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>AT WORK: </emphasis> provides dependable, economical melting for commercial driveways, parking lots, porches, steps and other walkways]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item>50 lb. durable bag</item>
+				<item>80 lb. durable bag</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or specialty melter) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller crystals melt at the surface while larger crystals penetrate down to melt on the ground below.</item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to remove later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles.  This occurs because concrete is porous and the ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old. It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+				<item></item>
+			</popups>	
+		</product>
+		<!-- COLDEST TEMP --> 
+		<product id="temp"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="temp"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>SafeTPowerCommercial.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Calcium Chloride Ice Melter]]></title>
+			<subtitle>Melting power. Even under extreme conditions.</subtitle>
+			<body><![CDATA[Morton<sup>®</sup> Calcium Chloride Ice Melter generates heat on contact with ice and snow – at temperatures as low as -25º F. It's 100% calcium chloride, so you can clear the way even on the worst days. Absolutely nothing melts in colder temperatures. <emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>-25</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>HIGHER PERFORMANCE:</emphasis> melts faster and longer than rock salt]]></item>
+				<item><![CDATA[<emphasis>EXTREME ICE CONTROL:</emphasis> lowest temperature ice melter - nothing melts in colder temperatures]]></item>
+				<item><![CDATA[<emphasis>SODIUM FREE:</emphasis> 100% pure calcium chloride]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item>50 lb. durable bag </item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer></disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or specialty melter) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller crystals melt at the surface while larger crystals penetrate down to melt on the ground below.</item>
+						<item><![CDATA[Ice melt blends combine rock salt with chemicals that have lower melting temperatures to help melt ice and snow in more extreme conditions.  Calcium chloride has the lowest possible melting temperature which makes Morton<sup>®</sup> Calcium Chloride Ice Melter the most effective at melting ice and snow in extreme conditions.]]></item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to remove later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles.  This occurs because concrete is porous and the ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old. It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+				<item></item>
+			</popups>
+		</product>
+		<!-- FAST ACTING --> 
+		<product id="fastacting"> <!-- Do not change the IDs as they are used in the code to match up content -->
+			<icon type="clock"></icon> <!-- Avaliable options are: clock, temp, paw, dollar, leaf -->
+			<videofile>ActionMeltCommercial.flv</videofile>
+			<title><![CDATA[Morton<sup>®</sup> Professional Grade Ice Melter]]></title>
+			<subtitle>The faster way to clear the way.</subtitle>
+			<body><![CDATA[Morton<sup>®</sup> Professional Grade Ice Melter is a blend of sodium chloride and calcium chloride that generates heat to melt ice and snow faster and longer than rock salt alone. Our high performance blend helps get the job done faster and your bottom line get bigger. <emphasis><a href="event:howitworks"><u>learn more</u></a></emphasis>]]></body>
+			<meltsto>-15</meltsto> <!-- Avaliable options are: -25, -15, 5, 10, 15 -->
+			<details>
+				<item><![CDATA[<emphasis>STRONGER:</emphasis> penetrates fast to break through ice and snow's bond with pavement]]></item>
+				<item><![CDATA[<emphasis>PERFORMANCE:</emphasis> proven to melt ice even in sub-zero temperatures]]></item>
+				<item><![CDATA[<emphasis>EFFICIENT:</emphasis> melts faster and longer than rock salt to reduce applications and costs]]></item>
+				<item><![CDATA[<emphasis>VISIBILITY:</emphasis> available in visible blue color to help reduce cost of over application* ]]></item>
+			</details>
+			<sizes title="AVAILABLE SIZES">
+				<item>50 lb. durable bag</item>
+				<item>50 lb. easy storage bucket</item>
+			</sizes>
+			<secondarylink><![CDATA[<a href="event:wintertiphome"><u>Winterizing Your Home</u></a>]]></secondarylink>
+			<secondarylink><![CDATA[<a href="event:wintersafetykits"><u>Be Prepared with Emergency Kits</u></a>]]></secondarylink>
+			<disclaimer>*Look for the blue bag for easy-to-see ice melt crystals.</disclaimer>
+			<popups>
+				<item>
+					<title>HOW IT WORKS</title>
+					<body></body>
+					<bullets>
+						<item>All deicers (whether salt or specialty melter) attract moisture to form a liquid brine.</item>
+						<item>The brine melts its surroundings because it has a lower melting point than ice and snow.</item>
+						<item>Typically, smaller crystals melt at the surface while larger crystals penetrate down to melt on the ground below.</item>
+						<item><![CDATA[Ice melt blends combine rock salt with chemicals that have lower melting temperatures which help melt ice and snow in more extreme conditions. Morton<sup>®</sup> Professional Grade Ice Melter uses calcium chloride flake, which can melt ice and snow as low as -25ºF, to lower the melting temperature of the blend and effectively melt ice and snow in sub zero temperatures.]]></item>
+						<item>TIP: For easier ice and snow removal, apply deicer to pavement before ice and snow accumulate. The brine will prevent snow and ice from bonding with the pavement making it easier to remove later.</item>
+					</bullets>
+					<preventdamage>
+						<title>PREVENT DAMAGE</title>
+						<body><![CDATA[All deicers can cause damage to concrete because they increase the number of freeze-thaw cycles.  This occurs because concrete is porous and the ice melter brine can seep into void spaces. If the temperature drops, the brine can freeze and expand in these spaces, "pushing" the concrete out, causing stress and subsequent cracks in the pavement.<br><br>Important! Newly-laid or poor quality concrete is particularly susceptible to damage. Use deicer only on properly formulated, cured, air-entrained concrete that is at least one year old. It's also best to remove slush from the surface as it melts to help prevent concrete damage.]]>
+						</body>
+					</preventdamage>
+				</item>
+				<item></item>
+			</popups>
+		</product>	
+	</commercialproducts>
+</config>

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.departmentMobileProductsItem {
+    text-align: left;
+
+}
+.departmentMobileProductsItem .leftSide .logo {
+    width: 176px;
+    overflow: hidden;
+}
+.departmentMobileProductsItem .leftSide .logo img {
+    max-width: 176px;
+    width: 100%;
+}
+.departmentMobileProductsItem h1 {
+    margin: 20px 0;
+}
+
+.departmentMobileProductsItem .leftSide {
+    display: inline-block;
+    padding-right: 80px;
+    vertical-align: top;
+    width: 320px;
+    /*border:1px solid red;*/
+    *display: inline-block;
+    *vertical-align: top;
+    *float:left;
+}
+
+.departmentMobileProductsItem .rightSide {
+    display: inline-block;
+    height: 450px;
+    vertical-align: top;
+    width: 511px;
+    /*border:1px solid green;*/
+    *display: inline-block;
+    *vertical-align: top;
+}
+
+.departmentMobileProductsItem .description {
+    /*border:1px solid red;*/
+    padding-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline-block;
+    *vertical-align: top;
+    *clear:both;
+}

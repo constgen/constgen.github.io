@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>FAIRMARKET</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- FairMarket styles --><link rel="stylesheet" href="./css/style.css" type="text/css" />
+		<!-- jQuery library --><script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+		<!-- jCarousel library --><script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+		<!-- jCarousel skin stylesheet --><link rel="stylesheet" type="text/css" href="./css/jcarousel-skin-fairmarket.css" />
+		<!-- FairMarket scripts --><script type="text/javascript" src="./js/script.js"></script>
+		<!-- jCarousel scripts -->
+		<script type="text/javascript">
+			function mycarousel_initCallback(carousel) {
+					// Disable autoscrolling if the user clicks the prev or next button.
+					carousel.buttonNext.bind('click', function() {
+							carousel.startAuto(0);
+					});
+			
+					carousel.buttonPrev.bind('click', function() {
+							carousel.startAuto(0);
+					});
+			
+					// Pause autoscrolling if the user moves with the cursor over the clip.
+					carousel.clip.hover(function() {
+							carousel.stopAuto();
+					}, function() {
+							carousel.startAuto();
+					});
+			};
+			jQuery(document).ready(function() {
+					jQuery('#mycarousel').jcarousel({
+							auto: 2,
+							wrap: 'last',
+							initCallback: mycarousel_initCallback
+					});
+			});
+		</script>
+		<!-- jCarousel scripts - end -->
+		<!--jQuery-->
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript">jQuery.noConflict();</script>
+		<!--jQuery - end -->
+		<!--jQuery Lightbox-->
+		<script type="text/javascript" src="./js/jquery.lightbox-0.5.js"></script>
+		<link rel="stylesheet" href="./css/jquery.lightbox-0.5.css" type="text/css" media="screen" />
+		<script type="text/javascript">jQuery(function() { jQuery('a[@href$=.jpg]').lightBox(); jQuery('a[@href$=.JPG]').lightBox(); });</script>
+		<!--jQuery Lightbox - end-->
+        <!--Imgdownload-->
+        <script type="text/javascript">
+			a= new Image();
+			a.src= "./images/bottab-right-1-h.png";
+			b= new Image();
+			b.src= "./images/bottab-left-2-h.png";
+			c= new Image();
+			c.src= "./images/logintab-left-2-h.png";
+			d= new Image();
+			d.src= "./images/logintab-right-1-h.png";
+        </script>
+        <!--Imgdownload - end-->
+	</head>
+	<body>
+	
+		<div align="center" class="body">
+			<!-- PAGE -->
+			 	<div class="page"> 
+				<!-- LANGUAGE SELECT -->
+					<div class="lng">
+						<ul class="lang">
+							<li><a href="/">ru</a></li>
+							<li><a href="/en/">en</a></li>
+						</ul>
+					</div>
+				<!-- LANGUAGE SELECT - end --> 
+				<!-- LOGO --><div class="logo"><a href="./index.html" title="Главная"><img src="./images/logo.png" onmouseover="this.src='./images/logo-h.png'" onmouseout="this.src='./images/logo.png'" /></a></div><!-- LOGO - end --> 
+				<!-- MENU -->
+				<div style="position:absolute; right:0px; top:52px;">
+					<ul class="menu">
+						<li><a href="/" class="afirst">Главная</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./augment.html" class="aany">Пополнение</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./exchange.html" class="aany">Обмен</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./shop.html" class="aany">Магазин</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./registration.html" class="alast">Регистрация</a></li>
+					</ul>
+					<a class="button-support" href="./support.html"><img src="images/button-support.png" width="25" height="128" /></a>
+					<a class="button-forum" href="#"><img src="images/button-forum.png" width="23" height="88" /></a>
+				</div>
+				<!-- MENU - end --> 
+				<!-- MAIN BODY -->
+				<div class="main">
+					<table width="100%">
+						<tr>
+							<td class="left" align="center" valign="top"> 
+								<!-- BLOCK1 -->
+								<div class="block">
+									<div class="grey1"><span class="blocktitle">Нынешний оборот</span></div>
+									<div class="grey2"><div><a title="увеличить" href="#"><img src="./images/enlarger.png" /></a></div></div>
+									<img src="./images/grey3.png" />
+								</div>
+								<!-- BLOCK1 - end -->
+								<!-- BLOCK2 -->
+								<div class="block">
+									<div class="lightgrey1"><span class="blocktitle">Платежные системы</span></div>
+									<div class="lightgrey2">
+										<div><a href="#"><img class="paysys" src="./images/paysys1.jpg" /></a><br />
+											<a href="#"><img class="paysys" src="./images/paysys2.jpg" /></a><br />
+											<a href="#"><img class="paysys" src="./images/paysys3.jpg" /></a><br />
+											<a href="#"><img class="paysys" src="./images/paysys4.jpg" /></a>
+										</div>
+									</div>
+									<img src="./images/lightgrey3.png" width="213" height="136" usemap="#save" />
+									<map name="save">
+									<area shape="rect" coords="50,35,150,136" href="#" alt="Скидки">
+									</map>
+								</div>
+								<!-- BLOCK2 - end --></td>
+							<td class="center" align="left" valign="top"> 
+								<!-- GREEN -->
+								<div class="block">
+									<div class="green1"><span class="blocktitle">Регистрация</span></div>
+									<div class="green2" id="no_bg">
+										<div>
+											<table class="form">
+												<tr>
+													<td><label class="required" for="refId">Реферальный номер:</label><br /><br /></td>
+													<td><input class="text" type="text" value="FM" id="refId" name="refId"><img class="info" src="images/question.png" width="17" height="18" title="Здесь должна быть подсказка"/><br /><br /></td>
+												</tr>
+												<tr>
+													<td><label class="required" for="login">Логин:</label></td>
+													<td><input class="text" type="password" value="" id="password" name="password"><img class="info" src="images/question.png" width="17" height="18" title="Здесь должна быть подсказка"/></td>
+												</tr>
+												<tr>
+													<td><label class="required" for="login">Пароль:</label></td>
+													<td><input class="text" type="text" value="" id="login" name="login"><img class="info" src="images/question.png" width="17" height="18" title="Здесь должна быть подсказка"/></td>
+												</tr>
+												<tr>
+													<td><label class="required" for="login">Повторите пароль:</label></td>
+													<td><input class="text" type="password" value="" id="password2" name="password2"><img class="info" src="images/question.png" width="17" height="18" title="Здесь должна быть подсказка"/></td>
+												</tr>
+												<tr>
+													<td><label class="required" for="login">Ваше имя:</label></td>
+													<td><input class="text" type="text" value="" id="realname" name="realname"><img class="info" src="images/question.png" width="17" height="18" title="Здесь должна быть подсказка"/></td>
+												</tr>
+												<tr>
+													<td><label class="required" for="login">Ваш e-mail:</label></td>
+													<td><input class="text" type="text" value="" id="email" name="email"><img class="info" src="images/question.png" width="17" height="18" title="Здесь должна быть подсказка"/></td>
+												</tr>
+												<tr>
+													<td style="vertical-align:bottom;"><label class="required" for="login">Введите символы с картинки:</label><br /><br /></td>
+													<td><img class="captcha" width="200" height="50" src="https://fairmarket.biz/public/captcha/6dc588b620314d05bf2e2076e921f53a.png" alt=""><br />
+															<input class="text" type="text" value="" id="captcha-input" name="captcha[input]"><img class="info" src="images/question.png" width="17" height="18" title="Здесь должна быть подсказка"/><br /><br /></td>
+												</tr>
+												<tr>
+													<td></td>
+													<td><input class="button" type="submit" value="Отправить" id="submitbutton" name="submit"></td>
+												</tr>
+											</table>					
+										</div>
+									</div>
+									<img src="./images/green3.png" />
+								</div>
+								<!-- GREEN - end --></td>
+							<td class="right" align="center" valign="top">
+								<!-- LOGIN BLOCK -->
+								<div class="block">
+									<div id="lb1" class="loginblock1">
+										<div class="tab1">
+											<a id="lt1" href="javascript:logintab1()" class="logtab1">Войти</a>
+										</div>
+										<div class="tab2">
+											<a id="lt2" href="javascript:logintab2()" class="logtab2">Регистрация</a>
+										</div>
+									</div>
+									
+									<div id="lb2" class="loginblock1">
+										<div class="tab1">
+											<a id="lt1" href="javascript:logintab1()" class="logtab-2-1">Войти</a>
+										</div>
+										<div class="tab2">
+											<a id="lt2" href="javascript:logintab2()" class="logtab-2-2">Регистрация</a>
+										</div>
+									</div>
+									<div class="loginblock2">
+										<div id="logintab1" align="left">
+											<input class="log" id="login" type="text" value="Login" onfocus="if(this.value=='Login')this.value=''" onblur="if(this.value=='')this.value='Login'" />
+											<input class="log" id="pass" type="text" value="Pass" onfocus="if(this.value=='Pass'){this.value='';this.type='password'}" onblur="if(this.value==''){this.value='Pass';this.type='text'}" />
+											<br /><input id="keep" type="checkbox" /><label class="form" for="keep"> Keep me logged in</label>
+											<br /><a class="grey" href="#">Forgot your password?</a>
+											<div class="loginbutton" onmouseover="this.className='loginbutton-h'" onmouseout="this.className='loginbutton'">
+												<input type="submit" value="Войти" />
+											</div>
+										</div>
+										<div id="logintab2">
+											...
+										</div>
+									</div>
+									<img src="./images/grey3.png" />
+								</div>
+								<!-- LOGIN BLOCK - end -->
+								<!-- NEWS BLOCK -->
+								<div class="block_S">
+									<div class="news">
+										<h2>НОВОСТИ</h2>
+										<div class="nblock">
+											<span>25.07.09</span><a class="readmore" href="#">читать всю новость</a><br />
+											<div class="text">
+												Политическое лидерство означает плюралистический социализм, что было отмечено П.Лазарсфельдом. Легитимность власти, несмотря на внешние...
+											</div>
+										</div>
+										<div class="nblock">
+											<span>25.07.09</span><a class="readmore" href="#">читать всю новость</a><br />
+											<div class="text">
+												Политическое лидерство означает плюралистический социализм, что было отмечено П.Лазарсфельдом. Легитимность власти, несмотря на внешние...
+											</div>
+										</div>
+										<div class="nblock">
+											<span>25.07.09</span><a class="readmore" href="#">читать всю новость</a><br />
+											<div class="text">
+												Политическое лидерство означает плюралистический социализм, что было отмечено П.Лазарсфельдом. Легитимность власти, несмотря на внешние...
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- NEWS BLOCK - end --></td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" class="footer-left"><span>2010. Fairmarket</span></td>
+							<td align="center" valign="top" class="footer-center">
+								<div class="bmenu">
+									<ul class="bottommenu">
+										<li><a href="./index.html">Главная</a></li>
+										<li><a href="./augment.html">Пополнение</a></li>
+										<li><a href="#">Условия пользования</a></li>
+										<li><a href="./exchange.html">Обмен</a></li>
+										<li><a href="./shop.html">Магазин</a></li>
+										<li><a href="#">Рекламма на сайте</a></li>
+										<li><a href="./registration.html">Регистрация / Вход</a></li>
+									</ul>
+								</div>
+															<div class="underfooter">
+									<a class="cards" href="#"><img src="images/logo-footer-payment.png" width="280" height="81" /></a>
+								
+									<div id="thawteseal" style="text-align:center;" title="Click to Verify - This site chose Thawte SSL for secure e-commerce and confidential communications.">
+									<div><script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=fairmarket.biz&amp;size=S&amp;lang=en"></script></div>
+									<div><a href="http://www.thawte.com/products/" target="_blank" style="color:#000000; text-decoration:none; font:bold 10px arial,sans-serif; ">ABOUT SSL CERTIFICATES</a></div>
+									</div>
+								</div>
+								
+							</td>
+							<td align="center" valign="top" class="footer-right"><a href="#"><img src="images/logo-fairmoney.png" /></a></td>
+					</table>
+				</div>
+				<!-- MAIN BODY - end --> 
+			</div>
+			<!-- PAGE - end -->
+		</div>
+		
+	</body>
+</html>

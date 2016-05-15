@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+
+.slider
+{
+	position: relative;
+	font-size: 19px;
+	overflow: hidden;
+}
+
+.slider .bg
+{
+	width: 100%;
+	background: #000;
+	border-bottom: 2px solid #A60027;
+	margin-bottom: -2px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+
+.slider .wrapper
+{
+	overflow: hidden;
+}
+
+.slider .container
+{
+	width: 2000em;
+	position: relative;
+	overflow: hidden;
+	height: 390px;
+}
+
+.slider .slide
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;
+	width: 1000px;
+	opacity: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+/*for IE9*/
+:root .slider .slide
+{
+	filter: none;
+}
+
+.slider .slide:first-child
+{
+	opacity: 1;
+	filter: none;
+}
+
+.slider .slide img
+{
+	display: block;
+	width: 1000px;
+	height: auto;
+}
+
+.slider .button, .slider .link
+{
+	margin: 0 0 1em;
+}
+
+.slider .navigation
+{
+	position: relative;
+	border-top: 2px solid #ff003c;
+	width: 1000px;
+	height: 164px;
+	padding: 5px 0;
+	background: #000;
+	-webkit-transition: border-top-color 0.4s;
+	-moz-transition: border-top-color 0.4s;
+	-o-transition: border-top-color 0.4s;
+	transition: border-top-color 0.4s;
+}
+
+.slider .navigation a
+{
+	/*font:19*/
+	position: relative;
+	display: block;
+	float: left;
+	width: 200px;
+	text-align: center;
+	line-height: 164px;
+}
+
+.slider .navigation .indicator
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 164px;
+	border-top: 5px solid #ff003c;
+	border-bottom: 5px solid #ff003c;
+	
+	-webkit-transition: left 0.4s;
+	-moz-transition: left 0.4s;
+	-o-transition: left 0.4s;
+	transition: left 0.4s;
+}
+
+.slider .navigation a img
+{
+	display: block;
+	-webkit-filter: url(filters.svg#gray);
+	-webkit-filter: grayscale(1);
+	filter: url(filters.svg#gray);
+	filter: grayscale(1);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
+	
+}
+
+.slider .navigation a img.color
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-filter: none;
+	filter: none;
+	visibility: hidden;
+}
+
+.slider .navigation a:hover img.color, .slider .navigation a.active img.color
+{
+	visibility: visible;
+}
+
+.slider .navigation a:hover img, .slider .navigation a.active img
+{
+	visibility: hidden;
+}
+
+.accelerationAllowed .slider .bg,
+.accelerationAllowed .slider .slide {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.socialButtons {
+    padding: 18px 155px 9px 0px;
+}
+.socialButtons .linkedin, .socialButtons .facebook, .socialButtons .twitter, .socialButtons .google_plus, .socialButtons .pin_it{
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    margin-right: 10px;
+    height: 26px;
+    margin-bottom: 0.5em;
+    *width: 150px;
+}

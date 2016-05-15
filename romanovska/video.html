@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Roma</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/supersized.js"></script>
+<script type="text/javascript" src="js/work.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/uppod_player.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/swfobject.js"></script>
+
+
+<!--	Video Carusel-->
+<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(function() {
+    $(".videocarusel").jCarouselLite({
+      btnNext: ".slide-right",
+      btnPrev: ".slide-left",
+		visible: 5,
+		circular: false,
+    	speed: 500
+    });
+});
+
+$(".curentvideo").next().children(".slide-right").css("display","block");
+$(".curentvideo").next().next().children(".slide-right").css("display","block");
+$(".curentvideo").prev().children(".slide-left").css("display","block");
+$(".curentvideo").prev().prev().children(".slide-left").css("display","block");
+
+var stopclick=0;
+function enableClick() {stopclick=0;}
+
+
+function rightClick() {
+	if (stopclick==0){
+	stopclick=1;	
+	setTimeout(enableClick, 500);
+	$(".curentvideo").next("li").addClass("curentvideo").children(".slide-right").fadeOut(500).parent().prev("li").removeClass("curentvideo").children(".slide-left").fadeIn(1000); 
+	$(".curentvideo").next().children(".slide-right").fadeIn(0);
+	}
+}
+
+function leftClick() {
+	if (stopclick==0){
+	stopclick=1;	
+	setTimeout(enableClick, 500);
+	$(".curentvideo").prev("li").addClass("curentvideo").children(".slide-left").fadeOut(500).parent().next("li").removeClass("curentvideo").children(".slide-right").fadeIn(1000);
+	$(".curentvideo").prev().children(".slide-left").fadeIn(0);
+	}
+}
+
+$(".slide-right").bind("click", rightClick);
+$(".slide-left").bind("click", leftClick);
+
+});
+
+
+
+</script>
+<!-- /////////////////////////////////////////////////// -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+$(".slide-right").click(function(){});
+$(".slide-left").click(function(){});
+	
+});
+</script>
+
+</head>
+
+<body>
+
+<!--Loading display while images load-->
+<div id="loading">&nbsp;</div>
+	<div id="supersize"> <img class="" src="images/bg-video.jpg" /> </div>
+
+    
+<div id="mainmenu">
+	<ul>
+   <li><a class="button" href="home.html">Главная</a></li>
+   <li><a class="button" href="#">Коллекция</a>
+   	<div class="submenu"><ul>
+      <li><a class="button-small" href="old_gallery.html">Старая</a></li><li><a class="button-small" href="new_gallery.html">Новая</a></li>
+      </ul></div></li>
+   <li><a class="button" href="feedback.html">Обратная связь</a></li>
+   <li><a class="button" href="shop.html">Магазины</a></li>
+   </ul>
+   
+</div>
+   
+<div class="videos">
+<div class="videocarusel">
+	<ul>
+  <li></li>
+  <li></li>
+  
+  <li class="curentvideo">
+  <div id="videoplayer1"></div><script type="text/javascript">var flashvars = {"st":"http://test1.schelk.com.ua/player/styles/video55-303.txt","file":"http://test1.schelk.com.ua/player/video2.flv","uid":"videoplayer1"};var params = {wmode:"transparent", allowFullScreen:"true", allowScriptAccess:"always",id:"videoplayer1"}; new swfobject.embedSWF("http://test1.schelk.com.ua/player/uppod.swf", "videoplayer1", "500", "281", "9.0.115.0", false, flashvars, params);</script>
+  		<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+  		<div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li>
+ <div id="videoplayer2"></div><script type="text/javascript">var flashvars = {"st":"http://test1.schelk.com.ua/player/styles/video55-303.txt","file":"http://test1.schelk.com.ua/player/video3.flv","uid":"videoplayer2"};var params = {wmode:"transparent", allowFullScreen:"true", allowScriptAccess:"always",id:"videoplayer2"}; new swfobject.embedSWF("http://test1.schelk.com.ua/player/uppod.swf", "videoplayer2", "500", "281", "9.0.115.0", false, flashvars, params);</script>
+  		<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+  		<div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li>
+  <div id="videoplayer3"></div><script type="text/javascript">var flashvars = {"st":"http://test1.schelk.com.ua/player/styles/video55-303.txt","file":"http://test1.schelk.com.ua/player/video4.flv","uid":"videoplayer3"};var params = {wmode:"transparent", allowFullScreen:"true", allowScriptAccess:"always",id:"videoplayer3"}; new swfobject.embedSWF("http://test1.schelk.com.ua/player/uppod.swf", "videoplayer3", "500", "281", "9.0.115.0", false, flashvars, params);</script>
+  		<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+  		<div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li ><img src="images/videoscreen1.jpg" width="500" height="281" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+      <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li><img src="images/videoscreen1.jpg" width="500" height="281" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+     <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li><img src="images/videoscreen1.jpg" width="500" height="281" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+      <div class="slide-left"></div><div class="slide-right"></div></li> 
+      
+  <li><img src="images/videoscreen1.jpg" width="500" height="281" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+      <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li></li>
+  <li></li>
+
+      
+   </ul>
+</div></div>
+   
+<div id="footer">
+	&copy; Ольга Романовская, 2010
+</div>
+</body>
+</html>

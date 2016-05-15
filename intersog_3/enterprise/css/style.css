@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+
+
+
+/* Promoblock
+-----------------------------------------------------------------------------*/
+
+
+#promoblock{
+	margin: 0 0 33px;
+}
+
+#scrollable{
+	margin: 0 17px 12px;
+}
+
+#scrollable .items img{
+	height: 95px;
+	filter: url(filters.svg#gray);
+}
+
+#scrollable .items a .hover {filter: none;}
+
+#promoblock .description{
+	margin: 0 17px;
+	border: 1px dashed #ccc;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+}
+
+#promoblock .description div{
+	margin: 11px 17px;
+	display:none;
+}
+
+#promoblock .description div:first-child{display:block;}
+
+
+#promoblock .description div .readmore,#promoblock .description div .readmore:hover{
+	position: absolute;
+	bottom:-13px;
+	right:15px;
+	display: block;
+	color:#fff;
+	background:#69b0da;
+	padding: 6px 11px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	text-decoration: none;
+}
+
+
+
+

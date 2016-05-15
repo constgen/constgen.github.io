@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+
+
+.successMessage {
+    position: fixed;
+    left:  0;
+    top:  0;
+    width: 100%;
+    min-height: 100%;
+    background: url(images/background.png);
+}
+
+.successMessage .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -105px;
+    margin-left: -155px;
+    width: 310px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 0px 13px 0px #9fa3aa;
+    box-shadow: 1px 0px 13px 0px #9fa3aa;
+}
+
+.successMessage h3 {
+    margin: 30px 30px 20px 30px;
+}
+
+.successMessage p {
+    margin: 10px 30px;
+}
+
+.successMessage .button {
+    border: 1px solid #e2e2e2;
+    border-top: 1px solid #fdfdfd;
+    border-bottom: 1px solid #c7c7c7;
+    -webkit-box-shadow: 0px 1px 0px 0px #e2e2e2;
+    box-shadow: 0px 1px 0px 0px #e2e2e2;
+}
+
+.successMessage .button:active {
+    background-color: #e8e8e8;
+    border: 1px solid #dedede;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #fbfbfb;
+    -webkit-box-shadow: inset 0px 2px 0px 0px #e2e2e2;
+    box-shadow: inset 0px 2px 0px 0px #e2e2e2;
+    color: #386993;
+}
+
+.successMessage .light {
+    color: #1f9ae0;
+}
+
+.successMessage .modal-footer {
+    margin: 25px 0 0 0;
+    padding: 25px 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+}

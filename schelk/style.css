@@ -1,0 +1,201 @@
+/*12.01.2011 12:08*/
+
+@charset "utf-8";
+
+
+* { padding:0px; margin:0px; border:0; }
+
+:focus {
+  -moz-outline-style:none;
+}
+
+a, a:active {
+  outline:none;
+}
+
+
+img {
+	border: none;
+}
+
+body {
+	background:#252525;
+	color:#fff;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width:1200px;
+	font-size: 62.5%; /* Resets 1em to 10px */
+	
+}
+
+div.bg{ position:absolute;height:800px; width:1200px; margin-top:-400px; top:50%; 	}
+
+
+/* Index ---------------------------------------*/
+div.bg-index{background:url(images/bg.jpg); }
+
+.fon {
+	top: 0; left: 0;
+	position: absolute;
+	height: 800px;
+	width: 1200px;
+	display: none;
+}
+
+div.in_bg { position:relative; width:1200px; height:800px; }
+
+.bg-index .black { 
+	position:absolute; 
+	padding-right: 10px;
+	height:94px; 
+	margin-top:-47px; 
+	left:0; 
+	top:50%; 
+	background:#000;
+ /* OPACITY */
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=92); /* IE 5.5+*/
+	-moz-opacity: 0.92; /* Mozilla 1.6 и ниже */
+	-khtml-opacity: 0.92; /* Konqueror 3.1, Safari 1.1 */
+	opacity: 0.92; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+}
+
+
+
+
+.bg-index a.logo {
+	position:absolute;
+	margin-left:41px;
+	margin-top:-23px;
+	top:50%;
+}
+
+div.menu { margin-left:200px;}
+
+div.menu a {
+	color:#fff;
+	text-decoration:none;
+	display: block;
+	float: left;
+	padding-right: 6px;
+	padding-left: 7px;
+	margin-top: 34px;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	margin-right: 12px;
+}
+
+div.menu a:hover {
+	background-color: #d53535;
+}
+
+
+/* Contacts ---------------------------------------*/
+
+div.bg-contacts {
+	background:url(images/contacts-bg.png);
+
+}
+
+
+
+.bg-contacts .black, .bg-onas .black {
+	position:relative;
+	width:600px;
+	height:401px;
+	margin-top:-200px;
+	top:50%;
+	background:#000;
+	color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bg-contacts a.logo, .bg-onas a.logo {
+	position:absolute;
+	left: 567px;
+	top:137px;
+}
+
+.bg-contacts .black .text, .bg-onas .black .text {
+	float: left;
+	padding-left: 25px;
+	padding-right: 5px;
+	height: 100%;
+	width: 170px;
+}
+
+.bg-onas .black .text {
+	width: 550px;
+}
+
+.bg-contacts .black p, .bg-onas .black p  {
+	font-size: 12px;
+	line-height: 23px;
+	font-family: "Myriad Pro", Verdana, Geneva, sans-serif;
+}
+
+.bg-contacts .black .map {
+	margin-top: 92px;
+	padding-left: 41px;
+	padding-top: 7px;
+	float: left;
+	height: 165px;
+	width: 329px;
+	background-image: url(images/map-bg.png);
+}
+
+.bg-contacts span {color: #ff3c3c;}
+
+
+
+/* Gallery ---------------------------------------*/
+
+.bg-gallery {
+	
+}
+
+.bg-gallery .nav-left {
+	position: absolute;
+	left: 0px;
+	top: 359px;
+	z-index: 5;
+}
+.bg-gallery .nav-right {
+	position: absolute;
+	right: 0px;
+	top: 359px;
+	z-index: 5;
+}
+
+.bg-gallery a.logo {
+	position:absolute;
+	left: 567px;
+	bottom:-2px;
+	padding-bottom: 0;
+	z-index: 5;
+}
+
+.bg-gallery .gallery{
+	background-color: #000;	
+}
+
+.bg-gallery .gallery li {
+	width: 100%;
+}
+
+/* Headers ---------------------------------------*/
+
+h2 {
+	font-size: 16px;
+	color: #ff3c3c;
+	margin-top: 92px;
+	margin-bottom: 38px;
+}
+
+.bg-onas h2 {
+
+/*	margin-bottom: 40px;*/
+}

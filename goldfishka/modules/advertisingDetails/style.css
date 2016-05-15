@@ -1,0 +1,89 @@
+﻿@charset "utf-8";
+
+
+.advertisingDetails {
+	font-size: 14px;
+	padding: 20px;
+	color: #343434;
+	min-width: 300px;
+}
+.advertisingDetails section {
+	padding: 5px 20px;
+}
+.advertisingDetails p {
+	margin-bottom: 15px;
+}
+.advertisingDetails .attention {
+	color: #bf0d0d;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.advertisingDetails ol li {
+	margin-bottom: 15px;
+}
+.advertisingDetails ul.openingList {
+	padding: 0;
+}
+.advertisingDetails .openingList li {
+	list-style: none;
+	display: block;
+	position: relative;
+}
+.advertisingDetails .openingList .title {
+	padding: 5px 20px;
+	cursor: pointer;
+	border-top: 1px solid #bad9f2;
+	background: #ebf5fd url(images/arrow_down.png) no-repeat center right;
+}
+.advertisingDetails .openingList .open .title {
+	background: #ebf5fd url(images/arrow_up.png) no-repeat center right;
+}
+.advertisingDetails .openingList:last-child .title{
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px; 
+}
+.advertisingDetails .openingList:last-child .open .title {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px; 
+}
+.advertisingDetails .openingList h3 {
+	color: #00396d;
+	max-width: 260px;
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.advertisingDetails .openingList .description {
+	padding: 0 20px;
+	height: 0px;
+	 -webkit-transition: height 0.4s ease-in-out;
+	 -moz-transition: height 0.4s ease-in-out;
+	 -o-transition: height 0.4s ease-in-out;
+    transition: height 0.4s ease-in-out; 
+	overflow: hidden;
+}
+.advertisingDetails .openingList .noTransition .description {
+	 -webkit-transition: none;
+	 -moz-transition: none;
+	 -o-transition: 0;
+    transition:  none;
+}
+
+.advertisingDetails .openingList .open .description {
+	border-top: 1px solid #bad9f2; 
+}
+.advertisingDetails .openingList .description .in {
+	padding: 15px 0px 21px 0px;
+	margin-bottom: 0;
+}
+
+@media (max-width:479px) {
+	.advertisingDetails {
+		padding: 10px;
+		font-size: 13px;
+	}
+	.advertisingDetails .attention {
+		font-size: 16px;
+	}
+}

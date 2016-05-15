@@ -1,0 +1,213 @@
+/* Basket
+-----------------------------------------------------------------------------*/
+
+#toolbar {
+    position: absolute;
+    z-index:900;
+	right:0;
+    top: 0;
+    margin: 0 0 0 36px;
+    width: 118px;
+    left: auto;
+}
+
+#toolbar.fixed {
+    position: fixed;
+	right:100px;  
+    width: 118px;
+}
+  
+#toolbar #cart {
+    position: relative;
+    color: #454545;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px; 
+    width: 118px;
+    border: 1px solid #dfdfdf;
+	border-bottom-left-radius:60px;
+	border-bottom-right-radius:60px;
+}
+
+#toolbar #cart .icon {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 58px;
+    padding: 0;
+	background: #dedede;
+	cursor: pointer;
+	border-bottom-left-radius:60px;
+	border-bottom-right-radius:60px;
+	z-index: 901;
+
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -ms-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+#toolbar #cart .basket-icon {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 58px;
+    padding: 0;
+	background: url(images/cart_sign_empty.svg) center center no-repeat;
+	z-index: 901;
+}
+#toolbar #cart .icon:hover {
+	background-color: #f6a100;
+}
+#toolbar #cart .icon:active {
+	background-color: #f4fb37;
+}
+#toolbar #cart .icon:active .basket-icon {
+	background: url(images/cart_sign_empty_black.svg) no-repeat center center;
+}
+#toolbar #cart.notempty .icon {
+    background-color: #c7c7c7;
+}
+#toolbar #cart.notempty .icon .basket-icon {
+	background: url(images/cart_sign_full.svg) no-repeat center center;
+}
+#toolbar #cart.notempty .icon:hover {
+	background-color: #f6a100;
+}
+#toolbar #cart.notempty .icon:active {
+	background-color: #f4fb37;
+}
+#toolbar #cart.notempty .icon:active .basket-icon {
+    background: url(images/cart_sign_full_black.svg) no-repeat center center;
+}
+
+/*No SVG support*/
+#toolbar.nosvg #cart .icon
+{
+	background-image: url(images/cart_sign_empty.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#toolbar.nosvg #cart .icon:active
+{
+	background-image: url(images/cart_sign_empty.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#toolbar.nosvg #cart.notempty .icon
+{
+	background-image: url(images/cart_sign_full.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#toolbar.nosvg #cart.notempty .icon:active
+{
+	background-image: url(images/cart_sign_full.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+#toolbar #cart.fixed, #toolbar #cart {
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    border: none;
+}
+
+
+#toolbar #cart div.wrap {
+    position: absolute;
+    width: 0px;
+    right: 59px;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -ms-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    transition: width 0.5s;
+}
+#toolbar #cart .price_list {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 43px;
+    height: 57px;
+    left: 140px;
+    padding-left: 30px;
+    padding-top: 31px;
+    position: absolute;
+    top: -30px;
+    width: 190px;
+    -webkit-transition: left 0.5s, color 1s;
+    -moz-transition: left 0.5s, color 1s;
+    -ms-transition: left 0.5s, color 1s;
+    -o-transition: left 0.5s, color 1s;
+    transition: left 0.5s, color 1s;
+    text-align: left;
+}
+#toolbar #cart div.hack {
+	display: none;
+}
+#toolbar #cart:hover div.wrap {
+    width: 190px;
+}
+#toolbar #cart:hover .price_list, #toolbar #cart.notempty .price_list {
+    left: 0px;
+}
+#toolbar #cart:hover div.hack {
+	display:block;
+}
+#toolbar .price_list div{
+    width: 100px;
+    text-align: center;
+    line-height: 27px;
+}
+#toolbar #cart .quant {
+    border-bottom: 1px solid #ebebeb;
+}
+#toolbar #cart .label {
+    display: none;
+    position: absolute;
+    right: 56px;
+    top: 4px;
+    background: url(images/bg_label.png) center center no-repeat;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 0 0 0px;
+    z-index: 910;
+    
+    -webkit-transition: top 0.25s;
+	-moz-transition: top 0.25s;
+	-o-transition: top 0.25s;
+	transition: top 0.25s;
+}
+
+
+
+@media all and (max-width: 1210px) {
+
+    #toolbar #cart.fixed, #cart {
+        position: fixed;
+        margin-top: 0;
+        right: 10px;
+        left: auto;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        top:0;
+    }
+    #toolbar #cart .icon {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}

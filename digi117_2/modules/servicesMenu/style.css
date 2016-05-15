@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#servicesMenu {
+    background: url(/images/bkg_footer.png) 0 0 repeat;
+
+}
+	#servicesMenu .wrapper {
+		width:930px;
+		margin:0 auto;
+		padding: 10px 40px;
+		list-style: none;
+	}
+
+	#servicesMenu li {
+		font-size: 13px;
+		padding: 10px 0;
+
+		display: inline-block;
+		*display: inline; 
+		zoom: 1;
+		vertical-align:top;
+		line-height: normal;
+	}
+		#servicesMenu li+li {
+			padding-left:8px;
+		}
+		#servicesMenu li+li:before {
+			content:"/"; color:#303030;
+			padding-right: 7px;
+		}
+
+	#servicesMenu a, #servicesMenu a:link, #servicesMenu a:visited {
+		color: #ffffff;
+		cursor: pointer;
+	}
+	#servicesMenu a:hover, #servicesMenu a:active {
+		color: #ff003c;
+	}

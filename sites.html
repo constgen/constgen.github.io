@@ -1,0 +1,81 @@
+<title>constgen</title>
+
+<style>
+    html {
+        background: #ddd;
+    }
+    body{
+        height: 100%;
+    }
+    ul{
+        display: block;
+        height: 100%;
+        column-width: 200px;
+        column-fill: auto;
+    }
+    ul li {
+        text-transform: capitalize;
+    }
+    
+</style>
+
+<ul class=sites></ul>
+
+<script>
+    var sites = [
+        'artside',
+        'atlas',
+        'auto',
+        'bordel',
+        'comboapp',
+        'comboapp_2',
+        'comboapp_2_blog',
+        'comboapp_2_facebook',
+        'comboapp_3',
+        'comboapp_3_blog',
+        'comboapp_3_mobile',
+        'comboapp_logo',
+        'dart117',
+        'digi117',
+        'digi117_2',
+        'ecotec',
+        'fairhyip',
+        'fairmanagement',
+        'fairmarket',
+        'fixedgames',
+        'football',
+        'galleon',
+        'gift',
+        'goldfishka',
+        'intersog',
+        'intersog_2',
+        'intersog_3',
+        'intersog_3_facebook',
+        'intersog_4',
+        'intersog_5',
+        'lfg_animation',
+        'morton',
+        'peoplarium',
+        'planner',
+        'romanovska',
+        'schelk',
+        'test',
+        'ximia'
+    ];
+    
+    var site,
+        i = -1,
+        template,
+        sitesElem = document.getElementsByTagName('ul')[0];
+        
+    while(++i in sites){
+        site = sites[i]
+        template = '<li>'
+            + '<img src="' + site + '/favicon.ico" alt="" width=16 height=16 /> '
+            + '<a href="' + site + '/index.html">'
+                + site 
+            + '</a>'
+        +'</li>'
+        sitesElem.innerHTML += template
+    }
+</script>

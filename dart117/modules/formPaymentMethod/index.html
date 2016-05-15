@@ -1,0 +1,58 @@
+﻿
+<div data-module="formPaymentMethod" class="formPaymentMethod">
+	<div class="formHeader">
+        <h2>Payment method</h2>
+    </div>
+	<form action="#">
+		<div class="row">
+			<label for="firstName" class="required">First name*</label>
+			<input type="text" name="firstName" required class="valid">
+		</div>
+		<div class="row">
+			<label for="lastName" class="required">Last name*</label>
+			<input type="text" name="lastName" required>
+		</div>
+		<div class="row">
+			<label for="email" class="required">Email*</label>
+			<input type="email" name="email" required class="invalid">
+		</div>
+        <div class="row">
+			<label for="creditCardNumber" class="required">Credit card number*</label>
+			<input type="text" name="creditCardNumber" required>
+		</div>
+        <div class="row">
+			<label for="expireMonth" class="required">Expire month*</label>
+			<select>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+            </select>
+		</div>
+        <div class="row error">
+			<label for="expireYear" class="required">Expire year*</label>
+            <select>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+            </select>
+		</div>
+        <div class="row">
+			<label for="cw" class="required">CW*</label>
+			<input type="text" name="cw" required class="small">
+		</div>
+        <div class="row">
+			<label for="weAccept" class="required">WE ACCEPT*</label>
+			<div class="weAccept">
+                <div class="weAcceptItem visa"></div>
+                <div class="weAcceptItem mastercard"></div>
+                <div class="weAcceptItem cards"></div>
+                <div class="weAcceptItem discover"></div>
+			</div>
+		</div>
+		
+		<div class="formFooter">
+			<input type="submit" class="btnOrange" value="Checkout">
+		</div>
+
+	</form>
+</div>

@@ -1,0 +1,329 @@
+﻿@charset "utf-8";
+
+.formOrder {
+        
+}
+
+
+.formOrder
+{
+	float: left;
+    width:450px;
+	margin: 0 0 0px 40px;
+}
+
+.formOrder table
+{
+	width:450px;
+}
+
+
+.formOrder form {
+    position: relative;
+    margin: 0;
+    padding: 0;
+	background: none;
+}
+
+.orderDetails {
+	padding-bottom:4px;
+    overflow: hidden;
+}
+
+.orderHeader {
+    
+}
+
+.orderHeader .servicePrice,
+.orderItem .servicePrice,
+.orderHeader .serviceLink,
+.orderItem .serviceLink
+{
+    width: 185px;
+    padding-left: 0px;
+	line-height: 40px;
+    text-align:left;
+    font-size: 16px;
+}
+
+.orderItem .removeItem {
+    padding: 0 20px 0 40px;
+}
+
+.orderFooter .serviceSubtotal{
+	padding: 20px 20px;
+    text-align:left;
+}
+
+.orderHeader .serviceTotal,
+.orderItem .serviceTotal,
+.orderFooter .serviceTotal{
+	line-height: 40px;
+    padding-left: 0px;
+    width:100px;
+	display:table-cell;
+	text-align:left;
+}
+
+
+.orderHeader .serviceLink,
+.orderItem .serviceLink{
+	width:350px;
+}
+
+	.orderItem .serviceLink input{
+		width:250px;
+		background-color:#f0f0f0;
+	}
+
+
+.orderTitle .serviceName {
+    padding: 15px 0 15px 20px;
+    width:120px;
+	/*display: inline-block;*/
+	text-align:left;
+    line-height: 40px;
+}
+
+.orderHeader .serviceName,
+.orderItem .serviceName,
+.orderFooter .servicePromo{
+    padding: 10px 0 10px 20px;
+    width:120px;
+	/*display: inline-block;*/
+	text-align:left;
+    line-height: 40px;
+}
+
+.orderFooter input {
+    margin: 0 10px;
+}
+
+.orderFooter .servicePromo {
+    line-height: 40px;
+}
+
+.orderHeader,
+.orderTitle,
+.orderFooter{
+    font-family: 'Helvetica Neue Condensed Light', Arial, sans-serif;
+    font-weight: bold;
+    background:#729d9c;
+	padding:15px 30px;
+	color:#FFF;
+	font-size:20px;
+    overflow: hidden;
+}
+
+.orderTitle {
+    padding: 20px 30px;
+    font-size: 30px;
+    border-bottom: 1px solid #769199;
+}
+	
+.orderItem{
+	border-top:1px solid #f2f2f2;
+	padding:8px 30px;
+}
+
+.orderItem {
+	background-color:#FFF;
+}
+	
+	.orderItem .serviceTotal{
+		font-weight:bold;
+		/*font-size:16px;*/
+	}
+	
+	.orderItem .remove{
+		/*position: absolute;*/
+        /*display: inline-block;*/
+        /**display: block;*/
+        right: 10px;
+
+        margin-left: 30px;
+		*margin-left: 0px;
+        vertical-align: middle;
+		/*width: 40px;
+		height: 40px;*/
+		background: url(images/bg_remove.png) top no-repeat;
+	}
+	
+	.orderItem .remove:hover{
+		background-position:bottom;
+	}
+
+.orderBrief{
+	margin-top:8px;
+	padding:15px 0;
+	width:750px;
+}
+
+	.orderBrief textarea{
+		margin:25px 0;
+		width:725px;
+		height:165px;
+		border:1px solid #ededed;
+		background-color:#FFF;
+	}
+	
+	.orderBrief input{
+		padding:5px 0;
+		background:none;
+		font-size:14px;
+		margin:10px 0;
+	}
+	
+.orderFooter .servicePromo{
+	text-transform:none; 
+	width:630px;
+    border-right: 1px solid #728c94;
+}
+
+.orderFooter .servicePromo label{
+	padding:0;
+	margin:5px 10px 0 10px;
+	height:30px;
+	width:280px;
+    *margin-top: -5px;
+}
+
+.orderFooter .servicePromo input{
+	width:260px;
+    height: 30px;
+    font-size: 13px;
+
+    *padding-top: 7px;
+    *height: 23px;
+    
+    /*IE8*/
+    line-height: 30px \0/;
+}
+
+/*Buttons*/
+.buttons
+{
+    float: left;
+    margin: 20px -40px 100px 0;
+    width: 360px;
+	text-align: right;
+}
+
+.formOrder .buttons button{
+	float: left;
+    margin-left:20px;
+}
+
+
+/*Common questions*/
+.formOrder .questions
+{
+	float: left;
+    position: relative;
+    margin: 26px 35px 100px 0;
+    width: 545px;
+    border: 1px solid #c9c9c9;
+    border-radius: 23px;
+    font-family: 'Helvetica Neue LT Com', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+
+.formOrder .questions .title
+{
+    display: block;
+    padding: 0 25px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.formOrder .questions .title p
+{
+    float: left;
+}
+
+.formOrder .questions .control
+{
+	display: block;
+    float: right;
+    padding: 0;
+    height: 46px;
+    width: 50px;
+}
+
+.formOrder #control-image {
+    margin-top: 18px;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 11px;
+    background: url(images/common-questions-control.png) no-repeat;
+}
+
+.formOrder #control-image.opened
+{
+    background-position: 0px -12px;
+}
+
+.formOrder #control-image.closed
+{
+    background-position: 0px 0px;
+}
+
+.formOrder #question-list
+{
+	position: relative;
+    overflow: hidden;
+    padding: 0 25px 0px 25px;
+}
+
+.formOrder #question-list.opened
+{
+    height: auto;
+    margin-bottom: 20px;
+    opacity: 1;
+
+    -webkit-transition: opacity .2s linear;  				
+    -moz-transition: opacity .2s linear;  	 				
+    -o-transition: opacity .2s linear;  					
+    -transition: opacity .2s linear;  	
+}
+
+.formOrder #question-list.closed
+{
+    height: 0;
+    opacity: 0;
+
+    -webkit-transition: opacity .2s linear;  				
+    -moz-transition: opacity .2s linear;  	 				
+    -o-transition: opacity .2s linear;  					
+    -transition: opacity .2s linear;
+}
+
+.removeAttachment{
+	margin-top:10px;
+	font-style:italic;
+	background:#EBEBEB;
+	padding:5px;
+	width:50%;
+	overflow:hidden;
+}
+
+.removeAttachment a{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:5px;
+	width:16px;
+	height:16px;
+	background:url(/images/ico_remove_attach.png) left no-repeat;
+}
+
+.formOrder .btn {
+    padding: 12px 20px;
+}
+
+.formOrder .btn.orange {
+    padding: 12px 40px;
+}

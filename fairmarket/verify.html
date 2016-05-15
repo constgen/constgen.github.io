@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>FAIRMARKET</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- FairMarket styles --><link rel="stylesheet" href="./css/style.css" type="text/css" />
+		<!-- jQuery library --><script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+		<!-- jCarousel library --><script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+		<!-- jCarousel skin stylesheet --><link rel="stylesheet" type="text/css" href="./css/jcarousel-skin-fairmarket.css" />
+		<!-- FairMarket scripts --><script type="text/javascript" src="./js/script.js"></script>
+		<!-- jCarousel scripts -->
+		<script type="text/javascript">
+			function mycarousel_initCallback(carousel) {
+					// Disable autoscrolling if the user clicks the prev or next button.
+					carousel.buttonNext.bind('click', function() {
+							carousel.startAuto(0);
+					});
+			
+					carousel.buttonPrev.bind('click', function() {
+							carousel.startAuto(0);
+					});
+			
+					// Pause autoscrolling if the user moves with the cursor over the clip.
+					carousel.clip.hover(function() {
+							carousel.stopAuto();
+					}, function() {
+							carousel.startAuto();
+					});
+			};
+			jQuery(document).ready(function() {
+					jQuery('#mycarousel').jcarousel({
+							auto: 2,
+							wrap: 'last',
+							initCallback: mycarousel_initCallback
+					});
+			});
+		</script>
+		<!-- jCarousel scripts - end -->
+		<!--jQuery-->
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript">jQuery.noConflict();</script>
+		<!--jQuery - end -->
+		<!--jQuery Lightbox-->
+		<script type="text/javascript" src="./js/jquery.lightbox-0.5.js"></script>
+		<link rel="stylesheet" href="./css/jquery.lightbox-0.5.css" type="text/css" media="screen" />
+		<script type="text/javascript">jQuery(function() { jQuery('a[@href$=.jpg]').lightBox(); jQuery('a[@href$=.JPG]').lightBox(); });</script>
+		<!--jQuery Lightbox - end-->
+        <!--Imgdownload-->
+        <script type="text/javascript">
+			a= new Image();
+			a.src= "./images/bottab-right-1-h.png";
+			b= new Image();
+			b.src= "./images/bottab-left-2-h.png";
+			c= new Image();
+			c.src= "./images/logintab-left-2-h.png";
+			d= new Image();
+			d.src= "./images/logintab-right-1-h.png";
+        </script>
+        <!--Imgdownload - end-->
+		
+		
+		
+	
+	</head>
+	<body>
+	
+		<div align="center" class="body">
+			<!-- PAGE -->
+			<div class="page"> 
+				<!-- LANGUAGE SELECT -->
+					<div class="lng">
+						<ul class="lang">
+							<li><a href="/">ru</a></li>
+							<li><a href="/en/">en</a></li>
+						</ul>
+					</div>
+				<!-- LANGUAGE SELECT - end --> 
+				<!-- LOGO --><div class="logo"><a href="./index.html" title="Главная"><img src="./images/logo.png" onmouseover="this.src='./images/logo-h.png'" onmouseout="this.src='./images/logo.png'" /></a></div><!-- LOGO - end --> 
+				<!-- MENU -->
+				<div style="position:absolute; right:0px; top:52px;">
+					<ul class="menu">
+						<li><a href="/" class="afirst">Главная</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./augment.html" class="aany">Пополнение</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./exchange.html" class="aany">Обмен</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./shop.html" class="aany">Магазин</a><img src="./images/adivider.jpg" /></li>
+						<li><a href="./registration.html" class="alast">Регистрация</a></li>
+					</ul>
+					<a class="button-support" href="./support.html"><img src="images/button-support.png" width="25" height="128" /></a>
+					<a class="button-forum" href="#"><img src="images/button-forum.png" width="23" height="88" /></a>
+				</div>
+				<!-- MENU - end -->
+				<!-- MAIN BODY -->
+				<div class="main">
+					<table width="100%">
+						<tr>
+							<td class="left" align="left" valign="top"> 
+								<!-- BLOCK1 -->
+								<div class="block">
+									<div class="grey1"><span class="blocktitle">Категории</span></div>
+									<div class="grey2">
+										<div>
+											<ul class="cats">
+												<li>Все для дома
+													<ul>
+														<li><a href="#">Бытовые приборы</a></li>
+														<li><a href="#">Мебель</a></li>
+														<li><a href="#">Сантехника</a></li>
+													</ul>
+												</li>
+												<li>Все для ремонта
+													<ul>
+														<li><a href="#">Плитка</a></li>
+														<li><a href="#">Плитка уличная</a></li>
+														<li><a href="#">Обои</a></li>
+														<li>Краска
+															<ul>
+																<li><a href="#">Матовая</a></li>
+																<li><a href="#">Глянцевая</a></li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+												<li><a href="#">Все для семьи</a></li>
+												<li><a href="#">Компьютеры</a></li>
+												<li><a href="#">Аудиотехника</a></li>
+											</ul>
+										</div>
+									</div>
+									<img src="./images/grey3.png" />
+								</div>
+								<!-- BLOCK1 - end --></td>
+							<td class="center" align="left" valign="top">
+								<!-- MAIN GREY -->
+								<div class="block">
+									<div class="maingrey1"><span class="blocktitle">Верификация</span></div>
+									<div class="maingrey2">
+										<div class="verify">
+											<p>&nbsp;</p>
+											<p><h3>Возможности аккаунтов</h3></p>
+											
+											
+											
+											
+											
+											<table class="table">
+												<thead><tr><td></td><td class="center">Не&nbsp;верифицированный</td><td class="right">Верифицированный</td></tr></thead>
+												<tbody>
+													<tr class="table-head"><td colspan="3"></td></tr>
+													<tr>
+														<td class="left">Неограниченный ввод средств</td>
+														<td class="center yes"><img src="images/yes.png" width="17" height="18" /></td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+													<tr class="light">
+														<td class="left">Неограниченные внутренние транзакции</td>
+														<td class="center yes"><img src="images/yes.png" width="17" height="18" /></td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+													<tr>
+														<td class="left">Ограничения на транзакцию вывода </td>
+														<td class="center no">100FM</td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+													<tr class="light">
+														<td class="left">Ограничения на вывод в сутки </td>
+														<td class="center no">300FM</td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+													<tr>
+														<td class="left">Время проведения транзакции вывода </td>
+														<td class="center no">24ч</td>
+														<td class="right yes">мгновенно</td>
+													</tr>
+													<tr class="light">
+														<td class="left">Ввод с AlertPay</td>
+														<td class="center no"><img src="images/no.png" width="10" height="10" /></td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+													<tr>
+														<td class="left">Ввод с LiqPay</td>
+														<td class="center no"><img src="images/no.png" width="10" height="10" /></td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+													<tr class="light">
+														<td class="left">Бесплатное использование API, <br />
+														merchant, widgets</td>
+														<td class="center yes"><img src="images/yes.png" width="17" height="18" /></td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+													<tr>
+														<td class="left">Бесплатные покупки/продажи в магазине</td>
+														<td class="center yes"><img src="images/yes.png" width="17" height="18" /></td>
+														<td class="right yes"><img src="images/yes.png" width="17" height="18" /></td>
+													</tr>
+												
+												</tbody>
+											</table>
+											
+											<p>&nbsp;</p>
+											<p>&nbsp;</p>
+											<p><h4>Уважаемый(ая) Ольга, </h4><br>
+											</p>
+											<p>На этой странице Вы можете ввести необходимые данные, а также загрузить документы для получения верифицированного статуса, который позволяет убрать ограничения аккаунта. Как часть нашего процесса верификации, мы требуем загрузить документ, подтверждающий Вашу личность (паспорт, водительские права).</p> 
+											<br>
+											<p><h4>На Вашем документе должно быть следующее:</h4></p>
+											<ol>
+												<li>Фото</li>
+												<li>Имя и фамилия</li>
+												<li>Адрес, который указан в аккаунте</li>
+												<li>Дата рождения</li>
+												<li>Дата окончания действия документа <small>(если не присутствует в документе, пожалуйста игнорируйте)</small></li>
+												<li>Подпись</li>
+											</ol>
+											
+											<p>&nbsp;</p>
+											<p><br>
+											</p>
+											<form method="post" enctype="multipart/form-data">
+											<table class="form">
+												<tbody>
+													<tr>
+														<td>Ваше имя:</td>
+														<td><input class="text" type="text" name="real_name"></td>
+													</tr>
+													<tr>
+															<td>Ваша фамилия:</td>
+															<td><input class="text" type="text" name="real_lastname"></td>
+													</tr>
+													<tr>
+															<td>Ваша дата рождения (yyyy-MM-dd):</td>
+															<td><input class="text" type="text" name="birthdate"></td>
+													</tr>
+													<tr>
+															<td>Подтвреждение личности:</td>
+															<td><div class="download">
+																<button>выберите файл</button><span>файл не выбран</span>
+															</div>
+															<a href="#" class="addfile" id="showIdentapr2"><img src="images/add.png" width="9" height="9" /></a></td>
+													</tr>
+													<tr>
+															<td><div style="display: none;" class="identapr2">Подтвреждение личности 2:</div></td>
+															<td><div style="display: none;" class="identapr2"><input type="file" name="identapr2"></div></td>
+													</tr>
+												</tbody>
+											</table>
+											<p>В связи с проверкой соответствия адреса, зарегистрированного в Вашем аккаунте адресу, указанному в документе, подтверждающем личность, Вам необходимо предоставить нам счет за коммунальные услуги или выписку из Вашего банка.</p>
+											
+											<p>На документе должно быть следующее:</p> 
+											<br>
+											<ol start="7">
+												<li>Полный адрес, который зарегистрирован в Вашем аккаунте</li>
+												<li>Дата <small>(не давнее 3-х месяцев с текущего момента)</small></li>
+											</ol>
+											<br>
+											
+											<table class="form">
+												<tbody>
+													<tr>
+														<td valign="top">Адрес: <small>(индекс, страна, город, область, улица, дом, квартира)</small></td>
+														<td><textarea cols="25" rows="5" name="adr"></textarea></td>
+													</tr>
+													<tr>
+														<td>Подтверждение адреса: </td>
+														<td><div class="download">
+																<button>выберите файл</button><span>файл не выбран</span>
+															</div>
+													</tr>
+												</tbody>
+											</table>
+											<br>
+											<p>Загруженные документы должны быть:</p>
+											<ul>
+												<li>легкочитаемы и легитимны</li>
+												<li>полными копиями <small>(имена, подписи, печати, частичные варианты неприемлемы)</small></li>
+												<li>в форматах jpg, pdf или tiff</li>
+												<li>размером не более 2-х МБ </li>
+											</ul>
+											<br>
+											<p>Мы ожидаем, что документы будут отсканированы или же сфотографированы цифровой фотокамерой.</p> 
+											<p>Если Вы не можете это сделать, пожалуйста <a class="linkc" href="/support/">свяжитесь с нами</a>.</p>
+											<p>&nbsp;</p>
+											<input type="submit" value="" class="sendbutton">
+											</form>
+										</div>
+									</div>
+									<img src="./images/maingrey3.png" />
+								</div>
+								<!-- MAIN GREY - end --></td>
+							<td class="right" align="center" valign="top">
+								<!-- LOGIN BLOCK -->
+								<div class="block">
+									<div id="lb1" class="loginblock1">
+										<div class="tab1">
+											<a id="lt1" href="javascript:logintab1()" class="logtab1">Войти</a>
+										</div>
+										<div class="tab2">
+											<a id="lt2" href="javascript:logintab2()" class="logtab2">Регистрация</a>
+										</div>
+									</div>
+									
+									<div id="lb2" class="loginblock1">
+										<div class="tab1">
+											<a id="lt1" href="javascript:logintab1()" class="logtab-2-1">Войти</a>
+										</div>
+										<div class="tab2">
+											<a id="lt2" href="javascript:logintab2()" class="logtab-2-2">Регистрация</a>
+										</div>
+									</div>
+									<div class="loginblock2">
+										<div id="logintab1" align="left">
+											<br />Привет, <b>Евгений</b><br /><br />
+											На твоем счету <b>172.41</b> FM
+											<div class="loginbutton" onmouseover="this.className='loginbutton-h'" onmouseout="this.className='loginbutton'">
+												<input type="submit" value="Выход" />
+											</div>
+										</div>
+										<div id="logintab2">
+											...
+										</div>
+									</div>
+									<img src="./images/grey3.png" />
+								</div>
+								<!-- LOGIN BLOCK - end -->
+								<!-- NEWS BLOCK -->
+								<div class="block_S">
+									<div class="news">
+										<h2>НОВОСТИ</h2>
+										<div class="nblock">
+											<span>25.07.09</span><a class="readmore" href="#">читать всю новость</a><br />
+											<div class="text">
+												Политическое лидерство означает плюралистический социализм, что было отмечено П.Лазарсфельдом. Легитимность власти, несмотря на внешние...
+											</div>
+										</div>
+										<div class="nblock">
+											<span>25.07.09</span><a class="readmore" href="#">читать всю новость</a><br />
+											<div class="text">
+												Политическое лидерство означает плюралистический социализм, что было отмечено П.Лазарсфельдом. Легитимность власти, несмотря на внешние...
+											</div>
+										</div>
+										<div class="nblock">
+											<span>25.07.09</span><a class="readmore" href="#">читать всю новость</a><br />
+											<div class="text">
+												Политическое лидерство означает плюралистический социализм, что было отмечено П.Лазарсфельдом. Легитимность власти, несмотря на внешние...
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- NEWS BLOCK - end --></td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" class="footer-left"><span>2010. Fairmarket</span></td>
+							<td align="center" valign="top" class="footer-center">
+								<div class="bmenu">
+									<ul class="bottommenu">
+										<li><a href="./index.html">Главная</a></li>
+										<li><a href="./augment.html">Пополнение</a></li>
+										<li><a href="#">Условия пользования</a></li>
+										<li><a href="./exchange.html">Обмен</a></li>
+										<li><a href="./shop.html">Магазин</a></li>
+										<li><a href="#">Рекламма на сайте</a></li>
+										<li><a href="./registration.html">Регистрация / Вход</a></li>
+									</ul>
+								</div>
+															<div class="underfooter">
+									<a class="cards" href="#"><img src="images/logo-footer-payment.png" width="280" height="81" /></a>
+								
+									<div id="thawteseal" style="text-align:center;" title="Click to Verify - This site chose Thawte SSL for secure e-commerce and confidential communications.">
+									<div><script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=fairmarket.biz&amp;size=S&amp;lang=en"></script></div>
+									<div><a href="http://www.thawte.com/products/" target="_blank" style="color:#000000; text-decoration:none; font:bold 10px arial,sans-serif; ">ABOUT SSL CERTIFICATES</a></div>
+									</div>
+								</div>
+								
+							</td>
+							<td align="center" valign="top" class="footer-right"><a href="#"><img src="images/logo-fairmoney.png" /></a></td>
+					</table>
+				</div>
+				<!-- MAIN BODY - end --> 
+			</div>
+			<!-- PAGE - end -->
+		</div>
+		
+	</body>
+</html>

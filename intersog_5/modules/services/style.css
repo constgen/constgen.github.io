@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+
+.services {
+	position:relative;
+	padding: 0;
+	font-size: 13px;
+	line-height: 20px;
+}
+.services .columns {
+	margin-bottom: 34px;
+}
+.services .columns p{
+	margin-bottom: 21px;
+}
+.services .button.big {
+	margin-bottom: 40px;
+	font-size: 15px;
+}
+	.services .row:first-child {
+		padding-top: 15px;
+	}
+	.services .row {
+		padding: 40px;
+		overflow:hidden;
+		position: relative;
+		border-top: 1px solid #dfdfdf;
+	}
+	.services .row:first-child {
+		border-top: none;
+	}
+	.services .row .img img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+		.services .row .img {
+			width: 450px;
+			overflow: hidden;
+		}
+		.services .row .permalink {
+			display: inline-block;
+			*display: inline;
+			zoom:1;
+			margin-top: 10px;
+			padding: 10px 0;
+			text-decoration: underline;
+		}
+
+			.services .row.even {
+				padding-left: 0px;
+				padding-right: 0;
+			}
+				.services .row.even .img {
+					float: left;
+				}
+				.services .row.even .descriptions {
+					float: right;
+					width: 430px;
+				}
+
+			.services .row.odd{
+				padding-right: 0px;
+				padding-left: 0;
+			}
+				.services .row.odd .img {
+					float: right;
+				}
+				.services .row.odd .descriptions {
+					float: left;
+					width: 430px;
+				}

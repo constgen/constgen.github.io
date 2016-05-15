@@ -1,0 +1,53 @@
+
+<!--
+<article class="basket-empty">
+	Your cart is empty
+</article>
+-->
+
+<!--BASKET PAGE-->
+<section class="basket-table">
+    <form autocomplete="off" class="basketform" method="POST" action="order.html">
+        <h1>Your Order</h1>
+        <table>
+            <thead class="orderHeader">
+		        <td class="serviceName">Name of Service</td>
+		        <td class="servicePrice">Price</td>
+                <td class="serviceDiscount">Discount</td>
+                <td class="serviceTotal">Total</td>
+		        <td></td>
+	        </thead>
+	        
+	        <tr class="orderItem" data-serviceid="4522">
+		        <td class="serviceName"><a href="#">4522 Icon Collection for Web, iOS, Android, Games</a></td>
+		        <td class="servicePrice">$ 1,000.00</td>
+		        <td class="serviceDiscount">5 %</td>
+                <td class="serviceTotal">$ 1,000.00</td>
+                <td class="removeItem"><a href="#" class="btn_remove remove" title="" data-serviceid="4522"></a></td>
+	        </tr>
+          
+	        <tfoot class="orderFooter">
+		        <td class="servicePromo">Promo Code <input type="text" id="promocode"></td>
+                <td></td>
+		        <td class="serviceSubtotal"><span class="text_uppercase">SUBTOTAL</span></td>
+		        <td class="serviceTotal" colspan="2"><span id="totalBasket">$ 2,000.00</span></td>
+	        </tfoot>
+        </table>
+        <!--COMMON ORDERING QUESTIONS-->
+        <div class="questions">
+            <span class="title">
+                <p>Common Ordering Questions</p>
+                <a href="#" class="control"><span id="control-image" class="opened"></span></a>
+            </span>
+            <div id="question-list" class="closed">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <!--BUTTONS-->
+        <div class="buttons">
+			<a href="#" class="btn aqua">Continue shopping</a>
+            <input type="submit" class="btn orange" value="Checkout">
+		</div>
+    </form>
+
+</section><!--END BASKET PAGE-->

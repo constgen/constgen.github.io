@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+
+
+.reviewForm {
+	background: #272727;
+	padding: 22px 25px;
+	margin-bottom: 23px;
+}
+.reviewForm h2 {
+	color: #fafafa;
+	font-size: 25px;
+}
+.reviewForm hr {
+	background: #212121;
+	border: 0;
+	margin: 18px -22px 13px -22px;
+}
+.reviewForm form {
+	/*position: relative;		*/
+}
+
+.reviewForm label {
+	width: 172px;
+	color: white;
+	text-transform: uppercase;
+}
+.reviewForm .row input {
+	width: 230px;
+	margin-bottom: 22px;
+}
+.reviewForm textarea {
+	height: 155px;
+    width: 591px;
+	margin-bottom: 10px;
+}			
+.reviewForm .bottom {
+	text-align: center;
+}
+.reviewForm .bottom input{
+	text-transform: none;
+}
+.reviewForm .sendSuccess{
+	display:block;
+	margin-bottom: 5px;
+}
+.reviewForm .sendSuccess,
+.reviewForm .message {
+	text-align:center;
+	color:#FFF;
+	font-size:20px;
+	font-family: 'Helvetica Neue Condensed Light';
+}
+.reviewForm .messages {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}		
+.reviewForm .errorMessage {display: none !important;}
+.reviewForm .ajaxStatus {
+	padding: 20px 230px 20px 40px;
+}
+.reviewForm .message.error {
+    margin-bottom: 5px;
+}
+.reviewForm .btnOrange {
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-appearance: none;
+}

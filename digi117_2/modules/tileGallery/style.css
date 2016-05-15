@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+
+.tileGallery
+{
+	
+}
+
+.tileGallery .tiles
+{
+	display: block;
+	width: 917px;
+	height: 262px;
+	overflow: hidden;
+	margin: 0 auto 40px;
+	padding: 0;
+}
+
+.tileGallery .tile
+{
+	position: relative;
+	overflow: hidden;
+	display: block;
+	float: left;
+	width: 131px;
+	height: 131px;
+	background: #ff003c;
+	cursor: pointer;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.tileGallery .tile.empty
+{
+	cursor: default;
+}
+
+.tileGallery .tile .effect
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	-webkit-transition: top 0.5s /*cubic-bezier(0.79,0.00,0.14,1.00)*/;
+	-moz-transition: top 0.5s /*cubic-bezier(0.79,0.00,0.14,1.00)*/;
+	-o-transition: top 0.5s /*cubic-bezier(0.79,0.00,0.14,1.00)*/;
+	transition: top 0.5s /*cubic-bezier(0.79,0.00,0.14,1.00)*/;
+	/*http://cssglue.com/cubic*/
+}
+
+.tileGallery .tile .effect.notransition,
+.tileGallery.notransition .tile .effect
+{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: 0;
+	transition: none;
+}
+
+.tileGallery .tile .image
+{
+	display: block;
+	overflow: hidden;
+	width: 131px;
+	height: 131px;
+}
+
+.tileGallery .tile img
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+}
+
+.tileGallery .tile .hover
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 8px solid rgb(255, 0, 60);
+	/*border-color: rgba(255, 0, 60, 0.8);*/
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.tileGallery .tile:hover .hover
+{
+	opacity: 0.8;
+}

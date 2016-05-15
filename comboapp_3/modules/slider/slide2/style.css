@@ -1,0 +1,11 @@
+.slide_02 {
+	background: url(../gallery/about-slide-image.png) no-repeat;
+	padding-left: 575px;
+	padding-top: 40px;
+}
+.slide_02 .description {
+	display: table-cell;
+	vertical-align: middle;
+	height: 260px;
+    width: 300px;
+}

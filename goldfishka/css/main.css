@@ -1,0 +1,328 @@
+﻿@charset "utf-8";
+
+:focus {-moz-outline-style:none;}
+
+a, a:active {outline:none;}
+
+img {
+    border: none;
+    vertical-align: middle;
+    border-collapse: separate;
+    -ms-interpolation-mode: bicubic;
+}
+
+hr {
+    background: none repeat scroll 0 0 #E7E7E7;
+    border: medium none;
+    clear: both;
+    height: 1px;
+    margin: 10px 0;
+}
+
+table { border-collapse: collapse; border-spacing: 0; border: 0;}
+table td { padding: 0;}
+
+form {margin: 0;}
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
+button {overflow:visible; outline: none;}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle; 
+}
+textarea{
+    overflow: auto;
+    vertical-align: top;
+    -webkit-appearance: none;
+}
+
+sub, sup{line-height: 0;}
+
+html, body, form, li, h1,h2,h3,h4,h5,h6, p {margin: 0; padding:0;}
+ul, ol {margin: 0; padding: 0 0 0 2em;}
+dd {margin: 0 0 0 40px;}
+
+header, nav, section, menu, article, figure, aside, footer {display: block; margin: 0; padding:0;}
+[hidden], input[type="hidden"] {display: none;}
+
+html {
+/*    overflow: auto;*/
+    height: 100%;
+    -webkit-text-size-adjust: none;
+}
+
+button,input,select,textarea { font-family: sans-serif;}
+
+body {
+/*    width: 100%;
+    height: 100%;*/
+    position: relative;
+    min-height: 100%;
+    background-color: #003b71;
+    font-family: Arial, Tahoma, Calibri, Gautami, sans-serif;
+    font-size: 11px;
+    color: #222;
+    cursor: default;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+	padding-bottom: 95px;
+}
+
+a{
+    color: #0a8bff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* remove default tap active style */
+* { 
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+
+.clear {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.acceleration {
+	-webkit-transform: translateZ(0) !important;
+	-moz-transform: translateZ(0) !important;
+	-o-transform: translateZ(0) !important;
+	transform: translateZ(0) !important;
+}
+
+
+/* Buttons
+-----------------------------------------------------------------------------*/
+.button {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.button.blue {
+    border-radius: 5px;
+	border: 2px solid #68ace5;
+	border-bottom-color: #3d8fd5;
+	border-top-color: #9dd0f9;
+	font-size: 14px;
+	height: 27px;
+	line-height: 27px;
+	background: #75b1df url(../images/bg_btn_blue.png) repeat-x;
+	box-shadow: 0px 2px 2px rgba(131, 131, 131, 1);
+	text-decoration: none;
+	color: #072243;
+	display: inline-block;
+	padding: 0 13px;
+	*display: inline;
+	*zoom: 1;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+
+
+/* Sidebars
+-----------------------------------------------------------------------------*/
+
+
+/* Page 404
+-----------------------------------------------------------------------------*/
+/*.page404 #bg-header {
+    background:url(../images/bg_404.png) center bottom no-repeat;
+    padding-top: 170px;
+}
+
+.page404 #wrapper
+{
+    padding-top: 120px;
+}*/
+
+
+/* Disabled Javascript
+-----------------------------------------------------------------------------*/
+/*.noscript #bg-header {
+    background:url(../images/bg_404.png) center bottom no-repeat;
+    padding-top: 170px;
+}
+
+.noscript #wrapper
+{
+    padding-top: 120px;
+}*/
+
+
+/* Content styles
+-----------------------------------------------------------------------------*/
+.container {
+    background: #FFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.5);
+    margin: 0 10px;
+}
+
+.container h2{
+    color: #00396d;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 20px 10px 10px 20px;
+}
+
+/* Forms
+-----------------------------------------------------------------------------*/
+
+
+/* Tables
+-----------------------------------------------------------------------------*/
+
+
+/* Headers
+-----------------------------------------------------------------------------*/
+h1, h2 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #00396D;
+}
+
+
+/* Service Page
+-----------------------------------------------------------------------------*/
+.service-page {
+    color: #ffffff;
+    font-size: 14px;
+    background: #003b71 url(../images/service-page-bg.png) repeat-x top;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+.service-page .bg-ico {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background: url(../images/service-page-bg-ico-iphone.png) no-repeat top center;
+    top: -0px;
+    margin-left: -233px;
+    width: 466px;
+
+}
+
+    .service-page h1, h2 {
+        padding: 20px 20px;
+        color: #f2df93;
+        font-size: 20px;
+    }
+
+    .service-page a {
+        color: #89c6fd;
+        text-decoration: underline;
+    }
+    
+    .service-page p {
+        padding: 20px 20px;
+        font-size: 13px;
+    }
+    .service-page #wrapper {
+        position: relative;
+        margin: 0 auto;
+        max-width: 1024px;
+        text-align: center;
+        padding-top: 170px;
+		padding-bottom: 75px;
+    }
+
+@media all and (min-width: 480px) {
+    .service-page .bg-ico {
+        top: -40px;
+        margin-left: -384px;
+        width: 768px;
+        background-image: url(../images/service-page-bg-ico_iPad.png);
+/*        top: -0px;
+        margin-left: -233px;
+        width: 466px;
+        background-image: url(../images/service-page-bg-ico-iphone.png);*/
+    }   
+    .service-page #wrapper {
+        padding-top: 360px;
+        padding-bottom: 0px;
+/*        padding-top: 170px;
+		padding-bottom: 75px;*/
+	}    
+    .service-page p {
+        font-size: 16px;
+    }
+    .service-page h1, h2 {
+        font-size: 22px;
+    }
+}
+@media all and (min-width: 769px) {
+    .service-page .bg-ico {
+        top: -150px;
+        margin-left: -768px;
+        width: 1536px;
+        background-image: url(../images/service-page-bg-ico.png);
+    }   
+    .service-page #wrapper {
+        padding-top: 550px;
+	}    
+}
+
+@media all and (max-width: 640px) {
+
+    .navigationBar {
+        height: 75px;
+    }
+}
+/*@media all and (min-width: 768px) {
+
+    .service-page {
+        background-position: center -100px;
+    }
+    .service-page h1, h2 {
+        padding: 40px 20%;
+        font-size: 22px;
+    }
+    
+    .service-page p {
+        padding: 20px 20%;
+        font-size: 16px;
+    }
+
+    .service-page #wrapper {
+        padding: 400px 0 0 0;
+    }
+    
+}*/
+/*
+@media all and (min-width: 1024px) {
+    
+    .service-page {
+        background-position: center -130px;
+    }
+    .service-page #wrapper {
+        padding: 450px 0 0 0;
+    }
+
+}*/
+
+/*@media all and (min-width: 1300px) {
+    
+    .service-page {
+        background-position: center -130px;
+    }
+    .service-page #wrapper {
+        padding: 550px 0 0 0;
+    }
+
+}*/

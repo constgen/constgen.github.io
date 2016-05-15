@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+
+#contact {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+#contact h1 {
+    margin-bottom: 0.5em;
+}
+
+#contact p {
+    padding-bottom: 1.4em;
+}
+
+#contact-form {
+    padding: 30px 0 0 55px;
+}
+
+#contact-form .row {
+    clear: none;
+    display: inline-block;
+    margin-right: 35px;
+    width: 380px;
+}
+
+
+.formContent {
+    background: url("images/contactWrappBg.jpg") no-repeat scroll 0 0 transparent;
+    height: 490px;
+    overflow: hidden;
+    padding-top: 210px;
+}
+
+.formWrapper {
+    background: url("images/contactFormBg.jpg") no-repeat scroll left top #003F77;
+}
+
+/*.formWrapper {
+    background: none repeat scroll 0 0 #003F77;
+}*/
+#contact-form .left {
+    display: inline-block;
+    margin: 0 15px 3px 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 300px;
+}
+
+
+#contact-form .right {
+    display: inline-block;
+    margin: 0 0 3px;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 547px;
+}
+
+.formContent textarea {
+    height: 90px;
+    padding: 0.25em 10px;
+    resize: none;
+    width: 779px;
+}
+
+
+.formContent input[type="text"],
+.formContent input[type="email"],
+.formContent select {
+    margin-bottom: 10px;
+    padding: 7px 0;
+    width: 380px;
+}
+
+.formContent input[type="text"],
+.formContent input[type="email"] {
+    text-indent: 7px;
+}
+
+.formContent input[type="submit"] {
+    background: #00bce2;
+}
+.formContent input[type="submit"]:hover {
+    background: #028ca8;
+}
+
+.formContent label {
+    color: white;
+}
+#contact-form .bottom {
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-align: right;
+    width: 800px;
+}
+#contact-form .successMessage {
+    color: white;
+    float: left;
+    background: url(images/pic_success_msg.png) no-repeat left 4px; 
+    padding-left: 19px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+

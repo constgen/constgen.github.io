@@ -1,0 +1,50 @@
+﻿<div id="formApplyForPosition">
+    <div id="formApplyForPositionOverlay" class="accelerated"></div>
+    <div id="formApplyForPositionForm" class="formWrapper">
+            <div id="formApplyForPositionContent" class="formWrap accelerated">
+                <div id="formApplyForPositionCloseButton">
+                    <a href="#">Close</a>
+                </div>
+                <form action="/content/proposal" method="post" id="proposal-form">
+                    <h2>Attach Resume</h2>
+                        <div class="row">
+                            <label class="required" for="firstName">First Name: <span class="required">*</span></label>
+                            <input type="text" required="" name="firstName">
+                        </div>
+                        <div class="row">
+                            <label class="required" for="lastName">Last Name: <span class="required">*</span></label>
+                            <input type="text" required="" name="lastName">
+                        </div>
+                        <div class="row">
+                            <label for="phone" class="required">Phone: <span class="required">*</span></label>
+                            <input type="text" name="phone" required="">
+                        </div>
+                        <div class="row">
+                            <label for="email" class="required">Email: <span class="required">*</span></label>
+                            <input type="email" name="email" required="">
+                        </div>
+                        <div class="row">
+                            <label class="required" for="firstName">LinkedIn Profile Url: </label>
+                            <input type="text" required="" name="firstName">
+                        </div>
+                        <div class="row">
+                            <div class="fileUploading">                                
+                                <label for="resume" class="required">Resume:</label>
+                                <a href="#" class="delFile">Delete file</a>
+                                <a href="" class="resume" id="chooseFile">Attach resume</a>
+                                <input type="text" id="filename" class="input-file">
+                                <input type="file" id="uploadInput">
+                            </div>
+                        </div>
+
+                    <div class="bottom">
+                            <label class="required" for="details">Cover letter (tell us what makes you unique): <span class="required">*</span></label>
+                            <textarea required="" name="details"></textarea>
+
+                        <div style="display: none;" class="successMessage">Your message was sent successfully!</div>
+                        <input type="submit" value="order sevice" class="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>

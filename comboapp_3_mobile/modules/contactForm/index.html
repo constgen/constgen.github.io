@@ -1,0 +1,62 @@
+﻿<section id="contact-form">
+	<div class="headerWrap">
+		<h4>Contact Us:</h4>
+	</div>
+	<form method="post" name="ContactForm" autocomplete="on" action="/contact.html#success"> 
+		<div class="row">
+			<label class="required">Name:</label>
+			<input type="text" value="" name="ContactForm[name]" required>
+		</div>
+		<div class="row">
+			<label class="required">E-mail:</label>
+			<input type="email" value="" name="ContactForm[email]" required>
+		</div>
+		<div class="row">
+			<label class="required">Phone number:</label>
+			<input type="phone" value="" name="ContactForm[phone]" required>
+		</div>
+		<div class="row">
+			<label class="required">Company:</label>
+			<input type="text" value="" name="ContactForm[company]" required>
+		</div>
+		<div class="row">
+			<label class="required">Country:</label>
+			<input type="text" value="" name="ContactForm[country]" required>
+		</div>
+		<div class="row">
+			<label class="required">Budget:</label>
+			<select name="ContactForm[budget]" required>
+				<option value="1">$49.99 – $500</option>
+				<option value="2">$500 – $5,000</option>
+				<option value="3">$5,000 – $20,000</option>
+				<option value="4">$20,000 – $60,000</option>
+				<option value="5">Over $60,000</option>
+			</select>
+		</div>
+		<div class="row">
+			<label class="required">Platform:</label>
+			<select name="ContactForm[platform]" required>
+				<option value="1">iOS</option>
+				<option value="2">Mac OS</option>
+				<option value="3">Android</option>
+				<option value="4">Other</option>
+			</select>
+			
+		</div>
+		<div class="row">
+			<label class="required">How did you find us?:</label>
+			<input type="text" value="" name="ContactForm[howDidYouFindUs]" required>
+		</div>
+		<div class="row">
+			<label class="required">Message:</label>
+			<textarea name="ContactForm[message]" required></textarea>
+		</div>
+		<div class="row nda">
+			<label><span class="cb_emulator"></span>Send me NDA</label> <!-- This checkbox should be -->
+			<input type="checkbox" name="ContactForm[nda]" checked /> 	<!--  selected on start! 	 -->
+		</div>
+		<div class="row">
+            <input type="submit" value="Submit" class="button"/>
+		</div>
+	</form>
+</section>

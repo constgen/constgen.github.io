@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+.pagination
+{
+	text-align: center;
+	margin: 28px auto;
+}
+
+.pagination .pages-links
+{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+}
+
+.pagination ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.pagination li
+{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+}
+
+.pagination .pages-links span,
+.pagination .pages-links a
+{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	vertical-align: top;
+	width: 19px;
+	height: 20px;
+	margin: 0;
+	text-align: center;
+	line-height: 20px;
+	white-space: nowrap;
+    font-size: 0;
+}
+
+.pagination .pages-links .previous a,
+.pagination .pages-links .next a,
+.pagination .pages-links .firs at,
+.pagination .pages-links .last a
+{
+	width: auto;
+}
+.pagination .page
+{
+	background: url(images/bg_item.png) 0 0 no-repeat;
+	color: #b9b9b9;
+}
+.pagination .selected a,
+.pagination .page-current
+{
+	background: url(images/bg_item-active.png) 0 0 no-repeat;
+	color: #FFF;
+}
+
+.pagination .hidden
+{
+	display: none;
+}
+
+
+.pagination .first,
+.pagination .last,
+.pagination .previous,
+.pagination .next
+{
+	display: none;
+}
+
+

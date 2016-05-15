@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+
+
+/*Clients*/
+#scrollable .items a.active, #scrollable .items a:hover {
+	outline:2px solid #df0101;
+	*border-width: 3px;
+	*margin: 0px 8px 0;
+}
+

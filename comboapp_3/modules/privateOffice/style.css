@@ -1,0 +1,114 @@
+﻿@charset "utf-8";
+
+.privateOffice
+{
+	background: #fcfcfc;
+	background-color: rgba(255,255,255,0.45);
+	*background: #fcfcfc;
+}
+
+.privateOffice .top
+{
+	font-size: 18px;
+	text-align: left;
+	background: #fff;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	line-height: 3.78em; /*68*/
+	height: 3.78em; /*68*/
+	overflow: hidden;
+	padding: 0 32px;
+}
+.privateOffice .top .button
+{
+	margin-left: 15px;
+}
+.privateOffice .top .msg
+{
+	font-size: 13px;
+	float: right;
+}
+.privateOffice .action_msg
+{
+	/*font 13*/
+	background: #fff1da;
+	border-bottom: 1px solid #fcdf9a;
+	line-height: 3.53em; /*46*/
+	height: 3.53em; /*46*/
+	padding: 0 14px;
+	margin-bottom: 20px;
+}
+.privateOffice .content
+{
+	padding: 30px;
+	background: #ffffff;
+	font-size: 13px;
+}
+.privateOffice .data {
+	overflow: hidden;
+}
+.privateOffice .data label{
+	width: 160px;
+}
+.privateOffice .data select{
+	width: 220px;
+}
+.privateOffice .data table.items {
+	width: 708px;
+	float: right;
+	border: none;
+}
+.privateOffice .data table.items th {
+	background: #cbcbcb;
+	border: none;
+	border-bottom: 1px solid #8f8f8f;
+	padding: 13px 10px;
+	text-align: left;
+	color: #222222;
+}
+.privateOffice .data table.items td {
+	padding: 10px;
+	border: none;
+}
+.privateOffice .data table.items tr:hover td{
+	cursor: pointer;
+	background: #f4f4f4;
+}
+.privateOffice .data .buttons {
+	clear: both;
+	text-align: right;
+}
+.privateOffice .data .buttons .button{
+	margin-left: 7px;
+}
+.privateOffice .grid-view {
+    padding-top:1px;
+}
+.privateOffice .grid-view table.items th a {
+	color: #0079CD;
+}
+.privateOffice .grid-view table.items th a:hover {
+	color: #18609D;
+}
+.privateOffice .grid-view table.items th, .privateOffice .grid-view table.items td {
+	font-size: 13px;
+}
+
+/* Edit profile */
+
+.privateOffice .form.edit {
+	margin-left: 30px;
+}
+.privateOffice h2 {
+	margin: 0 30px 30px 30px;
+	padding-top: 30px;
+}
+.privateOffice .form.edit .note {
+	margin-bottom: 18px;
+}
+.privateOffice .form.edit .buttons {
+	padding-bottom: 18px;
+}
+.privateOffice .form.edit .buttons input {
+	margin-right: 7px;
+}

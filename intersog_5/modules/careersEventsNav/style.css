@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+
+
+
+.careersEventsNav .eventsNav {
+    display: block;
+    height: 40px;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+
+.careersEventsNav .eventsNav a.prev {
+    background: url("./images/arrow_left.png") no-repeat scroll left top transparent;
+    color: #000000;
+    display: inline-block;
+    height: 40px;
+    left: 0;
+    line-height: 40px;
+    padding-left: 50px;
+    position: absolute;
+    text-align: left;
+    width: 90px;
+}
+.careersEventsNav .eventsNav a.next {
+    background: url("./images/arrow_right.png") no-repeat scroll right top transparent;
+    color: #000000;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 50px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 90px;
+}
+.careersEventsNav .eventsNav a.prev:hover {
+    background: url("./images/arrow_left_hover.png") no-repeat scroll left top transparent;
+    color: #003f77;
+}
+
+.careersEventsNav .eventsNav a.next:hover {
+    background: url("./images/arrow_right_hover.png") no-repeat scroll right top transparent;
+    color: #003f77;
+}

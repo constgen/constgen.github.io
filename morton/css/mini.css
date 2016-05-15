@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS for Opera mini */
+
+
+#mainmenu.productmenu #home{white-space: nowrap;}
+
+
+
+/*.pushtoshow{background-color:#ccc;}
+#content .text .hiddentext, #content .text .hiddentext .items img{display:none;}
+#content .text.shown .hiddentext, #content .text.shown .hiddentext .items img{display:block;}*/
+
+
+/* Slider - fix opacity
+-----------------------------------------------------------------------------*/
+#slider .items div{	visibility: hidden; white-space: nowrap;}
+#slider .items div:first-child{	visibility: visible;}
+#slider .items div.active{visibility: visible;}

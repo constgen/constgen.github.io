@@ -1,0 +1,76 @@
+#footer {
+	height: 50px;
+	position: absolute;
+	bottom:0; left:0; right:0;
+	background: #e3e3e3;
+}
+	#footer:after {
+		content: '';
+		position: absolute;
+		top:0; left:0; right: 0;
+		display: block;
+		height: 5px;
+		background: url(images/bg.png) 0 0 repeat-x;
+	}
+
+
+
+	#footer .wrapper {
+		width: 318px;
+		margin: 0 auto;
+		border-right: 1px solid #d4d4d4;
+		border-left: 1px solid #d4d4d4;
+	}
+
+	#footer .partners {
+		display: inline-block;
+		vertical-align: top;
+		width:200px;
+		padding:10px 10px 10px 15px;
+	}
+		#footer .label {
+			display: inline-block;
+			vertical-align: middle;
+			margin-top: 5px;
+			margin-right: 5px;
+		}
+		#footer #digi117 {
+			display: inline-block;
+			vertical-align: top;
+			width: 49px; height: 30px;
+			background: url(images/digi117.png) 0 0 no-repeat;
+		}
+		#footer #intersog {
+			display: inline-block;
+			vertical-align: top;
+			width:71px; height: 30px;
+			background: url(images/intersog.png) 0 0 no-repeat;
+		}
+
+
+	#footer .trust {
+		display: inline-block;
+		vertical-align: top;
+		width:60px;
+		padding:10px 10px 10px 10px;
+		border-left: 1px solid #d4d4d4;
+	}
+		#footer .nortonTrust {
+			display: inline-block;
+			vertical-align: top;
+			width:71px; height: 30px;
+			background: url(images/norton.png) 0 0 no-repeat;
+		}
+
+
+
+@media 	only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) { 
+	#footer #digi117 {
+		background: url(images/digi117@2x.png) 0 0 no-repeat;
+		background-size: 100% auto;
+	}
+	#footer #intersog {
+		background: url(images/intersog@2x.png) 0 0 no-repeat;
+		background-size: 100% auto;
+
+}

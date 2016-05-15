@@ -1,0 +1,205 @@
+﻿@charset "utf-8";
+
+/* Module styles
+-----------------------------------------------------------------------------*/
+#appToolbar {
+    height: 48px; width:100%;
+    position: fixed;
+	z-index: 11;
+    bottom: 0px;
+    padding-top: 2px;
+    background: url(images/bg.png) 0 0 repeat;
+}
+
+#appToolbar .wrapper {
+    width:290px;
+    margin: 0 auto;
+}
+
+#appToolbar ul {
+    list-style: none;
+    margin: 0; padding: 0;
+    font-size: 0px;
+    white-space: nowrap;
+}
+#appToolbar li {
+    display: inline-block;
+    width: 50px; height: 48px;
+    padding: 0;
+    margin-left: 10px;
+}
+#appToolbar li:first-child {margin-left: 0;}
+
+#appToolbar .tab {
+    display: block;
+    width: 50px; height: 48px;
+    background: url(images/tabs.png) 0 0 no-repeat;
+    position: relative;
+}
+
+
+
+#appToolbar #pricing_tab {
+    background-position: 0% 0%;
+}
+
+#appToolbar #clients_tab {
+    background-position: 25% 0%;
+}
+
+#appToolbar #contact_tab {
+    background-position: 50% 0%;
+}
+
+#appToolbar #search_tab {
+    background-position: 75% 0%;
+}
+
+#appToolbar #cart_tab {
+    background-position: 100% 0%;
+}
+
+
+#appToolbar .active #pricing_tab {
+    background-position: 0 bottom;
+}
+
+#appToolbar .active #clients_tab {
+    background-position: 25% bottom;
+}
+
+#appToolbar .active #contact_tab {
+    background-position: 50% bottom;
+}
+
+#appToolbar .active #search_tab {
+    background-position: 75% bottom;
+}
+
+#appToolbar .active #cart_tab {
+    background-position: 100% bottom;
+}
+
+
+#appToolbar #cart_tab:before{
+    content: attr(data-count);
+    display: block;
+    position: absolute;
+    top:0px; right:3px;
+    height:18px; max-width: 32px;
+    padding: 1px 2px 0 6px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    background: url(images/span.png) 0 0 no-repeat;
+    color:white;
+    font-size: 12px;
+}
+#appToolbar #cart_tab:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top:0px; right:0px;
+    height:19px; width:3px;
+    background: url(images/span.png) 0 -19px no-repeat;
+}
+#appToolbar #cart_tab.empty:before, #appToolbar #cart_tab.empty:after {display:none}
+
+
+@media 	only screen and (orientation : landscape) {
+    #appToolbar {
+        height: 100%; width: 48px;
+        position: absolute;
+        left: 0px; top:0px; bottom: 0;
+        padding: 0 2px 0 0;
+
+        background: url(images/land/bg.png) 0 0 repeat;
+    }
+
+    #appToolbar .wrapper {
+        width:48px; height:290px;
+        position: fixed;
+        top:50%; left:0;
+        margin-top: -145px;
+    }
+
+    #appToolbar ul {
+        list-style: none;
+        margin: 0; padding: 0;
+        font-size: 0px;
+        white-space: normal;
+    }
+    #appToolbar li {
+        display: inline-block;
+        width: 50px; height: 48px;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }	
+    #appToolbar li:first-child {margin: 0 0 0 0;}
+
+    #appToolbar .tab{
+        width:48px; height:50px;
+        background: url(images/land/tabs.png) 0 0 no-repeat;
+        background-size: 500% 200%;
+    }
+}
+
+@media only screen and (orientation : landscape) and (max-height: 290px) {
+    #appToolbar {
+        position: absolute;
+        top:0; bottom: 0; left: 0;
+    }
+    #appToolbar .wrapper {
+        position: absolute;
+        top: 0; margin-top: 0;
+    }
+}
+
+
+@media 	only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) { 
+    #appToolbar {
+        background: url(images/2x/bg.png) 0 0 repeat;
+        background-size: auto 100%;
+    }
+
+    #appToolbar .tab{
+        background: url(images/2x/tabs.png) 0 0 no-repeat;
+        background-size: 500% 200%;
+    }
+
+    #appToolbar #cart_tab:before {
+        background-image: url(images/2x/span.png);
+        background-size: auto 200%;
+        padding: 1px 3px 0px 5px;
+    }
+
+    #appToolbar #cart_tab:after {
+        background-image: url(images/2x/span.png);
+        background-size: auto 200%;
+    }
+}
+
+@media 	only screen and (-webkit-min-device-pixel-ratio : 2) and (orientation : landscape), only screen and (min-device-pixel-ratio : 2) and (orientation : landscape) { 
+    #appToolbar {
+        background: url(images/2x_land/bg.png) 0 0 repeat;
+        background-size: 100% auto;
+    }
+    #appToolbar .tab{
+        width:48px; height:50px;
+        background: url(images/2x_land/tabs.png) 0 0 no-repeat;
+        background-size: 500% 200%;
+    }
+}
+
+/* Layout changes
+-----------------------------------------------------------------------------*/
+
+@media all and (orientation: portrait)
+{
+    #middle { padding-bottom: 100px; }
+
+    #footer { margin-bottom: 50px;}
+}
+
+@media all and (orientation: landscape) {
+    #bg-header { left:50px; }
+}

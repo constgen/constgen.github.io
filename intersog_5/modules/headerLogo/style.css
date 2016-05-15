@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#headerLogo {
+    background: #171717;
+    padding: 26px 0 17px;;
+}
+#headerLogo .siteWrapper {
+    text-align: center;
+}
+#headerLogo #logo {
+    height: 83px;
+    display: inline-block;
+}
+.page404 #headerLogo #logo {
+    margin: 0 0 0 34px;
+    background: url("images/404.png") no-repeat right bottom;
+    padding-right: 34px;
+}

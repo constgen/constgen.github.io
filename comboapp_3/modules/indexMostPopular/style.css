@@ -1,0 +1,167 @@
+#mostPopular {
+	padding-right:80px;
+	background: white;
+	border: 1px solid #cfcfcf;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+#mostPopular .label {
+	position: absolute;
+	top:-6px; right:-5px;
+	width:152px; height: 94px;
+	background: url(images/label.png) 0 0 no-repeat;
+}
+#mostPopular .shortcuts
+{
+    width: 100%;
+    margin: 0 10px 25px;
+    border: 0 none;
+    position: relative;
+}
+
+#mostPopular .shortcuts article
+{
+    width: 220px;
+    background: none;
+    line-height: normal;
+}
+#mostPopular .shortcuts .title
+{
+    display: inline-block;
+    *display: inline; 
+    zoom: 1;
+    vertical-align: top;
+    margin: 10px 0 0;
+    width: 170px;
+    font-size: 20px;
+}
+#mostPopular .shortcuts .pack .title
+{
+    font-size: 20px;
+    width: 147px;
+}
+
+#mostPopular .shortcuts img {
+    display: inline-block;
+    *display: inline; 
+    zoom: 1;
+    vertical-align: top;
+    width: 36px;
+    height: auto;
+    margin-right: 7px;
+}
+
+#mostPopular .shortcuts .description
+{
+	margin: 0px 0 10px;
+	padding: 0;
+}
+#mostPopular .shortcuts .description li {
+    background-position: 0 6px;
+	padding-bottom: 12px;
+}
+#mostPopular .shortcuts .price
+{
+    color: #000;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#mostPopular .shortcuts .price
+{
+    position: absolute;
+    bottom: 0;
+}
+#mostPopular .shortcuts .price .price {
+	position: static;
+}
+#mostPopular .shortcuts .service > .price {
+	margin-left:0 !important;
+}
+
+#mostPopular .shortcuts .description
+{
+	margin: 10px 0 0px;
+}
+#mostPopular .shortcuts .description form
+{
+	display: none;
+}
+
+.shortcuts {
+    font-size: 1px;
+    line-height: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+    width: auto;
+}
+.shortcuts:after {
+    content: "";
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 100%;
+}
+.shortcuts article {
+    background: none repeat scroll 0 0 transparent;
+    line-height: normal;
+}
+.shortcuts .service {
+    display: inline-block;
+    font-size: 14px;
+    line-height: normal;
+    padding: 15px 10px 15px 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px;
+}
+.shortcuts .title {
+    display: inline-block;
+    margin: 10px 0 0;
+    vertical-align: top;
+    width: 170px;
+}
+.shortcuts .pack .title {
+    font-size: 20px;
+    width: 147px;
+}
+.shortcuts .service li {
+    background-position: 0 6px;
+}
+.shortcuts img {
+    display: inline-block;
+    height: auto;
+    margin-right: 7px;
+    vertical-align: top;
+    width: 36px;
+}
+.shortcuts .pack img {
+    width: 58px;
+}
+.shortcuts .description {
+    margin: 10px 0 5px;
+    padding: 0;
+}
+.shortcuts .price {
+    color: #000000;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.shortcuts .price .price {
+    position: static;
+}
+.shortcuts .pack .price {
+    font-size: 19px;
+}
+.shortcuts h3 {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+}

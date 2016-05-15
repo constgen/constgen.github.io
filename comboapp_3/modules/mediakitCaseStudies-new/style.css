@@ -1,0 +1,122 @@
+#mediakitCaseStudies{
+	text-align:center;
+	position: relative;
+}
+#mediakitCaseStudies .mediakitSlider .scroller{
+	height: 158px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 930px;
+	border: 1px solid #cfcfcf;
+	background: #ffffff;
+	z-index: 1;
+}
+#mediakitCaseStudies .mediakitSlider .scrollable {
+	position: relative;
+}
+#mediakitCaseStudies .mediakitSlider .navigation {
+    position: absolute;
+	top: 0;
+    width: 1000em;
+	background: #ffffff;
+	overflow: hidden;
+	left: 0;
+}
+#mediakitCaseStudies .mediakitSlider .navigation .item {
+	float: left;
+    width: 930px;
+	padding: 10px 0;
+}
+#mediakitCaseStudies .mediakitSlider .navigation .preview {
+	float: left;
+	width: 287px; 
+	height: 116px;
+	margin-left: 8px;
+	margin-right: 8px;
+	overflow: hidden;
+	padding: 10px 0;
+	cursor: pointer;
+}
+#mediakitCaseStudies .mediakitSlider .navigation .preview .scrin {
+	display: block;
+	float: left;
+	width: 88px;
+	height: 117px;
+	margin-left: 22px;
+	padding: 16px 3px 7px 3px;
+	height: 94px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+#mediakitCaseStudies .mediakitSlider .navigation .preview .scrin .bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 94px;
+	height: 117px;
+	z-index: 2;
+	background: url(images/bg_scrins.png) no-repeat;
+}
+#mediakitCaseStudies .mediakitSlider .navigation .preview .scrin img{
+	display: block;
+	width: 88px;
+	height: auto;
+}
+#mediakitCaseStudies .mediakitSlider .navigation .preview .title {
+	display: table-cell;
+    height: 116px;
+    padding-left: 27px;
+    text-align: left;
+    vertical-align: middle;
+    width: 123px;
+}
+#mediakitCaseStudies .mediakitSlider .navigation .preview.active, #mediakitCaseStudies .mediakitSlider .navigation .preview:hover {
+	background: #f2f2f2;
+}
+#mediakitCaseStudies h2{
+	margin-bottom:20px;
+	text-align: center;
+}
+
+#mediakitCaseStudies article{
+	margin:15px 0;
+	text-align:center;
+}
+
+#mediakitCaseStudies .mediakitSlider .prev, 
+#mediakitCaseStudies .mediakitSlider .next {
+    display: block;
+    position: absolute;
+    width: 19px;
+    height: 46px;
+    top: 50%;
+	margin-top: -23px;
+    background: url(images/bg_arrow.png) no-repeat;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAABdCAMAAABw3K3iAAABy1BMVEUAAABxjA22tra3t7e8vLz///8AAAAAAAC2tra2tra2tra2tra2traGhoa2tra2tra2traXl5e2traZmZm2tra2tra2tra2tra2tra2tra2tra2trafn5+2tra1tbW1tbWlpaWmpqa4uLi2tra3t7e4uLi5ubm6urq2tra2tra2tra8vLy2tra8vLyqqqq2travr6+2tra2trbHx8e2tra5ubm6urrIyMi3t7e2tra3t7fMzMy3t7e9vb3MzMy2tra3t7e7u7u+vr7Gxsa3t7fNzc3Ozs64uLi+vr6/v7/FxcXOzs62trbOzs7V1dXBwcHDw8PW1ta+vr6/v7+6urq2tra8vLy/v7/CwsLDw8PGxsbJycnOzs7T09PU1NTV1dXW1tbY2Njb29vd3d3f39/i4uLj4+Pk5OTm5ubn5+fo6Ojp6enq6urr6+vs7Ozt7e3h4eHZ2dnj5dvK0q+/x6LEzKbGzqjHz6jI0Km3vpqlsnOpt3aruXeruXisunieq26ksnGot3SquXWquXarunadq2xrgw9shBJuiBFwiRRxixFyjRFzjBRzjRFzjhF0jhR1jhR1jxR4kRlpgQxshg1viQ1wiw1xiw1xjA2J0mBbAAAAk3RSTlMAAAAAAAABAgMFCAsQExMWGx0eICAjKTE2PkFETk5PUlhYYWRkZ2hoenyCgoWFiY2TnaKjpaWlprW4uLm7vb7GxsbGxs7O09bY2NjY29vb3t7e4eHj5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5+jo7O3t7e3t7/Ly8vLy8/Pz8/Pz9P7+/v7+/v7+/v7+/v4x0pRaAAAB/klEQVQ4jY3T+18MURgG8LOHymSFdKEVckmRlJAohUIXuSaWsG1p2mbm3XRbXeR+KRKzl/lzm706531PH82P38+cmXOe87yMZx+Px8NYfsGug/VMMu1QUyA8KVrh0S7dDElWcUMHS7aaIQDZdl4IArI9bWOArOiaDsi0S6OAre4VYKvwAzatQyd27Dlg0zrHiVU+A9neMn4+KNv0N+Z9ZEk288NmPj+INvszarPaF6LN/Y65dk78XGQ9nrR2XaA/iZT1GQI5aRvI0Zu/DjGIrDlkrYsJ8g+I/IqTvcDcaozs2ZpdiZKzmTPfbZJBaPorzSqZH8l0k+xVd6S8S+6jd67sBtcu0w6puqbspLK7yo67s+Cjs+DOzImb49jc2TrcHMCWmcE8+rCGI3sL8vl2vi23gLPJcPBKtRdbyJzoP70bmwVG7/Ed2ACCF73EQL9eQgyMngPEwLxbTgyM28XE4HWrRgyGaqhZD0qIwXAjNRgs42wZWeAsZ/a8bBO3CpkdXZAM/D7XYouSvTyVtPiSaKMtKUu8E8zoS5sj4uOMiTiYNWcqZ0+y9vnfe08zJlB2rUiZf3wSKb2Xj9I5Unv+YJKzvQ+RDL6EaVY452Smquz/f0fWw9Kt3LmiG0Z3Kenavf1b6KSiu7Tjxh08C8b9M2hmRq6eLJJnq6FqH57BDQlbP18e7VksAAAAAElFTkSuQmCC");
+    *background-image: url("images/bg_arrow.png");
+}
+
+#mediakitCaseStudies .mediakitSlider .prev.disabled, 
+#mediakitCaseStudies .mediakitSlider .next.disabled {
+	display: none;
+}
+
+#mediakitCaseStudies .mediakitSlider .prev {
+    right: 100%;
+    background-position: left top;
+}
+
+#mediakitCaseStudies .mediakitSlider .next {
+    left: 100%;
+    background-position: left bottom;
+}
+#mediakitCaseStudies .mediakitSlider .description {
+    overflow: hidden;
+    position: relative;
+    width: 916px;
+}
+#mediakitCaseStudies .mediakitSlider .description .dynamic_content {
+	margin-bottom: 1em;
+}

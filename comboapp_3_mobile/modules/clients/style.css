@@ -1,0 +1,47 @@
+#clients {
+    font-weight: bold;
+}
+#clients h2 {
+    width:300px;
+    margin: 0 auto 8px auto;
+}
+#clients .wrapper
+{
+	padding: 0;
+}
+
+#clients > ul {
+    list-style: none outside none;
+    padding: 0;
+    background: url('../../images/bg_w.png');
+    border-top: 1px solid #d8d8d8;
+}
+#clients > ul > li {
+    overflow: hidden;
+    border-bottom: 1px solid #d8d8d8;
+}
+#clients ul div.logo{
+    float: left;
+    margin-left: 7px;
+    width: 57px;
+}
+#clients ul div.logo img{
+    padding: 0;
+    border-radius: 11px;
+    box-shadow:0 1px 1px #9f9f9f;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    border: 0;
+}
+#clients ul div.logo p{
+    color:#8e8e8e;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    font-weight: normal;
+}
+#clients ul li ul{
+    float: left;
+    padding: 7px 0 0 19px;
+    width: 230px;
+}

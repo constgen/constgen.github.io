@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+
+#requestButton {
+    background: url("images/requestButton.png") no-repeat 0 0;
+    position: absolute;
+    display: block;
+    width: 98px;
+    height: 110px;
+    right: -1px;
+    bottom: -110px;
+    z-index: 100;
+    cursor: pointer;
+}
+#requestButton:hover {
+    background-position: 0 -111px;
+}
+#requestButton p{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 34px 11px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#requestProposal {
+    background: url("../../images/bkg_content.png") 0 0 repeat;
+}
+
+#requestProposal .wrapper {
+    position: relative;
+}
+
+#requestProposal .formWrap {
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    transition: height 0.5s;
+    background-color: #003f77;
+}
+
+#requestProposal form {
+    position: relative;
+    padding-left: 100px;
+
+}
+#requestProposal h2{
+    padding-left: 0px;
+    padding-top: 27px;
+    line-height: 95px;
+}
+
+#requestProposal .left {
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    vertical-align: top;
+    width:350px;
+    padding: 0;
+    margin: 0 15px 3px 0px;
+    text-align: left;
+}
+
+#requestProposal .right {
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    vertical-align: top;
+    width:350px;
+    padding: 0;
+    margin: 0 0 3px 0;
+    text-align: left;
+}
+
+#requestProposal .bottom {
+    width: 716px;
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    margin-bottom: 20px;
+}
+#requestProposal .bottom .button {
+    float: right;
+    margin-right: 0;
+    -webkit-border-radius: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #requestProposal .bottom .button {
+        -webkit-appearance: none;
+        -webkit-box-shadow: 0;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        line-height: 16px;        
+    }
+}
+
+#requestProposal .errorMessage {display: none !important;}
+#requestProposal .ajaxStatus {
+    padding: 20px 230px 20px 40px;
+}
+#requestProposal .successMessage {
+    background: url(images/pic_success_msg.png) no-repeat left 4px; 
+    padding-left: 19px;
+    float: left;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.styledSelect select{
+    background: #ffffff url(images/bg_sellect_arrow.png) no-repeat right;
+    padding-right: 38px;
+}
+select::-ms-expand {
+    display: none;
+}
+select {
+    -webkit-appearance: none;
+}
+#requestProposal .row {
+    clear: none;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: left;
+    vertical-align: top;
+    width: 347px;
+    *float: left;
+}
+
+#requestProposal .button {
+    background: #00BCE2;
+    color: #003F77;
+}
+#requestProposal .button:hover {
+    background: #00a0e2;
+}
+#requestProposal .button:active, #requestProposal .button.active {
+    background: #121820; color: #00a0e2;
+}

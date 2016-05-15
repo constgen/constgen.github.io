@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.noJavascript
+{
+	background: transparent;
+	text-align: center;
+    color: #fff;
+    min-height: 340px;
+}
+
+.noJavascript h1
+{
+	text-align: center;
+    color: #fff;
+}
+
+
+
+

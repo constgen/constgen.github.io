@@ -1,0 +1,184 @@
+﻿@charset "utf-8";
+
+#closeButton {
+    background: #003f77;
+    position: absolute;
+    display: block;
+    width: 98px;
+    height: 110px;
+    right: -1px;
+    bottom: -110px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#requestButton:hover {
+    background-position: 0 -111px;
+}
+
+#requestButton p{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 34px 11px;
+    text-transform: uppercase;
+}
+
+
+#formOrderServiceOverlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #303030;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+    height: 0;
+    display: none;
+}
+#formOrderServiceOverlay > .opened {
+    display: block;
+}
+
+
+#formOrderService .formWrapper {
+    display: none;
+    opacity: 0;
+    height: auto;
+    height: 0px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin: -260px -410px;
+    width: 820px;
+    z-index: 105;
+}
+
+#formOrderService #formOrderServiceCloseButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1000;
+}
+
+#formOrderService #formOrderServiceCloseButton a {
+    background: url(images/close_btn.png) no-repeat top left;
+    color: #303030;
+    float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
+#formOrderService .wrapper {
+    position: relative;
+}
+
+#formOrderService .formWrap {
+    overflow: hidden;
+    height: 460px;
+    position: relative;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    transition: height 0.5s;
+    background-color: #FFF;
+}
+
+#formOrderService form {
+    position: relative;
+    padding-left: 50px;
+}
+
+#formOrderService h2 {
+    line-height: 55px;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+#formOrderService input[type="text"],
+#formOrderService textarea,
+#formOrderService input[type="email"],
+#formOrderService select {
+    border: 1px solid #e3e3e3;
+}
+#formOrderService select {
+    height: 33px;
+}
+
+
+#formOrderService .left {
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    vertical-align: top;
+    width:350px;
+    padding: 0;
+    margin: 0 15px 3px 0px;
+    text-align: left;
+}
+
+#formOrderService .right {
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    vertical-align: top;
+    width:350px;
+    padding: 0;
+    margin: 0 0 3px 0;
+    text-align: left;
+}
+
+#formOrderService .row {
+    clear: none;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: left;
+    vertical-align: top;
+    width: 347px;
+    *float: left;
+}
+
+#formOrderService .bottom {
+    width: 716px;
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    margin-bottom: 20px;
+}
+#formOrderService .bottom .button {
+    float: right;
+    margin-right: 0;
+}
+
+#formOrderService .errorMessage {display: none !important;}
+#formOrderService .ajaxStatus {
+    padding: 20px 230px 20px 40px;
+}
+#formOrderService .successMessage {
+    background: url(images/pic_success_msg.png) no-repeat left 4px;
+    padding-left: 19px;
+    float: left;
+    margin-top: 10px;
+}
+#formOrderService select {
+    *height: 25px;
+}
+#formOrderService .styledSelect select{
+    background: #ffffff url(images/bg_sellect_arrow.png) no-repeat right;
+    padding-right: 38px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+select {
+    -webkit-appearance: none;
+}
+#formOrderService #orderService-form .row {
+    clear: none;
+    display: inline-block;
+    width: 360px;
+}

@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+
+/* FOOTER
+-----------------------------------------------------------------------------*/
+#footer {
+    clear: both;
+    position: relative;
+    font-size: 12px;
+    background-color: #121820;
+}
+#footer a{
+    color: #0cbdf2;
+}
+#footer .footer-bootom{
+    padding-top: 62px;
+}
+#footer .footer-bootom .border{
+    width: 1000px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+#footer .footer-bootom .social-icon{
+    float: right;
+}
+#footer .social-icon a{
+    float: right; 
+    margin-left: 26px;
+    position: relative;
+    width: 39px;
+    height: 39px;
+    background: url(images/bkg_social_links.png) no-repeat 0 0;
+    cursor: pointer;
+}
+#footer .social-icon a:hover{
+    background-position: 0 -40px;
+}
+#footer .footer-bootom h2{
+    float: left;
+    margin: 0px 10px 0 0px;
+    padding-left: 0;
+    line-height: 55px;
+}
+#footer .wrapper{
+    overflow: hidden;
+}
+#footer .contacts {
+    padding-top: 21px;
+    padding-bottom: 35px;
+}
+#footer .contact_block{
+    width: 150px;
+    margin: 0 auto;
+    padding-left: 37px;
+    float: left;
+    line-height: 20px;
+    padding-bottom: 27px;
+    font-size: 12px;
+}
+#footer .contact_block:first-child {
+    padding-left: 0;
+}
+#footer .contact_block address{
+    padding-top: 11px;
+    font-style: normal;
+}
+#footer .text_red{
+    color: #ff003c;  
+}
+#footer .bg_footer_menu {
+    background: #003f77 url(images/bg_footer.png) no-repeat center bottom;
+    padding-bottom: 37px;
+}
+#footer-menu {
+    list-style: none outside none;
+    padding: 37px 0 24px;
+    overflow: hidden;
+}
+#footer-menu .menu-item {
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    line-height: normal;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 20px;
+    float: left;
+    /* margin-right: 20px;*/
+}
+#footer-menu .menu-item a {
+    color: #ffffff;
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    transition: color 0.25s;
+}
+#footer-menu .menu-item a:hover {
+    color: #0CBDF2;
+}
+#footer-menu .menu-item div {
+    float: left;
+    padding-top: 11px;
+    padding-right: 7px;
+    width: 247px;
+}
+#footer-menu .menu-item.last {
+    float: right;
+    width: 148px;
+}
+
+#copyright {
+    clear: both;
+    font-size: 12px;
+    padding: 33px 0;
+    text-align: center;
+}
+
+#footer .footer-bootom h2 a{
+    color: #0cbdf2;
+}
+#footer .footer-bootom h2 a:hover{
+    color: #1070A2;
+    transition: color 0.25s ease 0s;
+}

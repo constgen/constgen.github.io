@@ -1,0 +1,22 @@
+html body {
+	background: url("../images/Valentine-theme/bg_body.png") repeat-x center 47px #fff;
+}
+body #bg-body {
+	position: absolute;
+	top: 47px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    background: url("../images/Valentine-theme/bg_body_theme.png") repeat;
+}
+body #bg-header {
+    background: url("../images/Valentine-theme/bg_header.png") no-repeat center -18px;
+}
+
+body #header {
+    background: url("../images/Valentine-theme/bg_header_theme.png") no-repeat right bottom;
+}
+body #middle {
+	position: relative;
+	background: url("../images/Valentine-theme/bg_wrapper.png") repeat;
+}

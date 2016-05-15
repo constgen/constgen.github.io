@@ -1,0 +1,120 @@
+﻿@charset "utf-8";
+
+
+
+.departmentMobileProducts {
+    margin: 10px 0 0;
+    padding-bottom: 40px;
+}
+
+.departmentMobileProducts ul {
+    margin: 50px 0 0;
+    padding: 0;
+}
+
+
+.departmentMobileProducts ul li {
+    border-bottom: 1px solid silver;
+    display: inline-block;
+    height: 100px;
+    list-style: none outside none;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 416px;
+    *display: block;
+    *float: left;
+}
+.departmentMobileProducts ul li a{
+    color: #003f77;
+}
+.departmentMobileProducts ul li a:hover {
+    color: #1c66a8;
+}
+
+.departmentMobileProducts ul li p {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    color: #003F77;
+    font-size: 18px;
+    *width: 324px;
+    *float: left;
+    *display: block;
+}
+
+
+.departmentMobileProducts .leftSide {
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: top;
+    width: 585px;
+}
+
+
+
+.departmentMobileProducts h2 {
+    margin: 20px 0;
+}
+
+
+
+
+/* Icons
+----------------------------------*/
+ul.solutionsList {
+	list-style: none;
+	padding: 0;
+}
+ul.solutionsList li:first-child {
+	margin: 25px 0 20px;
+}
+ul.solutionsList li {
+	margin: 20px 0;
+	padding: 0;
+}
+
+
+.departmentMobileProducts .icon {
+    background: url("images/productIcons.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 72px;
+    margin-right: 15px;
+    margin-top: 4px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 72px;
+    *display: block;
+    *float: left;
+}
+
+.departmentMobileProducts .icon1  {background-position: 0 -72px;}
+.departmentMobileProducts .icon2  {background-position: 0 -144px;}
+.departmentMobileProducts .icon3  {background-position: 0 -144px;}
+.departmentMobileProducts .icon4  {background-position: 0 -144px;}
+
+
+
+
+.departmentMobileProducts .solutionsItem {
+    display: inline-block;
+    padding-left: 14px;
+    padding-top: 10px;
+    vertical-align: top;
+    width: 350px;
+}
+
+.departmentMobileProducts .solutionsItem p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.departmentMobileProducts .solutionsItem h3 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 10px;
+    text-align: left;
+}

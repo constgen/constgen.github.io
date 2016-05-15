@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* ORDER INFO
+------------------------------------------------------------------*/
+
+#orderInfo {
+	position: relative;
+	width: 435px;
+	background: #ffffff;
+}
+	#orderInfo .headerWrap {
+		padding: 20px 25px 0;
+		border-top: 1px solid #e6e6e6;
+	}
+
+	#orderInfo .orderItem {
+		border-top: 1px solid #e6e6e6;
+	}
+		#orderInfo .row {
+			padding: 15px 25px;
+			overflow: hidden;
+		}
+		#orderInfo .row {background: white;}
+		#orderInfo .row + .row {background: #fafafa;}
+		#orderInfo .row + .row + .row {background: white;}
+		#orderInfo .row + .row + .row + .row {background: #fafafa;}
+
+		#orderInfo .label {
+			float: left;
+			max-width: 140px;
+			font: 14px/120% 'MyriadPro', sans-serif;
+		}
+		#orderInfo .desc {
+			padding-left:160px;
+			font: 14px/120% 'MyriadPro', sans-serif;
+		}
+		#orderInfo .desc.bold {font-weight: bold;}
+
+		#orderInfo ul li {
+			list-style: none;
+			margin-left: -50px;
+			padding-left: 20px;
+			padding-bottom: 5px;
+			background: url(images/li.png) left 5px no-repeat;
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGFJREFUeNpivHfvHj8DA8NHBjTABMQTgLgdiPnRJbYCcQUQPwTiUiDmBEkwAo0CMT4AMRtU8QsgTgHpUEESfATENSBTWIBEOBC/BuImIJ4FxL9AKkAS14BYCYi/IFsOEGAAFEwTwwRtqrgAAAAASUVORK5CYII=");
+            *background-image: url("images/li.png");
+		}
+
+
+	#orderInfo .total {
+		padding: 15px 25px;
+		overflow: hidden;
+		border-top: 1px solid #e6e6e6;
+		border-bottom: 1px solid #e6e6e6;
+	}
+
+	#orderInfo .total .discount {
+		padding-bottom: 10px;
+	}
+
+#orderInfo .empty {
+	padding-left:20px;
+}

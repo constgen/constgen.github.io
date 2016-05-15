@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+.preloader{
+	width: 32px;
+	height: 32px;
+	background: url(images/preloader.png) no-repeat center center;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hJREFUeNrEl7uLFEEQxqdndm/dW8+VO0UFxcA3KpgIgpgIGmhiqoEXKRhoZCiYGZqZ3B9gaGBgpIJioCK+MhEfiA/QO9S9lXN3Z7qthq/P74qeWRZOHPgxs7vTXV9XVVfXGudc8j+v2gjvTglHhSPCHmE9xu8XPgkpsGDZBGwSzgqnhM1CRr/16dkbN0Iddy8iHyZmmIBp4ZKwVSgwYUGGeoKOoQFjQgMie6MK8AOvCBdgoIMVZpg8LRlniOCVcYj9FREbFeAHXBNOC12sOLjd0eRlAhIlwt+bmGNehyQm4DLiPUertXh2RNXqUyIIaeL5R6ISh6+TwjnhJ1bOBq0y7IasXovxV0uYKPOA31YXhQGSJotksKkIgV55GvGEv7eF37CzxAPTyPYODBeEJYaFgI1m6jnsjrb2wKRwIpYkESMF7XMWY0q8kCkvGITB50IeBBwSNgoLFN8Q9zCJi4ho0Q4J72VYGBtncQbb3Iv4HgQcwD1XezglMfzchIiniGcKo0yVAP/9ShawA0mRU144qgFhcAH171Eh7wmzKr51ZbgW2R0ZFrH44xRKZkF7nmNtqPz64nReuE25USB8bYjQmZ9EKmSDBTQiB4cpqe/PhUeRBO1j4pYSXTZfygLCQZNHJnaqcHUrdkoTpTyvKFgJVdVFAV1KLKcG8o7oo2Btgyf48km1Ae+yN60SExI650L0jQayNwYgHKnz+P6MsJsSbp1wUFiNcK4AdRB2RkZ3yx54I+yKVDuugEGcF7IWifgSlXMCv3dgOFcNiVXnSRYOpeCBx1hpQR4YROjBG+Gw2i7sRNxTGG8gWWvkgTp9Dl7osAceoq+bhHFH54GNiCogZAGiDBlwqvAUtKU5/rPsAX/234XyAbnbKsOcI7bkJNQVMSOCl+bQIS05DW8IH7GKnNBe0HFNlGE+DzRjGP8u1pB8Ea5TWPSOKBROuduo1WpqyI+3yKFoR3RTuIWkshHDVnVJrqIh0QK86z8Lr6paMj/hjPAAInQyjmLc0PM4as0TXUVj7bWvileFO9TN2giupE3jHVCD8Q/Cfeo3/r5c8d/QT3JMOC6sQtb2KCwDtT1zlaQ1VM4XwjO8m4wiIFy+Uzos7EO9D6V5QMYL1UfOo7r68+Jr1eRmhH/HvmfYK2wR1lB4cri2izj7ZuW17v+XQ8A/uf4IMADvBlFqmVHsNgAAAABJRU5ErkJggg==") no-repeat center center;
+	-webkit-transition: all 60s linear;
+	-moz-transition: all 60s linear;
+	-o-transition: all 60s linear;
+	transition: all 60s linear;
+}
+
+.preloader.load {
+	-webkit-transform: rotate(18000deg);
+	-moz-transform: rotate(18000deg);
+	-o-transform: rotate(18000deg);
+	transform: rotate(18000deg);
+}
+
+
+html {
+	-webkit-text-size-adjust: auto;
+	/*-webkit-touch-callout: none;*/
+}
+
+
+textarea, input {
+	-webkit-appearance: none;
+}
+
+
+#overlay {
+	background-color:#000; 
+	position: fixed; 
+	z-index: 990; 
+	left:0; right:0; 
+	top:0; bottom:0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+
+
+
+#bg img{
+	
+	
+	/*-webkit-transition: all .8s;
+	-moz-transition: all .8s;
+	-o-transition: all .8s;
+	transition: all .8s;*/
+	
+}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+#mainmenu a {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	position: relative;
+
+}
+
+
+#mainmenu a:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}/*for touch device to prevent hover triggering*/
+
+
+
+
+
+
+
+
+/* Contact
+-----------------------------------------------------------------------------*/
+
+#contact .contact img.hover {
+	display: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+#contact .adress .email {
+	color: #FC0;
+	padding: 0 7px;
+	background: rgba(0,0,0,0.6);
+	-webkit-: 2px 0 5px 0 rgba(0,0,0,0.6);
+	-moz-box-shadow: 2px 0 7px 5px rgba(0,0,0,0.6);
+	box-shadow: 2px 0 7px 5px rgba(0,0,0,0.6);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+
+/* About
+-----------------------------------------------------------------------------*/
+
+#scrollbar .dragger{
+	background: none;
+	width: 50px;
+	height: 50%;
+	left: -18px;
+}
+
+#scrollbar .dragger:after{
+	content: '';
+	display: block;
+	position: absolute;
+	background: #fff;
+	width: 14px;
+	height: 100%;
+	left: 50%;
+	margin-left: -7px;
+	top: 0;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}
+
+#scrollbar .arrow-up, #scrollbar .arrow-down{
+	width: 50px;
+	left: -18px;
+}
+#scrollbar .arrow-up{background-position: 18px top;}
+#scrollbar .arrow-down{background-position: 18px bottom;}
+
+
+
+/* Jobs
+-----------------------------------------------------------------------------*/
+.jobs .textscroller{
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+#scroller .items {
+	position: absolute;
+	left:0;
+	top:0;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+
+#scroller .items img {
+	filter: url(filters.svg#gray);
+}
+
+#scroller .items a .hover {	visibility: hidden; }
+
+#scroller .items a:hover img{display: block;}
+#scroller .items a:hover .hover{display: none;}
+
+#scroller .items a.active:hover img, #scroller .items a.active img{display: none;}
+#scroller .items a.active:hover .hover, #scroller .items a.active .hover{visibility: visible; display: block;}
+
+#solutionbar a:after {
+	background: transparent;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+}
+
+#solutionbar a:hover div{
+	visibility: hidden;
+	
+}
+
+#solutionbar a.hover div, #solutionbar a.hover:hover div{
+	bottom: 80px;
+	visibility: visible;
+}
+
+
+
+	/* 3d Acseleration*/
+	#overlay, #bg span, #bg img, #scroller .items, #solutionbar a, #solutionbar a div
+	#ourteam .blur, #ourteam article, #ourteam .arc	{
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+		-o-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);}
+	
+	
+	/* Анимация при смене ориентации*/
+	.no {
+		-webkit-transition: all .4s;
+		-moz-transition: all .4s;
+		-o-transition: all .4s;
+		transition: all .4s;
+	}
+
+@media all and (orientation:portrait) {
+
+	#bg .wrapper {height: 70%; top: 15%;}
+
+	#solutions .bg{	top: 18%;bottom: 18%;}
+	
+	#about .wrapper{height: 85%;}
+	
+
+}
+
+@media all and (max-width: 1000px) { 
+	#solutionbar a.hover div, #solutionbar a.hover:hover div{
+		bottom: 140%;
+		visibility: visible;
+	}
+	
+	#scrollbar {
+		right: 3%;	
+	}
+	
+	#content article {
+		width: auto;
+		padding-right: 20px;
+	}
+	
+}

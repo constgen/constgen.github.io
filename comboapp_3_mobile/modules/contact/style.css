@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#contact > h4 {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #424242;
+	margin: 5px 10px;
+}

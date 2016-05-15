@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+	<title>Fixed Games</title>
+    
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+    
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/Myriad_Pro_italic_400.font.js"></script>
+    <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    
+
+</head>
+
+<body>
+
+<div id="page">
+	
+
+	<div id="header">
+    
+    
+    	<a id="logo" href="index.html"><img src="images/logo.png" width="160" height="59" alt="Fixed Games" /></a>
+    
+		<ul id="mainmenu">
+        <li class="active"><a id="menu-matches" href="#"><div class="left"></div><div class="center">Договорные матчи</div><div class="right"></div></a></li>
+        <li><a id="menu-stats" href="#"><div class="left"></div><div class="center">Статистика</div><div class="right"></div></a></li>
+        <li><a href="https://fairmanagement.org/forum" target="_blank"><div class="left"></div><div class="center">Форум</div><div class="right"></div></a></li>
+        </ul>
+        
+        
+        <div id="login">
+        	
+            <!--<a class="tab" href="#">Выход</a>--><a id="enter" class="tab" href="#">Вход</a><a id="reg" class="tab" href="#">Регистрация</a>
+            
+          	<form class="" method="get" action="index.html">
+            <a class="tab" href="#">Вход</a>
+            <input name="username" type="text" value="логин" onfocus="this.value = ''" onblur="if (this.value == '') {this.value = 'логин';}" />
+            <input name="password" type="password" value="пароль" onfocus="this.value = ''" onblur="if (this.value == '') {this.value = 'пароль';}" />
+            <a class="ok" href="javascript: submitloginform()"><img src="images/ok.png" alt="" width="29" height="19" /></a>
+            <p><label for="remember"><u>Запомнить</u></label><input id="remember" name="remember" type="checkbox" value="" /></p>
+            <p><a href="#">Забыли пароль?</a></p>
+            <input style="display: none;" id="push" name="" type="submit" /></label>
+            </form>
+            
+                    
+        </div>
+        
+  </div><!-- #header-->
+    
+    
+
+<div id="content">
+		
+        
+        
+        <div id="maintable">
+        
+        <div class="matches load">
+        
+                  <div class="table-head">
+                      <table cellspacing="0" border="0">
+                          <thead>
+                              <tr>
+                                      <td width="200" class="t_left" style="border-left: none;">Спорт</td>
+                                      <td width="200">Дата/время</td>
+                                      <td width="110">Средний КФ</td>
+                                      <td width="110">Достоверность</td>
+                                      <td width="110">Ссылка</td>
+                                      <td width="110" class="t_right">Цена</td>
+                                  </tr>
+                          </thead>
+                      </table>
+                  </div>
+        
+        
+        
+                  <div class="table-body" id="scrolled">
+                  
+                      <table border="0" cellspacing="0">
+                              <tbody> 
+                                  <tr>
+                                      <td width="200" class="t_left">Баскетбол</td>
+                                      <td width="200">2010-09-21 / 10:00:00</td>
+                                      <td width="110">2.5</td>
+                                      <td width="110">90%</td>
+                                      <td width="110"><a href="#">Скачать</a></td>
+                                      <td width="110" class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">Футбол</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">Хоккей</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">Футбол</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test1</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test2</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test3</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test4</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test5</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test6</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test7</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test8</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test9</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test10</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="t_left">test11</td>
+                                      <td>2010-09-21 / 10:00:00</td>
+                                      <td>2.5</td>
+                                      <td>90%</td>
+                                      <td><a href="#">Скачать</a></td>
+                                      <td class="t_right">500 USD</td>
+                                  </tr>
+                           </tbody>
+                      </table>
+                      
+                  </div>
+        
+        </div><!--matches-->
+        
+        
+        
+        <div class="stats">
+                  <div class="table-head">
+                      <table cellspacing="0" border="0">
+                          <thead>
+                              <tr>
+                                  <td width="120" class="t_left" style="border-left: none;">Спорт</td>
+                                  <td width="80">Состязание</td>
+                                  <td width="80">Участники</td>
+                                  <td width="80">Кто победит</td>
+                                  <td width="160">Дата / время</td>
+                                  <td width="80">Средний КФ</td>
+                                  <td width="90">Достоверность</td>
+                                  <td width="80">Победитель</td>
+                                  <td width="120" class="t_right">Ссылка, скриншот</td>
+                              </tr>
+                          </thead>
+                      </table>
+                  </div>
+                      
+                  <div class="table-body" id="scrolled">
+                  
+                      <table border="0" cellspacing="0">
+                          <tbody> 
+                              <tr>
+                                  <td width="120" class="t_left">Баскетбол</td>
+                                  <td width="80">055</td>
+                                  <td width="80">55 – 55</td>
+                                  <td width="80">66</td>
+                                  <td width="160">2010-09-23 / 00:00:00</td>
+                                  <td width="80">12.03</td>
+                                  <td width="90">90%</td>
+                                  <td width="80">Да</td>
+                                  <td width="120" class="t_right"><a href="#">Скриншот</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Футбол</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>2010-09-23 / 00:00:00</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Хоккей</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>2010-09-23 / 00:00:00</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Футбол</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>2010-09-23 / 00:00:00</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Баскетбол</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Шахматы</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Баскетбол</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Шахматы</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Баскетбол</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Шахматы</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Баскетбол</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                              <tr>
+                                  <td class="t_left">Шахматы</td>
+                                  <td>055</td>
+                                  <td>55 &ndash; 55</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>90%</td>
+                                  <td>Да</td>
+                                  <td class="t_right"><a href="#">Скачать</a></td>
+                              </tr>
+                          </tbody>
+                      </table>
+                      
+                  </div>
+                  
+        </div> <!--stats-->
+        
+        
+        <div id="scUp" class="scroll-up"></div>
+		<div id="scDown" class="scroll-down"></div>
+		<div class="table-left"></div>
+		<div class="table-right"></div>
+        
+
+    </div><!-- maintable -->
+        
+        
+        
+<div id="main3blocks"><div class="mainblock">       
+        	<h2>О проекте</h2>
+            <p>По роду своей деятельности мы много сталкивались с матчами, результаты которых был заранее обговорен тренерами команд, так называемыми «<a class="menu-matches" href="#">договорными матчами</a>». Наши аналитики были в курсе подобных матчей, иногда даже сами игроки и тренеры к оманд, сообщали нам о подобных играх, так как в обязанности аналитика входит непосредственное общение с игроками, тренерами и функционерами футбольных клубов. Ввиду всего этого, мы решили продолжить поддерживать партнерские отношения с игроками и тренерами некоторых команд, и получать от них информацию по «договорным» матчам. По этой причине и был создан наш проект и сформировано бизнес-предложение.</p>     
+        </div>
+        
+        
+        <div class="mainblock">
+        	<h2>Доходность</h2>
+        	<p>Коэффициенты на подобные матчи бывают разные. Мы на них влиять никак не можем, и специально матчи с высокими коэффициентами не выбираем. Работаем с тем материалом, который поступает. Но можно с уверенностью сказать, что разброс коэффициентов составляет от минимального 1.7 и более. Доход помимо коэффициента, напрямую зависит от тех сумм, с которыми Вы работаете. Здесь работает закон пропорциональности.</p>
+        </div>
+        
+        
+        <div class="mainblock">
+        	<h2>Гарантии</h2>
+        	<p>Мы можем предоставить вам разумные гарантии. Полезно знать, что для более рационального и плодотворного сотрудничества мы установили, так называемый «стартовый минимум», то есть минимальная ставка с вашей стороны должны быть не менее 1000$. Поверьте, эта цифра взята не просто так, при работе с суммами от указанного минимума, приток дохода существенен и дает четкое понимание всех перспектив сотрудничества в этом направлении. В случае отсутствия у вас необходимого стартового минимума, мы готовы пойти вам навстречу, и обсудить другие варианты начала сотрудничества.</p>
+        </div></div>
+        
+	</div><!-- #content-->
+    
+</div><!-- #page -->
+
+
+
+
+
+
+<div id="registration">
+    	<div id="registration-bg"></div>
+        
+        <form>
+         <label>Логин:</label>  					
+           <div>
+             <input name="you_login" id="username" onchange="check('username',you_login.value)" type="text" />
+              <span>(2-15 латинских букв или цифр, начинается с буквы)</span>
+           </div>
+            <label>Пароль:</label>
+            <div>
+              <input name="you_password" id="pass" onchange="check('pass',you_password.value)" type="password" />
+               <span>(6-20 латинских букв или цифр)</span></div>
+            <label>Повторите пароль:</label>
+            <div>
+              <input name="confirm_password" id="cpass" onchange="check_confirm()" type="password" />
+            </div>
+           <label>Электропочта:</label>
+            <div>
+              <input name="you_email" id="email" onchange="check('email',you_email.value)" type="text" />
+              <span>(Введите существующий адрес)</span></div>
+          <label>Телефон:</label>
+            <div>
+              <input name="you_phone" id="phone" onchange="check('phone',you_phone.value)" type="text" />
+               <span>(В международном формате, например +71230004567)</span></div>
+            <label>Откуда вы узнали об этом сайте?</label>
+            <div>
+              <input name="you_know" id="know" size="40" onchange="check('know',you_know.value)" type="text" />
+            </div>
+            <div>
+              <button name="submitButton" onclick="register_action();return false;" type="submit" />Регистрация</button>
+            </div>
+            <div style="color: #f1273a;">Все поля формы обязательны для заполнения.</div>
+        </form>
+        
+        
+    </div>
+
+
+
+
+
+
+<div id="footer">
+
+	<p><a href="http://fixed-games.info">&copy; 2010 Fixed-games.info</a></p>
+    <div class="line"></div>
+    
+</div>
+
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

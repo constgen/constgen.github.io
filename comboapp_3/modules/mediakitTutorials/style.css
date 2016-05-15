@@ -1,0 +1,78 @@
+#mediakitTutorials .aside{
+    float:left;
+    margin-bottom:20px;
+    padding-top: 25px;
+    background:rgba(255,255,255, 0.45);
+}
+#mediakitTutorials .aside h2 {
+    margin-left: 35px;
+    margin-bottom: 20px
+}
+#mediakitTutorials .aside .chapters-list{
+    background:#FFF;
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    padding:0 25px 25px 20px;
+    width:220px;
+    margin-top:20px;
+}
+#mediakitTutorials .chapters-list > ul > li {
+    color:#434343;
+    font-style:normal;
+    text-transform:none;
+    font-size:16px;
+    margin:20px 0 5px;
+    padding-left:15px;
+}
+#mediakitTutorials .chapters-list > ul > li > ul > li {
+    font-size:14px;
+}
+#mediakitTutorials .chapters-list ul{
+    padding:0;
+    list-style:none;
+}
+#mediakitTutorials .chapters-list li {
+    font-style: normal;
+    text-transform: none;
+    list-style:none;
+    background:none;
+}
+#mediakitTutorials .chapters-list ul li ul li{
+    background:url(images/bg_li_gray.png) left 0.6em no-repeat;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAQAAACBmfRmAAAAR0lEQVQImWO4x3+PAQYZ7s2/1w4TYLgXcu//vQ/3Su9xgjic934Cuf/vPb/nzXBPF8x8eC8ZJNNy79W9nHtsED1R93hgpgEA6qoyWWjU/2sAAAAASUVORK5CYII=");
+    *background-image: url("images/bg_li_gray.png");
+    padding-left:15px;
+}
+#mediakitTutorials > a.active,
+#mediakitTutorials .active > a {
+    color:#222222;
+    font-weight:bold;
+    margin-left: -15px;
+    padding-left:15px;
+    background:url(images/bg_li.png) left 0.6em no-repeat;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAMAAADXEh96AAAAP1BMVEWLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRuLqRvrTuABAAAAFHRSTlMABgkMDy1LVFpjbHWEh5/h5+rw+b7qkjoAAAAtSURBVAiZY+DjZWEAAnYRIW4mBgYmYRERATYGVhERfk4GBh5BLkagHAczSAUAG0EBJW7fzQwAAAAASUVORK5CYII=");
+    *background-image: url("images/bg_li.png");
+}
+
+
+#mediakitTutorials article,
+#mediakitTutorials .article,
+#mediakitTutorials #article{
+    width:560px;
+    margin-left:300px;
+    background:rgba(255,255,255, 0.45);
+    padding:25px 35px;
+}
+
+#mediakitTutorials article h2,
+#mediakitTutorials .article h2,
+#mediakitTutorials #article h2{
+    margin-bottom:20px;
+}
+
+#mediakitTutorials article p,
+#mediakitTutorials .article p,
+#mediakitTutorials #article p{
+    margin-top:10px;
+}
+

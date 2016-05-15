@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+
+
+.itemDetail {
+    background-color: #fafafa;
+	padding-top: 25px;
+	width: 660px;
+}
+.itemDetail article {
+    overflow: visible;
+}
+.itemDetail .description {
+	margin-bottom: 30px;
+}
+.itemDetail .description-content {
+	padding-right: 155px;
+}
+.itemDetail .description p {
+	padding: 18px 0px 9px 0px;
+}
+.itemDetail .download-block {
+	float: right;
+	width: 150px;
+	margin-left: 20px;
+	font-size: 13px;
+}
+.itemDetail .download-block .btn {
+	width: 100px;
+	margin-bottom: 14px;
+    font-weight: bold;
+}
+.itemDetail .download-block p {
+	padding:0 0 0 19px;
+	margin-bottom: 2px;
+}
+.itemDetail .download-link {
+	background: #2a2a2a;
+	padding: 21px 25px 17px;
+	color: #fff;
+	font-size: 13px;
+	margin-bottom: 32px;
+}
+.itemDetail .input-block {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #444444;
+	padding: 8px 0 7px 14px;
+	-moz-box-shadow: inset 0px -1px 0px 0px #303030;
+	-webkit-box-shadow: inset 0px -1px 0px 0px #303030;
+	box-shadow: inset 0px -1px 0px 0px #303030;
+}
+.itemDetail .input-block input {
+	margin: 0 0 0 15px;
+	width: 467px;
+	font-size: 13px;
+	padding: 3px 10px 4px;
+}
+.itemDetail table {
+	/*font 13*/
+	border-top: 1px solid #f5f5f5;
+	border-bottom: 1px solid #f5f5f5;
+	width: 664px;
+	margin-bottom: 2.30em; /*35*/
+}
+.itemDetail table tr,.itemDetail table tr:nth-child(2n){
+	background: transparent;
+}
+.itemDetail table img {
+	vertical-align: bottom;
+	margin: 0;
+	padding-right: 10px;
+}
+.itemDetail table td {
+    padding: 0 25px 15px 25px;
+}
+.itemDetail table td.value {
+    font-size: 16px;
+}
+.itemDetail table tr:first-child td {
+    padding-top: 25px;
+}
+.itemDetail table tr:last-child td {
+    padding-bottom: 25px;
+}
+.itemDetail ul {
+    background: none;
+}

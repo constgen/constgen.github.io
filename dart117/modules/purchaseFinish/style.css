@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+
+
+.purchaseFinish
+{
+    padding-left: 25px;
+    margin-bottom: 260px;
+}
+
+.purchaseFinish h2, .purchaseFinish h1
+{
+    font-size: 25px;
+}

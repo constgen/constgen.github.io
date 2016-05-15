@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.share {
+    margin-bottom: 20px;
+}
+.share h4{
+    margin-bottom: 17px;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 16px;
+}
+.socials .linkedin, .socials .facebook, .socials .twitter, .socials .google_plus, .socials .pin_it{
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    margin-right: 10px;
+    height: 26px;
+    margin-bottom: 0.5em;
+    *width: 150px;
+}

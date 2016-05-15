@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* TAGS
+-----------------------------------------------------------------------------*/
+.tags {
+    margin-bottom: 20px;
+}
+.tags h4 {
+    margin-bottom: 17px;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 16px;
+}
+.tags .button_tag {
+	background: #ffffff;
+	font-size: 13px;
+	color: #003f77;
+	font-weight: normal;
+	font-style: normal;
+	border: 1px solid #e3e3e3;
+	padding: 0 6px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 1.583em; /*20*/
+	line-height: 1.583em; /*20*/
+	width: auto;
+	margin: 0 1px 4px 0;
+	text-decoration: none;
+	text-align: center;
+}
+.tags .button_tag:hover,
+.tags .button_tag.active {
+	background: #003f77;
+	border: 1px solid #003f77;
+	color: #FFF;
+}

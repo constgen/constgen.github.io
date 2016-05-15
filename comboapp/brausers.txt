@@ -1,0 +1,14 @@
+
+Firefox 3.5+
+
+Opera 9.6 simplified
+Opera 10.52+
+
+Chrome 9 some bugs
+Chrome 10+
+
+Safari 4.0 simplified
+Safari 5.0+
+
+IE 6+ simplified buttons, no text shadow
+IE 9+ no text shadow

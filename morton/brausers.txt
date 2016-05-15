@@ -1,0 +1,32 @@
+
+--------------------------------------- Desktop -------------------------------------
+
+Used flash-version
+
+
+--------------------------------------- Tablet -------------------------------------
+
+iPad 		: full, no connection detection
+
+Android 	: full
+
+Opera Mobile 	: calculator not supported, no connection detection
+
+
+
+--------------------------------------- Mobile -------------------------------------
+
+iPhone		: full, no connection detection
+
+Android 1.6+	: no touches, no connection detection
+Android 2.1+	: no connection detection
+Android 2.2+	: full
+
+Opera Mobile 	: calculator not supported, no connection detection
+
+IE 7		: no touches, no animations, no rounded corners in calculator,
+		  no connection detection, simplified graphics, no snow
+
+Opera mini	: no touches, no animations, no rounded corners in calculator,
+		  no connection detection, simplified graphics, no snow
+

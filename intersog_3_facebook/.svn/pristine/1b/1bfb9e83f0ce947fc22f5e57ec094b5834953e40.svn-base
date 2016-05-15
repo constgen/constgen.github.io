@@ -1,0 +1,78 @@
+#accordion h3.head
+{ 
+	margin: 1px 0; 
+	padding: 10px 10px;
+	font-size: 12px; 
+	color: #000;
+	background: #f0f0f0; 
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#accordion h3.active
+{
+	background: #747474;
+	color:#FFF; 
+}
+
+#accordion div.block 
+{
+	padding: 10px; 
+	margin: 0;
+	font-size: 12px;
+}
+
+#accordion h3 span{
+	padding:10px;
+	margin-right:10px;
+	background-position:50%;
+	background-repeat:no-repeat;
+}
+
+#accordion h3.head span.row_01{
+	background-image:url(../img/serv_consult_active.png);
+}
+
+#accordion h3.active span.row_01{
+	background-image:url(../img/serv_cunsult_inactive.png);
+}
+
+#accordion h3.head span.row_02{
+	background-image:url(../img/serv_develop_active.png);
+}
+
+#accordion h3.active span.row_02{
+	background-image:url(../img/serv_develop_inactive.png);
+}
+
+#accordion h3.head span.row_03{
+	background-image:url(../img/serv_anal_active.png);
+}
+
+#accordion h3.active span.row_03{
+	background-image:url(../img/serv_anal_inactive.png);
+}
+
+#accordion h3.head span.row_04{
+	background-image:url(../img/serv_qa_active.png);
+}
+
+#accordion h3.active span.row_04{
+	background-image:url(../img/serv_qa_inactive.png);
+}
+
+#accordion h3.head span.row_05{
+	background-image:url(../img/serv_publish_active.png);
+}
+
+#accordion h3.active span.row_05{
+	background-image:url(../img/serv_publish_inactive.png);
+}
+
+#accordion h3.head span.row_06{
+	background-image:url(../img/serv_support_active.png);
+}
+
+#accordion h3.active span.row_06{
+	background-image:url(../img/serv_support_inactive.png);
+}

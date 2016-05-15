@@ -1,0 +1,129 @@
+.dp-cur, .chip dt, .te, .te-t, .te-rev-s, .rb-n, .rb-i, .agenda, .event-title{
+	white-space:normal !important;
+}
+html {overflow-y: hidden;}
+body {
+	margin:0;
+	padding:0;
+	overflow-y:hidden;
+	background-color: transparent !important;
+}
+.view-container {
+    height: 317px !important;
+	margin-top: 17px;
+}
+#calendarTitle {
+	display: none;
+}
+#nav1, .calendar-container .header {
+	display: none;
+}
+#mvDaynamesTable, .mv-daynames-table {
+	text-align: left;
+}
+.st-grid td {
+	text-align: left;
+}
+.st-dtitle {
+    background: transparent;
+}
+.st-bg-today, .st-bg-td-first {
+    background: #f9f9f9;
+	border-left: 1px solid #e2e2e2;
+    border-right: none;
+}
+.st-bg-next {
+    border-left: 1px solid #e2e2e2;
+}
+.st-dtitle-today {
+    border: none;
+	border-top: 1px solid #e2e2e2;
+}
+.st-dtitle-down {
+    border-top: 1px solid #e2e2e2;
+}
+.mv-daynames-table {
+    color: #787878;
+	background: transparent;
+}
+.mv-dayname {
+    font-size: 13px;
+	font-weight: bold;
+}
+.view-cap {
+	display: none;
+}
+.view-cap, .view-container-border {
+    background-color: transparent;
+}
+.view-container-border {
+    padding: 0;
+}
+.te {
+    padding-top: 0;
+	color: #4db810 !important;
+}
+.st-contents, .mv-container {
+    line-height: 13px;
+}
+.st-c-pos {
+    padding-top: 0;
+}
+.st-c-pos {
+    height: 42px;
+    overflow: hidden;
+}
+.mv-event-container {
+    top: 22px;
+	border: 1px solid #e2e2e2;
+}
+.st-dtitle {
+    padding: 0 0 0 4px;
+}
+.st-dtitle {
+    color: #787878;
+}
+.st-dtitle-nonmonth {
+    color: #d2d2d2;
+}
+#footer1 {
+	display: none;
+}
+
+.bubble {
+	background: #ffffff;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	width: 400px !important;
+}
+.bubble-sprite {
+    background-image: none;
+}
+.bubble-top, .bubble-bottom, .bubble-mid {
+    border: 0 none;
+	height: 15px;
+}
+/*.bubble:after {
+    background: url("/plugins/GoogleCalendar/images/arrow.png") no-repeat;
+	height: 12px;
+	width: 16px;
+	position: absolute;
+	content: '';
+	left: 188px;
+	bottom: -11px;
+}*/
+.bubble-corner {
+	height: 15px;
+}
+.bubble-closebutton {
+    background: url("/plugins/GoogleCalendar/images/close.png") no-repeat;
+	height: 11px;
+	width: 11px;
+	top: 18px;
+	right: 16px;
+}
+.bubble .details .title {
+    color: #4DB810 !important;
+}

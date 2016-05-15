@@ -1,0 +1,158 @@
+#clients {}
+
+/*#image-show{
+	background:rgba(255,255,255, 0.45);
+	padding:35px;
+}
+
+#image-show .image{
+	position:relative;
+}
+
+#image-show .image img{
+	position:absolute;
+	right:0;
+	border:8px solid #FFF;
+	-webkit-box-shadow:0 0 1px #cfcfcf, 0 1px 5px rgba(0,0,0, 0.2);
+}
+
+#image-show h2{
+	margin-bottom:20px;
+}
+
+#image-show p{
+	margin-top:10px;
+}
+
+#image-show ul{
+	padding:10px 0;
+}
+
+#image-show ul li{
+	list-style:none;
+	background:url(../images/bg_li_gray.png) left no-repeat;
+	padding-left:10px;
+}
+
+#image-show .inf{
+	width:445px;
+}*/
+
+#scrollable {
+    display: block;
+    width: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#scroller {
+    position: relative;
+    overflow: hidden;
+    width: 810px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#scrollable .items {
+    position: absolute;
+    clear: both;
+    width: 9000em;
+
+}
+
+#scrollable .items div {
+    float: left;
+    width: 810px;
+    text-align: center;
+}
+
+#scrollable .items a {
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 10px 0;
+    width: 72px;
+    height: 72px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,0.19);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+#scrollable .items a.active, #scrollable .items a:hover {
+    border-color: #df0101;
+    -webkit-box-shadow: 0 0 2px #df0101;
+    -webkit-box-shadow: 0 0 0 2px #df0101;
+    -moz-box-shadow: 0 0 0 2px #df0101;
+    box-shadow: 0 0 0 2px #df0101;
+}
+
+#scrollable .items a span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#scrollable .prev, #scrollable .next {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 62px;
+    top: 9px;
+    background: url(images/bg_arrows.png) no-repeat;
+}
+
+#scrollable .prev.disabled, #scrollable .next.disabled {display: none;}
+
+#scrollable .prev {
+    left: 0;
+    background-position: center top;
+}
+
+#scrollable .next {
+    right: 0;
+    background-position: center bottom;
+}
+
+
+
+
+
+.pan img {
+	display: block;
+	float: right;
+	border: 1px solid #cfcfcf;
+	padding:8px;
+	margin:0 0 15px 15px;
+	background: white;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

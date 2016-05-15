@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+.needhelp
+{
+	width: auto;
+	max-width: 225px;
+	padding: 35px 65px 35px 35px;
+	position: relative;
+	background: #FFF;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+	color: #434343;
+	font-size: 18px;
+}
+
+
+.needhelp p
+{
+	margin-bottom: 13px;
+}
+
+
+.needhelp .needhelp-label
+{
+	background: url("images/bg_label_help.png") no-repeat 0 0;
+	width: 152px;
+	height: 95px;
+	position: absolute;
+	right: -5px;
+	top: -5px;
+}
+

@@ -1,0 +1,359 @@
+/* Basket
+-----------------------------------------------------------------------------*/
+
+#toolbar {
+    position: absolute;
+    z-index:100;
+    left: 100%;
+    top: 0;
+    margin: 0 0 0 28px;
+    width: 137px;
+}
+
+#toolbar.fixed {
+    position: fixed;
+    margin-top: 10px;
+    left: 0;
+    margin-left: 962px;   
+    width: 137px;
+}
+/*        #personal-banner{
+            background: #fafafa;
+            margin-top: 16px;
+                        
+            width: auto;
+            min-width: 118px;
+            padding: 9px 0 0 0;
+            text-align: center;
+            border: none;
+            -webkit-box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+            -moz-box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+            box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+            -webkit-transition: top 0.5s, color 1s;
+            -moz-transition: top 0.5s, color 1s;
+            -ms-transition: top 0.5s, color 1s;
+            -o-transition: top 0.5s, color 1s;
+            transition: top 0.5s, color 1s;  
+            font-size: 12px;
+            color:#454545;             
+        }
+        
+        #personal-banner .button {
+            background: #8BA91B;
+            margin: 0 auto;
+            padding: 0;
+            font-size: 11px;
+                        font-weight:bold;
+            height: 40px;
+            width: 100%;
+            line-height: 40px;
+            cursor: pointer;
+            border: none;
+            border-bottom: 1px solid #6c8515;
+            color: #ffffff;
+            margin-top: 0.857em;*/ /*12*/
+
+/*            text-shadow: 0.3px 0.5px #ffffff;*/
+/*       }
+        #personal-banner .button:hover {
+            border: none;
+            border-bottom: 1px solid #6c8515;
+        }
+        #personal-banner .button:active {
+            box-shadow: none;
+            border: none;
+            border-bottom: 1px solid #6c8515;
+        }
+        
+                #personal-banner .button span{
+                font-size:18px;
+                font-weight:bold;
+                }
+*/
+
+#cart {
+    color: #454545;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+    background: #f5f5f5;
+    margin-bottom: 29px;
+	width: 135px;
+    border: 1px solid #cecece;
+    -webkit-transition: top 0.5s, color 1s;
+    -moz-transition: top 0.5s, color 1s;
+    -ms-transition: top 0.5s, color 1s;
+    -o-transition: top 0.5s, color 1s;
+    transition: top 0.5s, color 1s;
+}
+
+#cart div {
+    position: relative;
+    height: 40px;
+    line-height: 38px;
+    border-top: 1px dotted #9a9a9a;
+
+}
+
+#cart div:first-child {
+    border-top: none;
+}
+
+#cart .quant {
+    font-size: 15px;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+#cart .quant span {font-size: 18px;}
+
+#cart .icon {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    background-image: url(images/bg_cart.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #225102;
+}
+#cart .icon:hover {
+    border: none;
+    border-bottom: 1px solid #225102;
+}
+
+#cart .icon:active {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #225102;
+    margin: 0;
+}
+
+#cart.full .icon {
+    background-image: url(images/bg_cart_full.png);
+}
+
+#cart .icon img {
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+#cart .icon:active img {margin-top: 7px;}
+
+#cart.full output.val span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+@media all and (max-width: 1210px) {
+
+    #cart.fixed, #cart {
+        position: fixed;
+        margin-top: 0;
+        top: -82px;
+        right: 10px;
+        left: auto;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #cart:before {
+        content: '';
+        position: absolute;
+        background: rgba(0,0,0,0);
+        left: 0;
+        right: 0;
+        height: 15px;
+        bottom: 100%;
+    }
+
+    #cart:hover {top: 10px;}
+
+    /*  #personal-banner.fixed, #personal-banner {
+          position: fixed;
+          right: 136px;
+          bottom: 100%;
+          margin-bottom: -40px;
+      }*/
+
+}
+
+/*need banner*/
+
+.need_banner{
+    background: #fafafa;
+    margin-bottom: 29px;
+    width: auto;
+    min-width: 137px;
+    padding: 9px 0 0 0;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+	border-top-color: #d8d8d8;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+    -webkit-transition: top 0.5s, color 1s;
+    -moz-transition: top 0.5s, color 1s;
+    -ms-transition: top 0.5s, color 1s;
+    -o-transition: top 0.5s, color 1s;
+    transition: top 0.5s, color 1s;  
+    font-size: 14px;
+    color:#454545;             
+}
+
+.need_banner .button {
+    background: #196112;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 13px;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #6c8515;
+    color: #ffffff;
+    margin-top: 0.857em; /*12*/
+
+    /*            text-shadow: 0.3px 0.5px #ffffff;*/
+}
+.need_banner .button:hover {
+    border: none;
+    border-bottom: 1px solid #6c8515;
+}
+.need_banner .button:active {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #6c8515;
+}
+
+.need_banner .button span{
+    font-size:18px;
+    font-weight:bold;
+}
+
+@media all and (max-width: 1210px) 
+{
+    .need_banner.fixed, .personal-banner {
+        position: fixed;
+        right: 136px;
+        bottom: 100%;
+        margin-bottom: -40px;
+    }
+}
+
+.tb_need 
+{
+    border-bottom: 1px dotted #9A9A9A;
+    margin-bottom: 4px;
+    padding-bottom: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #454545;
+}
+
+/*buy_banner*/
+
+
+.buy_banner{
+    background: #fafafa;
+    margin-bottom: 16px;
+
+    width: auto;
+    min-width: 118px;
+    padding: 9px 0 0 0;
+    text-align: center;
+    border: none;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.25);
+    -webkit-transition: top 0.5s, color 1s;
+    -moz-transition: top 0.5s, color 1s;
+    -ms-transition: top 0.5s, color 1s;
+    -o-transition: top 0.5s, color 1s;
+    transition: top 0.5s, color 1s;  
+    font-size: 12px;
+    color:#454545;             
+}
+
+.buy_banner .button {
+    background: #196112;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 18px;
+    font-weight:bold;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #6c8515;
+    color: #ffffff;
+    margin-top: 0.857em; /*12*/
+
+    /*            text-shadow: 0.3px 0.5px #ffffff;*/
+}
+.buy_banner .button:hover {
+    border: none;
+    border-bottom: 1px solid #6c8515;
+}
+.buy_banner .button:active {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #6c8515;
+}
+
+#buy_banner .button span{
+    font-size:18px;
+    font-weight:bold;
+}
+
+@media all and (max-width: 1210px) 
+{
+
+    .buy_banner.fixed, .personal-banner
+    {
+        position: fixed;
+        right: 136px;
+        bottom: 100%;
+        margin-bottom: -40px;
+    }
+
+}
+
+.tb_second
+{
+    color: #454545;
+}
+
+.tb_img 
+{
+
+    display:inline-block;
+    text-align:left;
+    width:10px;
+}
+
+.tb_cost
+{
+    font-size:17px;
+    display:inline-block;
+    text-align:right;
+    width:87px;
+    vertical-align:middle;
+    font-weight: bold;
+}
+
+.buy_banner a
+{
+    color: #454545;
+    font-size:14px;
+}

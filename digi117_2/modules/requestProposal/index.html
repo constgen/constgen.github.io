@@ -1,0 +1,44 @@
+﻿<div id="requestProposal">
+	<div class="wrapper">
+		<div id="requestProposalContent" class="formWrap accelerated">
+			<form id="proposal-form" method="post" action="/content/proposal">
+
+				<div class="left">
+					<div class="row">
+						<label for="firstName" class="required">First Name:</label>
+						<input type="text" name="firstName" required class="valid">
+					</div>
+					<div class="row">
+						<label for="lastName" class="required">Last Name:</label>
+						<input type="text" name="lastName" required class="invalid">
+					</div>
+					<div class="row">
+						<label for="company" class="required">Company Name:</label>
+						<input type="text" name="company" required class="invalid">
+					</div>
+					<div class="row">
+						<label for="email" class="required">Email Address:</label>
+						<input type="email" name="email" required class="invalid">
+					</div>
+				</div>
+
+				<div class="right">
+					<div class="row">
+						<label for="details" class="required">Project Details (the more the better):</label>
+						<textarea name="details" required class="invalid"></textarea>
+					</div>
+				</div>
+
+				<div class="bottom">
+					<a type="submit" class="submit">
+						<span class="before"></span>
+						<span class="text">Submit fOrM</span>
+						<span class="after"></span>
+					</a>
+				</div>
+
+			</form>
+		</div>
+		<div id="requestButton"></div>
+	</div>
+</div>

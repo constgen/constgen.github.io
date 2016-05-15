@@ -1,0 +1,37 @@
+
+--------------------------------------- Table -------------------------------------
+
+Firefox 3.5+	: some animations simplified 
+Firefox 4+	: full
+
+Opera 11+	: full
+
+Chrome 9+	: full
+
+Safari 5.0+	: full
+ 
+IE 7,8		: some animations simplified, history navigation simplified, no rounded corners, JS must be ON,
+		no middle mouse click
+
+IE 9		: some animations simplified
+
+
+
+
+--------------------------------------- Tablet -------------------------------------
+
+iPad 		: full
+
+Android Chrome	: no multitouch
+
+Opera Mobile 11+: no text scrolling
+
+
+
+--------------------------------------- Mobile -------------------------------------
+
+iPhone		: tablet version
+
+Android Chrome	: tablet version
+
+Opera Mobile 11+: tablet version

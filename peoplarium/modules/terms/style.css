@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+
+
+.terms .lease-terms {
+    overflow: hidden;
+    background: #1f9ae0 url(images/bg_lines.png) no-repeat center top;
+    color: #fff;
+}
+.terms h2 {
+    margin-top: 0;
+}
+.terms .wrap {
+    margin-top: 30px;
+    margin-bottom: 20px;
+	margin-top: 40px;
+}
+.terms .lease-terms-item {
+	padding-top: 24px;
+}
+.terms .lease-terms-item .item {
+	padding-left: 70px;
+	vertical-align: top;
+	width: 300px;
+	margin-bottom: 20px;
+	background: url(images/bg_ol.png) no-repeat;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	position: relative;
+}
+.terms .lease-terms-item .item:first-child {
+	margin-right: 24px;
+}
+.terms .lease-terms-item .item img {
+	position: absolute;
+	top: 18px;
+	left: 21px;
+	font-size: 25px;
+}
+/*.terms .lease-terms-item .item.one{
+	background: url(images/bd_ol_1.png) no-repeat;
+}
+.terms .lease-terms-item .item.two{
+	background: url(images/bd_ol_2.png) no-repeat;
+}*/

@@ -1,0 +1,136 @@
+﻿@charset "utf-8";
+
+
+/* HEADER
+-----------------------------------------------------------------------------*/
+
+.header {
+	padding-top: 60px;
+	min-height: 117px;
+	margin:0 auto;
+	position:relative;
+}
+
+.header.wrapper {
+	overflow: visible;
+}
+
+.header .logo {
+    position: absolute;
+    top:20px;
+	left:60px;
+    display: block;
+    width: 198px;
+	height: 129px;
+    background: url(images/logo.png) 0 0 no-repeat;
+	z-index: 1;
+}
+
+.header .main_menu {
+    padding: 16px 240px 20px 260px;
+    white-space: nowrap;
+    display: block;
+    position: relative;
+}
+.header .main_menu ul {
+	display: block;
+  position: relative;
+  text-align: center;
+	list-style: none outside none;
+	padding: 0;
+  white-space: normal;
+}
+.header .main_menu ul:after {
+	content: "";
+  width: 100%;
+  display: inline-block;
+
+  zoom: 1;
+  *display: inline;
+}
+.header .main_menu ul li {
+	display: inline-block;
+	*display: inline;
+  *zoom: 1;
+  padding: 10px 15px 10px 15px;
+	border-radius: 22px;
+  border: 2px solid transparent;
+	font-family:"Helvetica Neue Condensed";
+	font-weight: normal;
+	font-size: 17px;
+	color: #777777;
+
+}
+.header .main_menu ul li.clear {
+  display: block;
+  position: absolute;
+  right: 0;
+}
+/*.header .main_menu ul li:first-child {padding-left: 0;}*/
+.header .main_menu ul li:first-child:before {display: none;}
+
+.header .main_menu li a {
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header .main_menu li:active,
+.header .main_menu li.active {
+    border: 2px solid #f9bd00;
+}
+.header .main_menu li:active a {
+    border-bottom: none;
+}
+.header .main_menu li a:hover,
+.header .main_menu li.active a{
+	color: #000;
+}
+.header .main_menu li a:hover {
+    color: #4a4a4a;
+	border-bottom: 1px dotted #4a4a4a;
+}
+.header .main_menu li.active a:hover{
+	color: #000;
+    border-bottom: none;
+}
+
+.header .main_menu .btn {
+	position:absolute;
+	top: 0; right: 3px;
+	margin-top: -40px;
+}
+
+.header h1 {
+	margin-bottom: 0;
+	text-transform: none;
+	font-size: 65px;
+	text-align: center;
+}
+.header h2 {
+	font-size: 28px;
+	margin-bottom:50px;
+	text-align: center;
+}
+.header a.btn.advice.invert {
+    margin-top: 10px;
+    margin-right: 65px;
+    background: #171717;
+    border: 3px solid #f9bd00; 
+}
+.header a.btn.advice.invert:hover {
+    margin-top: 8px;
+    margin-right: 63px;
+    background: #171717;
+    color: #f9bd00;
+    border: 5px solid #f9bd00; 
+}
+
+.header a.btn.advice.invert:active {
+    margin-top: 8px;
+    margin-right: 63px;
+    background: #f49100;
+    color: #ffffff;
+    border: 5px solid #f9bd00; 
+}

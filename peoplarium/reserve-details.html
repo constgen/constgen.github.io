@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Peoplarium Reserve Details Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/style.css">
+
+	<script type="text/javascript" src="core/Core.js"></script>
+
+	<!--Configure-->
+	<script>
+		Core.configure('peoplarium.config.js')
+		Core.load('libs/jquery-1.7.2.min.js', { defer: true })
+		if (!document.querySelector) Core.load('plugins/querySelector.js', { defer: true })
+	</script>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+		
+		<!--Header-->
+        <script>Core.include('modules/header')</script>
+		
+        <section id="middle">
+            
+            <!--Reserve Details-->
+			<script>Core.include('modules/reserveDetails')</script>
+			
+            <!--Terms-->
+			<script>Core.include('modules/terms')</script>
+			
+            <!--Map-->
+			<script>Core.include('modules/map')</script>
+
+        </section>
+    </div>
+	
+    <!--Footer-->
+	<script>Core.include('modules/footer')</script>
+    
+    <!--Footer-->
+	<script>Core.include('modules/successMessage')</script>
+
+    <script>
+    	Core.DOMReady.then(function () {
+    		Core.load('plugins/mediaquery.js', { defer: true })
+    		Core.startAll()
+    	})
+
+    	//extensions
+    	Core.load('core/storage.core.js', { defer: true })
+    	Core.load('core/url-navigation.extension.js', { defer: true })
+    	Core.load('core/actions.core.js', { defer: true })
+	</script>
+</body>
+</html>

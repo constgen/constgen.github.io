@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+#scrollToTop {
+	position: fixed;
+	display: none;
+	left:50%; bottom: 530px;
+	margin-left: 525px;
+	width: 80px; height:80px;
+	background: url(images/scrollToTop.png) 0 -80px no-repeat;
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	-ms-transition: opacity 0.4s;
+	-o-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+
+	#scrollToTop.visible{opacity:1; filter: alpha(opacity=100);}
+
+	#scrollToTop .hover {
+		position: absolute;
+		top:0; right: 0; bottom:0; left:0;
+		width: 80px; height:80px;
+		background: url(images/scrollToTop.png) 0 0 no-repeat;
+
+		cursor: pointer;
+		z-index: 99;
+		opacity:0;
+		filter: alpha(opacity=0);
+
+		-webkit-transition: opacity 0.4s;
+		-moz-transition: opacity 0.4s;
+		-ms-transition: opacity 0.4s;
+		-o-transition: opacity 0.4s;
+		transition: opacity 0.4s;
+	}
+	#scrollToTop .text {
+		position: absolute;
+		top: 32px; right: -120px; bottom: 32px; left: 40px;
+
+		text-align: right;
+		font: 16px/100% "PT Sans", sans-serif;
+		text-transform: uppercase;
+		color: #ffffff;
+
+		opacity:0; 
+		filter: alpha(opacity=0);
+
+		-webkit-transform:rotate(90deg);
+		-moz-transform:rotate(90deg);
+		-ms-transform:rotate(90deg);
+		-o-transform:rotate(90deg);
+		transform:rotate(90deg);
+
+		-webkit-transform-origin: 0px 8px;
+		-moz-transform-origin: 0px 8px;
+		-ms-transform-origin: 0px 8px;
+		-o-transform-origin: 0px 8px;
+		transform-origin: 0px 8px;
+
+
+		-webkit-transition: all 0.4s;
+		-moz-transition: all 0.4s;
+		-ms-transition: all 0.4s;
+		-o-transition: all 0.4s;
+		transition: all 0.4s;
+
+	}
+
+	#scrollToTop:hover .hover {
+		opacity:1;
+		filter: alpha(opacity=100);
+	}
+	#scrollToTop:hover .text {
+		opacity:1; 
+		filter: alpha(opacity=100);
+
+		-webkit-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg);
+	}	
+
+@media (min-width: 1240px) and (max-width: 1470px) {
+
+	#scrollToTop .text {
+		top: 40px; right: -10px; left: -10px; bottom:auto;
+
+		text-align: center;
+
+		opacity:0; 
+		filter: alpha(opacity=0);
+
+		-webkit-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg);
+
+		-webkit-transition: all 0.4s;
+		-moz-transition: all 0.4s;
+		-ms-transition: all 0.4s;
+		-o-transition: all 0.4s;
+		transition: all 0.4s;
+	}
+
+	#scrollToTop:hover .text {
+		top:90px;
+	}
+}
+
+@media (max-width: 1240px) {
+	#scrollToTop {
+		display:none;
+		visibility:hidden
+		bottom: auto;
+		top:-3000px
+	}
+}

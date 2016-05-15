@@ -1,0 +1,340 @@
+﻿@charset "utf-8";
+
+#work {
+	width:1000px;
+	margin:0 auto;
+}
+	#work .apps {
+		padding:40px;
+		height: 10px;
+		font-size: 0px;
+		line-height: 0;
+		position: relative;
+		overflow: hidden;
+	}
+	#work .apps.transitionHeight {
+		-webkit-transition: height 0.5s;
+		-moz-transition: height 0.5s;
+		-ms-transition: height 0.5s;
+		-o-transition: height 0.5s;
+		transition: height 0.5s;
+	}
+		.noresults {
+			display: block;
+			position: absolute;
+			top: 0px; left: 40px;
+			font-size: 20px;
+			line-height: 100%;
+			color:white;
+			z-index: 1;
+			opacity: 0;
+			filter: alpha(opacity=0);
+
+			-webkit-transition: opacity 0.5s, top 0.5s;
+			-moz-transition: opacity 0.5s, top 0.5s;
+			-ms-transition: opacity 0.5s, top 0.5s;
+			-o-transition: opacity 0.5s, top 0.5s;
+			transition: opacity 0.5s, top 0.5s;
+		}
+		.app  {
+			display: block;
+			/*display:none;*/
+			width: 302px; 
+			height: 350px;
+			position: absolute;
+			overflow: hidden;
+			opacity: 1;
+			z-index:2;
+			background: url(/images/0.gif) 0 0 repeat;
+			cursor: pointer;
+			text-decoration:none;
+
+			-webkit-transition: top 1s, left 1s, opacity 0.25s;
+			-moz-transition: top 1s, left 1s, opacity 0.25s;
+			-ms-transition: top 1s, left 1s, opacity 0.25s;
+			-o-transition: top 1s, left 1s, opacity 0.25s;
+			transition: top 1s, left 1s, opacity 0.25s;
+		}
+		
+				
+			
+            .app .sale {
+                position: absolute;
+                display: inline-block;
+                *display: block;
+                left: 200px;
+                width: 73px;
+                height: 73px;
+                overflow: hidden;
+                background: url(images/sale.png);
+                z-index: 3;
+
+                color: #ffffff;
+                font-family: "Helvetica Neue Condensed", sans-serif;
+                font-size: 18px;
+                font-weight: normal;
+                text-align: center;
+                
+            }
+            .app .sale .sale-discount {
+                display: inline-block;
+                *display: block;
+                width: 100%;
+                height: 50%;
+                line-height: 67px;
+            }
+            .app .sale .sale-prev-price {
+                display: inline-block;
+                *display: block;
+                width: 100%;
+                height: 50%;
+                color: #c6f28d;
+                font-size: 14px;
+                line-height: 32px;
+                text-decoration: line-through;
+            }
+            .app .sale.red {
+                background-position: 0px -74px;
+                line-height: 77px;
+            }
+            .app .photo {
+				display:inline-block;
+				width:302px; 
+                height: 225px;
+                background: url(../../images/shop-item-mask.png) no-repeat center;
+				overflow: hidden;
+				z-index: -1;
+				text-align:center;
+			}
+				.app .photo img {
+					display: block;
+                    position: relative;
+                    margin: 0 auto;
+                    width:225px; 
+                    height: 225px;
+                    z-index:-3;
+				}
+			.app .description {
+				display: inline-block;
+                *display: block;
+				margin: 0 0 0 38px;
+                width: 225px;
+                height: 40px;
+				font-size:20px;
+				
+				padding: 15px 0 10px 0;
+				z-index:5;
+
+				text-align: center;
+				font: 20px/100% "Helvetica Neue Condensed", sans-serif;
+				color: #313131;
+
+				-webkit-transition: top 0.4s, opacity 0.4s;
+				-moz-transition: top 0.4s, opacity 0.4s;
+				-ms-transition: top 0.4s, opacity 0.4s;
+				-o-transition: top 0.4s, opacity 0.4s;
+				transition: top 0.4s, opacity 0.4s;
+			}
+			.app .tags {
+				display: block;
+				margin-top: 15px;
+				width: 100%;
+				font-size: 16px !important;
+			}
+			.app .tags ul{
+				padding:0;
+				list-style:none;
+			}
+			.app .tags ul li{
+				display:inline-block;
+			}
+			.app .tags li:after{
+				content:'/';
+				padding:0 5px;
+				color:#b6b6b6;
+			}
+			.app .tags li:last-child:after{
+				content:'';
+				padding:0;
+			}
+            .app .button {
+                position: relative;
+                display: inline-block;
+                *display: block;
+                margin: 0 10px;
+                width: 120px;
+                height: 50px;
+                background: url(images/button-small.png) no-repeat;
+                
+                color: #171717;
+                font-family: "Helvetica Neue Condensed", sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 45px;
+            }
+            .app input[type="button"] {
+                height: 47px;
+                line-height: 0;
+                border: none;
+            }
+            .app .button-block {
+                display: inline-block;
+                *display: block;
+                width: 302px;
+                padding: 0;
+                text-align: center;
+            }
+            .app .buy-button {
+                /*margin-left: 15px;*/
+                text-align: center;
+            }
+            .app .price-button {
+                margin-right: 15px;
+                float: right;
+                font-weight: normal;
+            }
+            .app .price {
+                position: relative;
+                display: inline-block;
+                *display: block;
+                margin: 0 15px;
+                height: 50px;
+
+                color: #171717;
+                font-family: "Helvetica Neue Condensed", sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 45px;
+                vertical-align: top;
+            }
+			.app .after {
+				margin:2px 40px;
+                *margin: 1px 0 0 -17px;
+				width:221px;
+				height:221px;
+				background:url(images/view_mask.png) no-repeat;
+				position: absolute;
+				top: 0px; right: 0px; bottom: 0px; left: 0px;
+                *right: auto;
+                *left: 57px;
+				opacity:0; filter: alpha(opacity=0);
+
+				-webkit-transition: opacity 0.4s;
+				-moz-transition: opacity 0.4s;
+				-ms-transition: opacity 0.4s;
+				-o-transition: opacity 0.4s;
+				transition: opacity 0.4s;
+			}
+				.app:hover .after {opacity:1; filter: alpha(opacity=80);}
+
+
+
+.app.index0   {top:    40px; left:  40px;}
+.app.index1   {top:    40px; left: 346px;}
+.app.index2   {top:    40px; left: 652px;}
+.app.index3   {top:   419px; left:  40px;}
+.app.index4   {top:   419px; left: 346px;}
+.app.index5   {top:   419px; left: 652px;}
+.app.index6   {top:   798px; left:  40px;}
+.app.index7   {top:   798px; left: 346px;}
+.app.index8   {top:   798px; left: 652px;}
+.app.index9   {top:   1177px; left:  40px;}
+.app.index10  {top:   1177px; left: 346px;}
+.app.index11  {top:   1177px; left: 652px;}
+.app.index12  {top:  1556px; left:  40px;}
+.app.index13  {top:  1556px; left: 346px;}
+.app.index14  {top:  1556px; left: 652px;}
+.app.index15  {top:  1935px; left:  40px;}
+.app.index16  {top:  1935px; left: 346px;}
+.app.index17  {top:  1935px; left: 652px;}
+.app.index18  {top:  2314px; left:  40px;}
+.app.index19  {top:  2314px; left: 346px;}
+.app.index20  {top:  2314px; left: 652px;}
+.app.index21  {top:  2693px; left:  40px;}
+.app.index22  {top:  2693px; left: 346px;}
+.app.index23  {top:  2693px; left: 652px;}
+.app.index24  {top:  3072px; left:  40px;}
+.app.index25  {top:  3072px; left: 346px;}
+.app.index26  {top:  3072px; left: 652px;}
+.app.index27  {top:  3451px; left:  40px;}
+.app.index28  {top:  3451px; left: 346px;}
+.app.index29  {top:  3451px; left: 652px;}
+.app.index30  {top:  3830px; left:  40px;}
+.app.index31  {top:  3830px; left: 346px;}
+.app.index32  {top:  3830px; left: 652px;}
+.app.index33  {top:  4219px; left:  40px;}
+.app.index34  {top:  4219px; left: 346px;}
+.app.index35  {top:  4219px; left: 652px;}
+.app.index36  {top:  4598px; left:  40px;}
+.app.index37  {top:  4598px; left: 346px;}
+.app.index38  {top:  4598px; left: 652px;}
+.app.index39  {top:  4977px; left:  40px;}
+.app.index40  {top:  4977px; left: 346px;}
+.app.index41  {top:  4977px; left: 652px;}
+.app.index42  {top:  5356px; left:  40px;}
+.app.index43  {top:  5356px; left: 346px;}
+.app.index44  {top:  5356px; left: 652px;}
+.app.index45  {top:  5735px; left:  40px;}
+.app.index46  {top:  5735px; left: 346px;}
+.app.index47  {top:  5735px; left: 652px;}
+.app.index48  {top:  6114px; left:  40px;}
+.app.index49  {top:  6114px; left: 346px;}
+.app.index50  {top:  6114px; left: 652px;}
+.app.index51  {top:  6503px; left:  40px;}
+.app.index52  {top:  6503px; left: 346px;}
+.app.index53  {top:  6503px; left: 652px;}
+.app.index54  {top:  6882px; left:  40px;}
+.app.index55  {top:  6882px; left: 346px;}
+.app.index56  {top:  6882px; left: 652px;}
+.app.index57  {top:  7261px; left:  40px;}
+.app.index58  {top:  7261px; left: 346px;}
+.app.index59  {top:  7261px; left: 652px;}
+.app.index60  {top:  7640px; left:  40px;}
+.app.index61  {top:  7640px; left: 346px;}
+.app.index62  {top:  7640px; left: 652px;}
+.app.index63  {top:  8029px; left:  40px;}
+.app.index64  {top:  8029px; left: 346px;}
+.app.index65  {top:  8029px; left: 652px;}
+.app.index66  {top:  8408px; left:  40px;}
+.app.index67  {top:  8408px; left: 346px;}
+.app.index68  {top:  8408px; left: 652px;}
+.app.index69  {top:  8787px; left:  40px;}
+.app.index70  {top:  8787px; left: 346px;}
+.app.index71  {top:  8787px; left: 652px;}
+.app.index72  {top:  9166px; left:  40px;}
+.app.index73  {top:  9166px; left: 346px;}
+.app.index74  {top:  9166px; left: 652px;}
+.app.index75  {top:  9545px; left:  40px;}
+.app.index76  {top:  9545px; left: 346px;}
+.app.index77  {top:  9545px; left: 652px;}
+.app.index78  {top:  9924px; left:  40px;}
+.app.index79  {top:  9924px; left: 346px;}
+.app.index80  {top:  9924px; left: 652px;}
+.app.index81  {top:  10303px; left:  40px;}
+.app.index82  {top:  10303px; left: 346px;}
+.app.index83  {top:  10303px; left: 652px;}
+.app.index84  {top:  10681px; left:  40px;}
+.app.index85  {top:  10681px; left: 346px;}
+.app.index86  {top:  10681px; left: 652px;}
+.app.index87  {top:  11060px; left:  40px;}
+.app.index88  {top:  11060px; left: 346px;}
+.app.index89  {top:  11060px; left: 652px;}
+.app.index90  {top:  11449px; left:  40px;}
+.app.index91  {top:  11449px; left: 346px;}
+.app.index92  {top:  11449px; left: 652px;}
+.app.index93  {top:  11828px; left:  40px;}
+.app.index94  {top:  11828px; left: 346px;}
+.app.index95  {top:  11828px; left: 652px;}
+.app.index96  {top:  12207px; left:  40px;}
+.app.index97  {top:  12207px; left: 346px;}
+.app.index98  {top:  12207px; left: 652px;}
+.app.index99  {top:  12586px; left:  40px;}
+
+.app.hidden {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: 1;
+	cursor: default;
+}

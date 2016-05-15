@@ -1,0 +1,69 @@
+.customerReviews{
+	margin-top:40px;
+}
+	.customerReviews .review{
+		padding:0;
+		margin-top:30px;
+	}
+		.customerReviews .review span{
+			color:#616161;
+		}
+		.customerReviews .review p{
+			margin-top:3px;
+		}
+
+	.customerReviews .rating {
+		display: inline-block;
+
+	}
+		.customerReviews .vote-hover {
+			padding: 0 !important;
+		}
+
+		
+.leaveReview{
+	background:#FFF;
+	border-top:1px solid #e7e7e7;
+	border-bottom:1px solid #e7e7e7;
+	padding:25px 35px 15px;
+}
+	.review-form{
+		border-top:1px solid #e7e7e7;
+	}
+		.formRow{
+			padding:10px 0;
+			position: relative;
+		}
+			.formRow input {
+				width:250px;
+				margin: 0;
+			}
+			.formRow textarea{
+				width:510px;
+				height:160px;
+				padding:10px;
+			}
+			.formRow label{
+				width:auto;
+				vertical-align:middle;
+				display:inline;
+				margin-left:10px; 
+			}
+
+	.leaveReview .rating {
+		display: inline-block;
+		cursor: pointer;
+	}
+	.leaveReview #rating {
+		position:absolute;
+		width:0;
+		height:0;
+		top:25px;
+		left:0px;
+		padding:0;
+	}
+
+
+	.leaveReview .message {
+		margin-bottom: 10px;
+	}

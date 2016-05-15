@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Galleon - Главная</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_Cond_400.font.js"></script>
+<script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+
+
+<!--PAGE --><div id="page">
+
+<!--HEADER --><div id="header">
+
+  	<a class="logo" href="index.html"><h1><img src="images/logo.png" width="171" height="21" alt="Galleon" /></h1></a>
+    
+	<div id="title"><img src="images/title.jpg" width="960" height="250" /></div>
+    
+  <div class="call">
+    	Позвоните нам:<br />
+    	(495)<span> 921-33-03</span>
+    </div>
+
+
+	<div id="mainmenu">
+        <ul>
+        <li class="sub"><a href="#">О компании</a>
+        	<div class="submenu">
+            <a href="about.html">О компании</a>
+            <a href="services.html">Услуги</a>
+            <a href="news.html">Новости</a>
+            <a href="partners.html">Партнёры</a>
+            <a href="vacantions.html">Вакансии</a>
+            </div>
+        </li>
+        <li class="sub"><a href="#">Аренда</a>
+        	<div class="submenu">
+            <a href="list.html">Городская</a>
+            <a href="list.html">Загородная</a>
+            <a href="list.html">Коммерческая</a>
+            <a href="list.html">Зарубежная</a>
+            </div>
+        </li>
+        <li class="sub"><a href="#">Продажа</a>
+        	<div class="submenu">
+            <a href="list.html">Городская</a>
+            <a href="list.html">Загородная</a>
+            <a href="list.html">Коммерческая</a>
+            <a href="list.html">Зарубежная</a>
+            </div>
+        </li>
+        <li><a href="contacts.html">Контакты</a></li>
+      	</ul>
+	</div>
+                
+</div><!--END HEADER -->
+
+
+
+	<!--MIDDLE --><div id="middle">
+    
+		<div id="container">
+			<div id="content">
+            
+				<h2>Быстрый поиск</h2>
+                
+                <div id="search">
+                	<div id="searchTabs" class="idTabs"><a class="selected first" href="#city">Городская</a><a href="#country">Загородная</a><a href="#office">Коммерческая</a><a class="last" href="#foreign">Зарубежная</a></div>
+                    
+                    <!-- Городская-->
+                    <form id="city" action="index.html" method="get" name="search_f">
+                      	
+                        <p>
+                        <label class="label1"><input type="radio" name="SID" value="255" id="saleSearch" checked="checked" />Продажа</label>
+                        <label class="label1"><input type="radio" name="SID" value="254" id="rentSearch" />Аренда</label>
+                        
+                        <label class="price">Цена:</label>
+                        <label class="label3">от</label><input name="prc_from" type="text" id="priceMin" />
+                        <label class="label3">до</label><input name="prc_to" type="text" id="priceMax" />
+                        <input class="cur" type="text" readonly="readonly" value="руб." id="prctf" name="prct">
+                        </p>  
+                        <p>
+                        <label class="label2">Количество комнат:</label>
+                        <select id="roomsSelect" name="rooms_to">
+                            <option value=""></option>
+                            <option>1</option>
+                            <option>1-2</option>
+                            <option>2-3</option>
+                            <option>3-4</option>
+                            <option>4+</option>
+						</select>
+                        </p>
+                        <p>
+                        <label class="label2">Общая площадь:</label>
+                        <label class="label3">от</label><input name="sqr_from" type="text" id="totalAreaMin" />
+                        <label class="label3">до</label><input name="sqr_to" type="text" id="totalAreaMax" />
+                        <label>м²</label>
+                        </p>
+                        <p>
+                        <label class="label2">Где:</label>
+                        <select id="where" name="where">
+                            <option value="">Везде</option>
+                            <option value="42">Москва</option>
+                            <option value="43">Московская область</option>
+						</select>
+                        </p>
+                        <p>
+                        <label class="label2">Округ:</label>
+                        <select id="districtSelect" name="reg">
+							<option value="">Любой</option>
+                            <option value="2187">Север</option>	
+                            <option value="2186">Северо-восток</option>	
+                            <option value="2188">Восток</option>	
+                            <option value="2184">Центральный</option>	
+                            <option value="2277">Северо-запад</option>	
+                            <option value="2278">Запад</option>	
+                            <option value="2279">Юг</option>	
+                            <option value="2280">Юго-запад</option>	
+                            <option value="2281">Юго-восток</option>	
+                        </select>
+                        </p>
+                        <p>
+                        <label class="label2">Метро:</label><input class="input1" type="text" name="metro1" autocomplete="off" /><img src="images/plus.gif" width="13" height="13">
+                        </p>
+                        
+                        <button name="submit" type="submit"><!--Найти--></button>
+                        
+                    </form>
+                    
+					<!-- Загородная-->
+                    <form id="country" action="index.html" method="get" name="search_с" class="inactive">
+                    	<p>
+                    	<label class="label1"><input type="radio" name="SID" value="285" id="saleSearch" checked="checked" />Продажа</label>
+                        <label class="label1"><input type="radio" name="SID" value="286" id="rentSearch" />Аренда</label>
+                        
+                        <label class="price">Цена:</label>
+                        <label class="label3">от</label><input name="prc_fromc" type="text" id="priceMin" />
+                        <label class="label3">до</label><input name="prc_toc" type="text" id="priceMax" />
+                        <input class="cur" type="text" readonly="readonly" value="руб." name="prctc">
+                        </p>
+                        <p>
+                        <label class="label2">Площадь дома:</label>
+                        <label class="label3">от</label><input name="sqr_fromc" type="text" id="totalAreaMin" />
+                        <label class="label3">до</label><input name="sqr_toc" type="text" id="totalAreaMax" />
+                        <label>м²</label>
+                        </p>
+                        <p>
+                        <label class="label2">Участок:</label>
+                        <label class="label3">от</label><input name="psqr_fromc" type="text" id="totalAreaMin" />
+                        <label class="label3">до</label><input name="psqr_toc" type="text" id="totalAreaMax" />
+                        <label>сотки</label>
+                        </p>
+                        <p>
+                        <label class="label2">Тип:</label>
+                        <select id="typeSelect" name="type">
+                            <option value="">Любой</option>
+                            <option value="44">Участок</option>
+                            <option value="45">Дом</option>
+                        </select>
+                    	</p>
+                        <p>
+                        <label class="label2">Направление:</label>
+                        <select id="shosseSelect" name="way">
+                            <option value="">Любое</option>
+                            <option value="2211">Ярославское</option>	
+                            <option value="2298">Можайское</option>	
+                            <option value="2299">Нижегородское</option>	
+                            <option value="2301">Новорязанское</option>	
+                            <option value="2302">Новосходненское</option>	
+                            <option value="2303">Носовихинское</option>	
+                            <option value="2304">Осташковское</option>	
+                            <option value="2305">Пятницкое</option>	
+                            <option value="2306">Рогачевское</option>	
+                            <option value="2307">Рублево-Успенское</option>	
+                            <option value="2308">Рязанское</option>	
+                            <option value="2309">Симферопольское</option>	
+                            <option value="2310">Сколковское</option>	
+                            <option value="2311">Старокалужское</option>	
+                            <option value="2312">Хорошевское</option>	
+                            <option value="2297">Минское</option>	
+                            <option value="2295">Куркинское</option>	
+                            <option value="2294">Киевское</option>	
+                            <option value="2212">Новорижское</option>	
+                            <option value="2213">Ленинградское</option>	
+                            <option value="2282">Алтуфьевское</option>	
+                            <option value="2283">Боровское</option>	
+                            <option value="2284">Варшавское</option>	
+                            <option value="2285">Волоколамское</option>	
+                            <option value="2286">Горьковское</option>	
+                            <option value="2287">Дмитровское</option>	
+                            <option value="2288">Домодедовское</option>	
+                            <option value="2289">Егорьевское</option>	
+                            <option value="2290">Звенигородское</option>	
+                            <option value="2291">Ильинское</option>	
+                            <option value="2292">Калужское</option>	
+                            <option value="2293">Каширское</option>	
+                            <option value="2313">Щелковское</option>	
+                      	</select>
+                        </p>
+                        <p>
+                        <label class="label2">От МКАД:</label><input class="input1" name="mkad_to" type="text" id="mkad_to" /><label>км</label>
+                        </p>
+                        <p>
+                        <label class="label2">Область:</label>
+                        <select onchange="sel_obl(this.value);" id="oblSelect" name="obl">
+                            <option value="">Любая</option>
+                            <option value="46">Московская</option>
+                            <option value="47">Тверская</option>
+                            <option value="48">Калужская</option>
+                        </select>
+                        </p>
+                        <button name="submit" type="submit"><!--Найти--></button>
+                    </form>
+                    
+                    <!-- Коммерческая-->
+                    <form id="office" action="index.html" method="get" name="search_o" class="inactive">
+                    	<p>
+                    	<label class="label1"><input type="radio" name="SID" value="282" id="saleSearch" checked="checked" />Продажа</label>
+                        <label class="label1"><input type="radio" name="SID" value="281" id="rentSearch" />Аренда</label>
+                        
+                        <label class="price">Цена:</label>
+                        <label class="label3">от</label><input name="prc_from" type="text" id="priceMin" />
+                        <label class="label3">до</label><input name="prc_to" type="text" id="priceMax" />
+                        <select class="cur" name="prcto">
+                            <option value="r">руб.</option>
+                            <option value="rmy">р. м/год</option>
+                            <option value="rm">р./мес.</option>
+						</select>
+                        </p>
+                        <p>
+                        <label class="label2">Тип:</label>
+                        <select id="typeSelect" name="type">
+                            <option value="">Все</option>
+                            <option value="49">Офисы</option>
+                            <option value="50">Торговая</option>
+                            <option value="51">Участки</option>
+                            <option value="52">Здания</option>
+                        </select>
+                        </p>
+                        <p>
+                        <label class="label2">Общая площадь:</label>
+                        <label class="label3">от</label><input name="sqr_fromo" type="text" id="totalAreaMin" />
+                        <label class="label3">до</label><input name="sqr_too" type="text" id="totalAreaMax" />
+                        <label>м²</label>
+                        </p>
+                        <p>
+                        <label class="label2">Округ:</label>
+                        <select id="districtSelect" name="rego">
+							<option value="">Любой</option>
+                            <option value="2187">Север</option>	
+                            <option value="2186">Северо-восток</option>	
+                            <option value="2188">Восток</option>	
+                            <option value="2184">Центральный</option>	
+                            <option value="2277">Северо-запад</option>	
+                            <option value="2278">Запад</option>	
+                            <option value="2279">Юг</option>	
+                            <option value="2280">Юго-запад</option>	
+                            <option value="2281">Юго-восток</option>	
+                        </select>
+                        </p>
+                        <p>
+                        <label class="label2">Метро:</label><input class="input1" type="text" name="metroo1" autocomplete="off" /><img src="images/plus.gif" width="13" height="13">
+                        </p>
+                        <button name="submit" type="submit"><!--Найти--></button>
+                    </form>
+
+                    <!-- Зарубежная-->
+                    <form id="foreign" action="index.html" method="get" name="search_f" class="inactive">
+                    	<p>
+                    	<label class="label1"><input type="radio" name="SID" value="288" id="saleSearch" checked="checked" />Продажа</label>
+                        <label class="label1"><input type="radio" name="SID" value="287" id="rentSearch" />Аренда</label>
+                        
+                        <label class="price">Цена:</label>
+                        <label class="label3">от</label><input name="prc_fromc" type="text" id="priceMin" />
+                        <label class="label3">до</label><input name="prc_toc" type="text" id="priceMax" />
+                        <input class="cur" type="text" readonly="readonly" value="руб." name="prcval">
+                        </p>
+                        <p>
+                        <label class="label2">Тип недвижимости:</label>
+                        <select id="mType" name="type">
+                            <option value="">Любой</option>
+                            <option value="39">Квартиры</option>
+                            <option value="40">Коттеджи</option>
+                            <option value="41">Земельные участки</option>
+						</select>
+                        </p>
+                        <p>
+                        <label class="label2">Страна:</label>
+                        <select class="select_03" id="districtSelect" name="country">
+                            <option value="">Любая</option>
+                            <option value="2449">Англия</option>	
+                            <option value="2450">Германия</option>	
+                            <option value="2451">Франция</option>	
+                        </select>
+                        </p>
+                        <button name="submit" type="submit"><!--Найти--></button>
+                    </form>
+                    
+
+                </div><!-- #search-->
+
+			</div><!-- #content-->   
+		</div><!-- #container-->
+        
+	
+
+
+	<!--SIDEBAR -->
+		<div class="sidebar" id="sideLeft">
+			<div id="news">
+				<h2><a href="news.html">Новости</a></h2>
+            
+            	<div class="article">
+                <h4>26.03.2010</h4>
+          		<a href="news.html">
+           		<p>«Небесные гаражи» — такое прозвище получил проект 200 Eleventh Avenue, названный в честь улицы на Манхэттене, где в скором времени и будет осуществлен....</p>
+                </a>
+				</div>
+           
+           		<div class="article">
+                <h4>26.03.2010</h4>
+          		<a href="news.html">
+           		<p>«Небесные гаражи» — такое прозвище получил проект 200 Eleventh Avenue, названный в честь улицы на Манхэттене, где в скором времени и будет осуществлен....</p>
+                </a>
+				</div>
+                
+                <div class="article">
+                <h4>26.03.2010</h4>
+          		<a href="news.html">
+           		<p>«Небесные гаражи» — такое прозвище получил проект 200 Eleventh Avenue, названный в честь улицы на Манхэттене, где в скором времени и будет осуществлен....</p>
+                </a>
+				</div>
+            </div>
+
+		</div><!-- .sidebar#sideLeft -->
+
+		<div class="sidebar" id="sideRight">
+        
+        	<div id="offers">
+				<h2><a href="news.html">Спецпредложения</a></h2>
+            
+            	<div class="article">
+                <h4><a href="page.html">Лучший дом в Павловском Посаде</a></h4>
+                <a href="page.html"><img class="thumb" src="images/pict1.jpg" width="100" height="89" /></a>
+                <p>Цена: <span>1.880.000&nbsp;руб.</span></p>
+                <p>Комнат: <span>1</span></p>
+                <p>Метро: <span>Любое</span></p>
+                <p>Район: <a href="#">Восток</a></p>
+                <p>Раздел: <a href="#">Продажа</a></p>
+                <div class="line"></div>
+				</div>
+           
+           		<div class="article">
+                <h4><a href="page.html">Лучший дом в Павловском Посаде</a></h4>
+                <a href="page.html"><img class="thumb" src="images/pict2.jpg" width="100" height="89" /></a>
+                <p>Цена: <span>9.200.000&nbsp;руб.</span></p>
+                <p>Комнат: <span>3</span></p>
+                <p>Метро: <span><a href="#">ВДНХ</a></span></p>
+                <p>Район: <span><a href="#">Северо-восток</a></span></p>
+                <p>Раздел: <span><a href="#">Продажа</a></span></p>
+				</div>
+                
+            </div>
+            
+		</div><!-- .sidebar#sideRight -->
+		
+		<!-- #bottomblock-->
+         <div id="bottomblock">
+            	<div id="analiticks">
+                    <h2><a href="news.html">Аналитика</a></h2>
+                
+                    <div class="article">
+                    <h4>26.03.2010</h4>
+                    <a href="#">
+                    <p>«Небесные гаражи» — такое прозвище получил проект 200 Eleventh Avenue, названный в честь улицы на Манхэттене, где в скором времени и будет осуществлен....</p>
+                    </a>
+                    </div>
+               
+                    <div class="article">
+                    <h4>26.03.2010</h4>
+                    <a href="#">
+                    <p>«Небесные гаражи» — такое прозвище получил проект 200 Eleventh Avenue, названный в честь улицы на Манхэттене, где в скором времени и будет осуществлен....</p>
+                    </a>
+                    </div>
+                    
+                    <div class="article">
+                    <h4>26.03.2010</h4>
+                    <a href="#">
+                    <p>«Небесные гаражи» — такое прозвище получил проект 200 Eleventh Avenue, названный в честь улицы на Манхэттене, где в скором времени и будет осуществлен....</p>
+                    </a>
+                    </div>
+                </div>
+            </div><!--end #bottomblock-->
+        
+	</div><!--END MIDDLE -->
+    
+</div><!--END PAGE -->
+
+
+
+
+<!--FOOTER --><div id="footer">
+
+    	<div class="line"></div>
+        
+       	<p>
+        Galleon group &copy; 2010
+        </p>
+    
+</div><!--END FOOTER -->
+
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

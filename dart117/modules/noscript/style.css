@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body.error {
+	height:100%;
+	background: #f6a100 url(/images/yellow_pattern.png) 0 0 repeat;
+	min-height: 380px;
+}
+.error #wrapper, .error #middle {
+	height:100% !important;
+}
+.noscript {
+	text-align: center;
+	height:220px;
+	width: 100%;
+	padding-top: 70px;
+	position: absolute;
+	top:50%; left:0;
+	margin-top: -150px;
+}
+.noscript h1  {
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 44px;
+	font-family: 'Helvetica Neue Condensed Light',Arial,sans-serif;
+	font-weight: normal;
+	font-size: 75px;
+	color: #fff;
+	line-height: 75px;
+	text-transform: none;
+	z-index:2;
+}
+	.noscript h1 a {
+		display: block;
+		width:208px; height: 322px;
+		position: absolute;
+		top:-190px; left:-130px;
+		z-index: 1;
+		background: url(/images/lolipop.png) 0 0 no-repeat;
+	}
+	.noscript h1 a:hover {
+		background-position: -208px 0;
+	}
+	.noscript h1 span {
+		position: relative;
+		z-index: 2;
+	}
+
+.noscript h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Helvetica Neue Condensed Light',Arial,sans-serif;
+	font-weight: normal;
+	font-size: 44px;
+	line-height: 44px;
+	color: #fff;
+}
+
+.noscript p {
+	text-align: center;
+
+	font-family: 'Helvetica Neue Condensed Light';
+	font-weight: normal;
+	font-size: 22px;
+	color: #000;
+
+	text-shadow: 0 0 1px #000;
+}

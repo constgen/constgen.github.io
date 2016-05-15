@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* Blog
+-----------------------------------------------------------------------------*/
+.blog {
+    position: relative;
+}
+.blog article{
+    padding-bottom: 48px;
+    padding-top: 39px;
+}
+.blog .block_blog p{
+    padding-bottom: 10px;
+}
+.blog .block_blog p.date {
+    padding-bottom: 0px;
+}
+.blog .left_block {
+    float: left;
+    width: 635px;
+}
+.blog .right_block {
+    float: right;
+    width: 247px;
+}
+
+.blog .block_blog {
+    float: left;
+    margin-bottom: 14px;
+}
+.blog .block_blog .buttons {
+    float: left;
+    width: 385px;
+    padding-top: 6px;
+}
+.blog .block_blog .img_blog {
+    float: left;
+    margin-top: 6px;
+}
+.blog .block_blog .left {
+    float: left;
+    margin-left: 48px;
+    width: 385px;
+}
+

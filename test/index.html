@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Fairmarket</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen, projection" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="carousel_skin.css" />
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('#carousel').jcarousel({
+		scroll: 1,
+    	wrap: 'circular'
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="page">
+	<div id="top">
+    
+    <p class="login"><a href="#">настройки</a> | <a href="#">выйти</a></p>
+    <p>Добрый день, Василий Гребенщиков</p>
+    
+    </div>
+	<div id="header">
+
+	  <div id="topmenu"><ul>
+    	<li class="first"><a class="active" href="index.php">Главная</a></li>
+    	<li><a class="normal" href="page2.php">Пополнение</a></li>
+    	<li><a class="normal" href="page3.php">Обмен</a></li>
+    	<li><a class="normal" href="page4.php">Магазин</a></li>
+    	<li><a class="normal" href="page5.php">Регистрация</a></li>
+    	</ul></div>
+
+        <div id="headerimg">
+		<h1><a href="index.php"><img src="images/logo.png" alt="FAIRMARKET" /></a></h1>
+		</div>
+
+  </div><!-- End #header-->
+
+	<div id="middle">
+
+		<div id="container">
+			<div id="content">
+				             
+                <div class="block greenblock flexible">
+                <h4>Преймущества регистрации</h4>                
+                <div class="body info">
+                - Полная статистика;<br />
+                - Удобство и быстрота;<br />
+                - Качественная поддержка;<br />
+                и многое другое...
+                </div>
+                <div class="blockfoot"></div>
+                </div>
+                
+                <div class="block blueblock">
+                <h4>Остатки на счетах</h4>                
+                <div class="body info">
+                <table class="tbl" cellspacing="0">
+  				<tr>
+   					<td class="image"><img src="images/liqpay.png" width="46" height="15" alt="liqpay" /></td>
+    				<td class="text">Liq Pay - 25 000 $</td>
+ 				</tr>
+ 				<tr>
+    				<td class="image"><img src="images/libertyy.png" width="40" height="16" alt="Liberty Reserve" /></td>
+    				<td class="text">Liberty Reserve - 34 000 $</td>
+  				</tr>
+  				<tr>
+    				<td class="image"><img src="images/perfectmoney.png" width="63" height="13" alt="Perfect Money" /></td>
+    				<td class="text">Perfect Money - 15 000 $</td>
+  				</tr>
+ 				<tr>
+    				<td class="image"><img src="images/visa.png" width="23" height="16" alt="VISA" /></td>
+    				<td class="text">Visa - 340 000 $</td>
+  				</tr>
+				</table>
+                </div>
+                <div class="blockfoot"></div>
+                </div>              
+                      
+                <div class="block greyblock">
+                <h4><a href="#last">Последний добавленый товар</a></h4><h4 class="tab headtab"><a href="#allprod">Все товары</a></h4>
+                <script type="text/javascript">
+    $(".default .jCarouselLite").jCarouselLite({
+        btnNext: ".default .next",
+        btnPrev: ".default .prev"
+    });   
+                </script>
+                <div class="body" id="last">
+                <script>
+ function h(nodeId)
+{
+    var node = document.getElementById(nodeId);
+        node.style.display = 'none';
+}
+function s(nodeId)
+{
+    var node = document.getElementById(nodeId);
+        node.style.display = 'inline';
+}
+</script>
+             
+                <ul id="carousel" class="gallery">
+   				<li onMouseOver="s('p1')" onMouseOut="h('p1')"><a href="#"><img src="pictures/pict1.png" width="101" height="75" alt="Велосипед" /></a><span class="top" id="p1">$2500уе</span><span class="bot">Велосипед</span> </li>
+    			<li onMouseOver="s('p2')" onMouseOut="h('p2')"><a href="#"><img src="pictures/pict2.png" width="100" height="75" alt="Мопед" /></a><span class="top" id="p2">$3500уе</span><span class="bot">Мопед</span></li>
+                <li onMouseOver="s('p3')" onMouseOut="h('p3')"><a href="#"><img src="pictures/pict3.png" width="101" height="75" alt="Самолёт" /></a><span class="top" id="p3">$9500уе</span><span class="bot">Самолёт</span></li>
+                <li onMouseOver="s('p4')" onMouseOut="h('p4')"><a href="#"><img src="pictures/pict4.png" width="100" height="75" alt="Телефон" /></a><span class="top" id="p4">$100уе</span><span class="bot">Телефон</span></li>
+				</ul>
+        
+                </div>
+                
+                <div class="body" id="allprod"></div>
+                 <script src="activatables.js" type="text/javascript"></script>
+<script type="text/javascript">
+activatables('content', ['last', 'allprod']);
+</script>
+                <div class="blockfoot"></div> 
+                </div>  
+            
+        </div><!-- End #content-->   
+		</div><!-- End #container-->
+
+
+		<div class="sidebar" id="sideLeft">
+        
+				<div class="block smallgreyblock">
+                <h4>Нынешний оборот</h4>
+                <div class="body graphimg">
+                  <img src="images/img1.jpg" width="173" height="99" alt="График оборачиваемости ресурсов" />               
+                </div>
+                <div class="blockfoot"></div> 
+                </div>
+                
+                <div class="block paymentblock">
+                <h4>Платёжные системы</h4>
+                <div class="body payimg">
+                <ul class="nolist">
+                <li><a href="#"><img src="images/liqpay.png" width="108" height="37" alt="liqpay" /></a></li>
+                <li><a href="#"><img src="images/libertyy.png" width="83" height="35" alt="Liberty Reserve" /></a></li>
+                <li><a href="#"><img src="images/perfectmoney.png" width="141" height="29" alt="Perfect Money" /></a></li>
+                <li><a href="#"><img src="images/visa.png" width="54" height="38" alt="VISA" /></a></li>
+                </ul>
+                <img src="images/save.png" alt="" width="102" height="137" />
+                </div>                
+                <div class="blockfoot"></div> 
+                </div>
+                
+		</div><!-- End .sidebar#sideLeft -->
+
+
+
+		<div class="sidebar" id="sideRight">
+			
+            <div class="block smallgreyblock">
+            <h4 class="reghead"><a href="#enter">Вход</a></h4><h4 class="tab regtab"><a href="#register">Регистрация</a></h4>
+                <div class="body reg" id="enter">
+                  <form id="login" action="#">
+                  <input name="name" type="text" value="Login" onFocus="this.value = ''" onBlur="if (this.value == '') {this.value = 'Login';}"  />
+                  <input name="pass" type="password" value="Pass" onFocus="this.value = ''" onBlur="if (this.value == '') {this.value = 'Pass';}" /><br />
+                  <input name="keeper" type="checkbox" value="" checked="checked" /><label>Keep me logged in</label><br />
+                  <a href="#">Forgot your password?</a>
+                  <img src="images/button2.jpg" alt="" width="68" height="41" />
+                  <input class="submit" name="submit" type="submit" value="Войти" />
+                  </form>
+               </div> 
+                  <div class="body reg" id="register"><form id="register" action="#"></form></div> 
+                  <script src="activatables.js" type="text/javascript"></script>
+<script type="text/javascript">
+activatables('tabs', ['enter', 'register']);
+</script>
+                 
+             <div class="blockfoot"></div>
+            </div>
+            
+            
+            <h3>НОВОСТИ</h3>
+            <div class="news">
+            <span>25.07.09<a href="#">читать всю новость</a></span>
+            <p>Политическое лидерство означает плюралистический социализм, что было отмечено П. Лазарсфельдом. Лигитимность власти, не смотря на внешние...</p>
+            </div>
+            
+            <div class="news">
+            <span>25.07.09<a href="#">читать всю новость</a></span>
+            <p>Политическое лидерство означает плюралистический социализм, что было отмечено П. Лазарсфельдом. Лигитимность власти, не смотря на внешние...</p>
+            </div>
+            
+            <div class="news">
+            <span>25.07.09<a href="#">читать всю новость</a></span>
+            <p>Политическое лидерство означает плюралистический социализм, что было отмечено П. Лазарсфельдом. Лигитимность власти, не смотря на внешние...</p>
+            </div>
+            
+		</div><!-- End .sidebar#sideRight -->
+
+	</div><!-- End #middle-->
+
+</div><!-- End #page -->
+
+<div id="footer">
+	<p class="">2010. Fairmarket</p>
+    <div id="bottommenu"><ul>
+    <li><a href="#">Главная</a></li>
+    <li><a href="#">Пополнение</a></li>
+    <li><a href="#">Условия пользования</a></li>
+    <li><a href="#">Обмен</a></li>
+    <li><a href="#">Магазин</a></li>
+    <li><a href="#">Реклама на сайте</a></li>
+    <li><a href="#">Регистрация / Вход</a></li>
+    </ul></div>
+    <div class="footimg"><img src="images/img2.png" width="182" height="139" alt="FAIRMARKET" /></div>
+</div><!-- End #footer -->
+
+</body>
+</html>

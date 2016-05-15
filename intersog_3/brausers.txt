@@ -1,0 +1,42 @@
+
+--------------------------------------- Table -------------------------------------
+
+Firefox 3.5+	: some animations simplified 
+Firefox 4+	: full
+
+Opera 9.6+	: simplified, no rounded corners, some bugs with scrolling
+Opera 10	: full, some bugs with gray images
+Opera 11+	: full
+
+Chrome 9+	: full, some artefacts
+Chrome 11+	: full, voice input
+
+Safari 4.0	: full, some artefacts
+Safari 5.0+	: full
+
+IE 6		: style degradation, some overlay bugs, form styling not supported
+ 
+IE 7,8		: JS must be ON, no text-shadow
+
+IE 9		: no some gradients, no text-shadow, some animations simplified 
+
+
+
+
+--------------------------------------- Tablet -------------------------------------
+
+iPad 		: not supported, desktop version
+
+Android Chrome	: not supported, desktop version
+
+Opera Mobile 11+: not supported, desktop version
+
+
+
+--------------------------------------- Mobile -------------------------------------
+
+iPhone		: not supported, desktop version
+
+Android Chrome	: not supported, desktop version
+
+Opera Mobile 11+: not supported, desktop version

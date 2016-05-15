@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<title>NEW Fair Management</title>
+    
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+    
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.niceForm.css" type="text/css" />
+    
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jNice.js"></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+    <script type="text/javascript" src="js/Myriad_Pro_italic_400.font.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	
+</head>
+
+<body>
+
+<!-- #PAGE --><div id="page">
+
+	<!-- #HEADER--><div id="header">
+    
+    <a id="logo" href="index.html"><h1><img src="images/logo.png" alt="NEW FAIR" width="137" height="79" /></h1></a>
+    
+    <ul id="mainmenu">
+    	<li><a href="index.html"><div class="left"></div><div class="center">О системе</div><div class="right"></div></a></li>
+        <li><a href="birja.html"><div class="left"></div><div class="center">Биржа</div><div class="right"></div></a></li>
+        <li><a href="register.html"><div class="left"></div><div class="center">Регистрация</div><div class="right"></div></a></li>
+        <li><a href="support.html"><div class="left"></div><div class="center">Поддержка</div><div class="right"></div></a></li>
+        <li><a href="https://fairmanagement.org/forum" target="_blank"><div class="left"></div><div class="center">Форум</div><div class="right"></div></a></li>
+        <li class="active"><a href="login.html"><div class="left"></div><div class="center">Вход в систему</div><div class="right"></div></a></li>
+    </ul>
+	
+    </div><!--END #HEADER-->
+
+	<div id="content">
+    
+    <h2 style=" display: inline;">Вывод средств из системы</h2>
+ 
+    <div class="block">
+    	<div class="block-top"></div>
+        <div class="block-middle">
+        	
+            <form id="investinstrument" class="jNice" action="" method="get">
+            <p>Текущий баланс счета: <span>$ 234</span></p>
+            <p>Доступный баланс в платежной системе: $1099.71 <small>(по состоянию на 14.09.2010 05:17:12)</small></p>
+
+            <div class="info">
+        	
+            <p>Выберите один из доступных методов пополнения:</p>
+            
+            </div>
+            <div class="select">
+            <select name="e-money">
+            <option>Webmoney</option>
+            <option>Liq Pay</option>
+            <option>Perfect Money</option>
+            <option>Western Union</option>
+            <option>SberBank Russia</option>
+            </select>
+            </div>
+            <div class="summ">
+            <!--<p>Введите сумму пополнения:</p>-->
+            <input name="summ" type="text" />
+            <p class="help">(Минимальная сумма - 1.00 USD. Комиссия за проведение платежа - 3.00 %. Минимум: $0.03)</p>
+            </div>
+            
+            <p class="fields">
+            <label>USD аккаунт:</label><input name="accaunt" type="text" />
+            <label>Примечание:</label><input name="note" type="text" />
+            <label>Ключь подписи:</label><input name="key" type="text" />
+            </p>
+            
+            <div class="checkbox"><small>Сохранять платеж для обработки в ручном режиме, если автоматический перевод недоступен (если не установлено, то в случае невозможности провести платеж автоматически, операция будет отклонена)</small>
+            <input name="save" type="checkbox" value="" /></div>
+            
+            <a class="button" href="javascript: submitform()">Продолжить</a>
+            <a class="button" href="#">Назад</a>
+            
+            <input name="submit" type="submit" />
+			</form>
+        </div>
+        <div class="block-bottom"></div>
+    </div>
+    
+    
+        
+        
+	</div><!-- #content-->
+
+
+
+</div><!--END #PAGE -->
+
+
+
+
+<!-- #FOOTER --><div id="footer"><div class="wrapper">
+	
+    <div class="description">
+	Fairmanagement &copy; 2006-2010<br />
+    <a href="support.html">Техподдержка</a>
+    </div>
+    
+    <ul id="footermenu">
+    	<li><a href="index.html">О системе</a></li>
+       	<li>|<a href="birja.html">Биржа</a></li>
+        <li>|<a href="rgister.html">Регистрация</a></li>
+    </ul>     
+    
+</div><!--END wrapper --></div><!--END #FOOTER -->
+
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

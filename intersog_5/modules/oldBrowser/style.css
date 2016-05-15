@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+/* OLD-BROWSER
+-----------------------------------------------------------------------------*/
+.pageOldBrowser body {
+    background: #033460 url(../../images/bg_body.png) no-repeat center center;
+}
+.pageOldBrowser #content {
+    margin: -135px 0 0 0;
+    position: absolute;
+	height: 270px;
+	width: 460px;
+	top: 50%;
+	left: 50%;
+}
+.oldBrowser {
+	background: transparent;
+    padding: 30px 60px 10px 135px;
+}
+.oldBrowser h1 {
+	font-size: 36px;
+}

@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+
+
+.departmentOutsource {}
+.departmentOutsource h2 {
+	margin: 20px 0;
+}
+.departmentOutsource p {
+	margin: 0 0 20px 0;
+}

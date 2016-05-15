@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+
+.about {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    margin: 40px 20px 40px 0;
+    width: 430px;
+    zoom: 1;
+    text-align: left;
+}

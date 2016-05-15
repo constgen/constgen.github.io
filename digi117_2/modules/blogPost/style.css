@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* Blog - Post
+-----------------------------------------------------------------------------*/
+.blogPost {
+    position: relative;
+}
+.blogPost article{
+    padding-bottom: 48px;
+    padding-top: 39px;
+}
+.blogPost .block_blog p{
+    padding-bottom: 10px;
+}
+.blogPost .block_blog p.date {
+    padding-bottom: 0px;
+}
+.blogPost .left_block {
+    float: left;
+    width: 635px;
+}
+.blogPost .right_block {
+    float: right;
+    width: 247px;
+}
+
+.blogPost .img_blog {
+    float: left;
+    margin: 6px 48px 0px 0;
+}
+.blogPost .block_blog {
+    float: left;
+    margin-bottom: 17px;
+    width: 657px;
+}
+
+.blogPost figure {
+    float: right;
+    text-align: center;
+    margin: 10px 0 10px 36px;
+}
+.blogPost figure img{
+    border: 1px solid #898989;
+}
+.blogPost figure figcaption{
+    font-style: italic;
+    color: #5a5a5a;
+    margin-top: 10px;
+}

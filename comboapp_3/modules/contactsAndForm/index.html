@@ -1,0 +1,94 @@
+<div id="contacts-and-form">
+	<!--CONTACTS-->
+	<section id="contacts">
+		<div class="contactWrap">
+			<div class="contact">
+				<h2>Vancouver</h2>
+				<div class="photo"><img src="{module:URL}/images/photo_vancouver.jpg" width="366" height="287" alt="Vancouver"></div>
+				<address class="vcard">
+					<p  class="adr">Address: <span class="street-address"> 125 S Jefferson ST STE 2010</span><br>
+						<span class="locality">Chicago</span>, <span class="region">IL 60661</span>, <span class="country-name">US</span></p>
+					<p class="tel">Tel: (+1) 773.305.0886</p>
+				</address>	
+			</div>
+
+			<div class="contact">
+				<h2>Chicago</h2>
+				<div class="photo"><img src="{module:URL}/images/photo_chicago.jpg" width="366" height="287" alt="Chicago"></div>
+				<address class="vcard">
+					<p  class="adr">Address: <span class="street-address"> 125 S Jefferson ST STE 2010</span><br>
+						<span class="locality">Chicago</span>, <span class="region">IL 60661</span>, <span class="country-name">US</span></p>
+					<p class="tel">Tel: (+1) 773.305.0886</p>
+				</address>
+			</div>
+		</div>
+
+		<a class="email" href="mailto:contact@comboapp.com">contact@comboapp.com</a>	
+	</section><!--END CONTACTS-->
+
+
+	 <!-- CONTACT-FORM-->
+	<section id="contact-form">
+		<div class="headerWrap">
+			<h3>Contact form</h3>
+		</div>
+		<form method="post" name="ContactForm" autocomplete="on" action="/contact.html#success"> 
+			<div class="row">
+				<label class="required">Name:</label>
+				<input type="text" value="" name="ContactForm[name]" required data-save>
+			</div>
+			<div class="row">
+				<label class="required">E-mail:</label>
+				<input type="email" value="" name="ContactForm[email]" required data-save>
+			</div>
+			<div class="row">
+				<label class="required">Phone number:</label>
+				<input type="phone" value="" name="ContactForm[phone]" required data-save>
+			</div>
+			<div class="row">
+				<label class="required">Company:</label>
+				<input type="text" value="" name="ContactForm[company]" required data-save>
+			</div>
+			<div class="row">
+				<label class="required">Country:</label>
+				<input type="text" value="" name="ContactForm[country]" required data-save>
+			</div>
+			<div class="row">
+				<label class="required">Budget:</label>
+				<select class="error" name="ContactForm[budget]" required data-save>
+					<option value="1">$49.99 – $500</option>
+					<option value="2">$500 – $5,000</option>
+					<option value="3">$5,000 – $20,000</option>
+					<option value="4">$20,000 – $60,000</option>
+					<option value="5">Over $60,000</option>
+				</select>
+			</div>
+			<div class="row">
+				<label class="required">Platform:</label>
+				<select name="ContactForm[platform]" required data-save>
+					<option value="1">iOS</option>
+					<option value="2">Mac OS</option>
+					<option value="3">Android</option>
+					<option value="4">Other</option>
+				</select>
+				
+			</div>
+			<div class="row">
+				<label class="required">How did you find us?:</label>
+				<input type="text" value="" name="ContactForm[howDidYouFindUs]" required>
+			</div>
+			<div class="row">
+				<label class="required">Message:</label>
+				<textarea name="ContactForm[message]" required></textarea>
+			</div>
+			<div class="row">
+				<button type="submit">Submit</button>
+				<div class="nda">
+					<input type="checkbox" name="ContactForm[nda]" selected />
+					<label>Send me NDA</label>
+				</div>
+			</div>
+		</form>
+	</section>
+	<!--END CONTACT-FORM-->
+</div>

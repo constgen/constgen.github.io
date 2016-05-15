@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+
+
+/*Career, vocations*/
+.vocations {
+    clear: both;
+}
+
+
+.vocations .positions
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid #e6e6e6;
+}
+
+.vocations .positions > li
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.vocations .positions article {
+    border-bottom: 1px solid #e6e6e6;
+	background: #fff;
+}
+
+.vocations .fulldescription {display: none;}
+
+.vocations .switch {
+    float: right;
+	margin-top: -10px;
+    text-align: right;
+    -webkit-user-select: element;
+    -moz-user-select: element;
+    -ms-user-select: element;
+    -o-user-select: element;
+    user-select: element;
+}
+
+.vocations .switch .send
+{
+	display: none;
+	cursor: pointer;
+}
+
+.vocations .opened .switch .button {display: none;}
+.vocations .opened .switch .send {display: inline-block;}
+
+
+/*.career-header{
+	background:rgba(255,255,255, 0.45);
+	padding:35px;
+}
+
+.career-box{
+	display:inline-block;
+	width:48%;
+	margin-top:20px;
+	margin-right:15px;
+}
+
+.career article{
+	border-top:1px solid #e6e6e6;
+	background:#FFF;
+	position:relative;
+	padding:20px 35px;
+}
+
+.career article:last-child{
+	border-bottom:1px solid #e6e6e6;
+}
+
+.career article h3{
+	color:#434343;
+	font-weight:normal;
+	font-size:20px;
+}
+
+.career article a{
+	position:absolute;
+	right:35px;
+	font-size:14px;
+}*/

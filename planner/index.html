@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<title>Schedule Planner</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src='js/swipe.js'></script>
+	<script type="text/javascript" src="js/main.js"></script>	
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="js/mediaquery.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<ul class="nav">
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="features.html">Features</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="blog.html">Blog</a></li>
+			</ul>
+		</header>
+		<div id="head">
+			<div class="head-devise-nav">
+				<div class="badge">
+					<img src="images/badge.png" title="1.5 million downloads">
+				</div>
+				<div class="logo">
+					<h1>
+						<img src="images/app-icon.png" alt="">Schedule Planner
+					</h1>
+				</div>
+				<div class="clearfix"></div>
+				<ul class="devices">
+					<li>
+						<a title="iPhone calendar app" href="http://itunes.apple.com/us/app/schedule-planner/id437461477?ls=1&amp;mt=8" target="_blank">iPhone</a>
+					</li>
+					<li>
+						<a title="iPad calendar app" class="ipad" href="http://itunes.apple.com/us/app/schedule-planner-hd/id447359837?ls=1&amp;mt=8" target="_blank">iPad</a>
+					</li>
+					<li>
+						<a title="Android calendar app" class="android" href="https://play.google.com/store/apps/details?id=com.intersog.android.schedule" target="_blank">Android</a></li>
+					<li>
+						<a title="Kindle Fire calendar app" class="kindle" href="http://www.amazon.com/INTERSOG-Schedule-Planner/dp/B00824BM76" target="_blank">Kindle Fire</a>
+					</li>
+				</ul>
+			</div>
+			<div class="slider-holder">
+				<div id="slider" class="swipe">
+				  <ul>
+				    <li style='display:block'><img height="480px" alt="" src="gallery/sp_android_tablet1.png"></li>
+				    <li style='display:none'><img height="480px" alt="" src="gallery/sp_android_tablet2.png"></li>
+				    <li style='display:none'><img height="480px" alt="" src="gallery/sp_android_tablet2.png"></li>
+				    <li style='display:none'><img height="480px" alt="" src="gallery/sp_ipad1.png"></li>
+				    <li style='display:none'><img height="480px" alt="" src="gallery/sp_ipad2.png"></li>
+				  </ul>
+				</div>
+				<div id="position">
+				  <div class="holder">
+				    <i onclick='slider.prev();return false;'>prev</i>
+				    <span class="on" onclick="slider.slide(0,500);">1</span>
+				    <span onclick="slider.slide(1,500);" class="">1</span>
+				    <span onclick="slider.slide(2,500);" class="">2</span>
+				    <span onclick="slider.slide(3,500);" class="">3</span>
+				    <span onclick="slider.slide(4,500);" class="">4</span>
+				    <i onclick='slider.next();return false;'>next</i>
+				  </div>
+				</div>
+			</div>
+		</div>
+ 		<div id="content">
+
+			<div class="featuresList">
+				<ul>
+					<li class="featuresItem">
+						<div class="feature-icon">
+							<img src="gallery/google-calendar.png" alt="">
+						</div>
+						<div class="description">
+							<h2>Google Calendar & iCal integration</h2>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+						</div>
+					</li>
+					<li class="featuresItem">
+						<div class="feature-icon">
+							<img src="gallery/dropbox.png" alt="">
+						</div>
+						<div class="description">
+							<h2>Dropbox backup</h2>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </p>
+						</div>
+					</li>
+					<li class="featuresItem">
+						<div class="feature-icon">
+							<img src="gallery/charts.png" alt="">
+						</div>
+						<div class="description">
+							<h2>Charts</h2>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						</div>
+					</li>
+					<li class="featuresItem">
+						<div class="feature-icon">
+							<img src="gallery/pvsa.png" alt="">
+						</div>
+						<div class="description">
+						<h2>Planned vs Actual</h2>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="supportList">
+				<ul>
+					<li class="supportItem">
+						<div class="icon">
+							<img src="images/castle-ico.png" alt="">
+						</div>
+						<div class="description">
+							<h3>Password protection</h3>
+						</div>
+					</li>
+					<li class="supportItem">
+						<div class="icon">
+							<img src="images/repeat-ico.png" alt="">
+						</div>
+						<div class="description">
+							<h3>Copy & Paste feature</h3>
+						</div>
+					</li>
+					<li class="supportItem">
+						<div class="icon">
+							<img src="images/copy-ico.png" alt="">
+						</div>
+						<div class="description">
+							<h3>Repeating tasks feature</h3>
+						</div>
+					</li>
+					<li class="supportItem">
+						<div class="icon">
+							<img src="images/light-ico.png" alt="">
+						</div>
+						<div class="description">
+							<h3>Customizable alerts and notifications</h3>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="reviewsList">
+				<div class="holder">
+					<ul>
+						<li class="reviewItem">
+							<p>“A fantastic planner for the iPad. Its very useful sorting features and easy to use interface make it a real business-minded option for time management on iOS.”</p>
+							<a href="#" class="author">AppAdvice.com</a>
+						</li>
+						<li class="reviewItem">
+							<p>“Schedule Planner by INTERSOG can simplify your daily or weekly missions, plan your time and tasks to suit your personal attributes.”</p>
+							<a href="#" class="author">Product Reviews</a>
+						</li>
+						<li class="reviewItem">
+							<p>“This app makes it easier for you to schedule your important plans daily and compare them side by side with the actual activities you did on the day.”</p>
+							<a href="#" class="author">ipadappsreviewer.com</a>
+						</li>					
+					</ul>
+					<a class="readMore">Read More</a>
+				</div>
+			</div>
+
+		</div> <!-- #content --> 
+		<div class="clear"></div>
+	</div> <!-- #wrapper -->
+	<footer id="footer">
+		<div class="holder">
+			<div class="connect">
+				<h3>Connect:</h3>
+				<div class="social">
+					<ul>
+						<li><a href="">Email</a></li>
+						<li><a href="" class="twitter">Twitter</a></li>
+						<li><a href="" class="facebook">Facebook</a></li>
+						<li><a href="" class="linkedin">LinkedIn</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="subscribe">
+				<div>
+					<h4>Subscribe to receive INTERSOG updates Subscribe</h4>
+					<div>
+						<div class="subscribe-form">
+							<form action="http://test.scheduleplannerapp.com" method="post">
+								<fieldset>
+									<input type="hidden" value="89.209.100.91" name="ip">
+									<p>
+										<input required type="text" size="20" value="" id="s2email" class="txt validate" name="email"><input type="submit" value="Subscribe" name="subscribe" class="btn-subscribe">&nbsp;<input type="submit" value="Unsubscribe" style="visibility:hidden" name="unsubscribe">
+									</p>
+								</fieldset>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="partners">
+				<h3>Our Partners:</h3>
+				<a href="" class="comboapp"><img src="images/combo-app.png" title="Comboapp" alt="Comboapp"></a>
+				<a href="" class="digi"><img src="images/digi-117.png" title="Digi-117" alt="Digi-117"></a>
+			</div>
+		</div>
+		<div class="copy">
+			<p>© INTERSOG 2005-2012</p>
+		</div>
+	</footer>
+</body>
+</html>

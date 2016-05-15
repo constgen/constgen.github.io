@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!--<base href="http://enterprise.intersog.com/" />-->
+	<meta charset="utf-8" />
+	<title>INTERSOG - Contacts</title>
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords" content="INTERSOG , International Software Group , Enterprise , Outsourcing , Outstaffing" />
+	<meta name="description" content="Welcome to INTERSOG - International Software Group" />
+
+	<!--for IE pinned site-->
+	<!--[if IE]>
+	<meta name="application-name" content="Intersog" />
+	<meta name="msapplication-tooltip" content="International Software Group" />
+	<meta name="msapplication-starturl" content="http://enterprise.intersog.com/" />
+	<meta name="msapplication-window" content="width=800;height=800" />
+
+	<meta name="msapplication-task" content="name=Home;action-uri=http://enterprise.intersog.com/;icon-uri=http://enterprise.intersog.com/images/favicon.ico"/>
+	<meta name="msapplication-task" content="name=Careers;action-uri=/careers;icon-uri=http://enterprise.intersog.com/images/favicon.ico"/>
+	<meta name="msapplication-task" content="name=Contacts;action-uri=/contacts;icon-uri=http://enterprise.intersog.com/images/favicon.ico"/>
+	<link rel="icon" type="image/ico" href="images/pinned-site-icon24.png">
+	<![endif]-->
+	<!--end pinned site-->
+
+	<!--for Opera speeddial-->
+	<link rel="icon" href="images/speeddial.png" />
+	
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/intersog.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+	<!--[if lte IE 8]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<link rel="stylesheet" href="css/ie.css" type="text/css" />
+	<![endif]-->
+
+	
+	
+</head>
+
+<body>
+<!--[if lte IE 8]><noscript>
+	<style>#wrapper, #footer, p {display: none}</style>
+<![endif]-->
+<noscript>
+	<style>#promoblock .description div{display:block;}</style>
+	<div class="noscript">Enable JavaScript in your browser</div>
+</noscript>
+
+<div id="bg-map"></div>
+<div id="bg"></div>
+
+<!--WRAPPPER-->
+<div id="wrapper">
+	
+	<!--HEADER-->
+	<header id="header" class="select-no">
+		
+		<a id="logo" title="Intersog" href="index.html"><img src="images/logo.png" alt="Intersog" width="260" height="105"></a>
+		
+		<menu id="mainmenu">
+		<ul>
+			<li><a href="index.html"><span>Home</span></a></li>
+			<li><a href="careers.html"><span>Careers</span></a></li>
+			<li id="current" class="active"><a href="contacts.html"><span>Contacts</span></a></li>
+		</ul>
+		</menu>
+		
+	</header><!--END HEADER-->
+	
+	<!--CONTENT-->
+	<section id="content">	
+		<div class="sectionHeader"><h1>Contacts</h1></div>
+		<div class="sectionContent">
+		
+			<div id="component-contact">
+				
+				<div id="map"><a href="http://maps.google.com/maps?f=q&source=s_q&hl=ru&geocode=&q=125+S+JEFFERSON+ST+STE+2010,+CHICAGO+IL+60661&sll=41.879874,-87.642177&sspn=0.006486,0.009645&ie=UTF8&hq=&hnear=125+S+Jefferson+St,+Chicago,+Cook,+Illinois+60661&ll=41.87981,-87.641813&spn=0.006486,0.009645&z=17" target="_blank"><img src="images/image_map.png" width="654" height="209" alt="map" title="Map"></a></div>
+				
+				<h3>Address</h3>
+				
+				<address class="vcard">
+				<p class="adr"><span class="street-address">125 S JEFFERSON ST STE 2010</span>, <span class="locality">CHICAGO</span>, <span class="region">IL 60661</span>, <span class="country-name">USA</span></p>
+				<p><img src="images/icon_phone.png" width="20" height="19" alt="">&nbsp;&nbsp;<span class="tel">(+1) 7733050885</span></p>
+				</address>
+				
+				<h3>Send message</h3>
+				<form autocomplete="off" method="post" action="contacts.html" id="emailForm" name="emailForm">
+					<div class="half">
+						<label>*Your name:</label>
+						<input name="name" type="text" maxlength="255" x-webkit-speech>
+					</div>
+					<div class="half">
+						<label>*E-mail address:</label>
+						<input name="email" type="email" maxlength="255" x-webkit-speech>
+					</div>
+					<label>*Message subject:</label>
+					<input name="subject" type="text" maxlength="255" x-webkit-speech>
+					
+					<label>*Your message:</label>
+					<textarea name="text" rows="7" cols="50"></textarea>
+					
+					<button type="submit">Send</button>
+				</form>
+				
+			</div>
+			
+		</div>
+	</section><!--END CONTENT-->
+
+</div><!--END WRAPPPER-->
+
+
+
+
+
+<!--FOOTER-->
+<footer id="footer">
+	<p>tel: <strong>(+1) 773.305.0885</strong> | e-mail: <a href="mailto: contact@intersog.com">contact@intersog.com</a><br>
+		125 S Jefferson ST STE 2010, Chicago, IL 60661</p>
+	<p>&copy; INTERSOG 2005-<script>document.write(new Date().getFullYear())</script></p>
+</footer><!--END FOOTER-->
+
+<!--Javascript initialization-->
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script>jQuery.noConflict();</script>
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+<script type="text/javascript" src="js/intersog.js"></script>
+		
+<!-- Google Analytics-->
+<!--<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-829072-2']);
+	_gaq.push(['_setDomainName', '.intersog.com']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>-->
+<!-- Google Analytics-->
+	
+
+</body>
+</html>

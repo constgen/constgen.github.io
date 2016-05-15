@@ -1,0 +1,20 @@
+﻿@charset "utf-8";
+
+.red_horizontal_line {
+    height: 5px;
+    width: 100%;
+    background-color: #A60027;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.red_horizontal_line .wrapper {
+    height: 5px;
+    background-color: #FF003C;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+

@@ -1,0 +1,23 @@
+#applyResellers {
+	margin: 25px auto 0 auto;
+	padding: 20px 30px;
+	background: #fff;
+	border:none;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	position:relative;
+	font-size:13px;
+    width: 355px;
+}
+	#applyResellers .label {
+		width:162px; height:101px;
+		position:absolute; top:-7px; right:-5px;
+		background: url(images/label.png);
+	}
+
+	#applyResellers p {
+		padding-top: 10px;
+	}
+	#applyResellers p.first {
+		padding-right:50px;
+	}

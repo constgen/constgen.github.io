@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pie,
+/*#scroller .image, */#description, #description span, #scrollable .prev, #scrollable .next, 
+h1,h2,h3,h5,
+.description, .description .readmore, .info, .block, article, #map, .leader, .more, .pagenav, 
+/*.sectionContent table img,*/.leader img, .block img, 
+input, textarea, button
+{behavior: url(/PIE.htc);}
+
+
+.noscript {
+	position: absolute; 
+	font-size: 16px; 
+	text-align: center; 
+	font-weight: normal;
+	width: 700px;  
+	z-index: 1000; 
+	top: 50%; 
+	left: 50%;
+	bottom: auto; 
+	margin-left:-360px; 
+	margin-top:-30px; 
+	padding: 20px; 
+	background-color: #3c90c5;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/* Backgrounds
+-----------------------------------------------------------------------------*/
+body{background-image:url(../images/bg_body-gradient.png);}
+#bg{background-image:url(../images/bg.png); _background: none;}
+#content .back, section .left .more span{background-image:url(../images/bg_back.png);}
+a.more, #content ul li, #content .sectionContent .twoCols li li, 
+h6, section .right .more span, .sectionContent article div a{background-image:url(../images/bg_list.png);}
+
+
+
+
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+#mainmenu {
+	_position: static;
+	_height: auto;
+}
+
+#mainmenu ul{
+	_position: absolute;
+	_bottom: 0;
+	_right:0;
+	_height: auto;
+	_width: auto;
+	_text-align: right;
+}
+
+#mainmenu li{
+	_height: auto;
+	_display: inline;
+	_float: none;
+	_zoom:1;
+}
+
+#mainmenu a{
+	_display: inline;
+	_zoom:1;
+}
+
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#promoblock .description div{
+	*margin: 0;
+	*padding: 11px 17px;
+}
+
+#content .sectionContent .twoCols li{
+	_margin: 0 0px 0 0;
+	_position: relative;
+}
+
+.sectionContent article .artBody{
+	width: 177px;
+}
+
+
+
+
+
+/* Scrollable
+-----------------------------------------------------------------------------*/
+
+#scrollable .items a{ 
+	_margin: 0 -1px 0 0; 
+}
+
+#scrollable a.prev, #scrollable a.next{
+	*line-height: 30px;
+	_line-height: 33px;
+	background-image:url(../images/bg_arrows.png);
+	_behavior: none;
+}
+#scrollable a.prev{_left:-52px;}
+#scrollable a.next{_right:18px;}
+
+#scrollable a:hover{_background-position: left -35px;}
+
+#scrollable a.disabled, #scrollable a.disabled:hover,{_background-position: left bottom;}
+
+#description, #description span{_behavior:none}
+
+* html #description{border: 10px solid #f3f3f3;}
+
+* html #description div span{ width:100%;}
+
+#scrollable .items .tooltip span{
+	border-bottom: 3px solid #e5e5e5;
+	*z-index: expression(runtimeStyle.zIndex = 10, this.innerHTML += '<b class="after">&nbsp;</b>') /* хак для ие6 и 7 */
+}
+
+#scrollable .items .tooltip span .after{background-image: url(../images/bg_tooltip.png); _top:19px;}
+
+
+
+
+/* Process
+-----------------------------------------------------------------------------*/
+
+#process_image .idea-active{background-position: left bottom;}
+
+#process_image .analysis-active{background-position: -133px bottom;}
+
+#process_image .development-active{background-position: -266px bottom;}
+
+#process_image .testing-active{background-position: -399px bottom;}
+
+#process_image .publishing-active{background-position: -532px bottom;}
+
+
+
+
+/* Forms
+-----------------------------------------------------------------------------*/
+
+input[type="text"],input[type="email"],input[type="search"],input[type="password"]{background-image: url(../images/bg_input.png);}
+textarea, .block, .leader{background-image: url(../images/bg_input.png);}
+
+button, input[type="submit"], input[type="reset"], input[type="button"] {
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#5aa3cf', EndColorStr='#3c90c5');	*/
+	-pie-background: linear-gradient(#5aa3cf, #3c90c5);
+}
+
+input[type="file"]{*behavior:none}
+
+#contactform .half, #emailForm .half{
+	/*_padding-right: 25px;*/
+	*display: inline;
+	zoom:1;
+	*float: none;
+}
+
+* html input{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: left;
+	display: block;
+	width: 645px;
+	height: 19px;
+	padding: 8px 10px;
+	margin-bottom: 23px;
+	border:0;
+	border-left: 1px solid #a4a4a4;
+	border-top: 1px solid #a4a4a4;
+	-webkit-box-shadow: 0 0 0 1px #fafafa;
+	-moz-box-shadow: 0 0 0 1px #fafafa;
+	box-shadow: 0 0 0 1px #fafafa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: url(../images/bg_input.png) repeat 0 0 #f1f1f1;
+}
+
+* html .ccms_form_element input{width: 347px;}
+
+* html .cfdiv_file input{
+	line-height: 35px;
+	display: block;
+	width: 270px;
+	height: 35px;
+	color: #000;
+	font-size: 14px;
+	text-align: left;
+	padding:0;
+	margin-bottom: 23px;
+	behavior:none
+}
+
+* html .file button{width: 130px; height: 27px; cursor:pointer;}
+
+* html textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 23px;
+	border:0;
+	border-left: 1px solid #a4a4a4;
+	border-top: 1px solid #a4a4a4;
+	box-shadow: 0 0 0 1px #fafafa;
+	border-radius: 5px;
+	background: url(../images/bg_input.png) repeat 0 0 #f1f1f1; 
+}
+
+* html button, #chronoform_orderform .cfdiv_submit input, #input_submit_8_container_div input{
+	border: 0; 
+	padding: 0;
+	background: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	text-shadow: 0 -1px 0 #0069a9;
+	font-size: 24px;
+	color: #FFF;
+	background-color: #3c90c5;
+	-pie-background: linear-gradient(#5aa3cf, #3c90c5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-bottom: 1px solid #4e4e4e;
+	height: 37px;
+	width: 666px;
+	vertical-align: middle;
+	display: block;
+	text-align: center;
+}
+
+* html #emailForm .half{margin-right: 25px;}
+
+
+
+
+
+/* Headers
+-----------------------------------------------------------------------------*/
+.sectionHeader h1, h2{
+	/* filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#6bb2db', EndColorStr='#57a4d4');*/
+	/*border-bottom: 3px solid #e5e5e5;*/
+	/*-pie-background: linear-gradient(#6bb2db, #57a4d4);*/
+	//z-index: expression(runtimeStyle.zIndex = 1, this.innerHTML += '<span class="after"></span>');
+	/*border-bottom: 3px solid #e5e5e5;
+	box-shadow: none;*/
+}
+
+.sectionHeader h1:after, h2:after, .sectionHeader h1 .after, h2 .after{
+	background-image: url(../images/bg_h2-ie.png);
+}
+
+
+h5{
+	_padding-top:15px;
+	_height: 41px;
+	//z-index: expression(runtimeStyle.zIndex = 1, this.innerHTML = '<span class="before"></span>'+this.innerHTML+'<span class="after">&#8594;</span>') /* хак для ие6 и 7 */
+}
+
+h5.current, h5.active{
+	//z-index: expression(runtimeStyle.zIndex = 1, this.innerHTML = '<span class="before"></span>'+this.innerHTML+'<span class="after">&#8595;</span>') /* хак для ие6 и 7 */
+}

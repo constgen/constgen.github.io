@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+
+.news article {
+    padding: 24px 65px 27px;
+}
+.news article h2{
+    float: left;
+}
+.news .button {
+    margin: 5px 0 0 0;
+    float: right;
+	cursor: pointer;
+}
+.news .block_news {
+    margin-right: -22px;
+	padding-top: 27px;
+}
+.news article .news_feed {
+    width: 212px;
+    margin-right: 22px;
+    float: left;  
+	line-height: 18px;
+}
+.news article .news_feed h3{  
+	line-height: 18px;
+	margin-bottom: 18px;
+}
+.news article .news_feed .title{
+    color: #003F77;
+	line-height: 18px;
+	margin-bottom: 18px;  
+}
+.news article a.img_blog {
+    display: block;
+    height: 201px;
+    width: 212px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 201px;
+}
+.news article a.img_blog img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 212px;
+    height: auto;
+}
+
+.news .scroller {
+    height: 495px;
+    overflow: hidden;
+    position: relative;
+    width: 914px;
+}
+.news .scroller .items {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 1000em;
+}
+.news .scroller .items .block_news {
+    float: left;
+}
+.news .scrollable {
+	position: relative;
+	float: left;
+}
+.news .scrollable .prev,.news  .scrollable .next{
+	position: absolute;
+	display: block;
+	top: 108px;
+	width: 41px;
+	height: 41px;
+	cursor: pointer;
+}
+.news .scrollable .prev{left:-60px;}
+.news .scrollable .next{right:-60px;}
+
+.news .scrollable .prev{
+	background: url(images/pic_prev_next.png) no-repeat 0 -41px;
+}
+.news .scrollable .next{
+	background: url(images/pic_prev_next.png) no-repeat -41px -41px;
+}
+.news .scrollable .prev:hover {background-position: 0 0px; text-decoration: none;}
+.news .scrollable .next:hover {background-position: -41px 0px; text-decoration: none;}
+
+.news .scrollable .prev.disabled {
+	background-position: 0 -41px;
+	cursor: default;
+}
+.news .scrollable .next.disabled {
+	background-position: -41px -41px;
+	cursor: default;
+}
+
+
+@media (max-width: 1042px) {
+	.news .scrollable .next{right:-44px;}
+        .news .scrollable .prev {left: -51px;}
+        .news article .news_feed {width: 206px;}
+        .news .scroller {width: 890px;}
+        .news article {padding: 24px 60px 27px;}
+        .news article a.img_blog img {width: 206px;}
+        .news .button {margin: 5px 25px 0 0;}
+}

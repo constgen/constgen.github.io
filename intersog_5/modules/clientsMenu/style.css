@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+#clientsMenu {
+    background: url(images/sub_menu_bg.png) 0 0 repeat;
+
+}
+	#clientsMenu .wrapper {
+		width:945px;
+		margin:0 auto;
+		padding: 10px 40px;
+		list-style: none;
+	}
+
+	#clientsMenu li {
+		font-size: 14px;
+		padding: 10px 0;
+
+		display: inline-block;
+		*display: inline; 
+		zoom: 1;
+		vertical-align:top;
+		line-height: normal;
+	}
+
+
+
+#clientsMenu a, 
+#clientsMenu a:link, 
+#clientsMenu a:visited {
+    background: none repeat scroll 0 0 #353D48;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+	#clientsMenu a:hover, 
+	#clientsMenu a:active,
+	#clientsMenu a.active {
+	    background: none repeat scroll 0 0 #013461;
+	    -moz-transition: all 0.3s;
+	}
+
+/* CLIENT SUB-MENU
+********************/
+#clientsSubMenu {
+    background: #202a35;
+
+}
+	#clientsSubMenu .wrapper {
+		width:945px;
+		margin:0 auto;
+		padding: 10px 40px;
+		list-style: none;
+	}
+
+	#clientsSubMenu li {
+		font-size: 11px;
+		padding: 8px 0;
+
+		display: inline-block;
+		*display: inline; 
+		zoom: 1;
+		vertical-align:top;
+		line-height: normal;
+	}
+
+#clientsSubMenu a, 
+#clientsSubMenu a:link, 
+#clientsSubMenu a:visited {
+    background: none repeat scroll 0 0 #353D48;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+	#clientsSubMenu a:hover, 
+	#clientsSubMenu a:active,
+	#clientsSubMenu a.active {
+	    background: none repeat scroll 0 0 #013461;
+	    -moz-transition: all 0.3s;
+	}
+
+

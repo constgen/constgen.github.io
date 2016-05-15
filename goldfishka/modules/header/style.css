@@ -1,0 +1,483 @@
+@charset "utf-8";
+
+
+.header .small-view {
+    display: none;
+}
+.header .large-view {
+    display: block;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 151px;
+    background-image: url("data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABIAAD/4QNvaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6QjI2Q0ZDQkREQjkyRTIxMUI2OEVEOEIxOUU5QjAwNzkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDExRDNEOEJCMEM4MTFFMjlEMjg5N0QwQzc2MDFFRDgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDExRDNEOEFCMEM4MTFFMjlEMjg5N0QwQzc2MDFFRDgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDMzc3NjI0OEFCQjBFMjExQkFBNkU0RkMwMjExQjdGMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCMjZDRkNCRERCOTJFMjExQjY4RUQ4QjE5RTlCMDA3OSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAQDAwMDAwQDAwQFAwMDBQYFBAQFBgcGBgYGBgcJBwgICAgHCQkLCwwLCwkMDAwMDAwQEBAQEBISEhISEhISEhIBBAQEBwcHDgkJDhQODQ4UFBISEhIUEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEv/AABEIAHMAAQMBEQACEQEDEQH/xABhAAEAAwAAAAAAAAAAAAAAAAADAgQIAQEBAAMAAAAAAAAAAAAAAAACAQMEBhABAQAABgMAAAAAAAAAAAAAABIRkdECkwQFFVURAQEAAwEBAAAAAAAAAAAAAAARAVIDFBX/2gAMAwEAAhEDEQA/AMy++859Ds8u7V3Pz+GmHJe3rtlTluxqU0EFNBBTwUY6eCCmk4x08FAppKBTSQU0kFLKwC4ENJKilkqP/9k=");
+    background-repeat: repeat-x;
+    /*background-size: contain;*/
+    overflow: hidden;
+    /*box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.9);*/
+}
+.header.hid {
+    display: none;
+}
+
+    .header .logo {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        height: 114px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .header .logoSmall {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 114px;
+        overflow: hidden;
+        display: none;
+    }
+
+    .header .banner {
+        height: 80px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header .banner > div {
+        position: absolute;
+        right: 18px;
+        top: 18px;
+        overflow: hidden;
+    }
+    .header .banner > div img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .header .banner a {
+        text-decoration: none;
+    }
+    .header .banner .size490x80 {
+        display: none;
+        width: 490px;
+        height: 80px;
+    }
+    .header .banner .size745x80 {
+        display: none;
+        width: 745px;
+        height: 80px;
+    }
+    .header .banner .size184x60 {
+        display: block;
+        width: 184px;
+        height: 60px;
+    }
+    .header .banner .size1000x80 {
+        display: none;
+        width: 1000px;
+        height: 80px;
+    }
+
+    .header .banner .size450x60 {
+        display: block;
+        height: 60px;
+        width: 450px;
+        display: none;
+    }
+
+    /* Desktops */
+    @media screen and (min-width: 1350px) and (min-height: 768px){
+      .header .banner .size490x80 {
+            display: none;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: block;
+        }
+    }
+    /* */
+/*    @media all and (min-width: 850px) {
+        .header .banner .size490x80 {
+            display: block;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+    }*/
+    /* Tablets Portrait and  iPad Portrait*/
+    @media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+        .header .banner .size490x80 {
+            display: block;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+    }
+    /* iPad Landscape*/
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape){
+        .header .banner .size490x80 {
+            display: none;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+    }
+    @media all and (device-width: 1280px) and (device-height: 800px) and (orientation: landscape){
+        .header .banner .size490x80 {
+            display: none!important;
+        }
+        .header .banner .size745x80 {
+            display: block;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: none!important;
+        }
+    }
+    /* Galaxy 7 inch Landscape */
+    @media all and (device-width: 600px) and (device-height: 1024px) and (orientation: portrait){
+        .header .banner .size450x60 {
+            display: none;
+        }
+        .header .banner .size490x80 {
+            display: none;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: block;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+        .header .banner > div {
+            overflow: hidden;
+            position: absolute;
+            right: 11px;
+            top: 11px;
+        }
+    }
+    @media all and (device-width: 1024px) and (device-height: 600px) and (orientation: landscape){
+        .header .banner .size490x80 {
+            display: block!important;
+        }
+        .header .banner .size745x80 {
+            display: none!important;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+/*        .header .banner > div {
+            overflow: hidden;
+            position: absolute;
+            right: 11px;
+            top: 11px;
+        }*/
+    }
+    /* Tablets Landscape 1280x800 */
+    @media screen and (device-height: 720px) and (device-width: 1280px) and (min-aspect-ratio: 8/5) {
+        .header .banner .size490x80 {
+            display: none!important;
+        }
+        .header .banner .size745x80 {
+            display: none!important;
+        }
+        .header .banner .size184x60 {
+            display: block!important;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+        .header .logoSmall {
+            display: block;
+            top: 0;
+        }
+        .header {
+            height: 106px;
+        }
+        .header .message {
+            height: 24px!important;
+            margin: 80px 0 0!important;
+        }
+
+        .header .message h1, header .message h2 {
+            line-height: 24px!important;
+        }
+        .header .banner > div {
+            right: 10px!important;
+            top: 10px!important;
+        }
+        .header .logo {
+            display: none;
+        }
+        .header .small-view {
+            display: block!important;
+        }
+        .header .large-view {
+            display: none!important;
+        }
+    }
+    @media screen and (max-device-height: 480px) and (max-device-width: 800px) and (orientation : landscape) {
+        .header .logoSmall {
+            display: block!important;
+            top: 0;
+        }
+        .header {
+            height: 106px!important;
+        }
+        .header .message {
+            height: 24px!important;
+            margin: 80px 0 0!important;
+        }
+
+        .header .message h1, header .message h2 {
+            line-height: 24px!important;
+        }
+        .header .banner > div {
+            right: 10px!important;
+            top: 10px!important;
+        }
+        .header .logo {
+            display: none;
+        }
+        .header .small-view {
+            display: block!important;
+        }
+        .header .large-view {
+            display: none!important;
+        }
+    }
+
+    /* iPad 1 & 2 in landscape */
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+        .header .banner .size490x80 {
+            display: none;
+        }
+        .header .banner .size745x80 {
+            display: block;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+    }
+    @media screen and (device-aspect-ratio: 40/71) {
+        .header .banner .size450x60 {
+            display: none;
+        }
+        .header .banner .size490x80 {
+            display: none;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: block;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+        .header .banner > div {
+            overflow: hidden;
+            position: absolute;
+            right: 11px;
+            top: 11px;
+        }
+    }
+
+
+    /*@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){*/
+    @media screen and (max-height: 768px) and (min-width: 1350px) and (min-aspect-ratio: 8/5) {
+        .header .banner .size490x80 {
+            display: none;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: none;
+        }
+        .header .banner .size1000x80 {
+            display: block;
+        }
+    }
+    /* iPhone Portrait/Landscape */
+    @media all and (max-width:480px){
+        .header .banner .size490x80 {
+            display: none;
+        }
+        .header .banner .size745x80 {
+            display: none;
+        }
+        .header .banner .size184x60 {
+            display: block;
+        }
+        .header .banner .size1000x80 {
+            display: none;
+        }
+        .header .small-view {
+            display: block;
+        }
+        .header .large-view {
+            display: none;
+        }
+    }
+    @media all and (max-width:560px){
+        .header .banner > div {
+            right: 10px;
+            top: 10px;
+        }
+    }
+        .header .message {
+            background: none repeat scroll 0 0 #0C518F;
+            border-top: 1px solid #0b4c87;
+            height: 36px;
+            margin: 114px 0 0;
+            position: relative;
+            text-align: center;
+        }
+        .header .message:before {
+            content: '';
+            border: 1px solid #094277;
+            width: 100%;
+            position: absolute;
+            top: -1px;
+            display: block;
+        }
+
+        .header .message h1, header .message h2 {
+            color: #9fd2fd;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 36px;
+            /*margin: 0 0 5px;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);*/
+        }
+
+        .header .message .description {
+            font-size: 16px;
+            color: #082041;
+        }
+@media all and (max-width: 760px), all and (max-height: 590px) {
+    .header .small-view {
+        display: block;
+    }
+    .header .large-view {
+        display: none;
+    }
+/*    .header {
+        height: 151px;
+    }
+
+    .header .small-view {
+        display: block;  
+    }
+    .header .large-view {
+        display: none;
+    }
+
+    .header .logo, .header .logo img {
+        height: 114px;
+    }
+    
+    .header .banner .description {
+        font-size: 12px;
+    }
+
+    .header .message {
+        margin: 80px 0 0 0;
+    }*/
+
+    .header .message h1, .header .message h2 {
+        font-size: 13px;
+    }
+}
+/*@media all and (max-width: 640px) {
+    .header .banner a {
+        width: 200px;
+        height: 80px;
+    }
+}*/
+@media all and (max-width: 600px) {
+    .header .logoSmall {
+        display: block;
+        top: 10px;
+    }
+    .header .logo {
+        display: none;
+    }
+}
+@media all and (max-width: 600px) {
+/*    .header .banner a {
+        width: 100px;
+        height: 80px;
+    }*/
+/*    .message .large-view {
+        display: none;
+    }
+    .message .small-view {
+        display: block;
+    }*/
+
+    .header {
+        background-image: url("data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABIAAD/4QNvaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6QkE5NjFDRDg5MjkwRTIxMUE1MzNENTZGMDU4MzQ2RTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDdGOTdGMEZCMTkwMTFFMjhGRDFCNDIwMzkxNTg3QjgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDdGOTdGMEVCMTkwMTFFMjhGRDFCNDIwMzkxNTg3QjgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGMTcwRTdBMTQwQUZFMjExOTg0OEY4MTAxQTlGQzVCOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCQTk2MUNEODkyOTBFMjExQTUzM0Q1NkYwNTgzNDZFMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAQDAwMDAwQDAwQFAwMDBQYFBAQFBgcGBgYGBgcJBwgICAgHCQkLCwwLCwkMDAwMDAwQEBAQEBISEhISEhISEhIBBAQEBwcHDgkJDhQODQ4UFBISEhIUEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEv/AABEIAFAAAQMBEQACEQEDEQH/xABjAAEAAwAAAAAAAAAAAAAAAAAEAgMIAQEBAQEAAAAAAAAAAAAAAAADAgQGEAACAgEFAAAAAAAAAAAAAAAAEwESYdECklMEEQEBAAIBBQEAAAAAAAAAAAAAEQESkVECUgMTFP/aAAwDAQACEQMRAD8Aya70du/lOp3f5vV444w5T79/XPKVDRGekrLgqUvBcFsYsSB2LWXBbGLgSB2KWJA0mhcFV9Coiv/Z");
+        height: 106px;
+    }
+    .header .message {
+        margin: 80px 0 0;
+        height: 24px;
+    }
+    .header .message h1, header .message h2 {
+        line-height: 24px;
+    }
+    .header .logoSmall {
+        top: 0px;
+    }
+/*    .header .banner {
+        height: 62px;
+        padding: 18px 18px 0;
+    }
+    .header .banner a {
+        height: 50px;
+        width: 170px;
+    }*/
+}
+
+
+
+

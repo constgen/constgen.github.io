@@ -1,0 +1,170 @@
+﻿@charset "utf-8";
+
+
+.services
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.services .service
+{
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 37px;
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.services .service:first-child
+{
+	border-top: none;
+}
+
+
+.services article
+{
+	background: none;
+}
+
+.services .title
+{
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+	vertical-align: top;
+	margin: 5px 0 0;
+	width: 200px;
+}
+
+.services img {
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+	vertical-align: top;
+	width: 58px;
+	height: auto;
+	margin-right: 7px;
+}
+
+.services .description
+{
+	clear: both;
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+.services .buy
+{
+	position: absolute;
+	right: 37px;
+	top: 45px;
+	text-align: left;
+    width: 220px;
+}
+
+.services .price
+{
+	display: inline-block;
+	vertical-align: middle;
+	*zoom: 1;
+	color: #000;
+	font-size: 16px;
+	margin-left: 10px;
+	min-width: 95px;
+}
+
+/*Service pack*/
+
+.services .pack .buy .button
+{
+	padding-right: 40px;
+	background: url(images/info_collapsed.png) no-repeat right center #7C9A0B;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAIBAMAAAD3pukUAAAAG1BMVEVUZhH///////9UZhH///9UZhH///9UZhH///9jQfWJAAAAB3RSTlMAAGZ3d5mZzRCU9gAAADhJREFUCJljMC8HgVJBCBBg8OgAgTY4nwnMT4DzGTRA0gwIPkhBAhIfqKCNAZnPBJRG5jOoMSD4AHBcFD61GXnrAAAAAElFTkSuQmCC");
+    *background-image: url("images/info_collapsed.png");
+}
+
+.services .pack .buy .button.expanded
+{
+	background: url(images/info_expanded.png) no-repeat right center #7C9A0B;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAIBAMAAAD3pukUAAAAHlBMVEVUZhH///9UZhFUZhH///9UZhH///+Yo3C7wqD///8It2FmAAAAB3RSTlMAAGZ3d5mZzRCU9gAAAD5JREFUCJljYGBgUAViQQgQADKZKgJQ+OozW5H5TJUzZwQg8dVnzgQqgPOB0jOBCuB885kg0Arne4L502B8ACQQFaMSVkx0AAAAAElFTkSuQmCC");
+    *background-image: url("images/info_expanded.png");
+}
+
+.services .pack .buy .button:hover
+{
+	background-color: #6E8A0A;
+}
+
+.services .details
+{
+	display: none;
+	overflow: hidden;
+	position: relative;
+	margin: 20px 0 0 0; 
+	padding: 0;
+	width: auto;
+}
+
+
+	.services .options {
+		float:left;
+		width: auto;
+		margin: 15px 0 15px 0;
+		border-left: 1px solid #E7E7E7;
+		border-right: 1px solid #E7E7E7;
+		
+	}
+		.options td {
+			padding: 10px;
+			padding-bottom: 10px !important;
+		}
+		.options label {
+			width:auto;
+			max-width: 140px;
+		}
+		.options input {
+			width:60px; 
+			margin: 0;
+			padding-right: 13px;
+
+		}
+		.options select {
+			width:88px; 
+			margin: 0;
+		}
+        
+
+.services .description {
+    height: auto;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-left: -15px;
+}
+.services .more_info {
+    float: right;
+    margin-top: 1em;
+    display: none;
+}
+.services .short_description .more_info {
+    display: block;
+    color: #0079CD;
+    cursor: pointer;
+}
+.services .short_description .description {
+    height: 46px;
+}
+.services .short_description .description p {
+	margin-bottom: 100px; 
+	/* this rule will be applied only 
+	   before "more" button is clicked 
+	   to avoid half-of-string   */
+}
+
+#serviceFilter .filterRows span[data-count="0"] {
+    color: #a3a3a3;
+} 

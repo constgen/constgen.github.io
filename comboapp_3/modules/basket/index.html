@@ -1,0 +1,188 @@
+
+<!--
+<article class="basket-empty">
+	Your cart is empty
+</article>
+-->
+		
+<!--BASKET PAGE-->
+<section class="basket-table">
+	
+	<h2>Your Order:</h2>
+
+	<form autocomplete="off" class="basketform" method="POST" action="order.html">
+		<table width="930">
+		<thead>
+			<tr>
+				<th width="190">Products</th>
+				<td width="192">App Name</td>
+				<td width="165">Device</td>
+				<td width="122">Price</td>
+				<td width="140">Total</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr data-serviceID="96">
+				<th><a href="service.html">App Release</a></th>
+				<td>
+					<input type="text" value="Colorbook 3D">
+					<input type="text" value="">
+					<input type="text" value="">
+				</td>
+				<td>
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+					
+					
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+					
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+					
+				</td>
+				<td>
+					<span><a data-deleteID="1122" href="#" class="remove"></a>$499.00</span>
+					<span><a data-deleteID="4522" href="#" class="remove"></a>$4991.00</span>
+					<span><a data-deleteID="1782" href="#" class="remove"></a>$499.00</span>
+				</td>
+				<td class="last-child"><output>$1,465.00</output></td>
+			</tr>
+								
+			<tr data-serviceID="97">
+				<th><a href="service.html">Advanced In-Market App Tracking and Analysis per week</a></th>
+				<td><input type="text" value=""></td>
+				<td>
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+				</td>
+				<td><span><a data-deleteID="1782" href="#" class="remove"></a>$499,000.00</span></td>
+				<td class="last-child"><output>$2.456,00</output></td>
+			</tr>
+								
+			<tr data-serviceID="98">
+				<th><a href="service.html">App Release</a></th>
+				<td><input type="text" value=""></td>
+				<td>
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+				</td>
+				<td><span><a href="#" data-deleteID="7842" class="remove"></a>$499.00</span></td>
+				<td class="last-child"><output>$1,465.00</output></td>
+			</tr>
+								
+			<tr data-serviceID="100">
+				<th><a href="service.html">Press Release</a></th>
+				<td><input type="text" value=""></td>
+				<td>
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+				</td>
+				<td><span><a href="#" class="remove"></a>$499,000.00</span></td>
+				<td class="last-child">
+                    <div class="cell">
+                        <output>$2.456,00</output>
+                        <div class="label">
+                            <span class="before"></span>
+                            <div class="text">Save $<span class="val">89.99</span>!</div>
+                            <span class="after"></span>
+                        </div>
+                    </div> 
+                </td>
+			</tr>
+								
+			<tr>
+				<th><a href="service.html">App Release</a></th>
+				<td><input type="text" value=""></td>
+				<td>
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+				</td>
+				<td><span><a href="#" class="remove"></a>$499.00</span></td>
+				<td class="last-child"><output>$1,465.00</output></td>
+			</tr>
+								
+			<tr>
+				<th><a href="service.html">Press Release</a></th>
+				<td><input type="text" value=""></td>
+				<td>
+					<select>
+						<option selected="" value="iphone">iphone</option>
+						<option value="ipad">ipad</option>
+						<option value="mac app">mac app</option>
+						<option value="android">android</option>
+						<option value="blackberry">blackberry</option>
+					</select>
+				</td>
+				<td><span><a href="#" class="remove"></a>$499,000.00</span></td>
+				<td class="last-child"><output>$2,456,465.00</output></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">
+					<label>
+						Promocode:
+						<input id="promocode" type="text" value="7878678686868686" pattern="^[\d]{16}$" maxlength="16">
+					</label>
+					<span class="discount">Discount: <output>10%</output></span>
+				</td>
+				<th>Subtotal:</th>
+				<td class="last-child">
+					<output class="total">$2,456,465.00</output>
+					<span class="refresh"></span>
+				</td>
+			</tr>
+		</tfoot>
+		</table>
+		
+		<div class="buttons">
+			<a href="pricing.html" class="button gray">Continue Shopping</a>
+			<button type="submit">Checkout</button>
+		</div>
+		
+	
+	</form>
+
+	<!--COMMON ORDERING QUESTIONS-->
+	<div class="questions">
+		<script>Core.include('modules/accordion')</script>
+	</div>
+	
+
+</section><!--END BASKET PAGE-->

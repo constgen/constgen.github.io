@@ -1,0 +1,9 @@
+#banner {
+	padding: 12px 0 0;
+	text-align: center;
+    color: #454545;
+}
+#banner p{
+    line-height: 18px;
+    padding: 12px 10px;
+}

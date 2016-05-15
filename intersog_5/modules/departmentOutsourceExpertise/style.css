@@ -1,0 +1,58 @@
+﻿@charset "utf-8";
+
+
+.departmentOutsourceExpertise {}
+.departmentOutsourceExpertise h2 {
+	margin: 0 0 20px;
+	color: 121820;
+}
+.departmentOutsourceExpertise p {
+	margin: 0 0 20px 0;
+	font-size: 18px;
+}
+
+.departmentOutsourceExpertise table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.departmentOutsourceExpertise table td {
+	vertical-align: top;
+}
+.departmentOutsourceExpertise table tbody tr td table tbody tr td ul:first-child {
+	padding-right: 15px;
+}
+.departmentOutsourceExpertise article,
+.departmentOutsourceExpertise .article {
+	margin: 20px 0;
+	padding: 0;
+}
+
+.departmentOutsourceExpertise article img {
+	margin: 0;
+}
+
+.departmentOutsourceExpertise h2 {
+	color: #121820;
+}
+
+
+.departmentOutsourceExpertise ul li {
+    background: url(images/bg_li.png) no-repeat scroll left 6px transparent;
+    list-style: none outside none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+}
+.departmentOutsourceExpertise ul.twoColumns  li {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+
+.departmentOutsourceExpertise .table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pie,
+/*.block-twitter .info .followers,*/
+.post h3, .post .meta, #album .post, #album .thumb, #album .text, 
+.post-meta, .post-meta .shareThis, .tabs-wrap li, .tabs-wrap li a,
+.button,
+.tabs-wrap .after, .block-twitter li .before,
+#footer .border
+{behavior: url(/PIE.htc);behavior: url(PIE.htc); border-collapse: separate;}
+
+
+
+#logo img, #logo div{_display:none;}
+#logo{_background: url(../images/logo.png) no-repeat 0 0;}
+
+
+aside #menu a{width: 144px;}
+
+
+/*IE7 :before and :after*/
+/*.post-meta{
+	z-index: expression(runtimeStyle.zIndex = 3, this.innerHTML += '<span class="before"></span>');
+}*/
+
+#album .text, .block-twitter li
+{  *z-index: expression(runtimeStyle.zIndex = 3, this.innerHTML = '<span class="before"></span>' + this.innerHTML); }
+
+/*#middle
+{  *z-index: expression(runtimeStyle.zIndex = 0, this.innerHTML = '<span class="middlebefore"></span>' + this.innerHTML); }*/
+
+.tabs-wrap, .block-twitter .info .followers
+{  *z-index: expression(runtimeStyle.zIndex = 3, this.innerHTML = '<span class="after"></span>' + this.innerHTML); }
+
+
+/*box-shadow*/
+.post h3{box-shadow: 0 0 1px 1px #eee;}
+
+/*gradients*/
+/*#middle .middlebefore{-pie-background: linear-gradient(top, #ffffff 0, #b7b7b7 105, #b7b7b7 95%, #ffffff 100%);}*/
+
+#album .post{-pie-background: linear-gradient(top, #f3f3f3 0, #848484 50%, #848484 100%);}
+
+.post-meta{-pie-background: linear-gradient(top, #799fbd, #89b4d6);}
+
+.post-meta .shareThis{-pie-background: linear-gradient(top, #e9e9e9, #d1d1d1);}
+
+.comment-form .button {	
+	-pie-background: linear-gradient(top, #e9e9e9, #d1d1d1);
+}
+
+.tabs-wrap .after{
+	-pie-background: linear-gradient(left, #ffffff 0, #b7b7b7 5%, #b7b7b7 95%, #ffffff 100%);
+}
+
+.tabs-wrap li{-pie-background: linear-gradient(top, #f7f7f7 0, #f0f0f0 50%, #858585 100%);}
+
+.block-twitter li .before, #footer .border{	
+	-pie-background: linear-gradient(left, #ffffff 0, #b7b7b7 10%, #b7b7b7 90%, #ffffff 100%);
+}
+
+
+
+
+/*triangles*/
+.post-meta:before, .post-meta .before{border-bottom-color: #799fbd;/*779cba*/}
+
+.post .meta:after, .post .meta .after{border-top-color: #a6b2ba;}
+
+#album .text:before, #album .text .before{border-bottom-color: #CECECE;}
+

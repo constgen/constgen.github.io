@@ -1,0 +1,72 @@
+﻿@charset "utf-8";
+
+.reserve {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    margin: 40px 0;
+    width: 310px;
+    text-align: left;
+}
+
+.reserve p {
+    float: left;
+    margin: 8px 15px;
+    min-height: 25px;
+}
+
+.reserve p.small {
+    float: left;
+    margin: 8px 5px 8px 15px;
+    min-height: 25px;
+}
+
+.reserve input[type="text"] {
+    width: 70px;
+}
+
+.reserve label {
+    margin-right: 10px;
+    padding-top: 5px;
+    width: 125px;
+}
+
+.reserve .select-wrap {
+    margin: 8px 0px;
+    width: 115px;
+}
+
+.reserve .select-wrap p {
+    margin: 5px 10px;
+    width: 95px;
+    height: 20px;
+}
+
+.reserve select {
+    width: 115px;
+}
+
+.reserve select option {
+    width: 80px;
+}
+
+.reserve i.datepicker-icon {
+    display: inline-block;
+    margin: 3px 0 0 5px;
+    vertical-align: top;
+    /*margin-top: -4px;*/
+    width: 15px;
+    height: 19px;
+    background-image: url(../../images/datepicker-icon.png);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.reserve i.datepicker-icon:hover {
+    background-position: 0px 19px;
+}
+
+.reserve .submit-wrap {
+    margin-top: 20px;
+}

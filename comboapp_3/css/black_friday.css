@@ -1,0 +1,21 @@
+html body {
+    background: url("../images/black_friday/bg_body_new_theme.png") repeat-x center 47px #fff;
+    background-image: url("../images/black_friday/bg_body_new_theme.png");
+}
+body #bg-header {
+    background: url("../images/black_friday/bg_header_new_theme.png") no-repeat center top;
+}
+
+body #header {
+    background: url("../images/black_friday/logo_new_theme.png") no-repeat right bottom;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+body #logo .bg {
+    background: url("../images/black_friday/bg_logo_new_theme.png") repeat-x left top;
+    background-image: url("../images/black_friday/bg_logo_new_theme.png");
+}
+body #sitedescription {
+    top: 66px;
+}

@@ -1,0 +1,122 @@
+﻿@charset "utf-8";
+
+.services-bar
+{
+    margin: 0 auto;
+    width:920px;
+}
+
+.services-bar .blocks_services 
+{
+
+    width: 920px;
+    text-align:center;
+}
+
+.services-bar .blocks_services a 
+{
+    display: inline-block;
+    width: 120px;
+    text-decoration: none;
+    color: #121820;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-transform: uppercase; 
+}
+
+.services-bar .blocks_services .active .item1
+{
+    background-position: left bottom;
+    cursor: inherit;
+}
+
+.services-bar .blocks_services .active .item2
+{
+    background-position: -100px -100px;
+    cursor: inherit;
+}
+
+.services-bar .blocks_services .active .item3
+{
+    background-position: -200px -100px;
+    cursor: inherit;
+}
+
+.services-bar .blocks_services .active .item4
+{
+    background-position: -300px -100px;
+    cursor: inherit;
+}
+
+.services-bar .blocks_services .item1
+{
+    background-image: url("images/sprint_services_.png");
+    background-repeat: no-repeat; 
+    background-position: left top;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.services-bar .blocks_services a:hover .item1
+{
+    background-position: left bottom;
+    cursor: inherit;
+}
+
+.services-bar .blocks_services .item2
+{
+    background-image: url("images/sprint_services_.png");
+    background-repeat: no-repeat; 
+    background-position: -100px 0;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    text-align: center;
+    cursor:pointer;
+}
+
+.services-bar .blocks_services a:hover .item2
+{
+    background-position: -100px -100px;
+    cursor: inherit;
+}
+
+.services-bar .blocks_services .item3
+{
+    background-image: url("images/sprint_services_.png");
+    background-repeat: no-repeat;
+    background-position: -200px 0;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    text-align: center;
+    cursor:pointer;
+}
+
+.services-bar .blocks_services a:hover .item3
+{
+    background-position: -200px -100px;
+    cursor: inherit;
+}
+
+.services-bar .blocks_services .item4
+{
+    background-image: url("images/sprint_services_.png");
+    background-repeat: left top; 
+    background-position: -300px 0;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    text-align: center;
+    cursor:pointer;
+}
+
+.services-bar .blocks_services a:hover .item4
+{
+    background-position: -300px -100px;
+    cursor: inherit;
+}

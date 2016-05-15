@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Roma</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/supersized.js"></script>
+<script type="text/javascript" src="js/work.js"></script>
+<script language="JavaScript" src="js/uppod_player.js"></script>
+<script language="JavaScript" src="js/swfobject.js"></script>
+
+
+<!--	Video Carusel-->
+<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(function() {
+    $(".videocarusel").jCarouselLite({
+      btnNext: ".slide-right",
+      btnPrev: ".slide-left",
+		visible: 5,
+		circular: false,
+    	speed: 500
+    });
+});
+
+$(".curentvideo").next().children(".slide-right").css("display","block");
+$(".curentvideo").next().next().children(".slide-right").css("display","block");
+$(".curentvideo").prev().children(".slide-left").css("display","block");
+$(".curentvideo").prev().prev().children(".slide-left").css("display","block");
+
+//$(".slide-left").click(function () {$(".curentvideo").prev("li").addClass("curentvideo").children(".slide-left").fadeOut(1000).parent().next("li").removeClass("curentvideo").children(".slide-right").fadeIn(1000);$(".curentvideo").prev().children(".slide-left").fadeIn(0);});
+//
+//$(".slide-right").click(function () {
+//	$(".curentvideo").next("li").addClass("curentvideo").children(".slide-right").fadeOut(1000).parent().prev("li").removeClass("curentvideo").children(".slide-left").fadeIn(1000); 
+//	$(".curentvideo").next().children(".slide-right").fadeIn(0);
+//	});
+
+var stopclick=0;
+function enableClick() {stopclick=0;}
+
+
+function rightClick() {
+	if (stopclick==0){
+	stopclick=1;	
+	setTimeout(enableClick, 500);
+	$(".curentvideo").next("li").addClass("curentvideo").children(".slide-right").fadeOut(500).parent().prev("li").removeClass("curentvideo").children(".slide-left").fadeIn(500); 
+	$(".curentvideo").next().children(".slide-right").fadeIn(0);
+	}
+}
+
+function leftClick() {
+	if (stopclick==0){
+	stopclick=1;	
+	setTimeout(enableClick, 500);
+	$(".curentvideo").prev("li").addClass("curentvideo").children(".slide-left").fadeOut(500).parent().next("li").removeClass("curentvideo").children(".slide-right").fadeIn(500);
+	$(".curentvideo").prev().children(".slide-left").fadeIn(0);
+	}
+}
+
+$(".slide-right").bind("click", rightClick);
+$(".slide-left").bind("click", leftClick);
+
+
+//if($('.slide-right').is(':animated')==true){$(".slide-left").unbind("click"); $(".slide-right").unbind("click");alert('клик снят');};
+//$(".slide-right").dblclick( function () { $(".slide-right").unbind("click"); alert("Hello World!"); });
+});
+
+
+
+</script>
+<!--------------------------------------------------->
+
+
+
+</head>
+
+<body>
+
+<!--Loading display while images load-->
+<div id="loading">&nbsp;</div>
+	<div id="supersize"> <img class="" src="images/bg-video.jpg" /> </div>
+
+    
+<div id="mainmenu">
+	<ul>
+   <li><a class="button" href="home.html">Главная</a></li>
+   <li><a class="button" href="#">Коллекция</a>
+   	<div class="submenu"><ul>
+      <li><a class="button-small" href="old_gallery.html">Старая</a></li><li><a class="button-small" href="new_gallery.html">Новая</a></li>
+      </ul></div></li>
+   <li><a class="button" href="feedback.html">Обратная связь</a></li>
+   <li><a class="button" href="shop.html">Магазины</a></li>
+   </ul>
+   
+</div>
+   
+<div class="videos">
+<div class="videocarusel">
+	<ul>
+  <li></li>
+  <li></li>
+  
+  <li class="curentvideo">
+  <div id="videoplayer371"></div><script type="text/javascript">var flashvars = {"comment":"video","st":"http://test1.schelk.com.ua/player/styles/video55-303.txt","file":"http://test1.schelk.com.ua/player/video2.flv"};var params = {wmode:"transparent", allowFullScreen:"true", allowScriptAccess:"always",id:"videoplayer371"}; new swfobject.embedSWF("http://test1.schelk.com.ua/player/uppod.swf", "videoplayer371", "500", "281", "9.0.115.0", false, flashvars, params);</script>
+  <div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+  <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li>
+   <div id="videoplayer372"></div><script type="text/javascript">var flashvars = {"comment":"video","st":"http://test1.schelk.com.ua/player/styles/video55-303.txt","file":"http://test1.schelk.com.ua/player/video3.flv"};var params = {wmode:"transparent", allowFullScreen:"true", allowScriptAccess:"always",id:"videoplayer372"}; new swfobject.embedSWF("http://test1.schelk.com.ua/player/uppod.swf", "videoplayer372", "500", "281", "9.0.115.0", false, flashvars, params);</script>
+  <div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+  <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li>
+   <div id="videoplayer373"></div><script type="text/javascript">var flashvars = {"comment":"video","st":"http://test1.schelk.com.ua/player/styles/video55-303.txt","file":"http://test1.schelk.com.ua/player/video4.flv"};var params = {wmode:"transparent", allowFullScreen:"true", allowScriptAccess:"always",id:"videoplayer373"}; new swfobject.embedSWF("http://test1.schelk.com.ua/player/uppod.swf", "videoplayer373", "500", "281", "9.0.115.0", false, flashvars, params);</script>
+  <div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+  <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li>
+   <div id="videoplayer374"></div><script type="text/javascript">var flashvars = {"comment":"video","st":"http://test1.schelk.com.ua/player/styles/video55-303.txt","file":"http://test1.schelk.com.ua/player/video2.flv"};var params = {wmode:"transparent", allowFullScreen:"true", allowScriptAccess:"always",id:"videoplayer374"}; new swfobject.embedSWF("http://test1.schelk.com.ua/player/uppod.swf", "videoplayer374", "500", "281", "9.0.115.0", false, flashvars, params);</script>
+  <div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+  <div class="slide-left"></div><div class="slide-right"></div></li>
+  
+  <li ><img src="images/videoscreen1.jpg" width="450" height="241" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+      <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li><img src="images/videoscreen1.jpg" width="450" height="241" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+     <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li><img src="images/videoscreen1.jpg" width="450" height="241" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+      <div class="slide-left"></div><div class="slide-right"></div></li> 
+      
+  <li><img src="images/videoscreen1.jpg" width="450" height="241" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+      <div class="slide-left"></div><div class="slide-right"></div></li>
+      
+  <li><img src="images/videoscreen3.jpg" width="450" height="241" />
+   	<div class="info-block"><h2>Новая коллекция осень-зима 2011</h2>Показ коллекции в выстаочном комлексе "Сады Победы"</div>
+      <div class="slide-left"></div><div class="slide-right"></div></li>
+  <li></li>
+  <li></li>
+
+      
+   </ul>
+</div></div>
+   
+<div id="footer">
+	&copy; Ольга Романовская, 2010
+</div>
+</body>
+</html>

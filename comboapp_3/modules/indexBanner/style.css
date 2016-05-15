@@ -1,0 +1,32 @@
+#banner {
+	margin-bottom: 40px;
+	margin-top: -47px;
+}
+	#banner .infografic {
+		height: 453px;
+		position: relative;
+		background: url(images/infografic.png) 0 0 no-repeat;
+	}
+		#banner .cloudy {
+            display: none;
+			position: absolute;
+			top:86px; right:31px;
+			width: 85px; height:43px;
+			background: url(images/cloudy.png) 0 0 no-repeat;
+		}
+
+		#banner .ad {
+			display: block;
+			position: absolute;
+			right: 64px;
+			top: 113px;
+		}
+
+	#banner .ribbon {
+		width: 875px;
+		height:0px;
+		padding-top:72px;
+		margin: 0 auto;
+		overflow:hidden;
+		background: url(images/ribbon.png) 0 0 no-repeat;
+	}

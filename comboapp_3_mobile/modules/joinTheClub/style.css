@@ -1,0 +1,33 @@
+#joinTheClub {
+	float:right;
+	min-height: 298px; /* + 2px border + 70px border */
+	width: 310px; /* + 40px + 50px padding */
+	padding: 35px 50px 35px 40px;
+	background: #fff;
+	border:none;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	position:relative;
+	
+	font-size:13px;
+}
+	#joinTheClub .label {
+		width:162px; height:101px;
+		position:absolute; top:-7px; right:-5px;
+		background: url(images/label.png) 0 0 no-repeat;
+	}
+	#joinTheClub p {
+		padding-bottom:20px;
+	}
+	#joinTheClub .first {
+		padding-right:20px;
+	}
+
+	#joinTheClub img {
+		margin:10px auto;
+		max-width: 97%;
+		padding:5px;
+		border: 1px solid #cfcfcf;
+		background: white;
+		box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	}

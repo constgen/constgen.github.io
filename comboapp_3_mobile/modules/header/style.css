@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    padding-top: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+#header h2{
+    font-weight: normal;
+    margin-bottom: 0;
+}
+/*logo*/
+#logo {
+    display: block;
+    float: left;
+    font-size: 24px;
+    font-weight: normal;
+    height: 55px;
+    position: relative;
+    width: 132px;
+    margin-left: 7px;
+    background: url(images/home.png) 110px top no-repeat;
+}
+
+#logo img {
+    position: absolute;
+    left:0;
+    bottom:0;
+    height: 54px;
+    width: auto;
+    border: none;
+}
+
+#logo .img {
+    position: absolute;
+    left:0;
+    bottom:0;
+    height: 54px;
+    width: 54px;
+    -webkit-transition: -webkit-transform 6s ease-in-out;
+    -moz-transition: -moz-transform 6s ease-in-out;
+    -o-transition: -o-transform 6s ease-in-out;
+    transition: transform 6s ease-in-out;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    border: none;
+    background: 0 0 no-repeat;
+}
+
+#logo .anim1 { background-image: url(images/logo-anim1.png); }
+#logo .anim2 { background-image: url(images/logo-anim2.png); }
+#logo .anim3 { background-image: url(images/logo-anim3.png); }
+
+#logo .bg {
+    position: absolute;
+    left: 38px;
+    top: 13px;
+    height: 28px;
+    width: 15px;
+    /*outline: 1px solid #F00;*/
+    background: url("images/bg_logo.png") repeat-x left top;
+    /*background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAA+CAQAAABExWlHAAABKUlEQVQYlW2ITU7CQBxHf4fiCpLIijNgol5BDmDiEq8AB5CdhLhrwsZ+IEJiO7CDzgzlIzIzNEj7dyaNG2Le4r08+PX0Kq0jbfrNtIm0ld74LQRt/sDb4M9Bh3fAu7wb9BC88D7vgw+DNz6E8MQoHCEMRCTGEHGYiDnEUizDFcJMZGILeYgOUkHmMo9yRD/SAllEhSwgS1lGJca0tmBN40ou/mZGH5Q5uYDr7HJOaGPBhiaVXPw/p7SzYEfTSi4u5p72NCPMyAVcW31X84tcQFFMB6tSlXGJuFAWqHN8VmeokzrFJ8S5ytURWiVKK+iN3iZbJEu90ivoebLQC+hPPUmmYL55Nz6MxzzjwQzMgL2C9YwF5ok9mkeYO3PL7sEax+tjA6rGasfaL0QKRYwmYNL+AAAAAElFTkSuQmCC");
+    *background-image: url("images/bg_logo.png");*/
+}
+
+#logo.animate .anim1 {
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    transform: rotate(720deg);
+}
+
+#logo.animate .anim2 {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+#logo.animate .anim3{
+    -webkit-transform: rotate(1080deg);
+    -moz-transform: rotate(1080deg);
+    -o-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+}
+#sitedescription {
+    position: absolute;
+    top: 23px;
+    left: 143px;
+    right: 0;
+    border-left: 1px solid #999999;
+    padding: 6px 0 0 9px;
+    white-space: nowrap	
+}
+
+
+/* Page 404, No Script and Old Browser
+-----------------------------------------------------------------------------*/
+
+.page404 #header .bg,
+.noscript #header .bg,
+.oldBrowser #header .bg
+{
+    display: none;
+}
+
+.page404 #logo .anim2,
+.noscript #logo .anim2,
+.oldBrowser #logo .anim2 { 
+    background-image: url(images/logo-anim2-404.png); 
+}
+
+.home #logo
+{
+    background: none;
+}

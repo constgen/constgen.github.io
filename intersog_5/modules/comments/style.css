@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+
+.comments {
+    width: 675px;
+}
+.comments .item {
+    margin-bottom: 25px;
+}
+.comments .item p {
+    margin-bottom: 10px;
+}
+.comments .item a {
+    margin: 0 0 10px;
+}
+.comments .item h3 span {
+    color: #697476;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.comments .item.reply {
+    padding: 15px 20px;
+    background: #F4F4F4;
+}

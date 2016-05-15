@@ -1,0 +1,13 @@
+table.grid
+{
+	border: 1px solid #C9E0ED;
+}
+table.grid th
+{
+	border: 1px solid #C9E0ED;
+	background: #DEDEDE;
+}
+table.grid td
+{
+	border: 1px solid #C9E0ED;
+}

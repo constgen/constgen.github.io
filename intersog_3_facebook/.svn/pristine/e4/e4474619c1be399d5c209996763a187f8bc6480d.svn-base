@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery-ui.js" type="text/javascript"></script>
+
+<!--- / Tabs, accordion, etc. / --->
+<script src="js/ui-core.js" type="text/javascript"></script>
+
+<!--- / Portfolio Slider / --->
+<script src="js/gallery.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="tabs">
+		<ul class="buttons tabNavigation" style="display:block;">
+			<li><a href="#first">Products</a></li>
+			<li><a href="#second">Company</a></li>
+			<li><a href="#third">Services</a></li>
+			<li><a href="#fourth">Smth</a></li>
+		</ul>
+		<div class="content" id="first">
+			<div id="slide1" class="slideshow">
+				<div class="img_cont">
+			  <ul id="desc1" class="descriptions">
+				<li>
+				  <a href="http://itunes.apple.com/us/app/enneagram-personality-types/id405058259?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				 <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=220939564626922&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-send="false" data-layout="box_count" data-width="" data-show-faces="false"></div>
+
+ <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>ComboBook</strong></p>
+				  <p><strong>Idea:</strong> Intersog</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPad</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				  <a href="http://itunes.apple.com/us/app/time-timer/id332520417?mt=8"><img src="img/appstore_icon.png"></a>
+			     <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Time Timer</strong></p>
+				  <p><strong>Idea:</strong> Time Timer</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Back-End:</strong> (PHP) Intersog Web Team</p>
+				  <p><strong>Publisher:</strong> Time Timer</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/interview-assistant-hd/id446378605?mt=8"><img src="img/appstore_icon.png"></a>
+			     <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Interview Assistant</strong></p>
+				  <p><strong>Idea:</strong> Intersog Mobile</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPad , iPhone </p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+					<a href="http://itunes.apple.com/us/app/forest-preserve-district-cook/id424223754?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Forest Preserve District of Cook County</strong></p>
+				  <p><strong>Idea:</strong> FPDCC</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone , Blackberry</p>
+				  <p><strong>Back-End</strong>Great Arc Technologies</p>
+				  <p><strong>Publisher:</strong> FPDCC</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/hellemental/id353182108?mt=8"><img src="img/appstore_icon.png"></a>
+				  <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Hellemental</strong></p>
+				  <p><strong>Idea:</strong> Intersog</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				<!--<a href=""><img src="img/appstore_icon.png"></a>-->
+				  <a href="https://market.android.com/details?id=com.SpotterOutlook2"><img src="img/androidmarket_icon.png"></a>
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Storm Chaser</strong></p>
+				  <p><strong>Idea:</strong> Mike Brady </p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for Android</p>
+				   <p><strong>Back-End:</strong> (PHP) Intersog Web Team</p>
+				  <p><strong>Publisher:</strong> Mike Brady</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/bar-rush-unlimited/id342474523?mt=8"><img src="img/appstore_icon.png"></a>
+				  <!--<a href=""><img src="img/androidmarket_icon.png"></a>-->
+
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Bar Rush</strong></p>
+				  <p><strong>Idea:</strong> Intersog</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/mountain-bike-simulator/id418889996?mt=8"><img src="img/appstore_icon.png"></a>
+				  <!--<a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Mountain Bike Simulator</strong></p>
+				  <p><strong>Idea:</strong> Comboapp</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> Comboapp</p>
+				</li>
+				<li>
+				<!--<a href=""><img src="img/appstore_icon.png"></a>
+				  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Carfax</strong></p>
+				  <p><strong>Idea:</strong> Intersog</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/ru/app/3d-coloring-book-for-kids-pets/id412608015?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Coloring Book</strong></p>
+				  <p><strong>Idea:</strong> ComboApp</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> ComboApp</p>
+				</li>
+				<li>
+			<!--	<a href=""><img src="img/appstore_icon.png"></a>
+				  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>DataDroid</strong></p>
+				  <p><strong>Idea:</strong> University of Michigan</p>
+				  <p><strong>Development:</strong> Intersog Mobile for Android</p>
+				  <p><strong>Back-End:</strong> (PHP) Intersog Web team</p>
+				  <p><strong>Publisher:</strong> Internal usage</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/enneagram-personality-full/id365310605?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Enneagram Personality Full Test</strong></p>
+				  <p><strong>Idea:</strong> Intersog</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone, Android</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/get-directions-hd/id432542541?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Get Direction Pro</strong></p>
+				  <p><strong>Idea:</strong> Intersog Mobile</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone, iPad</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/dan-deadman-vs.-hangman/id325012369?mt=8"><img src="img/appstore_icon.png"></a>
+				<!--  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Dan Deadman vs Hangman</strong></p>
+				  <p><strong>Idea:</strong> i2m</p>
+				  <p><strong>Design:</strong> i2m</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> i2m</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/ispoil/id391196037?mt=8"><img src="img/appstore_icon.png"></a>
+				<!--  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>iSpoil</strong></p>
+				  <p><strong>Idea:</strong> Jeff Chelin</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> Jeff Chelin</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/janoschabc-the-trip-to-panama/id420647925?mt=8"><img src="img/appstore_icon.png"></a>
+				<!--  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Janosch ABC The Trip To Panama</strong></p>
+				  <p><strong>Idea:</strong> i2m</p>
+				  <p><strong>Design:</strong> i2m</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone</p>
+				  <p><strong>Publisher:</strong> i2m</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/small-business-guide/id428291917?mt=12"><img src="img/appstore_icon.png"></a>
+				<!--  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Learning To Go</strong></p>
+				  <p><strong>Idea:</strong> Intersog/ComboApp</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPad, iPhone, Android, Microsoft Phone 7, Blackberry</p>
+				  <p><strong>Publisher:</strong> Intersog/ComboApp</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/morton-salt-pro/id453682978?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Morton Salt Pro</strong></p>
+				  <p><strong>Idea:</strong> Morton Salt</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone, Android</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/trick-your-ride-customize/id382618912?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Trick You Ride</strong></p>
+				  <p><strong>Idea:</strong> Christopher Panucci</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPad, iPhone</p>
+				  <p><strong>Publisher:</strong> Christopher Panucci</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/space-wx/id328346172?mt=8"><img src="img/appstore_icon.png"></a>
+				<!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>SpaceWx</strong></p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPad, iPhone, Android</p>
+				</li>
+					<li>
+					<a href="http://itunes.apple.com/us/app/period-pace/id440276673?mt=8"><img src="img/appstore_icon.png"></a>
+			<!--	  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Period Pace</strong></p>
+				  <p><strong>Idea:</strong> AESOP</p>
+				  <p><strong>Design:</strong> AESOP</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone/iPad (Universal app)</p>
+				  <p><strong>Publisher:</strong> AESOP</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/pillbox-hd/id452704842?mt=8"><img src="img/appstore_icon.png"></a>
+				<!--  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>PillBox HD</strong></p>
+				  <p><strong>Idea:</strong> Intersog</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPad</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				  </li>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/schedule-planner/id437461477?mt=8"><img src="img/appstore_icon.png"></a>
+				 <!-- <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Schedule Planner Pro</strong></p>
+				  <p><strong>Idea:</strong> Intersog Mobile</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone, iPad</p>
+				  <p><strong>Publisher:</strong> Intersog</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/us/app/black-texas-poker/id423793382?mt=8"><img src="img/appstore_icon.png"></a>
+				<!--  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>Black Texas Poker</strong></p>
+				  <p><strong>Idea:</strong> Jason Lambert</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Mobile for iPhone, Android</p>
+				  <p><strong>Publisher:</strong> Jason Lambert</p>
+				</li>
+				<li>
+				<a href="http://itunes.apple.com/gb/app/raise-the-village/id398463247?mt=8"><img src="img/appstore_icon.png"></a>
+				<!--  <a href=""><img src="img/androidmarket_icon.png"></a>-->
+				  <a href=""><img src="img/like_icon.png"></a>
+				  <p class="appname"><strong>New Charity Era, L3C</strong></p>
+				  <p><strong>Idea:</strong> Intersog</p>
+				  <p><strong>Design:</strong> Intersog Art Studio</p>
+				  <p><strong>Development:</strong> Intersog Game Studio for iPhone</p>
+				  <p><strong>Back-End:</strong> (PHP) Intersog Web Team</p>
+				  <p><strong>Publisher:</strong> New Charity Era, L3C</p>
+				</li>
+			  </ul>
+			  <ul class="main_images">
+				<li><img src="img/temp/screen/1.png" alt="Combobook" /></li>
+				<li><img src="img/temp/screen/2.png" alt="TimeTimer" /></li>
+				<li><img src="img/temp/screen/3.png" alt="Interview" /></li>
+				<li><img src="img/temp/screen/4.png" alt="Forest" /></li>
+				<li><img src="img/temp/screen/5.png" alt="Hellemental" /></li>
+				<li><img src="img/temp/screen/6.png" alt="Storm Chaser" /></li>
+				<li><img src="img/temp/screen/7.jpg" alt="Bar Rush" /></li>
+				<li><img src="img/temp/screen/8.jpg" alt="Bike" /></li>
+				<li><img src="img/temp/screen/9.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/10.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/11.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/12.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/13.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/14.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/15.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/16.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/17.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/18.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/19.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/20.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/21.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/22.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/23.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/24.jpg" alt="" /></li>
+				<li><img src="img/temp/screen/25.jpg" alt="" /></li>
+			  </ul>
+			  </div>
+			   <div class="prev_btn"><a href="#" class="prev"><img src="img/icon_nav_left.png" alt="previous"/></a></div>
+			  <div class="thumb_holder">
+				<ul class="thumbs">
+				  <li class="section">
+					<ul class="sub_section">
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/1.png" alt="Combobook" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/2.png" alt="TimeTimer" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/3.png" alt="Interview" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/4.png" alt="Forest" /></a></li>
+					</ul>
+				  </li>
+				  <li class="section">
+					<ul class="sub_section">
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/5.png" alt="Hellemental" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/6.png" alt="Storm Chaser" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/7.png" alt="Bar Rush" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/8.png" alt="Bike" /></a></li>
+					</ul>
+				  </li>
+				  <li class="section">
+					<ul class="sub_section">
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/9.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/10.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/11.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/12.png" alt="" /></a></li>
+					</ul>
+				  </li>
+				  <li class="section">
+					<ul class="sub_section">
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/13.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/14.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/15.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/16.png" alt="" /></a></li>
+					</ul>
+				  </li>
+				  <li class="section">
+					<ul class="sub_section">
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/17.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/18.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/19.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/20.png" alt="" /></a></li>
+					</ul>
+				  </li>
+				  <li class="section">
+					<ul class="sub_section">
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/21.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/22.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/23.png" alt="" /></a></li>
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/24.png" alt="" /></a></li>
+					</ul>
+				  </li>	
+				  <li class="section">
+					<ul class="sub_section">
+					  <li><a href="javascript:void(0);"><img src="img/temp/icons_pack/25.png" alt="" /></a></li>
+					</ul>
+				  </li>	  
+				</ul>
+			  </div>
+				  <div class="next_btn"><a href="#" class="next"><img src="img/icon_nav_right.png" alt="next"/></a></div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		
+		<div class="content" id="second" style="display:none;">
+			<h2>About Us</h2>
+			<p>Welcome to the new face of Mobile Application Development. We are Intersog. Headquartered in Chicago, Illinois, 
+			we are a leading maker of next generation Mobile Applications for the iPhone, iPad, Blackberry, Android and Symbian platforms.</p>
+			<p>Our primary goal is to deliver the highest quality products and service to our customers. Let us show you how we can exceed your expectations every step of the way.</p>
+			<div class="centred">
+				<img src="img/map.png" width="435" height="139" alt="Intersog on map">
+			</div>
+			<ul class="address">
+				<li class="phone">(+1) 773.305.0885</li>
+				<li class="mail"><a href="#">contact@intersog.com</a></li>
+				<li class="addr">125 S Jefferson ST STE 2010, Chicago, IL 60661</li>
+			</ul>
+		</div>
+		
+		<div class="content" id="third" style="display:none;">
+			<div id="accordion">
+				<h3 class="head"><span class="row_01"></span>Technical Consulting</h3>
+				<div class="block">
+					When the mock-up creation is completed and our customer is satisfied with the results, our analysts create the project specifications. The approach for creating specifications is to simplify our understanding and boost the development process, so we usually create high-level user-scenarios for the project. They also use Scrum as our preferred project management methodology.
+				</div>	
+				<h3 class="head"><span class="row_02"></span>Mobile application development</h3>
+				<div class="block">
+					At Intersog we believe that exploring, understanding, and visualizing a project is fundamental to executing it successfully. That's why, after creating an estimate and task list for the project, we'll carefully create interactive prototypes for it.  After these prototypes are developed, we'll meet with our customers to discuss any changes. Once our prototype is multi-lateral finalized, it becomes the foundation which our developers work from and build upon. To create our prototypes and interfaces, our UI designers and analysts use Axure Pro, Omni Graffle, MS Visio and several internet services such as iPlotz and iRize. We are always open to new ideas and concepts so the participation and feedback of the client are highly appreciated.
+				</div>	
+				<h3 class="head"><span class="row_03"></span>Analysis and Specification</h3>
+				<div class="block">
+					<p>At Intersog we believe that exploring, understanding, and visualizing a project is fundamental to executing it successfully. That's why, after creating an estimate and task list for the project, we'll carefully create interactive prototypes for it.  After these prototypes are developed, we'll meet with our customers to discuss any changes. Once our prototype is multi-lateral finalized, it becomes the foundation which our developers work from and build upon. To create our prototypes and interfaces, our UI designers and analysts use Axure Pro, Omni Graffle, MS Visio and several internet services such as iPlotz and iRize. We are always open to new ideas and concepts so the participation and feedback of the client are highly appreciated.</p>
+					<p>When the mock-up creation is completed and our customer is satisfied with the results, our analysts create the project specifications. The approach for creating specifications is to simplify our understanding and boost the development process, so we usually create high-level user-scenarios for the project. They also use Scrum as our preferred project management methodology.</p>
+				</div>	
+				<h3 class="head"><span class="row_04"></span>Testing & QA</h3>
+				<div class="block">
+					Welcome to the new face of Mobile Application Development. We are Intersog. Headquartered in Chicago, Illinois, 
+					we are a leading maker of next generation Mobile Applications for the iPhone, iPad.
+				</div>	
+				<h3 class="head"><span class="row_05"></span>Release Publishing</h3>
+				<div class="block">
+					Welcome to the new face of Mobile Application Development. We are Intersog. Headquartered in Chicago, Illinois, 
+					we are a leading maker of next generation Mobile Applications for the iPhone, iPad.
+				</div>	
+				<h3 class="head"><span class="row_06"></span>Support and Maintenance</h3>
+				<div class="block">
+					Welcome to the new face of Mobile Application Development. We are Intersog. Headquartered in Chicago, Illinois, 
+					we are a leading maker of next generation Mobile Applications for the iPhone, iPad.
+				</div>	
+			</div>
+		</div>
+		
+		<div class="content" id="fourth" style="display:none;">
+		</div>
+	</div>
+	<div class="extralinks">
+		<a href="http://apps.intersog.com/" class="site" target="_blank"><span>Visit Website</span></a><a href="http://twitter.com/#!/Intersog" class="twitt" target="_blank"><span>Join Twitter</span></a>
+	</div>
+</div>
+</body>
+</html>

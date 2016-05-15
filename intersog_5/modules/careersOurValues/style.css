@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+.careersOurValues
+{
+}
+#careersOurValues .shortDescription {    
+}
+#careersOurValues .shortDescription .image {
+    float: left;
+    height: 210px;
+    margin-right: 15px;
+    overflow: hidden;
+    padding-top: 12px;
+    width: 435px;    
+}
+#careersOurValues .shortDescription ul {
+    width: 425px;
+    display: inline-block;
+}
+#careersOurValues .leftSide,
+#careersOurValues .rightSide {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#careersOurValues .leftSide {
+    margin-right: 17px;
+    width: 445px;
+    *float:left;
+}
+
+#careersOurValues .rightSide {
+    width: 450px;
+}
+
+#careersOurValues .shortDescription h2 {
+    color: #000000;
+    display: inline-block;
+    vertical-align: top;
+    width: 415px;
+}
+#careersOurValues .shortDescription h2 {
+    margin: 0 0 25px;
+}
+#careersOurValues h2 {
+    margin: 25px 0 0;
+    color: #000;
+}
+#careersOurValues h3 {
+    color: #000000;
+    margin: 25px 0 10px;
+}
+#careersOurValues p {
+    font-size: 16px;
+}
+#careersOurValues hr {
+    margin: 10em auto 0;
+}
+
+/*#careersOurValues .rightSide a,
+#careersOurValues .rightSideLast a {
+    background: none repeat scroll 0 0 #003F77;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+#careersOurValues .rightSide a:hover,
+#careersOurValues .rightSideLast a:hover {
+    background: #07355E;
+}*/

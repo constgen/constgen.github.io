@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<!--Noscript redirect-->
+	<noscript><meta http-equiv="refresh" content="0; url=noscript.html"></noscript>
+
+	<title>Main Page</title>
+
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+
+	<script type="text/javascript" src="core/Core.js"></script>
+	<script type="text/javascript" src="core/core.extensions.js"></script>
+
+	<!--Meta-->
+	<script>Core.include('modules/meta')</script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+
+		<!--HEADER-->
+		<script>Core.include('modules/headerLogo')</script>
+
+		<!--MIDDLE-->
+		<section id="middle">
+			<div id="container">
+                <script>Core.include('modules/redHorizontalLine')</script>
+				<div id="content">
+					
+					<!--Old brawser-->
+					<script>Core.include('modules/noJavascript')</script>
+
+				</div>
+				<!-- #content-->
+			</div>
+			<!-- #container-->
+		</section>
+		<!-- #middle-->
+	</div>
+	<!-- #wrapper -->
+
+	<!--FOOTER-->
+	<script>Core.include('modules/footer')</script>
+
+	<!-- ScrollToTop -->
+	<script>Core.include('modules/scrollToTop')</script>	
+
+	<script>Core.startAll()</script>
+</body>
+</html>

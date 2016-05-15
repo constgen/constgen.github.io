@@ -1,0 +1,25 @@
+.mostPopular {
+	padding: 25px 35px 15px;
+	background: #fcfcfc;
+	background-color: rgba(255,255,255,0.45);
+	*background: #fcfcfc;
+}
+.mostPopular .shortcuts .description
+{
+	min-height: 0;
+}
+
+#serviceReview ~ div .mostPopular h3 {
+	margin-bottom: 0;
+	color: #434343;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	text-align: left;
+}
+
+#serviceReview ~ div .mostPopular .shortcuts,
+#serviceReview ~ div .mostPopular .service {
+	padding:10px 0 5px;
+}

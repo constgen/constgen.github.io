@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+
+
+.departmentMobileSolutions {
+	margin: 10px 0 35px;
+
+}
+
+.departmentMobileSolutions  .solutions {
+	width: 450px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.departmentMobileSolutions  .solutions:first-child {
+	margin-right: 12px;
+}
+
+/* Icons
+----------------------------------*/
+ul.solutionsList {
+	list-style: none;
+	padding: 0;
+}
+ul.solutionsList li:first-child {
+	margin: 25px 0 20px;
+}
+ul.solutionsList li {
+	margin: 20px 0;
+	padding: 0;
+}
+
+.departmentMobileSolutions .icon {
+    background: url("images/solutionIcons.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 72px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 72px;
+}
+
+.departmentMobileSolutions .icon {
+	display: inline-block;
+	vertical-align: top;
+	width:72px;
+	width:72px;
+	overflow: hidden;
+	background: url(images/solutionIcons.png) no-repeat top left;
+
+}
+.departmentMobileSolutions .icon1  {background-position: 0 -73px;}
+.departmentMobileSolutions .icon2  {background-position: 0 -146px;}
+.departmentMobileSolutions .icon3  {background-position: 0 -146px;}
+.departmentMobileSolutions .icon4  {background-position: 0 -219px;}
+.departmentMobileSolutions .icon5  {background-position: 0 -292px;}
+.departmentMobileSolutions .icon6  {background-position: 0 -365px;}
+.departmentMobileSolutions .icon7  {background-position: 0 -438px;}
+.departmentMobileSolutions .icon8  {background-position: 0 -511px;}
+.departmentMobileSolutions .icon9  {background-position: 0 -584px;}
+.departmentMobileSolutions .icon10 {background-position: 0 -657px;}
+.departmentMobileSolutions .icon11 {background-position: 0 -730px;}
+.departmentMobileSolutions .icon12 {background-position: 0 -803px;}
+.departmentMobileSolutions .icon13 {background-position: 0 -876px;}
+.departmentMobileSolutions .icon14 {background-position: 0 -949px;}
+.departmentMobileSolutions .icon15 {background-position: 0 -1022px;}
+
+
+
+.departmentMobileSolutions .solutionsItem {
+    display: inline-block;
+    padding-left: 14px;
+    padding-top: 10px;
+    vertical-align: top;
+    width: 350px;
+}
+
+.departmentMobileSolutions .solutionsItem p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.departmentMobileSolutions .solutionsItem h3 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 10px;
+    text-align: left;
+}

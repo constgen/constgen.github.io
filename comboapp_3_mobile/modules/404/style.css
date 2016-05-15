@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+
+.block404 { 
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.block404 h2 { text-align: center;}
+.block404 p { margin-bottom: 14px;}
+.block404 .button { width: 265px;}

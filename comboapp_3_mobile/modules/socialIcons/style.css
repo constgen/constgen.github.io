@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#socialIcons{
+	padding: 0 10px;   
+}
+
+#socialIcons img {
+    width: 30px;
+    height: 30px;
+}

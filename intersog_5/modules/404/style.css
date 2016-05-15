@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.pageError body {
+    background: #033460 url(../../images/bg_body.png) no-repeat center center;
+}
+.pageError #content {
+    margin: -135px 0 0 0;
+    position: absolute;
+    width: 460px;
+    top: 50%;
+    left: 50%;
+}
+.block404 {
+    background: transparent;
+    padding: 30px 60px 10px 135px;
+}
+.block404 h1 {
+    font-size: 36px;
+}
+
+

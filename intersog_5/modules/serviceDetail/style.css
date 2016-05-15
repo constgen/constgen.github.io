@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+
+.serviceDetail {
+	position:relative;
+	padding: 10px 0 10px 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+.serviceDetail article{
+	padding: 0;
+}
+.serviceDetail article h2 {
+    color: #121820;
+}
+.serviceDetail a.block {
+	font-size: 14px;
+	display: block;
+	margin-bottom: 10px;
+}
+.serviceDetail .columns {
+	margin-bottom: 34px;
+	font-size: 13px;
+	line-height: 20px;
+}
+.serviceDetail p{
+	margin-bottom: 21px;
+}
+.serviceDetail .button.big {
+	margin-bottom: 40px;
+	margin-top: 50px;
+	font-size: 15px;
+}
+.serviceDetail .services-bar {
+	margin-bottom: 30px;
+}

@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+#overlay {
+	display: none;
+	z-index: 10;
+
+	position: absolute;
+	top:0; left:0; bottom:0; right: 0;
+	background: #000;
+	opacity: 0; /* nominal 0.7 */
+	filter: alpha(opacity=0);
+
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+	#overlay.visible {
+		opacity: 0.7;
+		filter: alpha(opacity=70);
+	}
+
+
+#searchForm {
+	display: none;
+	z-index: 11;
+	
+	position: fixed;
+	top: -150px; left:50%;
+	margin-left: -135px;
+	padding:15px;
+	width: 240px; 
+
+	background: #fff;
+	border: 1px solid #e7e7e7;
+
+	text-align: center;
+
+	-webkit-transition: top 0.5s;
+	-moz-transition: top 0.5s;
+	-ms-transition: top 0.5s;
+	-o-transition: top 0.5s;
+	transition: top 0.5s;
+}
+	#searchForm.visible {
+		top: 70px;
+	}
+
+	#searchForm .close {
+		position: absolute;
+		top:-17px; right:-17px;
+		width: 35px; height: 35px;
+		background: url(images/close.png) 0 0 no-repeat;
+		cursor: pointer;
+	}
+		#searchForm .close:hover,
+		#searchForm .close:active,
+		#searchForm .close.active,
+		#searchForm .close.pressed {
+			background-position: 0 -35px;
+		}
+
+
+#searchForm button {text-transform: uppercase;}
+
+
+
+@media 	only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) { 
+	#searchForm .close {
+		background: url(images/close@2x.png) 0 0 no-repeat;
+		background-size: 100% auto;
+	}
+}
+
+@media 	only screen and (orientation : landscape) {body.hasToolbar #searchForm {margin-left: -110px;}}

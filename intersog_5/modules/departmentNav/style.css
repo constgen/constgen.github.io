@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+
+.departmentNav .wrapper {
+    display: block;
+    height: 40px;
+    margin: 0 0 20px 0;
+    width: 916px;
+}
+
+
+.departmentNav a.prev {
+    background: url("./images/arrow_left.png") no-repeat scroll left top transparent;
+    color: #000000;
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    text-align: left;
+    width: 100px;
+}
+
+.departmentNav a.next {
+    background: url("./images/arrow_right.png") no-repeat scroll right top transparent;
+    color: #000000;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 50px;
+    text-align: right;
+    width: 90px;
+    float: right;
+}
+.departmentNav a.prev:hover {
+    background: url("./images/arrow_left_hover.png") no-repeat scroll left top transparent;
+    color: #003f77;
+}
+
+.departmentNav a.next:hover {
+    background: url("./images/arrow_right_hover.png") no-repeat scroll right top transparent;
+    color: #003f77;
+}

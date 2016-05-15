@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* searchResults
+-----------------------------------------------------------------------------*/
+.searchResults {
+    position: relative;
+}
+.searchResults article{
+    padding: 52px 0 50px 0;
+}
+.searchResults article h2{
+    color: #000000;
+	margin-bottom: 21px;
+}
+.searchResults .block_searchResults p.date {
+    padding-bottom: 0px;
+}
+.searchResults .left_block {
+    float: left;
+    width: 680px;
+	margin-top: 7px;
+}
+.searchResults .right_block {
+    float: right;
+    width: 235px;
+}
+.searchResults .block_searchResults {
+    float: left;
+	width: 100%;
+    margin-bottom: 30px;
+}
+.searchResults .block_searchResults .title{
+    color: #003F77;
+	margin-bottom: 13px;
+    color: #003F77;  
+}
+.searchResults .block_searchResults a.img_searchResults {
+    display: block;
+    height: 160px;
+    width: 234px;
+    overflow: hidden;
+    position: relative;
+	margin-top: 4px;
+    line-height: 201px;
+	float: left;
+}
+.searchResults .block_searchResults a.img_searchResults img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 234px;
+    height: auto;
+}
+.searchResults .block_searchResults .left {
+    float: left;
+    margin-left: 22px;
+    width: 404px;
+}
+
+.searchResults .highlight {
+    background: #00BCE2;
+    color: #FFF;
+    padding: 0 5px;
+}

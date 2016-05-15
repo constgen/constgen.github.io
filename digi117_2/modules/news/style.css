@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+
+.news article {
+    padding-bottom: 30px;
+}
+.news article h1{
+    float: left;
+}
+.news .button {
+    margin: 5px 0 0 0;
+    float: right;
+	cursor: pointer;
+}
+.news .block_news {
+    clear: both;
+    overflow: hidden;
+    margin-right: -40px;
+}
+article .news_feed {
+    width: 200px;
+    margin-right: 40px;
+    float: left;  
+}

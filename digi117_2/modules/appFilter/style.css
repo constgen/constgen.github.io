@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+	.filters .wrapper {
+		padding: 20px 40px 15px;
+		height:24px;
+		margin:0 auto;
+		width: 920px;
+		border-left: 1px solid #1c1c1c;
+		border-right: 1px solid #1c1c1c;
+	}
+	.filters h5 {
+		display: inline-block;
+		*display: inline;
+		zoom:1;
+		font: 14px/140% 'PT Sans', sans-serif;
+		color:#ffffff;
+		text-transform: uppercase;
+		margin: -20px 0;
+		padding:20px 40px 20px 0;
+		height: 24px;
+		border-right: 1px solid #1c1c1c;
+		vertical-align: top;
+	}
+	.filters ul {
+		display: inline-block;
+		*display: inline;
+		zoom:1;
+		padding-left: 50px;
+		list-style: none;
+		vertical-align: top;
+	}
+	.filters li {
+		display: inline-block;
+		*display: inline;
+		zoom:1;
+		padding-left: 10px;
+		vertical-align: top;
+	}
+	.filters li a,
+	.filters li a:hover {
+		font: 14px/120% 'PT Sans', sans-serif;
+		color: #ffffff;
+		text-decoration: none;
+
+		-webkit-transition: all 0.25s;
+		-moz-transition: all 0.25s;
+		-ms-transition: all 0.25s;
+		-o-transition: all 0.25s;
+		transition: all 0.25s;
+	}
+	.filters li.selected a, .filters li.active a, .filters li.current a,
+	.filters li a.selected, .filters li a.active, .filters li a.current{
+		color: #ff003c;
+	}
+	.filters li a:hover {color: #ff003c;}
+
+	.filters li+li:before {
+		content: '/';
+		padding-right:10px;
+		color:#303030;
+	}
+

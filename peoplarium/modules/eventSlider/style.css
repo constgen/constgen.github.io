@@ -1,0 +1,117 @@
+﻿@charset "utf-8";
+
+.eventSlider {
+    overflow: hidden;
+}
+
+.eventSlider .eventSlider-pane {
+    width: 2000em;
+    overflow: hidden;
+}
+
+.eventSlider .eventSlider-item {
+    float: left;
+    width: 770px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.eventSlider .eventSlider-item p.date {
+    margin:0;
+    font-size: 11px;
+}
+
+.eventSlider .eventSlider-item h1 {
+    margin-top: 0;
+    line-height: 35px;
+}
+
+.eventSlider .eventSlider-item p.two-column {
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.eventSlider .eventSlider-navi {
+    float: left;
+    display: inline-block;
+    margin: 8px 0 0 0;
+    height: 15px;
+    vertical-align: middle;
+    z-index: 3;
+}
+
+.eventSlider .eventSlider-navi a {
+    display: inline-block;
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+    overflow:hidden;
+    background: url(../../images/navi-bullets.png) top;
+}
+
+.eventSlider .eventSlider-footer {
+    overflow: hidden;
+    background-color: #1f9ae0;
+    text-align: right;
+}
+
+.eventSlider .eventSlider-footer .wrap {
+    margin: 20px auto;
+    width: 775px;
+    overflow: visible;
+    text-align: right;
+}
+
+.eventSlider .eventSlider-navi a.current {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    width: 15px;
+    height: 15px;
+    overflow:hidden;
+    background: url(../../images/navi-bullets.png) 0px -16px;
+}
+
+.eventSlider .eventSlider-more {
+    display: inline-block;
+    margin: 0;
+}
+
+.eventSlider .triangle {
+    position: absolute;
+    margin-left: 3px;
+    margin-top: -10px;
+    border-color: transparent transparent #1f9ae0 transparent;
+    border-style: solid;
+    border-width: 5px 7px 5px 7px;
+    height: 0;
+    width: 0;
+    display: inline-block;
+}
+
+/*   tables   */
+.eventSlider article table {
+    margin: 10px 0;
+    border-spacing: 0px;
+    border-top: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+}
+
+.eventSlider table tr, .eventSlider table th, .eventSlider table td {
+    height: 40px;
+    border: 1px solid #f3f3f3;
+    text-align: left;
+}
+
+.eventSlider table th, .eventSlider table td {
+    padding: 0 25px;
+    min-width: 70px;
+    border: 0;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    text-align: left;
+}

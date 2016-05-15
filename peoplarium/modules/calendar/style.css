@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+
+
+.calendar {
+    width: 430px;
+	height: 400px;
+	float: left;
+	margin-right: 47px;
+}
+.calendar iframe {
+    width: 426px;
+	height: 400px;
+}

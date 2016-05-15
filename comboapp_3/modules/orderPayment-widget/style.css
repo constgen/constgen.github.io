@@ -1,0 +1,49 @@
+#orderPayment {
+    width:400px;
+    background: #fff;
+    position: relative;
+    padding: 25px 30px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+/*    white-space: nowrap;*/
+}
+#orderPayment .row {
+    overflow: hidden;
+}
+
+
+#orderPayment input {
+    margin-right: 20px;
+    width: 171px;
+}
+
+#orderPayment select {
+    margin-right: 20px;
+    width: 218px;
+}
+
+#orderPayment label {
+    width: auto;
+}
+
+#orderPayment .cards {
+    display: inline-block;
+    width: 217px;
+    height: 33px;
+    background: url(images/cards.png) 0 0 no-repeat;
+    font-size: 14px;
+    margin-bottom: 1.5em; /*21*/
+    margin-right: 20px;
+}
+
+#orderPayment .payment textarea {
+    margin-right: 20px;
+    width: 203px;
+    margin-top:3px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle;
+    resize: vertical;
+}
+

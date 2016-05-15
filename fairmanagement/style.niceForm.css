@@ -1,0 +1,146 @@
+
+.jNiceCheckbox {
+	DISPLaY: block;
+	BaCKGROUND: url(images/checkbox.png) no-repeat center top;
+	VERTICaL-aLIGN: middle;
+	WIDTH: 14px;
+	HEIGHT: 14px
+}
+.jNiceChecked {
+	BaCKGROUND-POSITION: center bottom
+}
+
+.jNiceSelectWrapper {
+	WIDTH: 224px;
+	POSITION: relative;
+	HEIGHT: 30px
+}
+
+#content .jNiceSelectWrapper div span {
+	FLOaT: none;
+	PaDDING: 0px;
+	padding-right: 24px;
+	OVERFLOW: hidden;
+	BaCKGROUND: url(images/bg-select2.png) no-repeat center center;
+	WIDTH: 200px;
+	LINE-HEIGHT: 28px;
+	text-align: center;
+	POSITION: absolute;
+	HEIGHT: 30px;
+	font-size: 15px;
+	color: #6dcff6;
+	font-style: italic;
+}
+.jNiceSelectWrapper div a {
+	DISPLaY: block;
+	RIGHT: 0px;
+	WIDTH: 100%;
+	POSITION: absolute;
+	HEIGHT: 30px;
+	background-image: url(images/select-triangle.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+
+}
+.jNiceSelectWrapper div a:hover {
+	background-image: url(images/select-triangle-hover.png);
+}
+
+.jNiceSelectWrapper ul {
+	padding: 0;
+	DISPLaY: none;
+	Z-INDEX: 1000;
+	LEFT: 0px;
+	MaRGIN: 0px;	
+	WIDTH: 224px;
+	LIST-STYLE-TYPE: none;
+	POSITION: absolute;
+	TOP: 30px;
+}
+
+.jNiceSelectWrapper .list-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 100%;
+	background-image:url(images/bg-select-list-top2.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.jNiceSelectWrapper .list-middle {
+	position: relative;
+	top: 15px;
+	/*bottom: 15px;*/
+	margin-bottom: 30px;
+	margin-top: 0px;
+	width: 100%;	
+	OVERFLOW-y: auto;
+	overflow-x:hidden;
+	background-image:url(images/bg-transparent.png);
+	background-repeat: repeat;
+	max-height: 288px;
+	height: auto !important;
+	height: expression( document.body.clientHeight > 289 ? "289px" : "auto" );
+}
+
+.jNiceSelectWrapper .list-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 15px;
+	width: 100%;
+	background-image:url(images/bg-select-list2.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.jNiceSelectWrapper ul a {
+	font-size: 15px;
+	color: #6dcff6;
+	font-style: italic;
+	PaDDING: 0;
+	display: block;
+	height: 24px;
+	TEXT-DECORaTION: none;
+	line-height: 24px;
+	text-align: center;
+	padding-right: 24px;
+	position: relative;
+	background: transparent;
+	position: relative;
+	*left:-16px;	
+}
+.jNiceSelectWrapper ul a:hover, .jNiceSelectWrapper ul a.selected:hover {
+	color: #000;
+	background-image: url(images/bg-select-hover2.png);
+	background-repeat: no-repeat;
+	background-position: left center;	
+}
+.jNiceSelectWrapper ul a.selected {
+	color: #ff986f;
+}
+.jNiceHidden {
+	DISPLaY: none
+}
+
+.select-s .jNiceSelectWrapper, .select-s .jNiceSelectWrapper ul {WIDTH: 177px;}
+#content .select-s .jNiceSelectWrapper div span {WIDTH: 153px;	background-image: url(images/bg-select1.png);}
+.select-s .jNiceSelectWrapper .list-top {	background-image:url(images/bg-select-list-top1.png);}
+.select-s .jNiceSelectWrapper .list-bottom { background-image:url(images/bg-select-list1.png);}
+.select-s .jNiceSelectWrapper ul a:hover, .select-s .jNiceSelectWrapper ul a.selected:hover {background-image: url(images/bg-select-hover1.png);}
+
+
+
+
+
+
+
+.select-w .jNiceSelectWrapper, .select-w .jNiceSelectWrapper ul {WIDTH: 433px;}
+#content .select-w .jNiceSelectWrapper div span {WIDTH: 409px;	background-image: url(images/bg-select3.png);}
+.select-w .jNiceSelectWrapper .list-top {	background-image:url(images/bg-select-list-top3.png);}
+.select-w .jNiceSelectWrapper .list-bottom { background-image:url(images/bg-select-list3.png);}
+.select-w .jNiceSelectWrapper ul a:hover, .select-w .jNiceSelectWrapper ul a.selected:hover {background-image: url(images/bg-select-hover3.png);}
+
+

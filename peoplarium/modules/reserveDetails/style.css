@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+
+
+.reserveDetails {
+    background: url(../../images/about-background.png) repeat;
+}
+
+.reserveDetails .wrap {
+    overflow: visible;
+}
+
+.reserveDetails h1 {
+    margin-top: 50px;
+}
+
+.reserveDetails p {
+    margin: 0 15px;
+}
+
+.reserveDetails .reserveDetails-description {
+    margin: 20px 0 30px 0;
+    width: 100%;
+}
+
+.reserveDetails .reserveDetails-description p {
+    margin: 10px 0;
+}
+
+.reserveDetails .fade {
+    display: inline-block;
+    *display: block;
+    width: 210px;
+    font-size: 11px;
+}
+
+.reserveDetails .back-button {
+    display: inline-block;
+    *display: block;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1f9ae0;
+    text-decoration: none;
+}
+
+.reserveDetails .back-button span {
+    border-bottom: 1px solid #1f9ae0;
+    font-size: 12px;
+}
+
+.reserveDetails .descr {
+    margin: 5px 0;
+    font-size: 11px;
+}
+
+.reserveDetails .date {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.reserveDetails form {
+    margin-bottom: 50px;
+}
+
+.reserveDetails label {
+    margin: 5px 0px;
+    padding: 5px 0 0 0;
+    width: 165px;
+    min-height: 20px;
+    height: auto;
+}
+
+.reserveDetails input[type="text"] {
+    margin: 5px 0 0 10px; 
+    width: 525px;
+}
+
+.reserveDetails textarea {
+    margin: 5px 0 0 10px; 
+    padding: 5px 10px;
+    width: 525px;
+    height: 95px;
+    resize: none;
+}
+
+.reserveDetails input[type="text"].large {
+    margin: 20px 0 30px 0;
+    height: 40px;
+    *line-height: 40px;
+    font-size: 14px;
+}
+
+.reserveDetails label.large {
+    margin: 20px 0;
+    padding: 12px 0 0 0;
+    width: 175px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.reserveDetails .submit-wrap {
+    margin-top: 25px;
+    margin-left: 190px;
+    margin-bottom: 25px;
+}

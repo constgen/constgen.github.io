@@ -1,0 +1,51 @@
+﻿<div id="requestProposal">
+	<div class="wrapper invert">
+		<div id="requestProposalContent" class="formWrap accelerated">
+			<form id="proposal-form" method="post" action="/content/proposal">
+				<h2>Request a Proposal</h2>
+
+					<div class="row">
+                        <label for="firstName" class="required">First name: <span class="required">*</span></label>
+						<input type="text" name="firstName" data-save required>
+					</div>
+					<div class="row">
+						<label for="lastName" class="required">Last name: <span class="required">*</span></label>
+						<input type="text" name="lastName" data-save="1" required>
+					</div>
+					<div class="row">
+						<label for="company" class="required">Company: <span class="required">*</span></label>
+						<input type="text" name="company" required>
+					</div>
+					<div class="row">
+						<label for="email" class="required">Email: <span class="required">*</span></label>
+						<input type="email" name="email[email]" data-save="" required>
+					</div>
+					<div class="row">
+						<label for="service" class="required">Service: <span class="required">*</span></label>
+						<select name="service" data-save>
+							<option value="1">Outsourcing / Software Programming</option>
+							<option value="2">Outsourcing</option>
+							<option value="3">Software Programming</option>
+						</select>
+					</div>
+          <div class="away">
+						<input type="text">
+					</div>
+
+
+				<div class="bottom">
+
+						<label for="details" class="required">Project Details (the more the better): <span class="required">*</span></label>
+						<textarea name="details" data-save="" required></textarea>
+
+					<div class="successMessage" style="display: none;">Your message was sent successfully!</div>
+					<input type="submit" class="button azure" value="order sevice">
+					</div>
+
+			</form>
+		</div>
+		<div id="requestButton">
+			<p>Request a Proposal</p>
+		</div>
+	</div>
+</div>

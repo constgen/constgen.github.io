@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <!--Noscript redirect-->
+        <noscript><meta http-equiv="refresh" content="0; url=noscript.html"></noscript>
+
+        <title>Service</title>
+
+        <link rel="stylesheet" href="css/comboapp.mobile.css" type="text/css" />
+
+        <script type="text/javascript" src="core/Core.js"></script>
+        <script type="text/javascript" src="core/extensions.js"></script>
+
+        <!--Meta-->
+        <script>Core.include('modules/meta')</script>
+
+    </head>
+
+    <body class="hasToolbar hasFooter hasNavbar">
+
+        <!--<div id="bg-header"></div>-->
+        <div id="bg">
+            <div id="wrapper">
+
+                <!--Bar with back button-->
+                <script>Core.include('modules/navbar')</script>
+
+                <!--MIDDLE-->
+                <section id="middle">
+                    <!--TOOLBAR aka CART-->
+                    <script>Core.include('modules/toolbar')</script>
+                    <div id="container">
+                        <div id="content">
+
+                            <!-- SERVICE DESCRIPTION -->
+                            <script>Core.include('modules/serviceDesc')</script>
+
+                        </div><!-- #content-->
+                    </div><!-- #container-->
+
+                </section><!-- #middle-->
+            </div><!-- #wrapper -->
+
+            <script>Core.include('modules/footer')</script>
+
+            <!-- App toolbar-->
+            <script>Core.include('modules/appToolbar')</script>
+
+            <!-- Search form -->
+            <script>Core.include('modules/searchForm')</script>
+
+        </div><!-- #bg -->
+
+
+
+        <script>Core.startAll()</script>
+    </body>
+</html>

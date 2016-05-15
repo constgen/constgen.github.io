@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Roma</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/supersized.js"></script>
+<script type="text/javascript" src="js/work.js"></script>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+
+	
+$(".submitbutton").mouseenter(function () {$("input").addClass("alert").next("span").fadeIn(300); });
+$(".submitbutton").mouseenter(function () {$("textarea").addClass("alert").next().next("span").fadeIn(300); });
+
+
+	
+
+
+
+
+
+
+//$(".submitbutton").mouseenter(function () {
+//	
+//var form=document.forms.contactform;
+//var name_text=form.name;
+//var phone_text=form.phone;
+//var message_text=form.message;
+//var text_message=message_text.value;
+//
+//
+//if (name_text.value=="1"){
+//	$("input").addClass("alert").next("span").fadeIn(300);
+//	}
+//
+//if (text_message.length<1){
+//	$("textarea").addClass("alert").next().next("span").fadeIn(300); 
+//	}
+//
+//
+//});
+
+
+$(".submitbutton").mouseleave(function () {$("input").removeClass("alert").next("span").fadeOut(200); });
+$(".submitbutton").mouseleave(function () {$("textarea").removeClass("alert").next().next().next("span").fadeOut(200); });
+
+
+});
+
+
+
+
+</script>
+</head>
+
+<body>
+
+<!--Loading display while images load-->
+<div id="loading">&nbsp;</div>
+	<div id="supersize"> <img class="" src="images/bg-home.jpg" /> </div>
+
+
+<div id="mainmenu">
+	<ul>
+   <li><a class="button" href="home.html">Главная</a></li>
+   <li><a class="button" href="#">Коллекция</a>
+   	<div class="submenu"><ul>
+      <li><a class="button-small" href="old_gallery.html">Старая</a></li><li><a class="button-small" href="new_gallery.html">Новая</a></li>
+      </ul></div></li>
+   <li><a class="button active" href="feedback.html">Обратная связь</a></li>
+   <li><a class="button" href="shop.html">Магазины</a></li>
+   </ul>
+   
+</div>
+
+
+<div id="feedback">
+<form action="" method="get" name="contactform">
+<p>У вас есть возможность получить ответ на Ваш вопрос по телефону. Для этого заполните и отправьте форму обратной связи и ожидайте звонка!</p>
+<p>Обращаем Ваше внимание на то, что Информационно-справочная служба работает с понедельника по пятницу, с <b>9:00</b> до <b>18:00</b>.</p>
+<p style="margin: 0; line-height: 7px;">&nbsp;</p>
+<label>Ваше имя:</label><input name="name" type="text" /><span>Поле обязательно к заполнению</span><br />
+<label>Номер телефона:</label><input name="phone" type="text" /><span>Поле обязательно к заполнению</span><br />
+<label class="text">Ваш вопрос:</label><label></label><textarea name="massage" cols="" rows=""></textarea>
+<label></label><span>Поле обязательно к заполнению</span>
+<button  name="send" type="submit" class="submitbutton">отправить</button>
+
+
+</form>
+</div>
+
+
+   
+<div id="footer">
+	<a href="index.html">&copy; Ольга Романовская, 2010</a>
+</div>
+</body>
+</html>

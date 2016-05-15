@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+
+
+.unsuccess
+{
+    padding-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 260px;
+}
+
+.unsuccess h2, .unsuccess h1
+{
+    font-size: 25px;
+}

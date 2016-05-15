@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.pagination
+{
+	text-align: center;
+	margin: 0 auto 28px auto;
+	clear: both;
+	padding-top: 29px;
+}
+
+.pagination .pages-links
+{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+}
+
+.pagination ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.pagination li
+{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	padding: 0;
+	margin: 0;
+}
+
+.pagination .pages-links span,
+.pagination .pages-links a
+{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	vertical-align: top;
+	width: 28px;
+	height: 28px;
+	margin: 0;
+	text-align: center;
+	line-height: 28px;
+	white-space: nowrap;
+	color: #003f77;
+}
+
+.pagination .pages-links .previous a,
+.pagination .pages-links .next a,
+.pagination .pages-links .firs at,
+.pagination .pages-links .last a
+{
+	width: auto;
+}
+.pagination .page
+{
+	background: url(images/bg_item.png) 0 0 no-repeat;
+	color: #b9b9b9;
+	margin-right: 8px;
+}
+.pagination .selected a,
+.pagination .page-current
+{
+	background: url(images/bg_item-active.png) 0 0 no-repeat;
+	color: #FFF;
+}
+
+.pagination .hidden
+{
+	display: none;
+}
+
+
+.pagination .first,
+.pagination .last,
+.pagination .previous,
+.pagination .next
+{
+	display: none;
+}
+
+

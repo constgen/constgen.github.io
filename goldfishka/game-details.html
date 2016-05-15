@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr" class="">
+<head>
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />--> <!--switch compatible mode to latest-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+
+    <title>GoldFishka</title>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    
+    <!--Core-->
+    <script type="text/javascript" src="core/Core.js"></script>
+	<script type="text/javascript" src="core/extensions.js"></script>
+    
+    <!--Configure-->
+    <script>Core.configure('fishka.config.js')</script>
+</head>
+
+<body ontouchstart="">
+    <div id="wrapper">
+        
+        
+        <!--Header-->
+        <script>Core.include('modules/header')</script>
+        
+        <!--Game Tiles-->
+        <script>Core.include('modules/gameDetails')</script>
+        
+        <!--Play Popup-->
+        <script>Core.include('modules/playPopup')</script>
+
+    </div>
+
+    <!--Navigation Bar-->
+    <script>Core.include('modules/navigationBar')</script>
+
+</body>
+</html>

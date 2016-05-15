@@ -1,0 +1,30 @@
+<div id="fb-root"></div>
+<div id="formTellAFriend">
+    <div id="formTellAFriendOverlay" class="accelerated"></div>
+    <div id="formTellAFriendForm" class="formWrapper">
+        <div id="formTellAFriendContent" class="formWrap accelerated">
+            <div id="formTellAFriendCloseButton">
+                <a href="#">Close</a>
+            </div>
+            <form id="proposal-form" method="post" action="/content/proposal">
+                <h2>Tell your Friend about this Position</h2>
+                <div class="bottom">
+                    <div class="row">
+                        <label for="email" class="required details">Your Friend's email (separate them with comma for multiple recipients): <span class="required">*</span></label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="row">
+                        <label for="details" class="required">Message: <span class="required">*</span></label>
+                        <textarea name="details" required></textarea>
+                    </div>
+                    <div class="row">
+                        <a href="" class="button">Send</a>
+                        <span class="or">or</span>
+                        <a href="" class="facebook">Share on facebook</a>
+                    </div>
+                    <div class="successMessage" style="display: none;">Your message was sent successfully!</div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LFG Animation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			background: #ece8dd;
+		}
+		.page {
+			margin: 50px auto;
+			text-align: center;
+		}
+		#range
+		{
+			vertical-align: middle;
+		}
+		#amount	{
+			width: 60px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.voice-recognition
+		{
+			display: inline-block;
+            *display: inline;
+            *zoom: 1;
+			vertical-align: middle;
+			width: 50px;
+			height: 50px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.voice-recognition input
+		{
+			font-size: 100px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: auto;
+			height: 50px;
+			border: none;
+			background: #fff;
+			padding-right: 2px;
+			cursor: pointer;
+		}
+		.voice-recognition input:focus
+		{
+			outline: none;
+		}
+
+		.export
+		{
+			display: inline-block;
+			vertical-align: middle;
+		}
+	</style>
+
+</head>
+<body>
+
+<div class="page">
+
+
+	<!--Root HTML element for 'buckets' module. Correct id is required. -->
+	<div id="buckets-animation"></div>
+
+
+
+	<br>
+	<br>
+	<!--Amount changer, Use Google Chrome to see correct range controll-->
+	<input id="range" type="range" value="0" step="10" min="0" max="500000">
+		<span id="amount">0</span>
+
+
+	<span class="voice-recognition">
+		<input id="superrange" type="text" value="0" x-webkit-speech>
+	</span>
+
+	<button class="export" type="button">Export as image</button>
+</div>
+
+<script src="js/require.js" data-main="js/home"></script>
+
+</body>
+</html>

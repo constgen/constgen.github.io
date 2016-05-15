@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Logo</title>
+<style>
+
+#logo{
+	margin: 100px 0 0 100px;
+	display:block;
+	width: 295px;
+	height: 119px;
+	position: relative;
+}
+
+#logo img{
+	position: absolute;
+	left:0;
+	top:0;
+	height: 100%;
+	width: auto;
+	-webkit-transition: all 6s ease-in-out;
+	-moz-transition: all 6s ease-in-out;
+	-o-transition: all 6s ease-in-out;
+	transition: all 6s ease-in-out;
+	border:none;
+}
+
+#logo .bg{
+	position: absolute;
+	right:0;
+	top:29.41%;/*29.41%*//*35px*/
+	height: 40.33%;/*40.33%*//*48px*/
+	width: 85%;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 5px #fff;
+	-webkit-box-shadow: 0 0 5px 5px #fff;
+	-moz-box-shadow: 0 0 5px 5px #fff;
+	box-shadow: 0 0 5px 5px #fff;
+}
+
+#logo.animate .anim1{
+	-webkit-transform: rotate(720deg);
+	-moz-transform: rotate(720deg);
+	-o-transform: rotate(720deg);
+	transform: rotate(720deg);
+}
+
+#logo.animate .anim2{
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+	transform: rotate(-360deg);
+}
+
+#logo.animate .anim3{
+	-webkit-transform: rotate(1080deg);
+	-moz-transform: rotate(1080deg);
+	-o-transform: rotate(1080deg);
+	transform: rotate(1080deg);
+}
+</style>
+</head>
+
+<body>
+
+<a id="logo" href="#">
+	<img class="anim1" src="images/logo-anim1.png" width="119" height="119" alt="">
+	<img class="anim2" src="images/logo-anim2.png" width="119" height="119" alt="">
+	<img class="anim3" src="images/logo-anim3.png" width="119" height="119" alt="">
+	<div class="bg"></div>
+	<img src="images/logo-main.png" width="295" height="119" alt="">
+</a>
+
+
+<script>
+window.addEventListener('load', function(){	var img = document.getElementById('logo').className='animate'},false)
+</script>
+</body>
+</html>

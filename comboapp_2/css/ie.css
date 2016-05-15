@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pie,
+h2, #resellerprog, .submenu, 
+.twitter, .twitter .link, .post .meta,
+.toggleblock .top,/*, .toggleblock .bottom */
+.dragger
+{
+	behavior: url(/PIE.htc);
+	border-collapse: separate;
+	*-pie-poll: true;
+	*-pie-watch-ancestors: 1;
+}
+
+#logo img, #logo div{_display:none;}
+#logo{_background: url(../images/logo.png) no-repeat 0 0;}
+
+
+
+/*Buttons*/
+button:active, button:active:hover, .button:active, .button:active:hover,
+.active .button.gray:active, .service:hover .button.gray:active,
+.active .button.gray:active:hover, .service:hover .button.gray:active:hover,
+button.pushed, .button.pushed, button.pushed:hover, .button.pushed:hover,
+.active .button.gray.pushed, .service:hover .button.gray.pushed,
+.active .button.gray.pushed:hover, .service:hover .button.gray.pushed:hover  {
+	background-position: center -135px;
+}
+
+button.big:active, .button.big:active, button.big.pushed, .button.big.pushed,
+button.big:active:hover, .button.big:active:hover, button.big.pushed:hover, .button.big.pushed:hover {
+	background-position: 0 -147px;
+}
+
+
+/*Reseller programm button*/
+#resellerprog, #resellerprog:hover {
+	border-radius: 0 13px 13px 0;
+	background: #9fc058;
+	-pie-background:linear-gradient(left, #d8ec8b, #607920);
+	width: 41px;
+	height: 188px;
+	box-shadow: -1px 2px 1px #636363;
+	margin-top: -94px;
+	overflow: hidden;
+}
+
+#resellerprog span {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 100px;
+	cursor: pointer;
+	background: url(../images/bd_resellerprogramm-text.png) 12px center no-repeat;
+	position: relative;
+}
+
+/*Basket*/
+#basket {
+	padding-bottom: 3px;
+	background: url(../images/bg_basket.png) center top no-repeat;
+	border: 1px solid #c3c3c3;
+	border-bottom: none;
+}
+
+#basket .icon {
+	background: url(../images/bg_basket_button.png) center top no-repeat;
+}
+
+#basket .icon:before, #basket .icon .before {display: none;}
+
+#basket .icon:hover {
+	background-position: center -43px;
+}
+
+#basket .icon:active {
+	background-position: center -86px;
+}
+
+#basket .icon img {display: none;}
+
+/*Clients*/
+#scrollable .items a.active, #scrollable .items a:hover {
+	outline:2px solid #df0101;
+	*border-width: 3px;
+	*margin: 0px 8px 0;
+}
+
+
+/*Toggle-block*/
+.toggleblock .top, .toggleblock .bottom {
+	box-shadow: none;
+	border: 1px solid #d5d5d5;
+}
+
+
+/*Our team*/
+#ourteam .member {
+	outline: 1px solid #d6d6d6;
+	*border: 1px solid #d6d6d6;
+}
+
+#ourteam .member:hover {
+	outline: 2px solid #c90202;
+}
+
+#ourteam .description {
+	outline: 1px solid #d6d6d6;
+	*border: 1px solid #d6d6d6;
+}
+
+#ourteam .description:before {margin-bottom: 1px;}
+
+
+/*Banners*/
+.twitter .link {
+ 	-pie-background: linear-gradient(top, #3dc0d6, #309dc6);
+}
+
+.twitter .link:hover{
+	-pie-background: #ec4848;
+}

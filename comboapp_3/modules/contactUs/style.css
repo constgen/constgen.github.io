@@ -1,0 +1,45 @@
+#contactUs {
+	padding: 10px 30px;
+
+	background: #ffffff;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+}
+	#contactUs h3 {
+		padding: 10px 0 15px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #e6e6e6;		
+	}
+	#contactUs .row {
+		padding: 10px 0;
+		white-space: nowrap;
+	}
+		#contactUs .row input,
+		#contactUs .row textarea{
+			width: 170px;
+			display: inline;
+			margin: 0;
+		}
+		#contactUs .row textarea {width: 203px;}
+		#contactUs .row label {
+			width: auto;
+			display: inline;
+			vertical-align: middle;
+			padding-left: 10px;
+		}
+
+	#contactUs .label {
+		position: absolute; top: -7px; right:-5px;
+		width: 162px; height:101px;
+		background: url(images/label.png) 0 0 no-repeat;
+	}
+
+    #contactUs .label.reseller {
+		background: url(images/label-reseller.png) 0 0 no-repeat;
+	}
+
+    #contactUs select {
+		margin-bottom: 0;
+        width: 216px;
+	}

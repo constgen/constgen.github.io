@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.spoiler {
+    zoom: 1;
+    display: inline-block\9;
+}
+.spoiler .spoiler-button {
+    color: #3D6AA2;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px 20px 8px 0;
+    width: 45px;
+    background: url(images/arrow.png) no-repeat top right transparent;
+}
+
+.spoiler .spoiler-button:hover,
+.spoiler .spoiler-button.unactive {
+    color: #07355E;
+}
+.spoiler .spoiler-button.active {
+    background-position: 40px -4px;
+    color: #07355E;
+}
+.spoiler .spoiler-button.unactive {
+    background-position: 40px -48px;
+    color: #07355E;
+}
+.spoiler .spoiler-body {
+    display: none;
+}

@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+
+/* OLD-BROWSER
+-----------------------------------------------------------------------------*/
+#oldBrowser {
+	position: relative;
+	padding: 30px;
+	background: rgba(255,255,255,0.45);
+}
+	#oldBrowser h2 {
+		font:30px/120% 'MyriadPro', sans-serif;
+		font-weight: normal;
+		padding: 0 0 0 0;
+		margin: 0;
+	}
+	#oldBrowser h3 {
+		font:22px/120% 'MyriadPro', sans-serif;
+		font-weight: bold;
+		padding: 1em 0 0 0;
+		margin: 0;
+		clear: both;
+	}
+	#oldBrowser h4 {
+		font:15px/120% 'MyriadPro', sans-serif;
+		font-weight: bold;
+		padding: 1em 0;
+		margin: 0;
+	}
+	#oldBrowser p {
+		font:15px/120% 'MyriadPro', sans-serif;
+		padding: 0.5em 0;
+		margin: 0;
+	}
+	#oldBrowser .column50 {
+		float: left;
+		width: 48%;
+		padding:0;
+		vertical-align: top;
+	}
+	#oldBrowser .column50.last {
+		padding-left: 3%;
+	}
+
+	#oldBrowser .download {
+		padding: 20px 10px 20px 80px;
+	}
+	#oldBrowser .download.opera 	{background: url(images/opera.png) no-repeat 0 center;}
+	#oldBrowser .download.firefox	{background: url(images/firefox.png) no-repeat 0 center;}
+	#oldBrowser .download.chrome	{background: url(images/chrome.png) no-repeat 0 center;}
+
+	#oldBrowser .feature1,
+	#oldBrowser .feature2,
+	#oldBrowser .feature3 {
+		padding-bottom: 0;
+		position: relative;
+	}
+
+	#oldBrowser .feature1 span,
+	#oldBrowser .feature2 span,
+	#oldBrowser .feature3 span {
+		position: absolute;
+		bottom: 0; left: -25px;
+		width: 15px; height: 17px;
+		padding-left:2px;
+		text-align: center;
+		background: url(images/ol.png) no-repeat center center;
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaxJREFUeNp0U7FKA0EQ3VkkjQHByipwlTaCoE38An/AJoVEEEUQ9ANEPyJdQLSxC9jYBSy197CwDRxYCYFAyvHN7s7t3BH3mNu9mXdv37y9o9vxumsPctRnx+dY7iN2EQtEiZgixqhXggMm4L19FaOLGKH4jnkoBJTzfSK6w/yFGCiB1D0KytJDfCJ5JQXNC1jWEswslQ3knlF6FJzUvRDioQP4K+aCXbxCXonwciJILYT8EOtB3Q4eLkV62DWpULm23VzXDWiE25Z6cp3YaxWqILfLzpoZlblNeVdItgEsnOOmDy638u+IkCMh6SlwFV7J7Fr9Sb4VHrt21QcyYDa7WYV2hCNg1xEllfqgzsc5rdPJWP1N47kCCZXY+TfLbZrZaCepsj6h/gESXoL1xUrVnpXMEilBzAVFT54i/B6xCP2nS41uk1s/cJ9iozcfu2f44k7VF9PvSkPTbyA/4YnwespeTHA7RizjkTSPmayp7EqoOkTuh8JnT7XpsuMEhR08PgA0b/uBMUP+BsgDkM1U5VptVHZ9hsIZ5gvEXvq759Iy5u/6qDmr/BNgAEPZz/fvVDOEAAAAAElFTkSuQmCC");
+        *background-image: url("images/ol.png");
+		font: 13px/120% 'MyriadPro', sans-serif;
+		font-weight: normal;
+		color: #ffffff;
+	}

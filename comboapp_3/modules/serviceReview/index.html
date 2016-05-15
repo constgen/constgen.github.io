@@ -1,0 +1,61 @@
+<div id="serviceReview">	
+	<article class="customerReviews">
+		<h3>Customer Reviews</h3>
+		
+		<div class="review">
+			<div class="rating">
+				<input type="hidden" name="val" value="4"> 		<!-- value = His rate -->
+			</div>
+			<span>John Doe on 14/May/2012</span>
+			<p>Really great service! My application was in top 100 during the whole month after the help of ComboApp team! I recommned Top 100 to all who want to reach success in marketing of your application.</p>
+		</div>
+		
+		<div class="review">
+			<div class="rating">
+				<input type="hidden" name="val" value="4">		<!-- value = His rate -->
+			</div>
+			<span>John Doe on 14/May/2012</span>
+			<p>Really great service! My application was in top 100 during the whole month after the help of ComboApp team! I recommned Top 100 to all who want to reach success in marketing of your application.</p>
+		</div>
+		
+		<div class="review">
+			<div class="rating">
+				<input type="hidden" name="val" value="4">		<!-- value = His rate -->
+			</div>
+			<span>John Doe on 14/May/2012</span>
+			<p>Really great service! My application was in top 100 during the whole month after the help of ComboApp team! I recommned Top 100 to all who want to reach success in marketing of your application.</p>
+		</div>
+	</article>
+	<div class="leaveReview">
+		<h3>Satisfied with this service? Leave your review:</h3>
+		<form class="reviewForm">
+			<div class="formRow">
+				<input type="text" name="name" required>
+				<label for="name">Name <span class="required">*</span></label>
+			</div>
+			<div class="formRow">
+				<input type="text" name="company" required>
+				<label for="company">Company <span class="required">*</span></label>
+			</div>
+			<div class="formRow">
+				<input type="email" name="email" required>
+				<label for="email">Email <span class="required">*</span></label>
+			</div>
+			<div class="formRow">
+				<label style="margin: 0; padding: 0">Rate this service <span class="required">*</span></label>
+				<input type="text" name="rating" id="rating" required>	<!-- from this field you can grab rating. It's int number from 1 to 5 -->
+				<div class="rating"></div>
+			</div>
+			<div class="formRow">
+				<textarea></textarea>
+			</div>
+			<div class="formRow">
+				<input type="submit" class="gray" value="Send Review &raquo;">
+			</div>
+
+			<div class="message">
+				bla bla bla moderation
+			</div>
+		</form>	
+	</div>
+</div>

@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Morton Pro Calculator</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<!--mobile-friendly meta-->
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="width" />
+	<!--<link rel="alternate" media="handheld" href="" />-->
+	
+	<!--<meta name="viewport" content="target-densitydpi=device-dpi" />--><!--for Androin-->
+	<script>if(-[1,]) document.write('\
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />\
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />\
+	<link rel="apple-touch-startup-image" href="images/startup.jpg">\
+	<meta name="apple-mobile-web-app-capable" content="yes" />\
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />\
+	')</script>	
+	
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen, handheld" />	
+	<!--[if lte IE 8]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+<noscript>
+	<div class="noscript">Enable JavaScript in your browser</div>
+</noscript>
+
+<div id="wrapper">
+
+	<div id="index">
+		<!--wrapper-->
+		<div class="wrapper">
+			<img id="logo" src="images/logo@2x.png" width="66" height="24" alt="Morton">
+			<div class="intro">
+				<p>Not all ice melters are created equal. Some are "safer" for plant and surfaces, while some are "faster" at melting ice and snow. Choosing the right melter for your environmental and safety needs can not only help save time and money, it can also help reduce unnecessary damage to concrete and plants.</p>
+				<p>Morton's Ice Melt Application Calculator can help you select the best melter based for your current weather conditions and determine how much to apply. Just input the temperature and surface area, and let our calculator do the rest.</p>
+			</div>
+			
+			<div id="form">
+				
+				<div id="degree" class="degree" data-value="f"><span class="first active">F<sup>o</sup></span><span class="last">C<sup>o</sup></span></div>
+				<form onSubmit="document.getElementsByTagName('input')[0].blur(); document.getElementsByTagName('input')[1].blur(); return false">
+					<label class="longlabel">Enter Surface Temperature</label>
+					<input name="temperature" type="number" value="">
+					
+					<div class="checkbox" id="temperature-type" style="display:none;">
+						<span class="first">air</span>
+						<span class="last active">surface</span>
+					</div>
+					<div class="surfacetext">Use air temperature, if surface<br> temperature is unavailable</div>
+					<!--<hr>-->
+					<label>Enter Surface Area</label>
+					<input name="area" type="number" value="">
+					<div class="checkbox" id="area-type">
+						<span class="first active">sq feet</span>
+						<span class="last">acres</span>
+					</div>
+					<input tabindex="-1" id="submit" type="submit" style="position:absolute;top:101%;height:0;width:0;overflow:hidden; ">
+				</form>
+			</div>
+			
+			<div id="button">Calculate</div>
+			
+			<div class="terms">
+				<h4>Terms of Use</h4>
+				<p>The information presented herein is based upon our own research and general experience and is believed to be accurate and reliable. However, you should conduct your own test to evaluate the effectiveness of deicing products under you own test conditions prior to use. As you can appreciate, since the conditions of handling, use and testing are beyond our control, we make no guarantee of results and assume no liability for direct or consequential damages incurred by following these suggestions. Nothing contained herein is to be construed as a recommendation for use in violation of any patents or of applicable laws and regulations. Recommended amounts are intended for use on bare pavement.</p>
+			</div>
+			
+		</div>
+	</div>
+	<div id="result">
+		<!--wrapper-->
+		<div class="wrapper">
+		
+		<div id="salt" class="block">
+			<div class="salt">
+				<h3>Morton&reg; Safe-T-Salt&reg;</h3>
+				<div class="image">
+					<img src="images/morton_product_1@2x.png" width="317" height="450" alt="Safe-T-Salt">
+					<img class="recom-image" src="images/recommended@2x.png" width="84" height="84" alt="">
+				</div>
+			</div>
+			<div class="space"></div>
+			<div class="ecosafe">
+				<div class="image">
+					<img src="images/morton_product_2@2x.png" width="326" height="450" alt="EcoSafe Ice Melter">
+					<img class="recom-image" src="images/recommended@2x.png" width="84" height="84" alt="">
+				</div>
+				<h3>Morton&reg; EcoSafe Ice Melter</h3>
+			</div>
+			
+			<div class="min-max">
+				<div class="min"><span>0 bags</span> (<span>0</span> lbs)</div>
+				<div class="max"><span>0 bags</span> (<span>0</span> lbs)</div>
+			</div>
+			
+			<div class="scale"><div><span></span></div></div>
+			<span class="stupidtext left">Anti-Ice Application</span>
+			<span class="stupidtext right">Hard-Packed Snow & Ice Removal</span>
+		</div>
+		
+		<div id="blend" class="block">
+			<h3>Morton&reg; Ice Melter Blend</h3>
+			
+			<div class="image left">
+				<img src="images/morton_product_3@2x.png" width="333" height="450" alt="Ice Melter Blend">
+				<img class="recom-image" src="images/recommended@2x.png" width="84" height="84" alt="">
+			</div>
+			<div class="image right">
+				<img src="images/morton_product_4@2x.png" width="335" height="450" alt="Ice Melter Blend">
+				<img class="recom-image" src="images/recommended@2x.png" width="84" height="84" alt="">
+			</div>
+			
+			<div class="min-max">
+				<div class="min"><span>0 bags</span> (<span>0</span> lbs)</div>
+				<div class="max"><span>0 bags</span> (<span>0</span> lbs)</div>
+			</div>
+			
+			<div class="scale"><div><span></span></div></div>
+			
+			<span class="stupidtext left">Anti-Ice Application</span>
+			<span class="stupidtext right">Hard-Packed Snow & Ice Removal</span>
+		</div>
+		
+		<div id="calcium" class="block">
+			<div class="calcium">
+				<h3>Morton&reg; Calcium Chloride</h3>
+				<div class="image">
+					<img src="images/morton_product_5@2x.png" width="327" height="450" alt="Calcium Chloride">
+					<img class="recom-image" src="images/recommended@2x.png" width="84" height="84" alt="">
+				</div>
+			</div>
+			
+			<div class="min-max">
+				<div class="min"><span>0 bags</span> (<span>0</span> lbs)</div>
+				<div class="max"><span>0 bags</span> (<span>0</span> lbs)</div>
+			</div>
+			
+			<div class="scale"><div><span></span></div></div>
+			
+			<span class="stupidtext left">Anti-Ice Application</span>
+			<span class="stupidtext right">Hard-Packed Snow & Ice Removal</span>
+			
+		</div>
+		
+		<div id="magnesium" class="block">
+			<div class="magnesium">
+				<div class="image">
+					<img src="images/morton_product_6@2x.png" width="295" height="450" alt="Magnesium Chloride">
+					<img class="recom-image" src="images/recommended@2x.png" width="84" height="84" alt="">
+				</div>
+				<h3>Morton&reg; Magnesium Chloride</h3>
+			</div>
+			
+			<div class="min-max">
+				<div class="min"><span>0 bags</span> (<span>0</span> lbs)</div>
+				<div class="max"><span>0 bags</span> (<span>0</span> lbs)</div>
+			</div>
+			
+			<div class="scale"><div><span></span></div></div>
+			
+			<span class="stupidtext left">Anti-Ice Application</span>
+			<span class="stupidtext right">Hard-Packed Snow & Ice Removal</span>
+		</div>
+
+		<div id="backbutton">Back</div>
+		<div id="homebutton">Home</div>
+		</div>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="index.js?v=1"></script>
+</html>

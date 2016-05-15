@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+/* HEADER
+-----------------------------------------------------------------------------*/
+
+#header {
+    background: #121820;
+    padding: 26px 0;
+}
+
+
+#header .logo {
+    display: inline-block;
+    height: 66px;
+    margin-right: 20px;
+    vertical-align: middle;
+    width: 160px;
+}
+#header .logo img.logoSocial {
+    height:0;
+    width: 0;
+    visibility: hidden;
+}
+#header .logo img {
+    width: 160px;
+}
+#header .logo:hover {
+	/*background-position: 0 -79px;*/
+}
+#header .main_menu {
+    width: 630px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+#header .main_menu ul {
+    list-style: none outside none;
+    padding: 0;
+}
+#header .main_menu ul li {
+    padding: 0 0 0 4px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    *margin: 0;
+}
+#header .main_menu a {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-right: 0;
+    margin-top: 5px;
+    text-decoration: none;
+    position: relative;
+    z-index: 101;
+    *margin-right: 8px;
+}
+#header .main_menu a.mailto {
+    height: 10px;
+}
+#header .main_menu a.call {
+    height: 13px;
+    vertical-align: middle;
+    margin: 0 0 3px 0;
+}
+#header .main_menu a.mailto,
+#header .main_menu a.call {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 14px
+}
+#header .main_menu a.call {background: url(images/call_sprite.jpg) no-repeat top left;}
+#header .main_menu a.call:hover {background-position: 0 -13px;}
+#header .main_menu a.mailto {background: url("images/mailto_sprite.jpg") no-repeat scroll left top transparent;}
+#header .main_menu a.mailto:hover {background-position: 0 -10px;}
+
+#header .main_menu a:active, #header .main_menu a:hover,
+#header .main_menu li.active a, #header .main_menu li a.active {
+    color: #00bce2;
+}
+
+#header .main_menu ul li:before {
+	content: '/';
+	color: #00bce2;
+	padding-right: 8px;
+        *padding-right: 0;
+}
+#header .main_menu ul li:first-child {padding-left: 0;}
+#header .main_menu ul li:first-child:before {display: none;}
+
+#header .main_menu ul li .slash {
+    color: #00BCE2;
+    padding-right: 6px;
+}

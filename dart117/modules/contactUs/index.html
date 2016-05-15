@@ -1,0 +1,49 @@
+﻿
+<div data-module="contactUs" id="contactUs">
+    
+    <div id="contactUsOverlay" class="accelerated"></div>
+
+    <div id="contactUsWrapper" class="accelerated largeHeight">
+        <div class="form-close-button">
+            <a href="#">Close</a>
+        </div>
+        <form action="#" method="post" class="visible">
+            <h2>Contact us</h2>
+            <div class="row error">
+                <div class="errorMessage">Name cannot be blank.</div>
+                <label class="required" for="Name">Name<span class="required">*</span></label>
+                <input type="text" required="" name="Name">
+            </div>
+            <div class="row">
+                <div class="errorMessage">Email cannot be blank.</div>
+                <label for="email" class="required">Email<span class="required">*</span></label>
+                <input type="email" name="email" required="">
+            </div>
+            <div class="row">
+                <label class="required" for="Company">Company</label>
+                <input type="text" required="" name="Company">
+            </div>
+            <div class="row">
+                <label for="Budget" class="required">Budget<span class="required">*</span></label>
+                <select name="Budget">
+                    <option value="">1000</option>
+                    <option value="">2000</option>
+                    <option value="">3000</option>
+                </select>
+            </div>
+
+            <div class="bottom error">
+                <div class="errorMessage">Describe your project cannot be blank.</div>
+                <label class="required" for="details">Describe your project<span class="required">*</span></label>
+                <textarea required="" name="details"></textarea>
+                <input type="submit" value="Send" class="button hid">
+                <button class="process-button vis">Processing <span class="spinner"></span></button>
+            </div>
+        </form>
+        <div class="success-message hidden">
+            <h2>Thank you!</h2>
+            <p>Your message was successfully sent! Our manager will give you the answer within 1-2 business days.</p>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+.formContactInformation {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #4a4a4a;    
+}
+
+.formContactInformation form{
+    width: 940px;
+}
+
+.formContactInformation .description {
+    padding: 10px 0 20px 0;
+}
+
+.formContactInformation .description:first-child {
+    padding: 10px 0;
+    border-bottom: none;
+}
+
+.formContactInformation label {
+    padding: 7px 0 0 0;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #4a4a4a;
+}
+
+.formContactInformation input[type="text"] {
+    margin: 0 0 10px 0;
+    width: 230px;
+    height: 28px;
+    border: 1px solid #dedede;
+    font-size: 13px;
+    border-radius: 14px;
+}
+
+.formContactInformation label {
+    width: 100px;
+}
+
+.formContactInformation p {
+    margin: 20px 0 20px 25px;
+    width: 355px;
+    line-height: 20px;
+}
+.formContactInformation p:first-child {
+    margin-top: 0px;
+}
+
+.formContactInformation p.fade {
+    font-style: italic;
+    color: #8f8f8f;
+}
+
+.formContactInformation .form-wrap div {
+    margin: 10px 0 10px 25px;
+}
+
+.formContactInformation input[type="submit"] {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 0;
+    width: 140px;
+    height: 50px;
+    background: url(images/button.png) no-repeat;
+    color: #171717;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 48px;
+    border: none;
+    box-shadow: none;
+}

@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+
+
+
+.shortcuts
+{
+	width: auto;
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+
+	text-align: justify;
+	line-height: 0;
+	font-size: 1px;
+	text-justify: newspaper;
+	zoom:1;
+	text-align-last: justify;
+}
+		.shortcuts:after {
+				content: ''; 
+				display: inline-block;
+				*display: inline; 
+				zoom: 1;
+				width: 100%; height: 0px;
+				visibility: hidden; overflow: hidden;}
+
+.shortcuts article
+{
+	background: none;
+	line-height: normal;
+}
+
+.shortcuts .service
+{
+	width: 220px;
+	padding: 15px 10px 15px 20px;
+
+	display: inline-block;
+	*display: inline; 
+	zoom: 1;
+	text-align: left;
+	vertical-align:top;
+	line-height: normal;
+	font-size: 13px;
+}
+
+.shortcuts .title
+{
+	display: inline-block;
+	*display: inline; 
+	zoom: 1;
+	vertical-align: top;
+	margin: 10px 0 0;
+	width: 170px;
+}
+
+.shortcuts .pack .title
+{
+	font-size: 20px;
+	width: 147px;
+}
+
+.shortcuts .service li {background-position: 0 6px;}
+
+.shortcuts img {
+	display: inline-block;
+	*display: inline; 
+	zoom: 1;
+	vertical-align: top;
+	width: 36px;
+	height: auto;
+	margin-right: 7px;
+}
+
+.shortcuts .pack img
+{
+	width: 58px;
+}
+
+.shortcuts .description
+{
+	margin: 10px 0 20px;
+	padding: 0;
+}
+
+.shortcuts .price
+{
+	display: inline-block;
+	*display: inline; 
+	zoom: 1;
+	vertical-align: middle;
+	color: #000;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.shortcuts .pack .price
+{
+	font-size: 19px;
+}

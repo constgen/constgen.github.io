@@ -1,0 +1,40 @@
+.slide_03 {
+    position: relative;
+	width: 100%;
+	height: 100%;
+	background:url(images/slide_02bg.png) no-repeat;
+}
+.slide_map {
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.slide_map a{
+    position: absolute;
+}
+.slide_map a.macworld {
+    height: 113px;
+    left: 55px;
+    top: 40px;
+    width: 374px;
+}
+.slide_map a.mobilemarket {
+    height: 121px;
+    left: 95px;
+    top: 172px;
+    width: 332px;
+}
+.slide_map a.plugg {
+    height: 115px;
+    left: 522px;
+    top: 40px;
+    width: 377px;
+}
+.slide_map a.mobyaffiliates {
+    height: 104px;
+    left: 541px;
+    top: 200px;
+    width: 362px;
+}

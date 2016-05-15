@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+
+.overlay {
+    background: none repeat scroll 0 0 transparent;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.socialButtons {
+    background: none repeat scroll 0 0 #52A7F2;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    display: block;
+    padding: 10px 0 5px;
+    position: absolute;
+    bottom: 115px;
+    width: 20%;
+    z-index: 4;
+    min-width: 70px;
+
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .socialButtons {
+        width: 100%;
+    }
+}
+.socialButtons:after {
+    border-color: #52A7F2 transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    height: 0;
+    left: 47%;
+    position: absolute;
+    top: 100%;
+    width: 0;
+}
+.socialButtons.vis {
+    opacity: 1;
+}
+.socialButtons.hid {
+    opacity: 0;
+}
+
+.socialButtons .close {
+    background: no-repeat scroll right top transparent;
+    height: 190%;
+    position: absolute;
+/*    right: -25px;
+    top: -16px;*/
+    width: 100%;
+    z-index: 4;
+}
+/*.socialButtons .close:hover {
+    background: url("images/close_hover.png") no-repeat scroll right top transparent;
+    border-radius: 4px;
+}*/
+
+.socialButtons .close:hover {
+    cursor: pointer;
+}
+/*.socialButtons>.arrow {
+        position:absolute; left:-10px; top:50%; margin-top:-8px;
+        display:block;
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid #fff;
+}*/
+
+/*.socialButtons:after {
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #FFFFFF;
+    left: 50px;
+    top: 44px;
+}*/
+
+@media all and (max-width: 640px) {
+    .socialButtons {
+        bottom: 105px;
+        width: 17%;
+    }
+    .socialButtons:after {
+        left: 42%;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .socialButtons {
+            width: 100%;
+        }
+    }
+}
+@media all and (max-width: 480px) {
+/*    .socialButtons {
+        bottom: 80px;
+    }*/
+}
+}
+@media all and (max-height: 360px) {
+    .socialButtons {
+        bottom: 0;
+        width: 100%;
+        right: 115px;
+    }
+}

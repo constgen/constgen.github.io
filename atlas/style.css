@@ -1,0 +1,534 @@
+/*11.01.2011 16:12 */
+/*
+Theme Name: Atlas-auto
+Description: 
+Version: 0.42
+Author: 
+Author URI: 
+Tags: fixed width, two columns, brown
+Text Domain: 
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+	overflow: auto;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	color: #f9f5a3;
+	background-color: #20120a;
+	background-image: url(images/bg-body.png);
+	background-repeat: repeat;
+	cursor: default;
+	background-position: center top;
+}
+a {
+	color: #ca5c00;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+:focus {  -moz-outline-style:none; outline:none;}
+
+a, a:active {  outline:none;}
+
+img {border: none;}
+
+input, button, label {
+	vertical-align: middle; 
+	outline: none;
+}
+
+.extra-bg {
+	background-image: url(images/bg-bottom.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 411px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/*outline: 1px dotted #fff;*/
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 350px;
+	background-image: url(images/bg-header.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: center top;
+}
+
+#logo {
+	display: block;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+}
+
+#logo img{
+	display: block;
+}
+
+#description {
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	text-align: right;
+	font-style: italic;
+}
+
+#description span{	font-size: 15px;  display: block;}
+
+#header .tel {
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	font-size: 24px;
+	text-align: right;
+}
+
+#header .tel span { font-size: 12px; display: block;}
+
+
+
+/* Mainmenu
+-----------------------------------------------------------------------------*/
+
+#mainmenu {
+	top: 271px;
+	position: absolute;
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+	width: 100%;
+	height: 41px;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+#mainmenu a{
+	color: #fff799;
+	text-decoration: none;
+	margin: 0 63px 0 0;
+	cursor: pointer;
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+}
+
+#mainmenu a div {
+	float: left;
+	height: 41px;
+	line-height: 38px;	
+}
+
+#mainmenu a.active div{
+	background-image: url(images/bg-menu-hover.png);
+}
+
+#mainmenu a.active div.c, #mainmenu a.active:hover div.c {
+	background-image: url(images/bg-menu-hover.png);
+	background-position: left bottom;
+}
+
+#mainmenu a:hover div.c {
+	background: none;
+}
+
+#mainmenu a .l {
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 25px;	
+}
+
+#mainmenu a .r {
+	background-repeat: no-repeat;
+	background-position: right top;
+	width: 25px;
+}
+
+#mainmenu a .c {
+	background-repeat: repeat-x;
+	background-position: left 28px;
+	background-image: url(images/menu-underline.png);
+}
+
+/* Mainmenu for WordPress*/
+#mainmenu li {
+	display: inline-block;
+	list-style-type: none;
+	*display: inline;
+	*zoom:1;
+}
+
+#mainmenu li.current_page_item a div{
+	background-image: url(images/bg-menu-hover.png);
+}
+
+#mainmenu li.current_page_item a div.c, #mainmenu li.current_page_item a:hover div.c {
+	background-image: url(images/bg-menu-hover.png);
+	background-position: left bottom;
+}
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 164px;/*110+54*/
+	height: 1%;
+	position: relative;
+	z-index: 1;
+}
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 0 354px 0 17px;
+}
+
+#content p{
+	cursor: text;
+}
+
+#slider {
+	width: 568px;
+	height: 293px;
+	position: relative;
+	left: -17px;
+}
+
+#slider .border-left {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image: url(images/border-left.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 100%;
+	width: 20px;
+}
+
+#slider .border-right {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-image: url(images/border-right.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 100%;
+	width: 20px;
+}
+
+#slider .border-top {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 0px;
+	background-image: url(images/border-top.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 20px;
+}
+
+#slider .border-bottom {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 0px;
+	background-image: url(images/border-bottom.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	height: 20px;
+}
+
+#slider .scrollable {
+	width: 560px;
+	height: 285px;
+	position: relative;
+	overflow: hidden;
+	top: 3px;
+	left: 4px;
+}
+
+.items { 
+	position: absolute;
+	width: 2000em;
+}
+
+.items div{ 
+	float: left;
+}
+
+#slider .next {
+	background-image: url(images/button-right.png);
+	height: 27px;
+	width: 18px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
+
+#slider .prev {
+	background-image: url(images/button-left.png);
+	height: 27px;
+	width: 18px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+
+}
+
+.next, .prev {
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+.next:hover, .prev:hover {
+	background-position: left bottom;	
+}
+
+.disabled { visibility: hidden !important;}
+
+
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	width: 308px;
+	padding-left: 26px;
+	margin-left: -334px;/*308+26*/
+	position: relative;
+}
+
+.button-list, .button-find, .button-deliver {
+	display: block;
+	height: 86px;
+	width: 308px;
+	margin-bottom: 17px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.button-list {
+	background-image: url(images/button-list.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.button-find {
+	background-image: url(images/button-find.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.button-deliver {
+	background-image: url(images/button-deliver.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.button-list:hover, .button-find:hover, .button-deliver:hover {background-position: left bottom;}
+
+
+
+
+
+
+
+/* Carusel
+-----------------------------------------------------------------------------*/
+
+#carusel {
+	width: 864px;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 1px;
+	position: relative;
+}
+
+#carusel .scrollable {
+	height: 126px;
+	position: relative;
+	overflow: hidden;
+}
+
+#carusel .items a.thumb {
+	display: block;
+	float: left;
+	margin-right: 17px;
+	padding: 4px;
+	height: 118px;/*126-4-4*/
+	width: 120px;/*128-4-4*/
+	text-align: center;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: left top;
+	color: #f9f5a3;
+}
+
+#carusel .items a.thumb:hover {
+	background-image: url(images/bg-thumb-hover.png);
+	text-decoration: underline;
+}
+
+#carusel .items a.thumb img {
+	display: block;
+	margin: 5px auto;
+}
+
+#carusel .next {
+	background-image: url(images/bg-next.png);
+	height: 49px;
+	width: 33px;
+	position: absolute;
+	bottom: 51px;
+	right: -40px;
+}
+
+#carusel .prev {
+	background-image: url(images/bg-prev.png);
+	height: 49px;
+	width: 33px;
+	position: absolute;
+	bottom: 51px;
+	left: -49px;
+
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width: 100%;
+	margin: -110px 0 0;
+	height: 110px;
+	font-size: 12px;
+	overflow: visible;
+	position: relative;
+}
+
+#footer .wrapper {
+	width: 924px;
+	margin: 0 auto;
+	height: 110px;
+	border-top: 1px solid #ffffb1;
+	position: relative;
+	z-index: 1;
+}
+
+
+#footer a {
+	text-decoration: none;
+	background-image: url(images/link-underline.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+#footer p { margin-top: 35px; margin-left: 12px; }
+
+#footermenu {
+	top: 35px;
+	right: 12px;
+	position: absolute;
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+}
+
+#footermenu a{
+	color: #fff799;
+	text-decoration: none;
+	margin: 0 0 0 25px;
+	background-image: url(images/menu-underline-footer.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+#footer a:hover { background: none;}
+
+/* Footermenu for WordPress*/
+#footermenu li {
+	list-style-type: none;
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+}
+
+
+
+
+
+/* Headers
+-----------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5 {font-weight: normal;}
+
+h2 {
+	font-family: "MyriadPro", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #fff799;
+	text-transform: uppercase;
+	margin: 44px 0 24px;
+}
+
+h4 {
+	font-family: "MyriadPro", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ca5c00;
+	margin-top: 14px;
+}
+
+h5 {
+	font-family: "MyriadPro", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f9f5a3;
+}

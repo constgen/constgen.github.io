@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+
+
+
+.navPrevNext .navBlock {
+    display: block;
+    height: 40px;
+    margin: 15px 0;
+    position: relative;
+}
+
+
+.navPrevNext .navBlock a.prev {
+    background: url("./images/sprite.png") no-repeat scroll left top transparent;
+    color: #000000;
+    display: inline-block;
+    height: 39px;
+    left: 0;
+    line-height: 39px;
+    padding-left: 50px;
+    position: absolute;
+    text-align: left;
+    overflow: hidden;
+}
+.navPrevNext .navBlock a.next {
+    background: url("./images/sprite.png") no-repeat scroll right -39px transparent;
+    color: #000000;
+    display: inline-block;
+    height: 39px;
+    line-height: 39px;
+    padding-right: 50px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    overflow: hidden;
+}
+.navPrevNext .navBlock a.prev:hover {
+    background-position: left -78px;
+    color: #003f77;
+}
+
+.navPrevNext .navBlock a.next:hover {
+    background-position: right -117px;
+    color: #003f77;
+}

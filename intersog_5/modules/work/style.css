@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+.work {
+
+}
+	.work .apps {
+		padding: 40px 0;
+		left: 0px;
+		height: 10px;
+		font-size: 0px;
+		line-height: 0;
+		position: relative;
+	}
+	.work .apps.transitionHeight {
+		-webkit-transition: height 0.5s;
+		-moz-transition: height 0.5s;
+		-ms-transition: height 0.5s;
+		-o-transition: height 0.5s;
+		transition: height 0.5s;
+	}
+		.work .noresults {
+			display: block;
+			position: absolute;
+			top: 0px; left: 40px;
+			font-size: 20px;
+			line-height: 100%;
+			color:white;
+			z-index: 1;
+			opacity: 0;
+			filter: alpha(opacity=0);
+
+			-webkit-transition: opacity 0.5s, top 0.5s;
+			-moz-transition: opacity 0.5s, top 0.5s;
+			-ms-transition: opacity 0.5s, top 0.5s;
+			-o-transition: opacity 0.5s, top 0.5s;
+			transition: opacity 0.5s, top 0.5s;
+		}
+		.work .app  {
+			display: block;
+			display:none;
+			width: 290px;
+			height: 280px;
+			position: absolute;
+			overflow: hidden;
+			opacity: 1;
+			filter: alpha(opacity = 100);
+			z-index:2;
+			background: url(/images/0.gif) 0 0 repeat;
+			cursor: pointer;
+
+
+			-webkit-transition: top 1s, left 1s, opacity 0.25s;
+			-moz-transition: top 1s, left 1s, opacity 0.25s;
+			-ms-transition: top 1s, left 1s, opacity 0.25s;
+			-o-transition: top 1s, left 1s, opacity 0.25s;
+			transition: top 1s, left 1s, opacity 0.25s;
+		}
+			.work .app .photo {
+				width:290px; height: 280px;
+				overflow: hidden;
+				z-index:3;
+			}
+				.work .app .photo img {
+					width:290px; height: 280px;
+					/*display: block;*/
+				}
+/*			.app .description*/
+			
+			.work .app .description {
+				background: #2fbacd;
+				bottom: 0;
+				color: #FFFFFF;
+				height: 100%;
+				left: 0;
+				line-height: normal;
+				opacity: 0;
+				filter: alpha(opacity=0);
+				position: absolute;
+				text-align: center;
+				width: 100%;
+				z-index: 1000;
+				display: block;
+				cursor: default;
+			}
+.work .app .description span {
+    top: 100px;
+	left: 0;
+    color: #000000;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    vertical-align: top;
+    width: 230px;
+	padding: 10px 30px;
+}
+.work .app .description a {
+    background: none repeat scroll 0 0 #121820;
+    bottom: 81px;
+    color: #FFFFFF;
+    left: 80px;
+    line-height: 26px;
+    padding: 7px 23px;
+    position: absolute;
+    font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+.work .app .description a:hover {
+	color: #121820;
+	background: none repeat scroll 0 0 #FFF;
+}
+
+.work .app:hover .description {	
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+	transition:opacity 0.25s;
+	-moz-transition:opacity 0.25s;
+	-webkit-transition:opacity 0.25s;
+}
+
+
+
+.work .app.index0   {top:   40px; left:  0px;}
+.work .app.index1   {top:   40px; left: 313px;}
+.work .app.index2   {top:   40px; left: 626px;}
+.work .app.index3   {top:  340px; left:  0px;}
+.work .app.index4   {top:  340px; left: 313px;}
+.work .app.index5   {top:  340px; left: 626px;}
+.work .app.index6   {top:  640px; left:  0px;}
+.work .app.index7   {top:  640px; left: 313px;}
+.work .app.index8   {top:  640px; left: 626px;}
+.work .app.index9   {top:  940px; left:  0px;}
+.work .app.index10  {top:  940px; left: 313px;}
+.work .app.index11  {top:  940px; left: 626px;}
+.work .app.index12  {top: 1240px; left:  0px;}
+.work .app.index13  {top: 1240px; left: 313px;}
+.work .app.index14  {top: 1240px; left: 626px;}
+.work .app.index15  {top: 1540px; left:  0px;}
+.work .app.index16  {top: 1540px; left: 313px;}
+.work .app.index17  {top: 1540px; left: 626px;}
+.work .app.index18  {top: 1840px; left:  0px;}
+.work .app.index19  {top: 1840px; left: 313px;}
+.work .app.index20  {top: 1840px; left: 626px;}
+.work .app.index21  {top: 2140px; left:  0px;}
+.work .app.index22  {top: 2140px; left: 313px;}
+.work .app.index23  {top: 2140px; left: 626px;}
+.work .app.index24  {top: 2440px; left:  0px;}
+.work .app.index25  {top: 2440px; left: 313px;}
+.work .app.index26  {top: 2440px; left: 626px;}
+.work .app.index27  {top: 2740px; left:  0px;}
+.work .app.index28  {top: 2740px; left: 313px;}
+.work .app.index29  {top: 2740px; left: 626px;}
+.work .app.index30  {top: 3040px; left:  0px;}
+.work .app.index31  {top: 3040px; left: 313px;}
+.work .app.index32  {top: 3040px; left: 626px;}
+.work .app.index33  {top: 3340px; left:  0px;}
+.work .app.index34  {top: 3340px; left: 313px;}
+.work .app.index35  {top: 3340px; left: 652px;}
+.work .app.index36  {top: 3640px; left:  0px;}
+.work .app.index37  {top: 3640px; left: 313px;}
+.work .app.index38  {top: 3640px; left: 626px;}
+.work .app.index39  {top: 3940px; left:  0px;}
+.work .app.index40  {top: 3940px; left: 313px;}
+.work .app.index41  {top: 3940px; left: 626px;}
+.work .app.index42  {top: 4240px; left:  0px;}
+.work .app.index43  {top: 4240px; left: 313px;}
+.work .app.index44  {top: 4240px; left: 626px;}
+.work .app.index45  {top: 4540px; left:  0px;}
+.work .app.index46  {top: 4540px; left: 313px;}
+.work .app.index47  {top: 4540px; left: 626px;}
+.work .app.index48  {top: 4840px; left:  0px;}
+.work .app.index49  {top: 4840px; left: 313px;}
+.work .app.index50  {top: 4840px; left: 626px;}
+.work .app.index51  {top: 5140px; left:  0px;}
+.work .app.index52  {top: 5140px; left: 313px;}
+.work .app.index53  {top: 5140px; left: 626px;}
+.work .app.index54  {top: 5440px; left:  0px;}
+.work .app.index55  {top: 5440px; left: 313px;}
+.work .app.index56  {top: 5440px; left: 626px;}
+.work .app.index57  {top: 5740px; left:  0px;}
+.work .app.index58  {top: 5740px; left: 313px;}
+.work .app.index59  {top: 5740px; left: 626px;}
+
+.work .app.hidden {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: 1;
+	cursor: default;
+}

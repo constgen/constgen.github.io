@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Atlas-auto - Главная</title>
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+	
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+<div id="page">
+	
+	<!--HEADER-->
+	<div id="header">
+		<a id="logo" href="index.html"><img src="images/logo.png" width="108" height="99"></a>
+		<!--<div id="description">Ретро авто&nbsp;&nbsp;&nbsp;<span>на любой вкус</span></div>-->
+		<div class="tel">
+			+ 3 (456) 785 765
+			<span>с 10:00 до 20:00</span>
+		</div>		
+		<ul id="mainmenu">
+			<li class="current_page_item" ><a href="about.html"><div class="l"></div><div class="c">О нас</div><div class="r"></div></a></li>
+			<li><a href="catalog.html"><div class="l"></div><div class="c">Каталог</div><div class="r"></div></a></li>
+			<li><a href="history.html"><div class="l"></div><div class="c">История</div><div class="r"></div></a></li>
+			<li><a href="#"><div class="l"></div><div class="c">Наличие</div><div class="r"></div></a></li>
+			<li><a href="contacts.html"><div class="l"></div><div class="c">Контакты</div><div class="r"></div></a></li>
+		</ul>
+		
+	</div><!--END HEADER-->
+	
+	<!--MIDDLE-->
+	<div id="middle">
+		
+		<!--CONTAINER-->
+		<div id="container">
+			<!--CONTENT-->
+			<div id="content">
+				
+				<div id="slider">
+					
+					<div class="scrollable">
+						<div class="items">
+						<div><img src="gallery/img1.jpg" width="560" height="285" alt=""></div>
+						<div><img src="gallery/img2.jpg" width="560" height="285" alt=""></div>
+						<div><img src="gallery/img3.jpg" width="560" height="285" alt=""></div>
+						</div><!--end items-->
+					</div><!--end scrollable-->
+
+					<div class="border-left"></div>
+					<div class="border-right"></div>
+					<div class="border-top"></div>
+					<div class="border-bottom"></div>
+					
+					<a class="prev"></a>
+					<a class="next"></a>
+					
+				</div><!--end slider-->
+				
+				<script>
+				jQuery(function($) {
+					$("#slider .scrollable")
+					.scrollable({ 
+						circular: true, 
+						mousewheel: false
+					})
+					.navigator({		
+						// select #flowtabs to be used as navigator
+						navi: "#flowtabs",		
+						// select A tags inside the navigator to work as items (not direct children)
+						naviItem: 'a',			
+						// assign "current" class name for the active A tag inside navigator
+						activeClass: 'current',		
+						history: false	
+					})
+					.autoscroll(5000);
+				});
+				</script>
+				
+				<h2>Атлас Авто это:</h2>
+				<p>Разве не здорово, если автомобиль будет дожидаться Вашего прибытия, чтобы Вам не пришлось стоять в очереди? Или каждый раз, повторять Ваши данные при бронировании? Мы выполняем наше обещание <a href="#">"прилагать больше усилий"</a> и предлагаем Вам <a href="#">"AVIS Preferred"</a> - самый быстрый и лёгкий способ орендовать автомобиль.</p>
+
+				<p>Участники "Атлас авто" должны всего лишь представить нам действующие водительскиое удостоверение, чтобы получить ключи от автомобиля. В некоторых пунктах AVIS, ключи уже будут в автомобиле. Без суеты, <a href="#">заполнения регистрационной формы</a>, и бесплатно! Чтобы стать уастником "AVIS Preferred" просто заполните приложенную ниже анкету и мы оформим Вашу клубную карту.</p>
+
+			</div><!--END CONTENT-->
+		</div><!--END CONTAINER-->
+
+
+		<div id="sideRight">
+			<a class="button-list" href="#"></a>
+			<a class="button-find" href="#"></a>
+			<a class="button-deliver" href="#"></a>
+			<div class="block-contats">
+				<h2>Контакты:</h2>
+				<h4>Мы находимся по адресу:</h4>
+				Украина. Одесса.<br />
+				Маразлиевская 34 / 2 <br />
+				
+				<h4>Телефон:</h4>
+				+3 (456) 567 874<br />
+				
+				<h4>Почта:</h4>
+				E-mail: info@sierraclassics.com<br />
+				
+			</div>
+		</div><!-- #sideRight -->
+		
+		<div id="carusel">
+			<h2>Новые автомобили:</h2>
+			<div class="scrollable">
+				<div class="items">
+				
+					<div>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""><h5>76 Coupe Pontiak</h5></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""><h5>76 Coupe Pontiak</h5></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""><h5>76 Coupe Pontiak</h5></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""><h5>76 Coupe Pontiak</h5></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""><h5>76 Coupe Pontiak</h5></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""><h5>76 Coupe Pontiak</h5></a>
+					</div>
+					<div>	
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+					</div>
+					<div>	
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+					</div>
+					<div>	
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+						<a href="#" class="thumb"><img src="gallery/pict1.jpg" width="107" height="80" alt=""></a>
+					</div>
+						
+				</div><!--end items-->
+			</div><!--end scrollable-->
+			<a class="prev"></a>
+			<a class="next"></a>
+		</div>
+		
+		<script>
+		jQuery(function($) {
+			$("#carusel .scrollable")
+			.scrollable({ 
+				circular: false, 
+				mousewheel: false
+			})
+			.navigator({		
+				// select #flowtabs to be used as navigator
+				navi: "#flowtabs",		
+				// select A tags inside the navigator to work as items (not direct children)
+				naviItem: 'a',			
+				// assign "current" class name for the active A tag inside navigator
+				activeClass: 'current',		
+				history: false
+			})
+		});
+		</script>
+		
+	</div><!--END MIDDLE-->
+
+</div><!-- #page -->
+
+<!--FOOTER-->
+<div id="footer">
+	<!--bottom darkness--><div class="extra-bg"></div>
+	<div class="wrapper">
+		<p>&copy; 2006-2010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="sitemap.html">карта сайта</a></p>	
+		<ul id="footermenu">
+			<li><a href="about.html">О нас</a></li>
+			<li><a href="catalog.html">Каталог</a></li>
+			<li><a href="history.html">История</a></li>
+			<li><a href="#">Наличие</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+	</div>
+</div><!--END FOOTER-->
+
+</body>
+</html>

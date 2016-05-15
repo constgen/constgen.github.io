@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mortonnews>
+	<!--
+	<newscatagory>
+		<title></title>
+		<newsitem>
+			<title urllink=""></title>
+			<description><![CDATA[]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink=""></title>
+			<description><![CDATA[]]></description>
+		</newsitem>
+	</newscatagory>
+	-->
+	<newscatagory>
+		<title>NEWS</title>
+		<newsitem>
+			<title urllink="http://mortonmelters.com/videos/weather%20channel.wmv">Weather Channel</title>
+			<description><![CDATA[]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://www.charlottereed.com/pet-tips.html">10 Cold Weather Pet Tips</title>
+			<description><![CDATA[Charlotte Reed Pet Expert]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://petsaremybusiness.blogspot.com/2010/11/holiday-pets.html">Holiday Pets</title>
+			<description><![CDATA[Pets Are My Business Blog]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://www.pioneerlocal.com/lakeforest/news/2930292,lake-forest-bobgarianocolumn-120210-s1.article">View from Bob Gariano's Office in Market Square: Salt of the earth: Morton still a big success</title>
+			<description><![CDATA[Lake Forester]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://www.fosters.com/apps/pbcs.dll/article?AID=/20101205/GJCOMMUNITY_01/712059959/-1/FOSLIFESTYLES">At last, a pet-safe snow melt product</title>
+			<description><![CDATA[Fosters]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://www.wordsearchpuzzledreams.com/2010/12/morton-salt-prize-pack-giveaway.html">Morton Salt Prize Pack Giveaway</title>
+			<description><![CDATA[Sammi’s Blog of Life]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://momstart.com/2010/11/morton-safe-t-pet-ice-melt/">Morton Safe T Pet Ice Melt</title>
+			<description><![CDATA[Mom Start]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://www.dogtipper.com/blog/2010/11/win-a-morton-safe-t-pet-kit.html">Win a Morton Safe-T-Pet Kit</title>
+			<description><![CDATA[Dog Tipper]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://news.cincinnati.com/article/20101118/LIFE07/11180305/Ice-melt-formulas-now-gentler-less-irritating">Ice melt formulas now gentler, less irritating</title>
+			<description><![CDATA[Cincinnati Inquirer]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://slashpaw.com/2010/11/17/morton-safe-t-pet-ice-melt/">Morton Safe-T-Pet Ice Melt</title>
+			<description><![CDATA[Slash Paw]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="http://robinwilsonhome.typepad.com/robin_wilson_home/2010/11/2010-top-5-holiday-gift-list-for-pets.html">2010 Top 5 Holiday Gift List for Pets!</title>
+			<description><![CDATA[Robin Wilson Home Blog]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="pdfs/MortonIceControl_PressRelease.pdf">Morton Helps Take The Worry Out Of Winter For Every Consumer</title>
+			<description><![CDATA[New Morton<sup>®</sup> Safe-T-Pet<sup>TM</sup> completes Morton's line of ice melting products that help make winter safer for every consumer.]]></description>
+		</newsitem>
+		<newsitem>
+			<title urllink="pdfs/MortonIceControl_FactSheet.pdf"><![CDATA[Trust Morton<sup>®</sup> Ice Melters to Help Keep Winters Safe and Ice Free]]></title>
+			<description>Morton Salt, the brand consumers have trusted and welcomed into their homes for more than 100 years, understands winter readiness.</description>
+		</newsitem>
+	</newscatagory>
+</mortonnews>
