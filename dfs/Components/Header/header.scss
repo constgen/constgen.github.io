@@ -1,0 +1,159 @@
+
+.page-header {
+    $text-color: $main-text-color;
+    $side-margin: $page-side-margin;
+    $minimal-layout-width: 500px;
+    $medium-layout-width: 1680px;
+    $header-height: 134px;
+    $header-medium-height: 114px;
+    $header-minimal-height: 65px;
+    
+    @mixin medium {
+        @media (max-width: #{$medium-layout-width}) {
+            @content;
+        }
+    }
+    @mixin minimal {
+        @media (max-width: #{$minimal-layout-width}) {
+            @content;
+        }
+    }
+
+	height: $header-height;
+    width: 100%;
+    @include medium {
+        height: $header-medium-height;
+    }
+    @include minimal {
+        height: $header-minimal-height;
+    }
+
+    .header-content {
+        position: relative;
+        box-sizing: border-box;
+        padding-top: 28px;
+        width: 100%;
+        height: 100%;
+        background: url(Components/Header/Images/bg_header.jpg) center top no-repeat;
+        border-bottom: 1px solid #fff;
+        @include medium {
+            background-image: url(Components/Header/Images/bg_header-medium.jpg);
+        }
+        @include minimal {
+            background-image: url(Components/Header/Images/bg_header-small.jpg);
+            text-align: center;
+            height: $header-minimal-height;
+            padding-top: 14px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 100;
+        }
+    }
+
+	.content-wrapper {
+        position: relative;
+	    height: 100%;
+	}
+
+	.logo {
+		display: inline-block;
+        position: relative;
+        z-index: 1;
+		margin: auto;
+		height: 35px;
+        @include medium {
+            height: 26px;
+        }
+        @include minimal {
+            height: 16px;
+        }
+
+		img {
+			display: block;
+			height: 100%;
+			width: auto;
+		}
+	}
+
+    .navigation{
+		position: absolute;
+        left: 0;
+		bottom: 0;
+        width: 100%;
+		color: $text-color;
+        text-align: center;
+        @include minimal {
+            text-align: left;
+            top: 0;
+            bottom: auto;
+        }
+    }
+
+
+	.title {
+        display: block;
+        height: 28px;
+        width: auto;
+		position: absolute;
+		right: 0;
+		top: 8px;
+        margin: auto;
+        text-align: center;
+        font-size: 28px;
+        line-height: 1.2em;
+        @include medium {
+           top: 4px;
+           height: 22px;
+           font-size: 22px;
+        }
+        @include minimal {
+            position: static;
+            height: 16px;
+            font-size: 16px;
+        }
+	}
+
+	.privacy-policy {
+		position: absolute;
+		right: 0;
+		bottom: $header-height;
+        margin-bottom: -27px;
+		color: #707070;
+		font-size: 13px;
+		letter-spacing: normal;
+		text-decoration: none;
+        @include medium {
+            bottom: $header-medium-height;
+        }
+        @include minimal {
+           top: auto;
+           bottom: $side-margin;
+           right: auto;
+           margin: 0;
+           left: $side-margin;
+        }
+	}
+	.privacy-policy:hover {
+		color: $text-color;
+        @include minimal {
+           color: #707070;
+        }
+	}
+	.privacy-policy::after{
+		content: '';
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5px;
+        margin-top: -1px;
+        height: 16px;
+        width: 14px;
+        background: url(Images/sprite-icons.svg) no-repeat -23px -290px;
+	}
+	.privacy-policy:hover::after{
+		background-position: -23px -268px;
+        @include minimal {
+           background-position: -23px -290px;
+        }
+	}
+}

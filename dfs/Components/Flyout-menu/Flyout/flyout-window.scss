@@ -1,0 +1,170 @@
+.flyout-window {
+    $main-color: $main-background-color;
+    $positioning-duration: 250ms;
+    $flyout-duration: 150ms;
+    $modal-layout-width: 700px;
+
+    @mixin modal {
+        @media (max-width: #{$modal-layout-width}) {
+            @content;
+        }
+    }
+
+    position: absolute;
+    box-sizing: border-box;
+    left: auto;
+    top: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 200;
+    background: rgba(black, 0.5);
+    -webkit-overflow-scrolling: touch;
+
+    @include modal {
+        visibility: hidden;
+        position: fixed !important;
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        left: 0 !important;
+        top: 0 !important;
+        bottom: auto !important;
+        overflow: auto;
+    }
+    
+    .window {
+        position: absolute;
+        z-index: 200;
+        left: inherit;
+        top: inherit;
+        bottom: inherit;
+        width: 220px;
+        max-width: 300px;
+        margin: 0 0 0 -110px;
+        padding-bottom: 1px;
+        padding-top: 33px;
+        background: $main-color;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        color: #555;
+        transform: translateY(0);
+
+        //visually hidden
+        clip: rect(0 0 0 0);
+        clip: rect(0,0,0,0); 
+        height: 1px;
+        overflow: hidden;
+
+        &::before {
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            position: absolute;
+            left: 50%;
+            margin-left: -16px;
+        }
+
+
+        @include modal {
+            position: static;
+            width: auto;
+            margin: 0 auto !important;
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    &.top .window {
+        margin-top: -16px;
+        transform: translateY(-25px);
+        &::before {
+            top: 100%;
+            margin-top: -3px;
+            border-top: 16px solid $main-color;
+        }
+    }
+    &.bottom .window {
+        margin-top: 16px;
+        transform: translateY(25px);
+        &::before {
+            bottom: 100%;
+            border-bottom: 16px solid $main-color;
+            margin-bottom: -3px;
+        }
+    }
+
+    &.visible {
+        visibility: visible;
+        position: static;
+        .window {
+            transform: translateY(0);
+            transition: 
+                left $positioning-duration ease-in-out,
+                top $positioning-duration ease-in-out,
+                right $positioning-duration ease-in-out,
+                bottom $positioning-duration ease-in-out,
+                transform $flyout-duration ease-out;
+            
+            //visually visible 
+            clip: auto; 
+            height: auto;
+            overflow: visible;
+        }
+    }
+
+    .control-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        border: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #000;
+        -webkit-appearance: none;
+        cursor: default;
+        border-radius: 0;
+
+        &:hover,
+        &:active {
+            background: #444;
+        }
+        &:hover:focus {
+            outline: transparent;
+        }
+
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            width: 35%;
+            height: 0;
+            border-top: 2px solid $main-color;
+            margin: -1px auto 0;
+            transform-origin: center center;
+        }
+        &::before {
+            transform: rotate(45deg);
+        }
+        &::after {
+            transform: rotate(-45deg);
+        }
+
+        &:hover::before,
+        &:hover::after {
+            width: 39%;
+        }
+        &:active::before,
+        &:active::after {
+            width: 33%;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+
+
+button {
+	display: block;
+	margin: 0;
+    padding: 10px 20px;
+	background: #000;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: inherit;
+	font-size: 30px;
+	text-decoration: none;
+	cursor: default;
+	box-shadow: none;
+    border-radius: 2px;
+}
+
+textarea { 
+    overflow: auto; 
+    vertical-align: top; 
+    -webkit-appearance: none; 
+} 
+
+input[type="search"] { 
+    box-sizing: content-box; 
+} 

@@ -1,0 +1,24 @@
+/*General*/
+@import '../../../../../../../node_modules/normalize.css/normalize';
+@import 'variables.scss';
+@import 'typography.scss';
+@import 'common.scss';
+@import 'forms.scss';
+
+/*Vendor styles*/
+@import '../../../../../../../node_modules/swiper/dist/css/swiper';
+
+/*UI components*/
+@import '../Components/Header/header.scss';
+@import '../Components/Footer/footer.scss';
+@import '../Components/Slider/slider.scss';
+@import '../Components/Tiles/tiles.scss';
+@import '../Components/Downloads/downloads.scss';
+@import '../Components/Side-navigation/side-navigation.scss';
+@import '../Components/Article-figure/article-figure.scss';
+@import '../Components/Flyout-menu/flyout-menu.scss';
+
+ 
+
+
+

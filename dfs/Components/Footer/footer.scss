@@ -1,0 +1,379 @@
+
+.page-footer
+{
+    $partners-vertical-margin: 10px;
+    $horizontal-margin: 40px;
+    $vertical-separation-space: 40px;
+    $vertical-separation-space-minimal: $vertical-separation-space*2/3;
+    $text-color: #444;
+    $links-color: #707070;
+    $links-color-hover: $main-text-color;
+    $separator-color: #d2d4d6;
+    $font-size: 16px;
+    $background-color: $main-background-color;
+    $vertical-layout-width: 600px;
+    $minimal-layou-width: 420px;
+    
+    @mixin vertical {
+        @media (max-width: #{$vertical-layout-width}) {
+            @content;
+        }
+    }
+    @mixin minimal {
+        @media (max-width: #{$minimal-layou-width}) {
+            @content;
+        }
+    }
+
+    @mixin arrow-menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: left;
+
+        li {
+            display: block;
+            position: relative;
+            padding: 0 0 0 14px;
+            margin: 0 0 10px;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: $links-color;
+                padding: 0;
+                margin: 0;
+            }
+            a:before{
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0.375em; /*6*/ 
+                display: block;
+                width: 0.4375em; /*7*/
+                height: 0.4375em;  /*7*/
+                border: 3px solid $links-color;
+                border-left: none;
+                border-bottom: none;
+                transform: rotate(45deg);
+                transform-origin: center 0;
+            }
+            a:hover {
+                color: $main-text-color;
+            }
+            a:hover:before {
+                border-color: $main-text-color;
+            }
+        }  
+    }
+
+
+	background: #f0f1f2;
+	width: auto;
+    font-size: $font-size;
+    color: $text-color;
+    @include vertical {
+        background: $background-color;
+    }
+
+    .social-links {
+        background: $background-color;
+        padding: $vertical-separation-space 0;
+        @include vertical {
+           padding: $vertical-separation-space-minimal 0;
+           background: #4f514f;
+           background-image: linear-gradient(to right, #626062 0%, #4f514f 100%);
+        }
+
+        .links-list {
+            margin: auto;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            font-size: 0;
+            border-top: 1px solid $separator-color;
+            padding-top: $vertical-separation-space;
+            margin-top: -$vertical-separation-space;
+            @include vertical {
+                width: 280px;
+                border: none;
+                padding-top: $vertical-separation-space-minimal;
+                margin-top: -$vertical-separation-space-minimal;
+            }
+        }
+
+        .link-item {
+            display: inline-block;
+            vertical-align: middle;
+            width: 45px;
+            height: 45px;
+            margin: 0 12px;
+            text-indent: 100%;
+            overflow: hidden;
+            background: url('Components/Footer/Images/img-social-elements-sprite.svg') no-repeat;
+            @include vertical {
+                width: 70px;
+                height: 70px;
+                margin: 0;
+                border-top: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+            > a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .link-item:nth-child(1),
+        .link-item:nth-child(2),
+        .link-item:nth-child(3),
+        .link-item:nth-child(4) {
+            border: none;
+        }
+
+        .facebook{
+            background-position: 0 -160px;
+        }
+        .facebook:hover{
+            background-position: 0 -205px;
+        }
+        @include vertical {
+            .facebook,
+            .facebook:hover {
+                background-position: 0 -305px;
+            }
+        }
+
+        .twitter{
+            background-position: -45px -160px;
+        }
+        .twitter:hover{
+            background-position: -45px -206px;
+        }
+        @include vertical {
+            .twitter,
+            .twitter:hover {
+                background-position: -70px -305px;
+            }
+        }
+
+        .google{
+            background-position: -180px -160px;
+        }
+        .google:hover{
+            background-position: -180px -205px;
+        }
+        @include vertical {
+            .google,
+            .google:hover {
+                background-position: -280px -305px;
+            }
+        }
+
+        .youtube{
+            background-position: -90px -160px;
+        }
+        .youtube:hover{
+            background-position: -90px -205px;
+        }
+        @include vertical {
+            .youtube,
+            .youtube:hover {
+                background-position: -140px -305px;
+            }
+        }
+
+        .instagram{
+            background-position: -645px -365px;
+        }
+        .instagram:hover{
+            background-position: -645px -445px;
+        }
+        @include vertical {
+            .instagram,
+            .instagram:hover {
+                background-position: -683px -361px;
+            }
+        }
+
+        .xing{
+            background-position: -225px -160px;
+        }
+        .xing:hover{
+            background-position: -225px -205px;
+        }
+        @include vertical {
+            .xing,
+            .xing:hover {
+                background-position: -350px -305px;
+            }
+        }
+
+        .linkedin{
+            background-position: -135px -160px;
+        }
+        .linkedin:hover{
+            background-position: -135px -205px;
+        }
+        @include vertical {
+            .linkedin,
+            .linkedin:hover {
+                background-position: -210px -305px;
+            }
+        }
+
+        .daimler-blog{
+            background-position: -226px -491px;
+        }
+        .daimler-blog:hover{
+            background-position: -167px -491px;
+        }
+        @include vertical {
+            .daimler-blog,
+            .daimler-blog:hover {
+                background-position: -270px -478px;
+            }
+        }
+    }
+
+    .footer-info {
+        display: inline-block;
+        vertical-align: top;
+        box-sizing: border-box;
+        width: 33%;
+        margin: 0 -2px $vertical-separation-space;
+        padding: $vertical-separation-space 20px 0;
+        text-align: left;
+
+        @include vertical {
+           display: block;
+           width: auto;
+           margin-left: 0;
+           margin-right: 0;
+           padding: $vertical-separation-space-minimal 0 0;
+           margin-bottom: $vertical-separation-space-minimal
+        }
+
+        ul {
+            @include arrow-menu;
+        }
+    }
+
+    .locations-map {
+        display: block;
+        opacity:  0.5;
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .locations-map:hover{
+        opacity: 1;
+    }
+
+    .footer-navigation {
+        list-style: none; 
+        text-align: center;
+        padding: 6px 0;
+        margin: 0;
+        border: 1px solid $separator-color;
+        border-left: none;
+        border-right: none;
+        li {
+            display: inline-block;
+            vertical-align: top;
+        }
+        a {
+            display: block;
+            padding: 10px;
+            color: $links-color;
+            text-decoration: none;
+            @include minimal {
+                padding: 5px;
+            }
+        }
+        a:hover {
+            color: $links-color-hover;
+        }
+    }
+
+    @include vertical {
+        .footer-navigation {
+            @include arrow-menu;
+            padding: 6px 0;
+            border-bottom: 0;
+            li {
+                display: inline-block;
+                vertical-align: top;
+                box-sizing: border-box;
+                width: 50%;
+                margin-right: -4px;
+            }
+        }
+    }
+
+    .partners {
+        padding: $vertical-separation-space 0;
+        @include vertical {
+            padding: $vertical-separation-space-minimal 0;
+            background: #e6e6e6;
+        }
+
+        .partners-list {
+            margin: 0 auto ($vertical-separation-space - $partners-vertical-margin);
+            padding: 0;
+            font-size: 0;
+            list-style: none;
+            text-align: center;
+            @include vertical {
+                width: 280px;
+                text-align: left;
+                margin-bottom: ($vertical-separation-space-minimal - $partners-vertical-margin);
+            }
+            @include minimal {
+                width: auto;
+            }
+        }
+        .partner {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 $horizontal-margin/2 $partners-vertical-margin;
+            text-align: center;
+
+            @include vertical {
+                width: 50%;
+                height: 70px;
+                line-height: 70px;
+                margin: 0;
+                border-bottom: 1px solid #c8c8c8;
+                &:last-child {
+                    border: none;
+                }
+            }
+
+            picture {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            img {
+                display: block;
+                margin: auto;
+                max-width: 100%;
+            }
+            a {
+                display: block;
+                height: 100%;
+                text-decoration: none;
+            }
+            a:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}

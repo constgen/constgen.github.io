@@ -1,0 +1,267 @@
+
+.side-navigation {
+    $side-margin: 20px;
+    $background-color: #000;
+    $minimal-layout-width: 500px;
+    $animation-openning-duration: 300ms;
+    $animation-closing-duration: 200ms;
+    $animation-closing-delay: 0ms;
+    $pressed-background-color: #222;
+    $control-hover-background-color: #565756;
+    $font-size: 18px;
+    $text-color: inherit;
+    $text-color-hover: #fff;
+    $side-text-color: #fff;
+
+    @mixin minimal {
+        @media (max-width: #{$minimal-layout-width}) {
+            @content;
+        }
+    }
+    @mixin maximal {
+        @media (min-width: #{$minimal-layout-width}) {
+            @content;
+        }
+    }
+
+    transition: width linear;
+    overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    & + .side-navigation-control {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 36px;
+        padding: 0;
+        margin: 0;
+        background: $background-color;
+        border: none;
+        -webkit-appearance: none;
+        border-radius: 2px;
+        user-select: none;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+        &:hover:focus {
+            outline: transparent;
+        }
+        &:hover,
+        &:active {
+            background: $control-hover-background-color;
+        }
+        &::before {
+            //content: '\2261';
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            width: 33%;
+            height: 2px;
+            margin: -1px auto 0;
+            background: #fff;
+            box-shadow: 
+                0 -4px 0 0 #fff,
+                0 4px 0 0 #fff;
+        }
+        &:active::before,
+        &:active::after {
+            left: 2px;
+        }
+    }
+
+    & + .side-navigation-control,
+    .control-close {
+        display: none;
+    }
+
+    @include minimal {
+        position: fixed;
+        box-sizing: border-box;
+        width: 240px;
+        width: 75vw;
+        min-width: 0;
+        max-width: 0;
+        height: 100%;
+        // padding-right: 15px;
+        // outline: 3px dotted red;
+        background: rgba($background-color,0.4);
+        left: 0;
+        top: 0;
+        z-index: 1000;
+        text-align: left;
+
+        & + .side-navigation-control {
+            display: inline-block;
+        }
+
+        .side-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: inherit;
+            height: 100%;
+            background: $background-color;
+            transform: translateX(-100%);
+            -webkit-backface-visibility: hidden; 
+            overflow: hidden;
+            transition: transform;
+            box-shadow: 0 0 7px $background-color;
+        }
+
+        .control-close {
+            position: absolute;
+            top: 0;
+            left: 75%;
+            display: block;
+            width: 40px;
+            height: 36px;
+            margin: 14px;            
+            padding: 0;
+            background: $background-color;
+            border: none;
+            -webkit-appearance: none;
+            border-radius: 2px;
+            user-select: none;
+
+            &:hover,
+            &:active {
+                background: $control-hover-background-color;
+            }
+            &:hover:focus {
+                outline: transparent;
+            }
+
+            &::before,
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 50%;
+                width: 35%;
+                height: 0;
+                border-top: 2px solid $side-text-color;
+                margin: -1px auto 0;
+                transform-origin: center center;
+            }
+
+            &:hover::before,
+            &:hover::after {
+                width: 39%;
+            }
+            &:active::before,
+            &:active::after {
+                width: 33%;
+            }
+            &::before {
+                transform: rotate(45deg);
+            }
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
+
+                        /*States*/
+        /*CLOSED - default*/
+        /*CLOSING*/
+        &.state-closing {
+            transition-property: max-width, min-width;
+            transition-duration: .0000001s;
+	        transition-delay: $animation-closing-duration + $animation-closing-delay;
+        }
+        &.state-closing .side-content {
+            transition-delay: $animation-closing-delay;
+            transition-duration: $animation-closing-duration;
+            transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+        /*OPEN, OPENNING*/
+        &.state-open,
+        &.state-openning {
+            min-width: 100%;
+            max-width: 100%;
+        }
+        &.state-open .side-content,
+        &.state-openning .side-content {
+            transform: translateX(0);
+        }
+        /*OPENNING*/
+        &.state-openning .side-content {
+            transition-duration: $animation-openning-duration;
+            transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+            transition-delay: 1ms;
+        }
+    }
+
+    .main-menu {
+		width: auto;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-transform: uppercase;
+        font-size: $font-size;
+        @include minimal {
+            padding: $side-margin 0;
+        }
+	}
+	.menu-item {
+		position: relative;
+		display: inline-block;
+        @include minimal {
+            display: block;
+        }
+
+		a {
+			padding: 10px 16px;
+			display: block;
+			text-decoration: none;
+            color: $text-color;
+            cursor: pointer;
+            @include minimal {
+                color: $side-text-color;
+                padding: $side-margin;
+            }
+		}
+		a:hover {
+            color: $text-color-hover;
+        }
+        a:hover,
+        a:active {
+            @include minimal {
+                color: $side-text-color;
+                background: $pressed-background-color;
+            }
+		}
+
+        & + .menu-item::before {
+            content: '/';
+            position: absolute;
+            right: 100%;
+            top: 0.4em;
+            margin-right: -2px;
+            font-size: 1.1em;
+            font-weight: bold;
+            @include minimal {
+                display: none;
+            }
+        }
+        &.current {
+            font-weight: bold;
+            a:hover {
+                color: $text-color;
+            }
+            @include minimal {
+                a:hover {
+                    color: $side-text-color;
+                }
+            }
+        }
+        &.external {
+            @include minimal {
+                text-transform: none;
+                padding-top: 20px;
+            }
+        }
+	}
+	
+}

@@ -1,0 +1,53 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial Standard", "Arial";
+}
+
+header.main-header {
+    height: 115px;
+    background-image: url('/fileadmin/images/header-bg.jpg');
+    padding: 42px;
+    box-sizing: border-box;
+}
+
+header.main-header h1,
+header.main-header h2,
+header.main-header h3 {
+    float: right;
+    margin: 0;
+}
+
+header.main-header .main-nav {
+    text-align: center;
+}
+
+header .menu {
+    padding: 0;
+    margin: 0;
+}
+
+header .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+header .menu li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .menu li .divider {
+    cursor: default;
+    padding: 0 10px;
+}
+
+section.content-section {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    box-sizing: border-box;
+}

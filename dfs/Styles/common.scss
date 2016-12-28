@@ -1,0 +1,60 @@
+
+html { 
+    $content-width: 940px;
+    $page-footer-height: auto;
+    $page-side-margin: $page-side-margin;
+
+    overflow: auto; 
+    height: 100%; 
+
+    body { 
+        width: 100%; 
+        height: 100%; 
+        cursor: default; 
+    } 
+
+    .page-wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
+
+    .content-wrapper {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: $content-width + $page-side-margin * 2;
+        margin: auto;
+        border: 0 transparent solid;
+        border-left-width: $page-side-margin;
+        border-right-width: $page-side-margin;
+    }
+
+    .page-content {
+        display: block;
+        padding-bottom: $page-footer-height + 50px;
+    }
+
+    .page-footer {
+        margin-top: -$page-footer-height; 
+        height: $page-footer-height;
+    }
+
+    .divider {
+        display: block;
+        clear: both;
+        background: none;
+        border: none;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .article-teaser {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+} 

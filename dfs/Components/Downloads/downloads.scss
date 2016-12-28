@@ -1,0 +1,106 @@
+
+.downloads {
+    $minimal-layout-width: 500px;
+    $font-size: 13px;
+    $separator-color: #c8c8c8;
+    $link-color: $link-color;
+    $link-color-hover: $main-text-color;
+    $link-background-color-hover: rgba(230, 230, 230, 0.5);
+    @mixin minimal {
+        @media (max-width: #{$minimal-layout-width}) {
+            @content;
+        }
+    }
+
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 230px;
+    float: left;
+    margin: 0 20px 25px;
+    @include minimal {
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    &.align-left {
+        float: left;
+        @include minimal {
+           float: none;
+        }
+    }
+    &.align-right {
+        float: right;
+        @include minimal {
+           float: none;
+        }
+    }
+
+    .download-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: $font-size;
+    }
+
+    .link-item {
+        margin: 0;
+        padding: 0;
+        a {
+            display: block;
+            min-height: 46px;
+            position: relative;
+            padding: 10px 0 10px 60px;
+            color: $link-color;
+            text-decoration: none;
+            border-bottom: 1px solid $separator-color;
+            @include minimal {
+                padding-left: 35px;
+            }
+        }
+        &:first-child a {
+            border-top: 1px solid $separator-color;
+        }
+        a:hover {
+            color: $link-color-hover;
+            background: $link-background-color-hover;
+        }
+        a::before {
+            content: '';
+            display: block;
+            height: 40px;
+            width: 40px;
+            background: $link-color;
+            position: absolute;
+            top: 13px;
+            left: 0;
+
+            @include minimal {
+                height: 25px;
+                width: 25px;
+            }
+        }
+        a::after {
+            content: '';
+            position: absolute;
+            top: 17px;
+            left: 6px;
+            width: 31px;
+            height: 33px;
+            background: url('Components/Downloads/Images/img-icons-sprite-files.svg') no-repeat 0 0;
+            background-position: -120px 0;
+            @include minimal {
+                background-position: -120px -40px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .meta {
+            display: block;
+            text-transform: uppercase;
+            color: #707070;
+        }
+    }
+}

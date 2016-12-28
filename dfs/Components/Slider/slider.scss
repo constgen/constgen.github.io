@@ -1,0 +1,354 @@
+
+.component-slider {
+    $maximal-layout-width: 1650px;
+    $compact-layout-width: 1000px;
+    $compact-layout-minimal: 660px;
+    $caption-height: 85px;
+    $caption-background-color: #f1f1f1;
+    $text-color: $main-text-color;
+    $background-color: $main-background-color;
+
+    @mixin compact {
+        @media (max-width: #{$compact-layout-width}) {
+            @content;
+        }
+    }
+    @mixin minimal {
+        @media (max-width: #{$compact-layout-minimal}) {
+            @content;
+        }
+    }
+    @mixin maximal {
+        @media (min-width: #{$maximal-layout-width}) {
+            @content;
+        }
+    }
+    @mixin caption {
+        position: relative;
+        left: auto !important;
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        display: block;
+        box-sizing: border-box;
+        width: auto;
+        height: $caption-height;
+        padding: 15px 20px;
+        background: $caption-background-color;
+        color: $text-color;
+        user-select: text;
+        overflow: hidden;
+    }
+
+    position: relative;
+    margin-bottom: 25px;
+    user-select: none;
+
+    .swiper-wrapper {
+        transition-timing-function: ease;
+    }
+
+    .slide {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+
+        > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        picture {
+            display: inline-block;
+            vertical-align: top;
+            height: 100%;
+            width: auto;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+
+            img {
+                vertical-align: top;
+                margin: 0;
+                height: auto;
+                width: auto;
+                @include minimal {
+                    width: 100%;
+                }
+            }
+        }
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        figure {
+            margin: 0
+        }
+        figcaption {
+            @include caption;
+        }
+
+        .content-wrapper {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            @include minimal {
+                position: static;
+            }
+        }
+        .description {
+            display: block;
+            position: absolute;
+            width: 380px;
+            box-sizing: border-box;
+            min-height: $caption-height;
+            margin: 20px 60px;
+            padding: 15px 60px 15px 20px;
+            background: rgba( $background-color, 0.8 );
+            color: $text-color;
+            text-decoration: none;
+            user-select: text;
+            @include minimal {
+                @include caption;
+                margin: 0 -20px;
+                padding-right: 60px;
+            }
+            
+            &:hover {
+                background: $caption-background-color;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 25px;
+                right: 27px;
+                height: 1.75em;
+                width: 1.75em;
+                border-top: 3px solid $text-color;
+                border-right: 3px solid $text-color;
+                transform: rotate(45deg);
+                transform-origin: center center;
+                pointer-events: none;
+            }
+
+            /*description alignment*/
+            &.align-left-top {
+                left: 0;
+                top: 0;
+                right: auto;
+            }
+            &.align-right-top {
+                right: 0;
+                top: 0;
+                left: auto;
+            }
+            &.align-right-bottom {
+                right: 0;
+                bottom: 0;
+                left: auto;
+            }
+            &.align-left-bottom {		
+                left: 0;
+                bottom: 0;
+                right: auto;
+            }
+        }
+
+        a:hover .description {
+            background: $caption-background-color;
+        }
+    }
+    &.with-thumbnails .description {
+        margin-bottom: 155px;
+        @include compact { 
+            margin-bottom: 115px;
+        }
+         @include maximal { 
+            margin-bottom: 200px;
+        }
+        @include minimal { 
+            margin-bottom: 0;
+        }
+    }
+
+    /*Navigation arrows
+    ------------------------------------*/
+    .slider-nav-prev,
+    .slider-nav-next {
+        position: absolute;
+        top: 0;
+        bottom: $caption-height;
+        height: auto;
+        width: 60px;
+        z-index: 1;
+    }
+    .slider-nav-prev:hover,
+    .slider-nav-next:hover {
+        background: rgba(0,0,0,0.2);
+    }
+    .slider-nav-prev::after,
+    .slider-nav-next::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 97px;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        transform: scale(0.8);
+    }
+    .slider-nav-prev:active::after{
+        transform: translateX(-2px) scale(0.8);
+    }
+    .slider-nav-next:active::after {
+        transform: translateX(2px) scale(0.8);
+    }
+
+    .slider-nav-prev {
+        left: 0;
+    }
+    .slider-nav-prev::after{
+        background: transparent url(Images/sprite-lightbox.png) no-repeat -63px -3px;
+    }
+    .slider-nav-next {
+        right: 0;
+    }
+    .slider-nav-next::after {
+        background: transparent url(Images/sprite-lightbox.png) no-repeat -124px -3px;
+    }
+
+
+    /*Pagination
+    ------------------------------------*/
+    .slider-pagination {
+        position: static;
+        display: block;
+        width: auto;
+        height: 25px;
+        text-align: center;
+
+        .slider-pagination-item {
+            display: inline-block;
+            vertical-align: middle;
+            width: 50px;
+            height: 4px;
+            margin: 0;
+            border-radius: 0;
+            border: 5px solid transparent;
+            background-clip: content-box;
+            background-color: #000;
+            opacity: 0.2;
+            @include minimal { 
+                width: 40px;
+            }
+        }
+
+        .slider-pagination-item:hover {
+            opacity: 0.4;
+        }
+        .slider-pagination-item.swiper-pagination-bullet-active,
+        .slider-pagination-item.swiper-pagination-bullet-active:hover {
+            opacity: 1;
+        }
+    }
+    &.with-thumbnails .slider-pagination {
+        display: none;
+        @include minimal {
+            display: block;
+        }
+    }
+
+
+
+    /*Thumbnails
+    ------------------------------------*/
+    .slider-thumbnails {
+        position: absolute;
+        list-style: none;
+        width: 100%;
+        bottom: 10px;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        overflow: visible;
+        font-size: 0;
+        cursor: pointer;
+
+        .thumbnail-navigation-item {
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            vertical-align: bottom;
+            box-sizing: border-box;
+            width: 130px;
+            height: 94px;
+            margin: 0;
+            padding: 10px;
+            background: rgba(0,0,0,0.7);
+            background-clip: padding-box;
+            border-color: rgba(0,0,0,0.7);
+            border-left: 2px solid transparent;
+            border-right: 3px solid transparent;
+            color: #ddd;
+            text-align: left;
+            font-size: 16px;
+            line-height: 1.2em;
+            transition: all 300ms ease;
+            
+            @include compact {
+                width: 106px;
+                height: 75px;
+                font-size: 12px;
+            }
+            @include minimal {
+                display: none;
+            }
+            @include maximal {
+                line-height: normal;
+                font-size: 18px;
+                padding: 15px;
+                width: 160px;
+                height: 122px;
+
+            }
+
+            &:first-child:last-child {
+                display: none;
+            }
+            &:hover {
+                background-color: rgb(0,0,0);
+            }
+            &.current {
+                background-color: rgb(255,255,255);
+                border-bottom-color: rgb(255,255,255);
+                color: #000;
+            }
+            &.current::before{
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 16px solid transparent;
+                border-right: 16px solid transparent;
+                border-bottom: 16px solid;
+                border-bottom-color: inherit;
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                margin-bottom: -3px;
+                margin-left: -16px;
+            }
+        }
+        
+    }
+}
