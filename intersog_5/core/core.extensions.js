@@ -3,7 +3,7 @@
 Core.extend(function (Core) {
 	
     //Configure
-    //Core.configure('{baseUrl}/digi.config.js')
+    Core.configure('digi.config.js')
 
 	//libs
 	if (!window.jQuery)
