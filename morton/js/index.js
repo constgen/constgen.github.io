@@ -142,12 +142,17 @@ var pageTransition = (function(){
 	return {
 		animate: function(func){
 			var that=this
-			if(imageloaded) that.animFadeIn(func,that.animFadeOut)
-			else effImg.onload = function(){that.animFadeIn(func,that.animFadeOut)}
+			if(imageloaded) {
+				return that.animFadeIn(func,that.animFadeOut)
+			}
+			else {
+				effImg.onload = function(){that.animFadeIn(func,that.animFadeOut)}
+				return {stopWhen: function(){}}
+			}
 		},
 		
 		animFadeIn: function(func,callback){
-			try {document.body.addEventListener('touchstart', noTouch, false)}
+			try {document.body.addEventListener('touchstart', noTouch, {passive: false})}
 			catch(e){document.body.attachEvent("ontouchstart", noTouch)}
 			func=func||function(){}	
 			callback=callback||function(){}	
@@ -206,7 +211,7 @@ var pageTransition = (function(){
 				if(top<=-limit) {
 					clearInterval(intervalId);
 					effDiv.style.visibility = 'hidden'
-					try {document.body.removeEventListener('touchstart', noTouch, false)}
+					try {document.body.removeEventListener('touchstart', noTouch,  {passive: false})}
 					catch(e){document.body.detachEvent("ontouchstart", noTouch)}
 				}
 			}	
@@ -221,13 +226,13 @@ var pageTransition = (function(){
 				if(top<=-limit) {
 					clearInterval(intervalId);
 					effDiv.style.visibility = 'hidden'
-					try {document.body.removeEventListener('touchstart', noTouch, false)}
+					try {document.body.removeEventListener('touchstart', noTouch,  {passive: false})}
 					catch(e){document.body.detachEvent("ontouchstart", noTouch)}
 				}
 			}	
 			function animation(){
 				effDiv.style.visibility = 'hidden'
-				try {document.body.removeEventListener('touchstart', noTouch, false)}
+				try {document.body.removeEventListener('touchstart', noTouch,  {passive: false})}
 				catch(e){document.body.detachEvent("ontouchstart", noTouch)}
 			}
 			effDiv.style.visibility = 'visible'
@@ -243,7 +248,7 @@ var pageTransition = (function(){
 				if(when){
 					clearInterval(intervalId)
 					effDiv.style.visibility = 'hidden'
-					try {document.body.removeEventListener('touchstart', noTouch, false)}
+					try {document.body.removeEventListener('touchstart', noTouch,  {passive: false})}
 					catch(e){document.body.detachEvent("ontouchstart", noTouch)} 
 				}
 			}}
@@ -604,7 +609,7 @@ var Navi=(function(){
 		anhor=anhor||api.hash
 		if(api.ieframe && anhor.charAt(0)==api.options.ieHashPrefix) anhor=anhor.substr(1)//because of hack in old IE
 		api.onBeforeOpenPage(anhor)
-		pageTransition.animFadeIn(function(){
+		pageTransition.animate(function(){
 			if(anhor){
 	
 				//Menu
